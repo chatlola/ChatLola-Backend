@@ -1,0 +1,67 @@
+{
+    "define_concept": {
+        "digital safety": {
+            "keywords": [
+                "digital safety"
+            ],
+            "response": "Ang digital safety ay ang pagiging ligtas habang gumagamit ng cellphone, computer, o internet. Kasama dito ang pag-iingat sa personal na impormasyon mo at pag-iwas sa mga scam o panloloko online. Parang pag-iingat din ito sa totoong buhay, pero sa paggamit ng mga technological devices at internet.",
+            "context": "general",
+            "related": [
+                [
+                    "define_concept",
+                    "digital safety importance"
+                ],
+                [
+                    "define_concept",
+                    "internet crimes"
+                ]
+            ]
+        },
+        "uri ng scam": {
+            "keywords": [
+                "types ng scam",
+                "uri ng scam",
+                "klase ng scam"
+            ],
+            "response": "May iba't ibang uri ng scam na dapat mong malaman. Ilan sa mga karaniwan ay:\n\n• Pekeng email o text na humihingi ng personal na impormasyon (phishing)\n• Tawag na nagpapanggap na bangko, gobyerno, o opisyal na ahensya\n• \"Grandparent scam\" kung saan may nagpapanggap na kamag-anak na may emergency\n• Tech support scam na nagsasabing may sira ang computer o device mo\n• Romance o love scam\n• Pekeng website, online seller, o mobile apps\n• Mensahe tungkol sa emergency na kailangan daw agad ng pera\n\nKahit iba-iba ang paraan, iisa ang layunin ng scam — ang makuha ang pera o personal na impormasyon mo. Kaya mahalagang mag-ingat at huwag agad magtiwala.",
+            "context": "general",
+            "related": [
+                [
+                    "define_concept",
+                    "scam"
+                ],
+                [
+                    "prevent_scam",
+                    "scam prevention"
+                ]
+            ]
+        },
+        "scam": {
+            "keywords": [
+                "scam"
+            ],
+            "response": "Ang scam ay panloloko kung saan may taong nagsisinungaling o nagpapanggap para makuha ang pera o personal na impormasyon mo. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ka. Kaya mahalagang mag-ingat lalo na kung may biglang humihingi ng pera o detalye tungkol sa iyo.",
+            "context": "general",
+            "related": [
+                [
+                    "define_concept",
+                    "common scams"
+                ],
+                [
+                    "define_concept",
+                    "senior scams"
+                ],
+                [
+                    "prevent_scam",
+                    "scam prevention"
+                ]
+            ]
+        }
+    },
+    "prevent_scam": {},
+    "scam_response": {},
+    "scam_scenarios": {},
+    "tips": {},
+    "emotional_support": {},
+    "where_to_report": {}
+}
