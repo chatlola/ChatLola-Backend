@@ -1,6 +1,6 @@
 {
     "define_concept": {
-        "digital_safety": {
+        "Digital Safety": {
             "keywords": [
                 "digital safety",
                 "internet safety",
@@ -14,15 +14,15 @@
             "related": [
                 {
                     "intent": "define_concept",
-                    "topic": "scam_definition"
+                    "topic": "Scam Definition"
                 },
                 {
                     "intent": "prevent_scam",
-                    "topic": "scam_prevention"
+                    "topic": "Scam Prevention"
                 }
             ]
         },
-        "scam_types": {
+        "Scam Types": {
             "keywords": [
                 "types of scam",
                 "scam types",
@@ -32,20 +32,20 @@
                 "different scams",
                 "ano ang mga scam"
             ],
-            "response": "May iba't ibang uri ng scam na dapat mong malaman. Ilan sa mga karaniwan ay:\n\n• Pekeng email o text na humihingi ng personal na impormasyon (phishing)\n• Tawag na nagpapanggap na bangko, gobyerno, o opisyal na ahensya\n• \"Grandparent scam\" kung saan may nagpapanggap na kamag-anak na may emergency\n• Tech support scam na nagsasabing may problema ang iyong computer o device\n• Romance o love scam\n• Pekeng website, online seller, o mobile apps\n• Mensahe tungkol sa emergency na kailangan daw agad ng pera\n\nKahit iba-iba ang paraan ng scam, iisa ang layunin nito — ang makuha ang iyong pera o personal na impormasyon. Kaya mahalagang maging maingat online.",
+            "response": "May iba’t ibang uri ng scam na dapat mong malaman. Ilan sa mga karaniwan ay:\n\n• Email Fraud or Phishing Scams \n• Phone or Voicemail Scams \n• The Grandparent Scam \n• Tech Support Scams \n• Romance Scams \n• Fake Websites and Applications \n• Ransomware \n• Emergency Scams \n\nKahit iba-iba ang paraan, iisa lamang ang layunin ng scam at ito ay ang makuha ang pera o personal na impormasyon mo. Kaya mahalagang mag-ingat at huwag agad magtiwala. Gusto mo bang malaman ang ibig sabihin ng mga scam na ito?",
             "context": "general",
             "related": [
                 {
                     "intent": "define_concept",
-                    "topic": "senior_targeted_scams"
+                    "topic": "Scam Targetting Seniors"
                 },
                 {
                     "intent": "prevent_scam",
-                    "topic": "scam_prevention"
+                    "topic": "Scam Prevention"
                 }
             ]
         },
-        "senior_targeted_scams": {
+        "Scam Targetting Seniors": {
             "keywords": [
                 "scams target seniors",
                 "scams para sa seniors",
@@ -55,12 +55,38 @@
                 "scams for elderly",
                 "iba pang scam na ang target ay seniors"
             ],
-            "response": "May ilang klase ng scam na madalas target ang mga nakatatanda. Ilan sa mga ito ay:\n\n• Investment o beneficiary scams na may pangakong malaking kita o pera\n• Romance o love scams\n• Tech support scam na nagsasabing may sira ang computer o appliances mo\n• Social media scams gamit ang pekeng account\n• Emergency o “grandparent” scams na may nagpapanggap na kamag-anak na may problema\n• Charity o disaster scams na humihingi ng donasyon\n• Gift card scams kung saan pinapabili ka ng gift card bilang bayad\n\nTinatarget ng scammers ang seniors dahil iniisip nilang mas madaling mapaniwala. Kaya mahalagang mag-ingat at mag-check muna bago magbigay ng pera o impormasyon.",
+            "response": "May iba’t ibang uri ng scam na madalas target ang mga seniors. Ilan sa mga karaniwan ay:\n\n• Beneficiary at Investment Scams\n• Romance Scams\n• Tech Support Scams\n• Social Media Scams\n• Emergency o Grandparent Scams\n• Election Scams\n• Natural Disaster Relief o Charity Scams\n• Gift Card Scams\n• Advance Fee Fraud\n• Bank at Check Scams\n• Travel Scams\n• Government Impersonation Scams\n• Robocalls at Phone Scams\n• Business Imposter Scams\n• Medicare at Health Insurance Scams\n\nIto ang ilan sa mga pinakakaraniwang uri ng panloloko na ginagamit ng mga scammer laban sa mga nakatatanda. Mahalaga na makilala ang mga ito upang mas madaling makaiwas sa panlilinlang. Gusto mo bang ipaliwanag ko ang bawat isa?",
             "context": "general",
             "related": [
                 {
                     "intent": "define_concept",
-                    "topic": "scam_types"
+                    "topic": "Scam Types"
+                },
+                {
+                    "intent": "prevent_scam",
+                    "topic": "Scam Prevention"
+                }
+            ]
+        },
+        "additional_senior_scams": {
+            "keywords": [
+                "iba pang scams sa seniors",
+                "other scams for seniors",
+                "scams target senior citizens",
+                "scams sa nakatatanda",
+                "scams sa senior citizens",
+                "scams madalas target seniors"
+            ],
+            "response": "May iba pang scams na madalas target ang mga nakatatanda tulad ng:\n\n• Advance fee scam kung saan kailangan daw magbayad muna bago makuha ang pera, premyo, o benepisyo\n• Bank o check scams na may kinalaman sa pekeng transaksyon o mensahe mula kunwari sa bangko\n• Travel scams tulad ng pekeng promo, booking, o murang bakasyon na hindi pala totoo\n\nKapag may pinapabayad muna bago makuha ang isang bagay, o mukhang masyadong maganda para maging totoo ang alok, mag-ingat dahil maaaring scam ito.",
+            "context": "general",
+            "related": [
+                {
+                    "intent": "define_concept",
+                    "topic": "Scam Types"
+                },
+                {
+                    "intent": "define_concept",
+                    "topic": "Scam Targetting Seniors"
                 },
                 {
                     "intent": "prevent_scam",
@@ -68,7 +94,64 @@
                 }
             ]
         },
-        "scam_definition": {
+        "senior_scams_reported": {
+            "keywords": [
+                "scams madalas ireklamo ng seniors",
+                "reported scams for seniors",
+                "government scams sa nakatatanda",
+                "phone scams seniors",
+                "business scams senior citizens",
+                "medicare scams seniors"
+            ],
+            "response": "May ilang scams na madalas ireklamo at target ang mga nakatatanda. Kabilang dito ang:\n\n• Government impersonation scams kung saan may nagpapanggap na taga-gobyerno\n• Robocalls o phone scams gamit ang tawag o recorded message\n• Business impersonation scams na kunwari ay mula sa kilalang kumpanya\n• Medicare o health insurance scams tungkol sa benepisyo o medical coverage\n\nGinagamit ng scammers ang takot o tiwala sa awtoridad para mapaniwala ang tao. Kaya mahalagang mag-ingat at huwag agad magbigay ng personal na impormasyon kapag may tumatawag o nagme-message.",
+            "context": "general",
+            "related": [
+                {
+                    "intent": "define_concept",
+                    "topic": "scam_types"
+                },
+                {
+                    "intent": "define_concept",
+                    "topic": "senior_targeted_scams"
+                },
+                {
+                    "intent": "define_concept",
+                    "topic": "additional_senior_scams"
+                },
+                {
+                    "intent": "prevent_scam",
+                    "topic": "scam_prevention"
+                }
+            ]
+        },
+        "Internet Crimes": {
+            "keywords": [
+                "internet crimes",
+                "online crimes",
+                "krimen sa internet",
+                "mga krimen sa internet",
+                "panganib sa internet",
+                "cyber crimes",
+                "what are internet crimes"
+            ],
+            "response": "May iba’t ibang krimen at panganib na maaaring mangyari sa internet. Ilan sa mga karaniwan ay:\n\n• Identity theft o pagnanakaw ng personal na impormasyon\n• Data breach kung saan nakukuha ang pribadong data mo\n• Virus o malware na nakakasira ng cellphone o computer\n• Phishing o pekeng email at mensahe na nanloloko\n• Pekeng website at online scams\n• Romance o love scams\n• Cyberbullying o pang-aabuso online\n• Pagkakalantad sa hindi angkop na content\n• Mahinang privacy settings na maaaring maglabas ng personal mong impormasyon\n\nDahil patuloy na nagbabago ang teknolohiya, mahalagang maging maingat sa pag-click ng links, pag-share ng impormasyon, at pakikipag-usap sa internet.",
+            "context": "general",
+            "related": [
+                {
+                    "intent": "define_concept",
+                    "topic": "digital_safety"
+                },
+                {
+                    "intent": "define_concept",
+                    "topic": "scam_definition"
+                },
+                {
+                    "intent": "prevent_scam",
+                    "topic": "scam_prevention"
+                }
+            ]
+        },
+        "Scam Definition": {
             "keywords": [
                 "scam",
                 "what is scam",
@@ -92,91 +175,9 @@
             ]
         }
     },
-    "additional_senior_scams": {
-        "keywords": [
-            "iba pang scams sa seniors",
-            "other scams for seniors",
-            "scams target senior citizens",
-            "scams sa nakatatanda",
-            "scams sa senior citizens",
-            "scams madalas target seniors"
-        ],
-        "response": "May iba pang scams na madalas target ang mga nakatatanda tulad ng:\n\n• Advance fee scam kung saan kailangan daw magbayad muna bago makuha ang pera, premyo, o benepisyo\n• Bank o check scams na may kinalaman sa pekeng transaksyon o mensahe mula kunwari sa bangko\n• Travel scams tulad ng pekeng promo, booking, o murang bakasyon na hindi pala totoo\n\nKapag may pinapabayad muna bago makuha ang isang bagay, o mukhang masyadong maganda para maging totoo ang alok, mag-ingat dahil maaaring scam ito.",
-        "context": "general",
-        "related": [
-            {
-                "intent": "define_concept",
-                "topic": "scam_types"
-            },
-            {
-                "intent": "define_concept",
-                "topic": "senior_targeted_scams"
-            },
-            {
-                "intent": "prevent_scam",
-                "topic": "scam_prevention"
-            }
-        ]
-    },
-    "senior_scams_reported": {
-        "keywords": [
-            "scams madalas ireklamo ng seniors",
-            "reported scams for seniors",
-            "government scams sa nakatatanda",
-            "phone scams seniors",
-            "business scams senior citizens",
-            "medicare scams seniors"
-        ],
-        "response": "May ilang scams na madalas ireklamo at target ang mga nakatatanda. Kabilang dito ang:\n\n• Government impersonation scams kung saan may nagpapanggap na taga-gobyerno\n• Robocalls o phone scams gamit ang tawag o recorded message\n• Business impersonation scams na kunwari ay mula sa kilalang kumpanya\n• Medicare o health insurance scams tungkol sa benepisyo o medical coverage\n\nGinagamit ng scammers ang takot o tiwala sa awtoridad para mapaniwala ang tao. Kaya mahalagang mag-ingat at huwag agad magbigay ng personal na impormasyon kapag may tumatawag o nagme-message.",
-        "context": "general",
-        "related": [
-            {
-                "intent": "define_concept",
-                "topic": "scam_types"
-            },
-            {
-                "intent": "define_concept",
-                "topic": "senior_targeted_scams"
-            },
-            {
-                "intent": "define_concept",
-                "topic": "additional_senior_scams"
-            },
-            {
-                "intent": "prevent_scam",
-                "topic": "scam_prevention"
-            }
-        ]
-    },
-    "internet_crimes": {
-        "keywords": [
-            "internet crimes",
-            "online crimes",
-            "krimen sa internet",
-            "mga krimen sa internet",
-            "panganib sa internet",
-            "cyber crimes",
-            "what are internet crimes"
-        ],
-        "response": "May iba’t ibang krimen at panganib na maaaring mangyari sa internet. Ilan sa mga karaniwan ay:\n\n• Identity theft o pagnanakaw ng personal na impormasyon\n• Data breach kung saan nakukuha ang pribadong data mo\n• Virus o malware na nakakasira ng cellphone o computer\n• Phishing o pekeng email at mensahe na nanloloko\n• Pekeng website at online scams\n• Romance o love scams\n• Cyberbullying o pang-aabuso online\n• Pagkakalantad sa hindi angkop na content\n• Mahinang privacy settings na maaaring maglabas ng personal mong impormasyon\n\nDahil patuloy na nagbabago ang teknolohiya, mahalagang maging maingat sa pag-click ng links, pag-share ng impormasyon, at pakikipag-usap sa internet.",
-        "context": "general",
-        "related": [
-            {
-                "intent": "define_concept",
-                "topic": "digital_safety"
-            },
-            {
-                "intent": "define_concept",
-                "topic": "scam_definition"
-            },
-            {
-                "intent": "prevent_scam",
-                "topic": "scam_prevention"
-            }
-        ]
-    },
+    
     "prevent_scam": {
-        "prevent_senior_scams": {
+        "Scam Prevention": {
             "keywords": [
                 "prevent scams for seniors",
                 "paano iwasan ang scam sa senior",
@@ -230,32 +231,32 @@
                     "topic": "coping_after_scam"
                 }
             ]
-        },
-        "scam_scenarios": {},
-        "tips": {
-            "being_careful_online": {
-                "keywords": [
-                    "maging maingat online",
-                    "paano maging maingat online",
-                    "bakit maging maingat online",
-                    "why be careful online",
-                    "be careful online",
-                    "online safety tips",
-                    "ingat sa internet"
-                ],
-                "response": "Kailangan mas maging maingat online dahil maraming panloloko ang nangyayari sa internet, at madalas target ang mga nakatatanda. Kapag hindi tayo maingat, maaaring mawala ang pera o magamit ang personal na impormasyon natin.\n\nAng magandang balita, karamihan sa scam ay maiiwasan kung magiging mapagmatyag at magche-check muna bago magtiwala. Kung may kahina-hinala, huwag agad magbigay ng impormasyon o pera, at puwedeng magtanong sa taong pinagkakatiwalaan mo.",
-                "context": "prevention",
-                "related": [
-                    {
-                        "intent": "define_concept",
-                        "topic": "scam_definition"
-                    },
-                    {
-                        "intent": "prevent_scam",
-                        "topic": "scam_prevention"
-                    }
-                ]
-            }
+        }
+    },
+    "scam_scenarios": {},
+    "tips": {
+        "being_careful_online": {
+            "keywords": [
+                "maging maingat online",
+                "paano maging maingat online",
+                "bakit maging maingat online",
+                "why be careful online",
+                "be careful online",
+                "online safety tips",
+                "ingat sa internet"
+            ],
+            "response": "Kailangan mas maging maingat online dahil maraming panloloko ang nangyayari sa internet, at madalas target ang mga nakatatanda. Kapag hindi tayo maingat, maaaring mawala ang pera o magamit ang personal na impormasyon natin.\n\nAng magandang balita, karamihan sa scam ay maiiwasan kung magiging mapagmatyag at magche-check muna bago magtiwala. Kung may kahina-hinala, huwag agad magbigay ng impormasyon o pera, at puwedeng magtanong sa taong pinagkakatiwalaan mo.",
+            "context": "prevention",
+            "related": [
+                {
+                    "intent": "define_concept",
+                    "topic": "scam_definition"
+                },
+                {
+                    "intent": "prevent_scam",
+                    "topic": "scam_prevention"
+                }
+            ]
         },
         "scam_text_signs": {
             "keywords": [
@@ -283,8 +284,8 @@
                     "topic": "scam_types"
                 }
             ]
-        },
-        "emotional_support": {},
-        "where_to_report": {}
-    }
+        }
+    },
+    "emotional_support": {},
+    "where_to_report": {}
 }

@@ -1,12 +1,12 @@
 import joblib
 import json
 
-with open("chatlola/chatlola_data.json", "r") as file:
+with open("chatlola/knowledge_base.json", "r", encoding="utf-8") as file:
     chatlola_data = json.load(file)
 
 def intent_recognition(query):
-    intent_model = joblib.load("chatlola/intent_model.pkl")
-    intent_utterance_vectorizer = joblib.load("chatlola/intent_tfidf_vectorizer.pkl")
+    intent_model = joblib.load("model/intent_model.pkl")
+    intent_utterance_vectorizer = joblib.load("model/intent_tfidf_vectorizer.pkl")
 
     vectorized_query = intent_utterance_vectorizer.transform([query])[0]
     

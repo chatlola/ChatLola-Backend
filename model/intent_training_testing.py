@@ -45,7 +45,7 @@ intent_naive_bayes = MultinomialNB()
 intent_naive_bayes.fit(intent_x_train_tfidf, intent_y_train)
 
 #save model
-save_path = "chatlola/"
+save_path = "model/"
 
 joblib.dump(intent_naive_bayes, save_path + "intent_model.pkl")
 joblib.dump(intent_tfidf_vectorizer, save_path + "intent_tfidf_vectorizer.pkl")
@@ -63,3 +63,8 @@ print("\nAccuracy:", intent_accuracy)
 intent_report = classification_report(intent_y_test, intent_y_pred_naive)
 print("Classification Report:")
 print(intent_report)
+
+#print specific rows in the data that are misclassified
+for actual, pred, sample in zip(intent_y_test, intent_y_pred_naive, intent_X_test):
+    if actual != pred:
+        print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")

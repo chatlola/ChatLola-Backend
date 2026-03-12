@@ -1,6 +1,6 @@
 #run locally with: python -m api.index
 from flask import Flask, request, jsonify
-from chatlola.chatlola import intent_recognition, conversation_management
+from chatlola.dialog_manager import intent_recognition, conversation_management
 import string
 import json
 
@@ -27,7 +27,7 @@ def getresponse():
     intent = request.args.get('intent')
     tag = request.args.get('tag')
 
-    with open("chatlola/chatlola_data.json", "r") as file:
+    with open("chatlola/knowledge_base.json", "r") as file:
         chatlola_data = json.load(file)
     
     response_data = chatlola_data[intent][tag]
