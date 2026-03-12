@@ -16,9 +16,9 @@ def respond():
     
     intent = intent_recognition(query)
     
-    response, related_responses = conversation_management(query, intent)
+    response_data = conversation_management(query, intent)
 
-    return jsonify({"response": response, "related_responses": related_responses})
+    return jsonify({k: v for k, v in response_data.items() if k != "keywords"})
 
 #get specific response for when user clicks a suggestion    
 @app.route('/getresponse', methods=['GET'])
@@ -32,7 +32,7 @@ def getresponse():
     
     response_data = chatlola_data[intent][tag]
     
-    return jsonify({"response": response_data["response"], "related_responses": response_data["related"]})
+    return jsonify({k: v for k, v in response_data.items() if k != "keywords"})
 
 if __name__=='__main__':
     app.run(debug=True)

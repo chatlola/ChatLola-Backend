@@ -19,13 +19,13 @@ def conversation_management(query, intent):
 
     # skip empty intents for now
     if not intent_data:
-        return f"Can't find response for query with intent: {intent}", [["define_concept", "scam"], [["define_concept", "digital safety"]]]
-
+        return f"Can't find response for query with intent: {intent}", {}, {}, [{"intent": "define_concept", "topic": "Scam Types"}, {"intent": "prevent_scam", "topic": "Scam Prevention"}]
     for tag_name, tag_data in intent_data.items():
+        #will improve this logic laterr
         for keyword in tag_data["keywords"]:
             if keyword in query:
-                return tag_data["response"], tag_data["related"]
+                return tag_data
     
     # would add trying to infer appropriate response from context
     # for now just skip
-    return f"Can't find response for query with intent: {intent}", [["define_concept", "scam"], [["define_concept", "digital safety"]]]
+    return f"Can't find response for query with intent: {intent}", {}, {}, [{"intent": "define_concept", "topic": "Scam Types"}, {"intent": "prevent_scam", "topic": "Scam Prevention"}]
