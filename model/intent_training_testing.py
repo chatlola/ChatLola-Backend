@@ -10,13 +10,17 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 path = "model/Intent Dataset.csv"
-intent_df = pd.read_csv(path, on_bad_lines='error')
+intent_df = pd.read_csv(path, on_bad_lines='error', encoding='unicode_escape')
 
 #check number of utterances per intent
 print(intent_df['intent'].value_counts())
 
 #drop all NAN rows
 intent_df = intent_df.dropna()
+intent_df = intent_df.drop_duplicates()
+
+#check number of utterances per intent
+print(intent_df['intent'].value_counts())
 
 #removes punctuation
 intent_df["utterance"] = intent_df["utterance"].str.translate(
@@ -31,6 +35,7 @@ intent_df['utterance'] = intent_df['utterance'].str.lower()
 #split the dataset
 intent_X = intent_df['utterance']
 intent_y = intent_df['intent']
+
 intent_X_train, intent_X_test, intent_y_train, intent_y_test= train_test_split(intent_X,intent_y, train_size=0.8,
                                                    random_state=None,
                                                    shuffle=True, stratify=intent_y)
@@ -68,3 +73,4 @@ print(intent_report)
 for actual, pred, sample in zip(intent_y_test, intent_y_pred_naive, intent_X_test):
     if actual != pred:
         print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
+        

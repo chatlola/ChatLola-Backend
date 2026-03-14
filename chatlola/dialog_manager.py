@@ -15,17 +15,32 @@ def intent_recognition(query):
     return intent
 
 def conversation_management(query, intent):
+    #temporary response if can't find any
+    temp_response = {
+        "response": f"Can't find response for query with intent: {intent}",
+        "context": {},
+        "child": {},
+        "related": [{"intent": "define_concept", "topic": "Scam Types"}, {"intent": "prevent_scam", "topic": "Scam Prevention"}]
+    }
+
     intent_data = chatlola_data[intent]
+    words = query.split()
 
     # skip empty intents for now
     if not intent_data:
-        return f"Can't find response for query with intent: {intent}", {}, {}, [{"intent": "define_concept", "topic": "Scam Types"}, {"intent": "prevent_scam", "topic": "Scam Prevention"}]
+        return temp_response
+    
     for tag_name, tag_data in intent_data.items():
-        #will improve this logic laterr
-        for keyword in tag_data["keywords"]:
-            if keyword in query:
-                return tag_data
+        for key1 in tag_data["keywords"]["first"]:
+            if key1 in words:
+                if "second" not in tag_data["keywords"]:
+                    return tag_data
+                else:
+                    for key2 in tag_data["keywords"]["second"]:
+                        if key2 in words:
+                            return tag_data
+
     
     # would add trying to infer appropriate response from context
     # for now just skip
-    return f"Can't find response for query with intent: {intent}", {}, {}, [{"intent": "define_concept", "topic": "Scam Types"}, {"intent": "prevent_scam", "topic": "Scam Prevention"}]
+    return temp_response

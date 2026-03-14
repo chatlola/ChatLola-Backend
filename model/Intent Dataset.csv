@@ -1,245 +1,245 @@
 intent,utterance
-define_concept,Ano ba ang scam?
-define_concept,Ano po ang ibig sabihin ng scam?
-define_concept,"Hindi ko maintindihan ang scam, pwede mo bang ipaliwanag?"
-define_concept,Paano ba nangyayari ang scam?
-define_concept,"Yung panloloko sa internet, ano ba iyon?"
-define_concept,Bakit maraming tao ang nadadaya sa scam?
-define_concept,Ano ang layunin ng mga scammer?
-define_concept,Ano ang digital safety?
-define_concept,Bakit mahalaga ang digital safety?
-define_concept,Ano ang online safety at paano ito nakakatulong?
-define_concept,Ano ang kaligtasan sa internet?
-define_concept,Ano-ano ang kasama sa digital safety?
-define_concept,Ano ang pagkakaiba ng digital safety at online safety?
-define_concept,Paano nakakaapekto ang digital safety sa araw-araw na buhay?
-define_concept,Ano ang mga benepisyo ng pag-alam sa digital safety?
-define_concept,Sino ang nangangailangan ng digital safety?
-define_concept,Ano-ano ba ang mga uri ng scam?
-define_concept,Marami bang klase ng panloloko sa internet?
-define_concept,Anong mga scam ang madalas mangyari ngayon?
-define_concept,Ano-ano ang mga paraan ng panloloko online?
-define_concept,Ano ang pinaka-karaniwang scam na dapat kong malaman?
-define_concept,Sino ang karaniwang tinutugmain ng mga scammer?
-define_concept,Ano ang mga karaniwang panloloko sa social media?
-define_concept,Mayroon ka bang halimbawa ng scam?
-define_concept,Anong mga scam ang madalas na target ang mga senior citizen?
-define_concept,Anong panloloko ang madalas na nangyayari sa mga matatanda?
-define_concept,Bakit ang mga nakatatanda ang madalas na target ng scam?
-define_concept,Ano ang mga karaniwang scam na nakakaapekto sa mga senior?
-define_concept,Paano nila dinadaya ang mga matatanda sa internet?
-define_concept,Anong mga scam ang delikado para sa aming mga senior?
-define_concept,Bakit madaling maging biktima ang mga matatanda ng online scam?
-define_concept,Ano ang mga modus na ginagamit laban sa mga senior citizen?
-define_concept,Anong mga scam ang pinaka-delikado para sa mga nakatatanda?
-define_concept,Paano gumagamit ang mga scammer ng internet para lokohin ang mga matatanda?
-define_concept,Ano ang mga krimen na nagaganap sa internet?
-define_concept,Ano ang mga karaniwang cybercrime ngayon?
-define_concept,Anong mga illegal na gawain ang nagaganap sa internet?
-define_concept,Ano po ba ang cybercrime sa madaling salita?
-define_concept,Ano ang ibig sabihin ng cybercrime?
-define_concept,Ano ang pagkakaiba ng scam at cybercrime?
-define_concept,Lahat ba ng scam ay cybercrime?
-define_concept,Bakit maraming cybercrime ang nagaganap ngayon?
-define_concept,Anong mga krimen ang madalas na nangyayari sa social media?
-define_concept,Mayroon bang mga halimbawa ng cybercrime na nangyari sa Pilipinas?
-define_concept,Anong mga krimen sa internet ang nakakaapekto sa mga ordinaryong tao?
-define_concept,Paano ba talaga nangloloko ang mga scammer?
-define_concept,Ano ang ginagawa ng scammer para makapanloko?
-define_concept,Paano nila nakukuha ang tiwala ng kanilang biktima?
-define_concept,Ano ang modus operandi ng mga scammer?
-define_concept,Paano nila kinukuha ang pera ng mga tao?
-define_concept,Anong mga teknik ang ginagamit ng mga scammer?
-define_concept,Paano gumagalaw ang mga scammer para hindi mahuli?
-define_concept,Paano ginagamit ng mga scammer ang social media para manlooko?
-define_concept,Pinaplano ba nila ang scam bago nila gawin?
-define_concept,Paano nila ginagamit ang personal na impormasyon ng tao sa scam?
-define_concept,Paano nila nahihikayat ang mga tao na magtiwala sa kanila?
-define_concept,Paano nila inuuto ang mga taong hindi marunong sa teknolohiya?
-define_concept,Ano ang aking mga karapatan pagdating sa personal na impormasyon ko?
-define_concept,May karapatan ba ako na kontrolin kung paano ginagamit ang datos ko?
-define_concept,Ano ang mga legal na karapatan ko sa data privacy?
-define_concept,Pwede ko bang i-request na burahin ang aking personal na impormasyon?
-define_concept,May karapatan ba akong malaman kung saan ginagamit ang datos ko?
-define_concept,Pwede ba akong humingi ng kopya ng aking personal na impormasyon?
-define_concept,Paano ko babaguhin o itatama ang maling datos na nakalagay sa akin?
-define_concept,Pwede ko bang bawiin ang aking pahintulot sa paggamit ng aking datos?
-define_concept,Pwede ko bang pigilan ang paggamit ng aking impormasyon?
-define_concept,Ano ba ang romance scam?
-define_concept,Paano gumagana ang romance scam?
-define_concept,Ano ang panloloko na ginagawa sa mga taong naghahanap ng relasyon online?
-define_concept,Ano ang tinatawag na love scam?
-define_concept,Bakit nahuhulog sa romance scam ang maraming tao?
-define_concept,Paano nila ginagamit ang emosyon ng tao sa romance scam?
-define_concept,Paano ka niloloko sa pamamagitan ng pekeng pagmamahal online?
-define_concept,Nangyayari ba ang romance scam sa social media?
-define_concept,Bakit humihingi ng pera ang nagpapanggap na mahal mo sa buhay online?
-define_concept,Ano ang online dating scam at paano ito nangyayari?
-define_concept,Paano nagpapanggap ang mga scammer na may romantikong interes?
-define_concept,Ano ang modus ng romance scam?
-define_concept,"Na-encrypt daw ang aking mga files, ano ang ibig sabihin noon?"
-define_concept,Paano nangyari na na-lock ang aking phone?
-define_concept,Ano ang ibig sabihin ng tech support scam?
-define_concept,Paano gumagana ang tech support scam?
-define_concept,Bakit may tumatawag na nagpapanggap na tech support?
-define_concept,Paano ako niloloko gamit ang pekeng tech support?
-define_concept,Bakit may pop-up na nagsasabing may virus ang aking computer?
-define_concept,Paano nagpapanggap ang scammer na computer technician?
-define_concept,Ano ang mga pekeng babala tungkol sa virus na lumalabas sa screen?
-define_concept,Bakit may tumatawag na nagsasabing kailangan ayusin ang aking device?
-define_concept,Ano po ang tech support scam sa madaling salita?
-define_concept,Bakit may nagsasabing nahack daw ang aking computer?
-define_concept,Ano ang modus ng tech support scam?
-define_concept,Paano nangyayari ang tech support scam sa totoong buhay?
-define_concept,Ano ang ibig sabihin ng phishing scam?
-define_concept,Paano gumagana ang phishing?
-define_concept,Paano ginagamit ng mga scammer ang email bilang paraan ng panloloko?
-define_concept,Paano nangyayari ang phishing attack?
-define_concept,Ano ang modus ng phishing?
-define_concept,Ano ang scam na gumagamit ng pekeng link?
-define_concept,Paano nagpapanggap ang scammer na bangko para lokohin ako?
-define_concept,Ano ang panloloko gamit ang SMS o text na may link?
-define_concept,Bakit may mensahe na kailangan ko daw i-verify ang aking account?
-define_concept,Paano nagpapanggap ang scammer na isang kumpanya?
-define_concept,Ano ang tawag sa scam na gumagamit ng pekeng website?
-define_concept,"Sa simpleng salita, paano gumagana ang phishing?"
-define_concept,Ano ang ibig sabihin ng charity scam?
-define_concept,Paano gumagana ang charity scam?
-define_concept,Paano ginagamit ng mga scammer ang pekeng charity para manlooko?
-define_concept,Paano nagpapanggap ang scammer na isang charity organization?
-define_concept,Paano nalilinlang ng charity scam ang mga taong gustong tumulong?
-define_concept,Paano gumagana ang pekeng donation request?
-define_concept,Paano gumagana ang pekeng fundraising website?
-define_concept,Paano ginagamit ang social media bilang kasangkapan ng charity scam?
-define_concept,Ano ba talaga ang charity scam?
-define_concept,Paano nagpapanggap ang mga scammer na NGO o fundraising group?
-define_concept,Ano ang ibig sabihin ng lottery scam?
-define_concept,Paano gumagana ang lottery scam?
-define_concept,Paano ako niloloko sa lottery scam?
-define_concept,Ano ang modus ng lottery scam?
-define_concept,Paano nangyayari ang lottery scam sa internet?
-define_concept,Ano ang tawag sa panloloko gamit ang pekeng lotto win?
-define_concept,Paano gumagana ang pekeng lottery message?
-define_concept,Ano ang scam na nagsasabing nanalo ako pero humihingi ng bayad?
-define_concept,Ano ang ibig sabihin ng election scam?
-define_concept,Paano gumagana ang election scam?
-define_concept,Ano ang panloloko na may kaugnayan sa eleksyon?
-define_concept,Paano nangyayari ang election scam sa internet?
-define_concept,Ano ang modus ng election scam?
-define_concept,Paano nahuhulog ang mga tao sa bitag ng election scam?
-define_concept,Ano ang scam na gumagamit ng pekeng balota o result update?
-define_concept,Paano nagpapanggap ang scammer na official election body?
-define_concept,Ano ba talaga ang election scam?
-define_concept,Paano ginagamit ang pekeng election site o mensahe para manlooko?
-define_concept,Ano ang ibig sabihin ng advance fee fraud?
-define_concept,Paano gumagana ang advance fee scam?
-define_concept,Paano nangyayari ang advance fee fraud sa totoong buhay?
-define_concept,Ano ang modus ng advance fee scam?
-define_concept,Bakit humihingi ng bayad bago makuha ang pera o premyo?
-define_concept,Paano ginagamit ang pekeng inheritance o loan offer para manlooko?
-define_concept,Ano ang scam na humihingi ng upfront payment pero walang totoong reward?
-define_concept,Paano nagpapanggap ang scammer na opisyal na financial institution?
-define_concept,Ano ba talaga ang advance fee fraud?
-define_concept,Ano ang tawag sa scam na humihingi ng bayad bago makuha ang prize o loan?
-define_concept,Ano ang ibig sabihin ng bank scam o check scam?
-define_concept,Paano gumagana ang bank scam o check scam?
-define_concept,Paano ginagamit ng mga scammer ang pekeng tseke o bank notice para manlooko?
-define_concept,Paano nangyayari ang bank and check scam sa totoong buhay?
-define_concept,Ano ang modus ng bank and check scam?
-define_concept,Bakit maraming tao ang nabibiktima ng bank scam?
-define_concept,Ano ang scam na may pekeng deposit o fund transfer?
-define_concept,Paano nagpapanggap ang scammer na lehitimong bangko?
-define_concept,Ano ba talaga ang bank and check scam?
-define_concept,Ano-ano ang mga uri ng bank and check scams?
-define_concept,Ano ang mga karaniwang bank scam na nangyayari online?
-define_concept,Ano ang isang halimbawa ng check scam na nangyari sa cellphone?
-define_concept,Ano ang mga karaniwang modus ng bank o check scam online?
-define_concept,Ano ang ibig sabihin ng panlolokong gumagamit ng pangalan ng bangko sa mensahe?
-define_concept,Paano gumagana ang pekeng mensahe na nagmumula sa banko?
-define_concept,Paano nangyayari ang fake bank message scam sa totoong buhay?
-define_concept,Paano gumagana ang pekeng email o SMS na nagmumula sa banko?
-define_concept,Ano ang ibig sabihin ng pekeng bank message na natanggap ko?
-define_concept,Bakit madaling maloko ang tao sa pamamagitan ng fake bank message?
-define_concept,Ano ba talaga ang Fake Communications from Your Bank Scam?
-define_concept,Ano ang check overpayment scam at paano ito gumagana?
-define_concept,Paano ginagamit ng mga scammer ang sobra-sobrang bayad sa tseke para manlooko?
-define_concept,Paano nangyayari ang check overpayment scam sa totoong buhay?
-define_concept,Ano ang modus ng check overpayment scam?
-define_concept,Bakit madaling maloko ang tao sa check overpayment scam?
-define_concept,Ano ang scam na humihingi ng ibalik ang sobrang bayad sa tseke?
-define_concept,Ano ang isang konkretong sitwasyon ng check overpayment na panloloko?
-define_concept,Paano nagpapanggap ang scammer na legit buyer o financial entity?
-define_concept,Ano ba talaga ang Check Overpayment Scam?
-define_concept,Ano ang ibig sabihin ng travel scam?
-define_concept,Paano gumagana ang travel scam?
-define_concept,Paano ginagamit ng mga scammer ang pekeng travel deals para manlooko?
-define_concept,Paano nangyayari ang pekeng travel package o hotel booking scam?
-define_concept,Paano gumagana ang pekeng flight deal o hotel reservation?
-define_concept,Bakit nagiging biktima ng travel scam ang maraming tao?
-define_concept,Paano nagpapanggap ang scammer na travel agency o airline?
-define_concept,Ano ba talaga ang Travel Scam?
-define_concept,Paano narealize ng mga tao na sila ay nalinlang ng travel scam?
-define_concept,Ano ang ibig sabihin ng government impersonation scam?
-define_concept,Paano gumagana ang government impersonation scam?
-define_concept,Paano ginagamit ng mga scammer ang pangalan ng gobyerno para dayain ang mga tao?
-define_concept,Paano nangyayari ang government impersonation scam sa totoong buhay?
-define_concept,"Paano gumagana ang pekeng liham, email, o text na nagmumula sa gobyerno?"
-define_concept,Ano ang dahilan kung bakit madaling maloko ng government impersonation scam ang mga tao?
-define_concept,Paano nagpapanggap ang scammer na official government agency?
-define_concept,Ano ba talaga ang Government Impersonation Scam?
-define_concept,Paano ginagamit ang pekeng government warning o demand para manlooko?
-define_concept,Ano ang ibig sabihin ng robocall at phone scam?
-define_concept,Paano gumagana ang phone scam o robocall scam?
-define_concept,Paano ginagamit ng mga scammer ang telepono bilang kasangkapan ng panloloko?
-define_concept,Paano nangyayari ang robocall scam sa totoong buhay?
-define_concept,Paano gumagana ang pekeng tawag mula sa bangko o government agency?
-define_concept,Bakit madaling maloko ang tao sa pamamagitan ng phone scam?
-define_concept,Paano ginagamit ang automated calls o robocalls para manlooko?
-define_concept,Ano ba ang tunay na kahulugan ng Robocall at Phone Scam?
-define_concept,Ano ang ibig sabihin ng business imposter scam?
-define_concept,Paano gumagana ang business imposter scam?
-define_concept,Paano ginagamit ng mga scammer ang pangalan ng negosyo para lokohin ang mga tao?
-define_concept,Paano nangyayari ang business imposter scam sa totoong buhay?
-define_concept,Paano gumagana ang pekeng invoice o email mula sa business scammer?
-define_concept,Bakit napakahirap maiwasan ang business imposter scam?
-define_concept,Pwede mo bang magbigay ng halimbawa ng pekeng business offer o invoice?
-define_concept,Ano ba talaga ang Business Imposter Scam?
-define_concept,Paano ginagamit ang pekeng business communication o offer para manlooko?
-define_concept,Ano ang personal data privacy at paano ko mapoprotektahan ang aking impormasyon?
-define_concept,Ano ang personal na impormasyon at paano ito pinoprotektahan?
-define_concept,Ano ang mga batas o patakaran tungkol sa pangangalaga ng personal na datos?
-define_concept,Paano nila pinapaniniwala ang kanilang mga biktima?
-define_concept,Paano ba talaga nagaganap ang panloloko sa internet?
-define_concept,Paano nila unang nililapat ang biktima?
-define_concept,Ano ang proseso ng panloloko ng isang scammer?
-define_concept,Ano ang proteksyon ko sa ilalim ng batas pagdating sa personal na impormasyon ko?
-define_concept,Paano ko makokontrol ang pagbabahagi ng aking personal na impormasyon?
-define_concept,Pwede ko bang ipatigil ang pagproseso ng aking personal na impormasyon?
-define_concept,Paano ginagamit ng mga scammer ang online relationship para manlooko?
-define_concept,Ano ang isang tunay na sitwasyon ng romance scam?
-define_concept,Paano nagpapanggap ang scammer na siya ang iyong karelasyon?
-define_concept,Paano nangyayari ang tech support fraud?
-define_concept,Ano ang scam na nagpapanggap na tumutulong sa aking computer?
-define_concept,Ano ang mga tawag na nagpapanggap na tech support?
-define_concept,Paano nangyayari ang phishing attack sa aktwal na kalagayan?
-define_concept,Sa anong paraan ginagamit ang email para dayain ang mga tao?
-define_concept,Ano ang phishing message at paano ito gumagana?
-define_concept,Paano nalaman ng mga tao na nalinlang sila ng charity scam?
-define_concept,Ano ang modus ng charity scam?
-define_concept,Paano niloloko ang mga tao gamit ang pekeng donation?
-define_concept,Paano ginagamit ang pangalan ng charity para manlooko?
-define_concept,Paano niloloko ang mga tao gamit ang pekeng impormasyon tungkol sa eleksyon?
-define_concept,Ano ang tawag sa panloloko na may kinalaman sa botohan?
-define_concept,Sa anong paraan ginagamit ang social media para isagawa ang election scam?
-define_concept,Paano niloloko ang mga tao sa pamamagitan ng upfront payment?
-define_concept,Sa anong paraan ginagamit ang social media o email sa advance fee scam?
-define_concept,Paano niloloko ng mga scammer ang mga tao gamit ang bank transactions?
-define_concept,Ano ang tawag sa scam na humihingi ng bank details o nagpapadala ng pekeng tseke?
-define_concept,Paano ginagamit ang pekeng bank transaction para manlooko?
-define_concept,Ano ang mga karaniwang modus sa bank and check scams?
-define_concept,Paano ginagamit ng mga scammer ang pekeng mensahe mula sa banko para manlooko?
-define_concept,Paano nangyayari ang scam na nagpapanggap na official bank notification?
-define_concept,Sa anong paraan ginagamit ang online platforms sa overpayment scam?
+explain_concept,Ano ba ang scam?
+explain_concept,Ano po ang ibig sabihin ng scam?
+explain_concept,"Hindi ko maintindihan ang scam, pwede mo bang ipaliwanag?"
+explain_concept,Paano ba nangyayari ang scam?
+explain_concept,"Yung panloloko sa internet, ano ba iyon?"
+explain_concept,Bakit maraming tao ang nadadaya sa scam?
+explain_concept,Ano ang layunin ng mga scammer?
+explain_concept,Ano ang digital safety?
+explain_concept,Bakit mahalaga ang digital safety?
+explain_concept,Ano ang online safety at paano ito nakakatulong?
+explain_concept,Ano ang kaligtasan sa internet?
+explain_concept,Ano-ano ang kasama sa digital safety?
+explain_concept,Ano ang pagkakaiba ng digital safety at online safety?
+explain_concept,Paano nakakaapekto ang digital safety sa araw-araw na buhay?
+explain_concept,Ano ang mga benepisyo ng pag-alam sa digital safety?
+explain_concept,Sino ang nangangailangan ng digital safety?
+explain_concept,Ano-ano ba ang mga uri ng scam?
+explain_concept,Marami bang klase ng panloloko sa internet?
+explain_concept,Anong mga scam ang madalas mangyari ngayon?
+explain_concept,Ano-ano ang mga paraan ng panloloko online?
+explain_concept,Ano ang pinaka-karaniwang scam na dapat kong malaman?
+explain_concept,Sino ang karaniwang tinutugmain ng mga scammer?
+explain_concept,Ano ang mga karaniwang panloloko sa social media?
+explain_concept,Mayroon ka bang halimbawa ng scam?
+explain_concept,Anong mga scam ang madalas na target ang mga senior citizen?
+explain_concept,Anong panloloko ang madalas na nangyayari sa mga matatanda?
+explain_concept,Bakit ang mga nakatatanda ang madalas na target ng scam?
+explain_concept,Ano ang mga karaniwang scam na nakakaapekto sa mga senior?
+explain_concept,Paano nila dinadaya ang mga matatanda sa internet?
+explain_concept,Anong mga scam ang delikado para sa aming mga senior?
+explain_concept,Bakit madaling maging biktima ang mga matatanda ng online scam?
+explain_concept,Ano ang mga modus na ginagamit laban sa mga senior citizen?
+explain_concept,Anong mga scam ang pinaka-delikado para sa mga nakatatanda?
+explain_concept,Paano gumagamit ang mga scammer ng internet para lokohin ang mga matatanda?
+explain_concept,Ano ang mga krimen na nagaganap sa internet?
+explain_concept,Ano ang mga karaniwang cybercrime ngayon?
+explain_concept,Anong mga illegal na gawain ang nagaganap sa internet?
+explain_concept,Ano po ba ang cybercrime sa madaling salita?
+explain_concept,Ano ang ibig sabihin ng cybercrime?
+explain_concept,Ano ang pagkakaiba ng scam at cybercrime?
+explain_concept,Lahat ba ng scam ay cybercrime?
+explain_concept,Bakit maraming cybercrime ang nagaganap ngayon?
+explain_concept,Anong mga krimen ang madalas na nangyayari sa social media?
+explain_concept,Mayroon bang mga halimbawa ng cybercrime na nangyari sa Pilipinas?
+explain_concept,Anong mga krimen sa internet ang nakakaapekto sa mga ordinaryong tao?
+explain_concept,Paano ba talaga nangloloko ang mga scammer?
+explain_concept,Ano ang ginagawa ng scammer para makapanloko?
+explain_concept,Paano nila nakukuha ang tiwala ng kanilang biktima?
+explain_concept,Ano ang modus operandi ng mga scammer?
+explain_concept,Paano nila kinukuha ang pera ng mga tao?
+explain_concept,Anong mga teknik ang ginagamit ng mga scammer?
+explain_concept,Paano gumagalaw ang mga scammer para hindi mahuli?
+explain_concept,Paano ginagamit ng mga scammer ang social media para manlooko?
+explain_concept,Pinaplano ba nila ang scam bago nila gawin?
+explain_concept,Paano nila ginagamit ang personal na impormasyon ng tao sa scam?
+explain_concept,Paano nila nahihikayat ang mga tao na magtiwala sa kanila?
+explain_concept,Paano nila inuuto ang mga taong hindi marunong sa teknolohiya?
+explain_concept,Ano ang aking mga karapatan pagdating sa personal na impormasyon ko?
+explain_concept,May karapatan ba ako na kontrolin kung paano ginagamit ang datos ko?
+explain_concept,Ano ang mga legal na karapatan ko sa data privacy?
+explain_concept,Pwede ko bang i-request na burahin ang aking personal na impormasyon?
+explain_concept,May karapatan ba akong malaman kung saan ginagamit ang datos ko?
+explain_concept,Pwede ba akong humingi ng kopya ng aking personal na impormasyon?
+explain_concept,Paano ko babaguhin o itatama ang maling datos na nakalagay sa akin?
+explain_concept,Pwede ko bang bawiin ang aking pahintulot sa paggamit ng aking datos?
+explain_concept,Pwede ko bang pigilan ang paggamit ng aking impormasyon?
+explain_concept,Ano ba ang romance scam?
+explain_concept,Paano gumagana ang romance scam?
+explain_concept,Ano ang panloloko na ginagawa sa mga taong naghahanap ng relasyon online?
+explain_concept,Ano ang tinatawag na love scam?
+explain_concept,Bakit nahuhulog sa romance scam ang maraming tao?
+explain_concept,Paano nila ginagamit ang emosyon ng tao sa romance scam?
+explain_concept,Paano ka niloloko sa pamamagitan ng pekeng pagmamahal online?
+explain_concept,Nangyayari ba ang romance scam sa social media?
+explain_concept,Bakit humihingi ng pera ang nagpapanggap na mahal mo sa buhay online?
+explain_concept,Ano ang online dating scam at paano ito nangyayari?
+explain_concept,Paano nagpapanggap ang mga scammer na may romantikong interes?
+explain_concept,Ano ang modus ng romance scam?
+explain_concept,"Na-encrypt daw ang aking mga files, ano ang ibig sabihin noon?"
+explain_concept,Paano nangyari na na-lock ang aking phone?
+explain_concept,Ano ang ibig sabihin ng tech support scam?
+explain_concept,Paano gumagana ang tech support scam?
+explain_concept,Bakit may tumatawag na nagpapanggap na tech support?
+explain_concept,Paano ako niloloko gamit ang pekeng tech support?
+explain_concept,Bakit may pop-up na nagsasabing may virus ang aking computer?
+explain_concept,Paano nagpapanggap ang scammer na computer technician?
+explain_concept,Ano ang mga pekeng babala tungkol sa virus na lumalabas sa screen?
+explain_concept,Bakit may tumatawag na nagsasabing kailangan ayusin ang aking device?
+explain_concept,Ano po ang tech support scam sa madaling salita?
+explain_concept,Bakit may nagsasabing nahack daw ang aking computer?
+explain_concept,Ano ang modus ng tech support scam?
+explain_concept,Paano nangyayari ang tech support scam sa totoong buhay?
+explain_concept,Ano ang ibig sabihin ng phishing scam?
+explain_concept,Paano gumagana ang phishing?
+explain_concept,Paano ginagamit ng mga scammer ang email bilang paraan ng panloloko?
+explain_concept,Paano nangyayari ang phishing attack?
+explain_concept,Ano ang modus ng phishing?
+explain_concept,Ano ang scam na gumagamit ng pekeng link?
+explain_concept,Paano nagpapanggap ang scammer na bangko para lokohin ako?
+explain_concept,Ano ang panloloko gamit ang SMS o text na may link?
+explain_concept,Bakit may mensahe na kailangan ko daw i-verify ang aking account?
+explain_concept,Paano nagpapanggap ang scammer na isang kumpanya?
+explain_concept,Ano ang tawag sa scam na gumagamit ng pekeng website?
+explain_concept,"Sa simpleng salita, paano gumagana ang phishing?"
+explain_concept,Ano ang ibig sabihin ng charity scam?
+explain_concept,Paano gumagana ang charity scam?
+explain_concept,Paano ginagamit ng mga scammer ang pekeng charity para manlooko?
+explain_concept,Paano nagpapanggap ang scammer na isang charity organization?
+explain_concept,Paano nalilinlang ng charity scam ang mga taong gustong tumulong?
+explain_concept,Paano gumagana ang pekeng donation request?
+explain_concept,Paano gumagana ang pekeng fundraising website?
+explain_concept,Paano ginagamit ang social media bilang kasangkapan ng charity scam?
+explain_concept,Ano ba talaga ang charity scam?
+explain_concept,Paano nagpapanggap ang mga scammer na NGO o fundraising group?
+explain_concept,Ano ang ibig sabihin ng lottery scam?
+explain_concept,Paano gumagana ang lottery scam?
+explain_concept,Paano ako niloloko sa lottery scam?
+explain_concept,Ano ang modus ng lottery scam?
+explain_concept,Paano nangyayari ang lottery scam sa internet?
+explain_concept,Ano ang tawag sa panloloko gamit ang pekeng lotto win?
+explain_concept,Paano gumagana ang pekeng lottery message?
+explain_concept,Ano ang scam na nagsasabing nanalo ako pero humihingi ng bayad?
+explain_concept,Ano ang ibig sabihin ng election scam?
+explain_concept,Paano gumagana ang election scam?
+explain_concept,Ano ang panloloko na may kaugnayan sa eleksyon?
+explain_concept,Paano nangyayari ang election scam sa internet?
+explain_concept,Ano ang modus ng election scam?
+explain_concept,Paano nahuhulog ang mga tao sa bitag ng election scam?
+explain_concept,Ano ang scam na gumagamit ng pekeng balota o result update?
+explain_concept,Paano nagpapanggap ang scammer na official election body?
+explain_concept,Ano ba talaga ang election scam?
+explain_concept,Paano ginagamit ang pekeng election site o mensahe para manlooko?
+explain_concept,Ano ang ibig sabihin ng advance fee fraud?
+explain_concept,Paano gumagana ang advance fee scam?
+explain_concept,Paano nangyayari ang advance fee fraud sa totoong buhay?
+explain_concept,Ano ang modus ng advance fee scam?
+explain_concept,Bakit humihingi ng bayad bago makuha ang pera o premyo?
+explain_concept,Paano ginagamit ang pekeng inheritance o loan offer para manlooko?
+explain_concept,Ano ang scam na humihingi ng upfront payment pero walang totoong reward?
+explain_concept,Paano nagpapanggap ang scammer na opisyal na financial institution?
+explain_concept,Ano ba talaga ang advance fee fraud?
+explain_concept,Ano ang tawag sa scam na humihingi ng bayad bago makuha ang prize o loan?
+explain_concept,Ano ang ibig sabihin ng bank scam o check scam?
+explain_concept,Paano gumagana ang bank scam o check scam?
+explain_concept,Paano ginagamit ng mga scammer ang pekeng tseke o bank notice para manlooko?
+explain_concept,Paano nangyayari ang bank and check scam sa totoong buhay?
+explain_concept,Ano ang modus ng bank and check scam?
+explain_concept,Bakit maraming tao ang nabibiktima ng bank scam?
+explain_concept,Ano ang scam na may pekeng deposit o fund transfer?
+explain_concept,Paano nagpapanggap ang scammer na lehitimong bangko?
+explain_concept,Ano ba talaga ang bank and check scam?
+explain_concept,Ano-ano ang mga uri ng bank and check scams?
+explain_concept,Ano ang mga karaniwang bank scam na nangyayari online?
+explain_concept,Ano ang isang halimbawa ng check scam na nangyari sa cellphone?
+explain_concept,Ano ang mga karaniwang modus ng bank o check scam online?
+explain_concept,Ano ang ibig sabihin ng panlolokong gumagamit ng pangalan ng bangko sa mensahe?
+explain_concept,Paano gumagana ang pekeng mensahe na nagmumula sa banko?
+explain_concept,Paano nangyayari ang fake bank message scam sa totoong buhay?
+explain_concept,Paano gumagana ang pekeng email o SMS na nagmumula sa banko?
+explain_concept,Ano ang ibig sabihin ng pekeng bank message na natanggap ko?
+explain_concept,Bakit madaling maloko ang tao sa pamamagitan ng fake bank message?
+explain_concept,Ano ba talaga ang Fake Communications from Your Bank Scam?
+explain_concept,Ano ang check overpayment scam at paano ito gumagana?
+explain_concept,Paano ginagamit ng mga scammer ang sobra-sobrang bayad sa tseke para manlooko?
+explain_concept,Paano nangyayari ang check overpayment scam sa totoong buhay?
+explain_concept,Ano ang modus ng check overpayment scam?
+explain_concept,Bakit madaling maloko ang tao sa check overpayment scam?
+explain_concept,Ano ang scam na humihingi ng ibalik ang sobrang bayad sa tseke?
+explain_concept,Ano ang isang konkretong sitwasyon ng check overpayment na panloloko?
+explain_concept,Paano nagpapanggap ang scammer na legit buyer o financial entity?
+explain_concept,Ano ba talaga ang Check Overpayment Scam?
+explain_concept,Ano ang ibig sabihin ng travel scam?
+explain_concept,Paano gumagana ang travel scam?
+explain_concept,Paano ginagamit ng mga scammer ang pekeng travel deals para manlooko?
+explain_concept,Paano nangyayari ang pekeng travel package o hotel booking scam?
+explain_concept,Paano gumagana ang pekeng flight deal o hotel reservation?
+explain_concept,Bakit nagiging biktima ng travel scam ang maraming tao?
+explain_concept,Paano nagpapanggap ang scammer na travel agency o airline?
+explain_concept,Ano ba talaga ang Travel Scam?
+explain_concept,Paano narealize ng mga tao na sila ay nalinlang ng travel scam?
+explain_concept,Ano ang ibig sabihin ng government impersonation scam?
+explain_concept,Paano gumagana ang government impersonation scam?
+explain_concept,Paano ginagamit ng mga scammer ang pangalan ng gobyerno para dayain ang mga tao?
+explain_concept,Paano nangyayari ang government impersonation scam sa totoong buhay?
+explain_concept,"Paano gumagana ang pekeng liham, email, o text na nagmumula sa gobyerno?"
+explain_concept,Ano ang dahilan kung bakit madaling maloko ng government impersonation scam ang mga tao?
+explain_concept,Paano nagpapanggap ang scammer na official government agency?
+explain_concept,Ano ba talaga ang Government Impersonation Scam?
+explain_concept,Paano ginagamit ang pekeng government warning o demand para manlooko?
+explain_concept,Ano ang ibig sabihin ng robocall at phone scam?
+explain_concept,Paano gumagana ang phone scam o robocall scam?
+explain_concept,Paano ginagamit ng mga scammer ang telepono bilang kasangkapan ng panloloko?
+explain_concept,Paano nangyayari ang robocall scam sa totoong buhay?
+explain_concept,Paano gumagana ang pekeng tawag mula sa bangko o government agency?
+explain_concept,Bakit madaling maloko ang tao sa pamamagitan ng phone scam?
+explain_concept,Paano ginagamit ang automated calls o robocalls para manlooko?
+explain_concept,Ano ba ang tunay na kahulugan ng Robocall at Phone Scam?
+explain_concept,Ano ang ibig sabihin ng business imposter scam?
+explain_concept,Paano gumagana ang business imposter scam?
+explain_concept,Paano ginagamit ng mga scammer ang pangalan ng negosyo para lokohin ang mga tao?
+explain_concept,Paano nangyayari ang business imposter scam sa totoong buhay?
+explain_concept,Paano gumagana ang pekeng invoice o email mula sa business scammer?
+explain_concept,Bakit napakahirap maiwasan ang business imposter scam?
+explain_concept,Pwede mo bang magbigay ng halimbawa ng pekeng business offer o invoice?
+explain_concept,Ano ba talaga ang Business Imposter Scam?
+explain_concept,Paano ginagamit ang pekeng business communication o offer para manlooko?
+explain_concept,Ano ang personal data privacy at paano ko mapoprotektahan ang aking impormasyon?
+explain_concept,Ano ang personal na impormasyon at paano ito pinoprotektahan?
+explain_concept,Ano ang mga batas o patakaran tungkol sa pangangalaga ng personal na datos?
+explain_concept,Paano nila pinapaniniwala ang kanilang mga biktima?
+explain_concept,Paano ba talaga nagaganap ang panloloko sa internet?
+explain_concept,Paano nila unang nililapat ang biktima?
+explain_concept,Ano ang proseso ng panloloko ng isang scammer?
+explain_concept,Ano ang proteksyon ko sa ilalim ng batas pagdating sa personal na impormasyon ko?
+explain_concept,Paano ko makokontrol ang pagbabahagi ng aking personal na impormasyon?
+explain_concept,Pwede ko bang ipatigil ang pagproseso ng aking personal na impormasyon?
+explain_concept,Paano ginagamit ng mga scammer ang online relationship para manlooko?
+explain_concept,Ano ang isang tunay na sitwasyon ng romance scam?
+explain_concept,Paano nagpapanggap ang scammer na siya ang iyong karelasyon?
+explain_concept,Paano nangyayari ang tech support fraud?
+explain_concept,Ano ang scam na nagpapanggap na tumutulong sa aking computer?
+explain_concept,Ano ang mga tawag na nagpapanggap na tech support?
+explain_concept,Paano nangyayari ang phishing attack sa aktwal na kalagayan?
+explain_concept,Sa anong paraan ginagamit ang email para dayain ang mga tao?
+explain_concept,Ano ang phishing message at paano ito gumagana?
+explain_concept,Paano nalaman ng mga tao na nalinlang sila ng charity scam?
+explain_concept,Ano ang modus ng charity scam?
+explain_concept,Paano niloloko ang mga tao gamit ang pekeng donation?
+explain_concept,Paano ginagamit ang pangalan ng charity para manlooko?
+explain_concept,Paano niloloko ang mga tao gamit ang pekeng impormasyon tungkol sa eleksyon?
+explain_concept,Ano ang tawag sa panloloko na may kinalaman sa botohan?
+explain_concept,Sa anong paraan ginagamit ang social media para isagawa ang election scam?
+explain_concept,Paano niloloko ang mga tao sa pamamagitan ng upfront payment?
+explain_concept,Sa anong paraan ginagamit ang social media o email sa advance fee scam?
+explain_concept,Paano niloloko ng mga scammer ang mga tao gamit ang bank transactions?
+explain_concept,Ano ang tawag sa scam na humihingi ng bank details o nagpapadala ng pekeng tseke?
+explain_concept,Paano ginagamit ang pekeng bank transaction para manlooko?
+explain_concept,Ano ang mga karaniwang modus sa bank and check scams?
+explain_concept,Paano ginagamit ng mga scammer ang pekeng mensahe mula sa banko para manlooko?
+explain_concept,Paano nangyayari ang scam na nagpapanggap na official bank notification?
+explain_concept,Sa anong paraan ginagamit ang online platforms sa overpayment scam?
 prevent_scam,Paano ko mapapanatili ang aking kaligtasan sa internet?
 prevent_scam,Ano ang mga paraan para maprotektahan ang sarili habang naka-online?
 prevent_scam,Paano ako magiging ligtas habang gumagamit ng internet?
@@ -654,478 +654,230 @@ scam_response,Naniwala ako sa military romance scam at nakapagpadala na ako ng m
 scam_response,"Nag-chat ako sa isang tao na nagsabing doctor siya sa abroad, tapos humingi ng pera, scam pala."
 scam_response,Nagpadala ako ng pera sa taong nakilala ko sa dating app na nagpapanggap na nasa ibang bansa.
 scam_response,"Natuklasan ko na ang matagal ko nang ka-chat online ay gumamit ng stolen photos, scam pala siya."
-scam_scenarios,Paano ko malalaman kung scam ang mensaheng natanggap ko?
-scam_scenarios,Paano masasabi na panloloko ang isang text o email?
-scam_scenarios,Ano ang mga palatandaan ng scam?
-scam_scenarios,Ano ang mga warning signs ng isang scam?
-scam_scenarios,Paano ko malalaman kung fake ang text o email?
-scam_scenarios,Ano ang senyales na scam ang isang offer?
-scam_scenarios,Paano ko matutukoy kung scam ang tawag na natanggap ko?
-scam_scenarios,Paano ko malalaman kung niloloko na ako online?
-scam_scenarios,Ano ang mga red flags ng online scam?
-scam_scenarios,Paano ko makikilala ang isang scammer?
-scam_scenarios,Paano ko malalaman kung legit o scam ang isang bagay?
-scam_scenarios,Paano ko malalaman kung mapanlinlang ang mensaheng natanggap ko?
-scam_scenarios,Paano ko masasabi kung hindi totoo ang isang offer?
-scam_scenarios,Paano ko malalaman kung scam ang isang promo?
-scam_scenarios,Paano ko malalaman kung scam ang link na natanggap ko?
-scam_scenarios,Paano ko malalaman kung may scam sa social media?
-scam_scenarios,"Ano ang dapat bantayan para hindi maloko sa Facebook, Instagram, o TikTok?"
-scam_scenarios,Ano ang mga palatandaan ng scam sa social media?
-scam_scenarios,Paano ko malalaman kung legit ang nagpadala ng mensahe sa social media?
-scam_scenarios,Paano i-check kung scam ang nagpadala ng friend request o message?
-scam_scenarios,Paano ko malalaman kung totoo ang offer o mensahe sa social media?
-scam_scenarios,Ano ang dapat gawin bago mag-click o sumagot sa social media message?
-scam_scenarios,Paano ko matutukoy kung scam ang mensahe o post sa social media?
-scam_scenarios,Paano ko malalaman kung fake ang app na na-install ko?
-scam_scenarios,Paano ko malalaman kung scam ang website na binuksan ko?
-scam_scenarios,Ligtas ba ang app na na-download ko?
-scam_scenarios,Paano ko i-check kung legit ang isang website?
-scam_scenarios,Paano ko malalaman kung may virus ang app?
-scam_scenarios,Ano ang mga senyales na fake ang isang app?
-scam_scenarios,Paano ko malalaman kung mapanganib ang website?
-scam_scenarios,"Nag-click ako ng link at baka scam ito, ano ang gagawin ko?"
-scam_scenarios,Paano ko malalaman kung phishing website ang binuksan ko?
-scam_scenarios,Paano ko malalaman kung legit ang download na ginawa ko?
-scam_scenarios,Paano ko malalaman kung may malware ang app na na-install ko?
-scam_scenarios,Paano ko malalaman kung safe ang link na ibinigay sa akin?
-scam_scenarios,Ano ang dapat bantayan bago mag-download ng app?
-scam_scenarios,"Nagbigay ako ng impormasyon sa isang website at baka fake ito, ano gagawin ko?"
-scam_scenarios,Paano ko malalaman kung totoo ang isang online platform?
-scam_scenarios,Ano ang mga red flags ng fake apps o websites?
-scam_scenarios,May na-install akong app nang hindi sinasadya at hindi ko sure kung legit ito.
-scam_scenarios,"Hindi ko mabuksan ang mga files ko, may problema ba?"
-scam_scenarios,May lumabas na message na kailangan akong magbayad para ma-unlock ang files ko.
-scam_scenarios,"Na-encrypt daw ang files ko, ano ang ibig sabihin nito?"
-scam_scenarios,May nag-appear na warning na naka-lock ang system ko.
-scam_scenarios,Paano nangyari na na-lock ang phone ko?
-scam_scenarios,"May humihingi ng pera para maibalik ang data ko, scam ba ito?"
-scam_scenarios,Nawala ang access ko sa files ko nang biglaan.
-scam_scenarios,Bakit may ransom message na nagpapakita sa computer ko?
-scam_scenarios,Paano ko malalaman kung ransomware ang nangyayari sa device ko?
-scam_scenarios,Na-lock ang system ko at hindi ko alam kung ano ang gagawin.
-scam_scenarios,May nagpop-up na kailangan akong magbayad bago ma-access ang files ko.
-scam_scenarios,Bakit may demand na bayad para ma-unlock ang phone ko?
-scam_scenarios,Posible bang scam ang dahilan kung bakit hindi ko mabuksan ang files ko?
-scam_scenarios,Biglang na-lock ang mga files ko at hindi ko alam kung bakit.
-scam_scenarios,Paano ko malalaman kung pekeng message ito mula sa isang sikat na tao?
-scam_scenarios,Ano ang mga palatandaan na hindi totoong celebrity ang nag-message sa akin?
-scam_scenarios,Paano ko malalaman kung legit ang mensahe mula sa isang sikat na tao?
-scam_scenarios,Ano ang senyales na scam ang nag-a-approach sa pamamagitan ng celebrity account?
-scam_scenarios,Ano ang dapat bantayan sa mga mensahe mula sa sikat na tao online?
-scam_scenarios,Paano ko matutukoy kung pekeng celebrity ang nag-message sa akin?
-scam_scenarios,Ano ang mga red flags kapag may sikat na tao na humihingi ng bank details?
-scam_scenarios,Ano ang mga indikasyon na nagpapanggap lang na celebrity ang nag-message?
-scam_scenarios,Paano ko malalaman kung hindi totoong sikat na tao ang nag-message sa akin?
-scam_scenarios,Ano ang mga warning signs ng pekeng celebrity na nag-message?
-scam_scenarios,"May nagmessage na nagsasabing sikat na tao siya at humihingi ng address at bank details, legit ba ito?"
-scam_scenarios,Paano ko malalaman kung pekeng panalo sa lotto ang text na natanggap ko?
-scam_scenarios,Ano ang mga palatandaan na scam ang lottery message?
-scam_scenarios,Ano ang mga senyales na panloloko ang mensaheng nagsasabing nanalo ako sa lotto?
-scam_scenarios,Paano ko matutukoy kung scam ang lottery email o text?
-scam_scenarios,Paano ko malalaman kung scam ang nanalo sa raffle?
-scam_scenarios,Paano ko malalaman kung hindi totoo ang prize notification na natanggap ko?
-scam_scenarios,Ano ang mga warning signs ng lottery scam?
-scam_scenarios,Paano ko malalaman kung hindi legit ang lottery claim?
-scam_scenarios,Paano ko malalaman kung panloloko ang sweepstakes notification?
-scam_scenarios,"May natanggap akong text na nanalo raw ako sa lotto, legit ba ito?"
-scam_scenarios,Paano ko malalaman kung safe ang link na nasa text na natanggap ko?
-scam_scenarios,Ano ang mga palatandaan na scam ang link sa mensahe?
-scam_scenarios,Paano ko matutukoy kung phishing link ang ipinadala sa akin?
-scam_scenarios,Paano ko malalaman kung mapanganib ang link sa chat o email?
-scam_scenarios,Ano ang red flags ng suspicious link sa text?
-scam_scenarios,Paano ko matutukoy kung scam ang URL na ibinigay sa akin?
-scam_scenarios,Paano ko malalaman kung pekeng website ang link na natanggap ko?
-scam_scenarios,Ano ang mga senyales na panloloko ang link sa text o chat?
-scam_scenarios,Paano ko malalaman kung phishing ang link sa SMS?
-scam_scenarios,Paano ko matutukoy kung scam ang link na ibinahagi sa social media?
-scam_scenarios,"May link na nakalagay sa text, paano ko malalaman kung totoo ito?"
-scam_scenarios,"May text na nanghihingi ng personal information at nagbabanta kung hindi ako sumagot, ano ang gagawin ko?"
-scam_scenarios,Paano ko malalaman kung pekeng charity ang humihingi ng donasyon?
-scam_scenarios,Ano ang mga palatandaan ng charity scam?
-scam_scenarios,Paano ko matutukoy kung scam ang humihingi ng donasyon online?
-scam_scenarios,Ano ang mga senyales na hindi legit ang charity request?
-scam_scenarios,Ano ang red flags ng charity scam?
-scam_scenarios,Paano ko matutukoy kung panloloko ang charity email o message?
-scam_scenarios,Paano ko malalaman kung legit ang fundraising campaign?
-scam_scenarios,Paano ko malalaman kung scam ang charity website?
-scam_scenarios,Paano ko malalaman kung pekeng fundraiser ang online campaign na nakita ko?
-scam_scenarios,Paano ko malalaman kung totoong charity o scam ang humihingi ng donasyon?
-scam_scenarios,Paano ko matutukoy kung investment scam ang alok na natanggap ko?
-scam_scenarios,Ano ang mga palatandaan ng investment scam?
-scam_scenarios,Paano ko malalaman kung pekeng investment ang inaalok sa akin?
-scam_scenarios,Ano ang mga red flags ng investment scam?
-scam_scenarios,Paano ko malalaman kung hindi totoo ang investment company?
-scam_scenarios,Paano ko malalaman kung scam ang financial offer na natanggap ko?
-scam_scenarios,Ano ang mga babala sa pekeng investment schemes?
-scam_scenarios,Paano ko malalaman kung scam ang investment offer sa social media?
-scam_scenarios,Ano ang mga warning signs ng investment scam?
-scam_scenarios,Paano ko malalaman kung panloloko ang investment deal na inaalok sa akin?
-scam_scenarios,Paano ko malalaman kung pekeng advance fee ang natanggap kong mensahe?
-scam_scenarios,Ano ang mga palatandaan ng advance fee scam?
-scam_scenarios,Paano ko matutukoy kung scam ang humihingi ng advance payment?
-scam_scenarios,Ano ang red flags ng advance fee fraud?
-scam_scenarios,Paano ko malalaman kung fake ang request ng advance payment?
-scam_scenarios,Ano ang mga indikasyon na scam ang advance fee request?
-scam_scenarios,Paano ko malalaman kung hindi legit ang humihingi ng upfront payment?
-scam_scenarios,Paano ko malalaman kung scam ang advance fee sa email o text?
-scam_scenarios,Paano ko malalaman kung advance fee fraud ang nag-text sa akin?
-scam_scenarios,Ano ang mga palatandaan ng tech support scam?
-scam_scenarios,Paano ko malalaman kung pekeng tech support ang tumawag sa akin?
-scam_scenarios,Paano ko malalaman kung fake ang virus alert sa computer ko?
-scam_scenarios,Ano ang red flags ng tech support scam?
-scam_scenarios,Paano ko matutukoy kung scam ang pop-up na nagsasabing may virus ang device ko?
-scam_scenarios,Paano ko malalaman kung hindi legit ang technician na nag-aalok ng tulong online?
-scam_scenarios,Paano ko malalaman kung hindi totoo ang support message na natanggap ko?
-scam_scenarios,Paano ko malalaman kung kahina-hinala ang tech support call na natanggap ko?
-scam_scenarios,Paano ko malalaman kung scam ang tech support na tumatawag o nagpapakita sa screen ko?
-scam_scenarios,Paano ko malalaman kung romance scam ang kausap ko online?
-scam_scenarios,Ano ang mga palatandaan na romance scam ang nangyayari sa akin?
-scam_scenarios,Paano ko matutukoy kung peke ang taong kausap ko sa online dating?
-scam_scenarios,Ano ang mga senyales na love scam ang nangyayari sa akin?
-scam_scenarios,Paano ko malalaman kung niloloko lang ako ng ka-date ko online?
-scam_scenarios,Ano ang mga red flags ng romance scam?
-scam_scenarios,Paano ko makikilala kung scammer ang nagpapanggap na may gusto sa akin?
-scam_scenarios,Paano ko masisigurong hindi romance scam ang kausap ko?
-scam_scenarios,Paano ko malalaman kung pera lang ang habol ng kausap ko online?
-scam_scenarios,Ano ang mga karaniwang kilos ng romance scammer?
-scam_scenarios,Ano ang mga indikasyon na peke ang profile ng kausap ko?
-scam_scenarios,Paano ko malalaman kung scripted o paulit-ulit lang ang mga mensahe niya?
-scam_scenarios,Paano ko makukumpirma kung totoo ang pagkakakilanlan ng kausap ko online?
-scam_scenarios,Ano ang mga dapat gawin kapag pinaghihinalaan kong romance scam ang kausap ko?
-scam_scenarios,Paano ko malalaman kung scam ang nagbebenta sa GCash?
-scam_scenarios,"May humihingi ng GCash payment sa akin, legit ba ito?"
-scam_scenarios,Paano ko malalaman kung scam ang transaksyon sa GCash na hinihiling sa akin?
-scam_scenarios,Ano ang mga red flags kapag may humihingi ng GCash sa akin online?
-scam_scenarios,Paano ko masisigurong hindi scam ang taong hinihingian ko ng GCash?
-scam_scenarios,"May nagpadala sa akin ng GCash request, paano ko malalaman kung legit ito?"
-scam_scenarios,Paano ko malalaman kung scam ang seller na nagtatanggap lang ng GCash payment?
-scam_scenarios,Paano ko matutukoy kung scam ang online seller na nakausap ko?
-scam_scenarios,Ano ang mga palatandaan ng scam sa online marketplace?
-scam_scenarios,Paano ko malalaman kung legit ang seller bago ako magbayad online?
-scam_scenarios,Ano ang mga red flags ng pekeng online seller?
-scam_scenarios,Paano ko malalaman kung totoo ang item na ibinebenta online?
-scam_scenarios,"May nagbebenta ng murang gadget online, paano ko malalaman kung scam ito?"
-scam_scenarios,Paano ko masisigurong hindi scam ang seller bago ako mag-order?
-scam_scenarios,Paano ko malalaman kung scam ang crypto investment na inaalok sa akin?
-scam_scenarios,Ano ang mga palatandaan na scam ang isang cryptocurrency opportunity?
-scam_scenarios,Paano ko matutukoy kung panloloko ang crypto trading platform?
-scam_scenarios,Ano ang mga red flags ng scam sa cryptocurrency?
-scam_scenarios,Paano ko malalaman kung legit ang isang crypto project bago mag-invest?
-scam_scenarios,"May nag-aalok sa akin ng malaking kita sa crypto, paano ko malalaman kung scam ito?"
-scam_scenarios,Paano ko matutukoy kung Ponzi scheme ang isang crypto investment?
-scam_scenarios,Paano ko malalaman kung scam ang job offer na natanggap ko online?
-scam_scenarios,Ano ang mga palatandaan ng pekeng job offer?
-scam_scenarios,Paano ko matutukoy kung scam ang recruiter na nakausap ko?
-scam_scenarios,Ano ang mga red flags ng fake online job posting?
-scam_scenarios,"May nag-aalok ng trabaho sa akin online, paano ko malalaman kung totoo ito?"
-scam_scenarios,Paano ko malalaman kung scam ang job offer sa abroad?
-scam_scenarios,Ano ang mga senyales na scam ang placement agency na nakausap ko?
-scam_scenarios,Paano ko malalaman kung scam ang nagpadala ng delivery notification sa akin?
-scam_scenarios,"May text na may package daw ako at kailangan akong magbayad, scam ba ito?"
-scam_scenarios,Ano ang mga palatandaan ng parcel scam sa text o email?
-scam_scenarios,Paano ko matutukoy kung pekeng delivery notification ang natanggap ko?
-scam_scenarios,Paano ko malalaman kung legit ang delivery fee na hinihingi sa akin?
-scam_scenarios,"Nakatanggap ako ng text tungkol sa package, paano ko malalaman kung totoo ito?"
-scam_scenarios,Paano ko malalaman kung scam ang loan offer na natanggap ko?
-scam_scenarios,Ano ang mga palatandaan ng pekeng online loan?
-scam_scenarios,Paano ko matutukoy kung scam ang nagpapautang online?
-scam_scenarios,Ano ang mga red flags ng loan scam?
-scam_scenarios,"May nag-aalok ng mabilis na loan sa akin online, paano ko malalaman kung legit ito?"
-scam_scenarios,Paano ko malalaman kung scam ang nagtatanggap ng processing fee para sa loan?
-scam_scenarios,Paano ko malalaman kung scam ang QR code na pinapadala sa akin?
-scam_scenarios,"May nagpadala sa akin ng QR code para sa payment, ligtas ba ito?"
-scam_scenarios,Ano ang mga red flags ng scam na gumagamit ng QR code?
-scam_scenarios,Paano ko matutukoy kung pekeng QR code ang ibinigay sa akin?
-scam_scenarios,Paano ko malalaman kung scam ang QR code na hinilingang i-scan ko?
-scam_scenarios,Paano ko malalaman kung na-SIM swap na ang aking numero?
-scam_scenarios,Ano ang mga palatandaan na may nag-SIM swap sa aking number?
-scam_scenarios,Paano ko matutukoy kung may nag-hijack ng aking SIM card?
-scam_scenarios,"Biglang nawalan ng signal ang aking phone, posible bang SIM swap ito?"
-scam_scenarios,Ano ang mga red flags ng SIM swap scam?
-scam_scenarios,Paano ko malalaman kung scam ang investment group o negosyo na inimbitahan ako?
-scam_scenarios,Ano ang mga palatandaan ng pyramid scheme o MLM scam?
-scam_scenarios,Paano ko matutukoy kung panloloko ang negosyo na sinalihan ko?
-scam_scenarios,Ano ang mga red flags ng fake online investment group?
-scam_scenarios,"May nag-imbita sa akin sa isang negosyo online, paano ko malalaman kung legit ito?"
-scam_scenarios,Paano ko malalaman kung scam ang paluwagan na sinalihan ko online?
-scam_scenarios,Paano ko malalaman kung scam ang mensaheng nagmumula raw sa gobyerno?
-scam_scenarios,Ano ang mga palatandaan ng government impersonation scam?
-scam_scenarios,Paano ko matutukoy kung pekeng government official ang tumawag o nag-message sa akin?
-scam_scenarios,"Nakatanggap ako ng mensahe mula raw sa BIR o SSS, paano ko malalaman kung totoo ito?"
-scam_scenarios,Ano ang mga red flags ng pekeng government notice o demand?
-scam_scenarios,"May nagpadala ng official-looking na mensahe mula sa gobyerno, legit ba ito?"
-scam_scenarios,Paano ko malalaman kung scam ang travel package na inaalok sa akin?
-scam_scenarios,Ano ang mga palatandaan ng pekeng travel agency?
-scam_scenarios,Paano ko matutukoy kung scam ang murang flight o hotel deal na nakita ko online?
-scam_scenarios,Ano ang mga red flags ng travel scam?
-scam_scenarios,"May nag-aalok ng mura at all-inclusive na travel package, paano ko malalaman kung legit ito?"
-scam_scenarios,Paano ko malalaman kung scam ang mensaheng nagmumula raw sa aking bangko?
-scam_scenarios,Ano ang mga palatandaan ng fake bank message o alert?
-scam_scenarios,Paano ko matutukoy kung pekeng bank notification ang natanggap ko?
-scam_scenarios,"Nakatanggap ako ng SMS mula raw sa bangko ko, paano ko malalaman kung totoo ito?"
-scam_scenarios,Ano ang mga red flags ng fake bank alert sa text o email?
-scam_scenarios,Paano ko malalaman kung scam ang nagpupunta sa bahay namin na nagpapanggap na collector?
-scam_scenarios,Ano ang mga palatandaan ng door-to-door scam?
-scam_scenarios,"May pumunta sa aming bahay na nagpapanggap na Meralco o NAWASA collector, legit ba siya?"
-scam_scenarios,Paano ko matutukoy kung pekeng utility collector ang pumunta sa aming tahanan?
-scam_scenarios,Paano ko malalaman kung scam ang video o larawan na mukhang totoo pero gawa ng AI?
-scam_scenarios,Ano ang mga palatandaan ng deepfake na video o larawan?
-scam_scenarios,Paano ko matutukoy kung AI-generated ang video na nakita ko online?
-scam_scenarios,"May video na kumakalat ng mukha ng isang tao, paano ko malalaman kung deepfake ito?"
-scam_scenarios,Ano ang mga red flags ng AI-generated na scam content?
-scam_scenarios,Paano ko malalaman kung scam ang scholarship o grant na inaalok sa akin?
-scam_scenarios,Ano ang mga palatandaan ng pekeng scholarship offer?
-scam_scenarios,"May nag-aalok ng scholarship sa akin pero may bayad, paano ko malalaman kung legit ito?"
-scam_scenarios,Paano ko matutukoy kung scam ang nagpapanggap na school official na nag-contact sa akin?
-tips,Paano gumawa ng malakas na password para sa aking account?
-tips,Ano ang mga dapat isaalang-alang sa paggawa ng secure na password?
-tips,Paano gumawa ng password na mahirap hulaan ng iba?
-tips,Ano ang mga katangian ng isang malakas at secure na password?
-tips,Paano gumawa ng password na hindi madaling ma-hack?
-tips,Paano gumawa ng password na secure pero madaling tandaan?
-tips,Ano ang isang halimbawa ng isang malakas na password?
-tips,Bakit kailangan gumawa ng natatanging password para sa bawat account?
-tips,Paano ko gagawing mas ligtas ang aking mga login credentials?
-tips,Ano ang mga pinakamabuting gawi sa paggawa ng password?
-tips,Ano ang dapat tandaan para hindi ma-hack ang aking account?
-tips,Paano ko mapapangalagaan ang seguridad ng aking social media account?
-tips,Ano ang mga hakbang para maprotektahan ang account laban sa mga hacker?
-tips,Paano ko i-a-ayos ang mga security settings ng aking social media?
-tips,Ano ang dapat i-check sa security settings ng aking account?
-tips,Paano ko ia-update ang privacy at security settings ng aking account?
-tips,Ano ang mga settings na dapat baguhin para maging mas secure ang account?
-tips,Paano ko mapapanatiling pribado ang aking profile sa social media?
-tips,Paano ko mapipigilan ang pagkalat ng aking personal na impormasyon sa social media?
-tips,Ano ang mga security features na dapat i-aktibo sa aking account?
-tips,Paano ko maiiwasan ang hindi awtorisadong pagpasok sa aking account?
-tips,Paano ko i-a-on ang two-factor authentication sa aking account?
-tips,Paano ko mababantayan ang mga aktibidad sa aking social media account?
-tips,Bakit kailangan kong maging maingat sa paggamit ng internet?
-tips,Bakit mahalagang mag-ingat sa internet?
-tips,Ano ang dahilan kung bakit dapat mag-ingat online?
-tips,Bakit kailangan kong pangalagaan ang sarili ko sa online?
-tips,Ano ang dahilan kung bakit dapat akong maging maingat sa digital world?
-tips,Bakit kailangan kong magdoble-ingat sa digital world?
-tips,Bakit importante ang pagiging maingat sa social media?
-tips,Bakit dapat akong maging mapanuri sa mga mensaheng natanggap ko online?
-tips,Bakit kailangang maging alerto sa mga ginagawa ko online?
-tips,Ano ang kahalagahan ng pagiging maingat sa internet?
-tips,Bakit hindi dapat basta-basta magtiwala online?
-tips,Bakit hindi dapat basta-basta magtiwala sa mga tao online?
-tips,Bakit kailangan kong protektahan ang sarili ko sa internet?
-tips,Ano ang maaaring mangyari kung hindi ako mag-iingat online?
-tips,Ano ang mangyayari sa akin kung hindi ako mag-iingat sa internet?
-tips,Bakit dapat bantayan ang aking personal na impormasyon?
-tips,Bakit mahalaga ang pag-iingat sa pagbabahagi ng impormasyon online?
-tips,Bakit kailangan kong suriin ang mga link bago i-click?
-tips,Bakit mahalaga na mag-isip muna bago mag-click ng kahit anong link?
-tips,Bakit dapat mag-isip muna bago mag-post online?
-tips,Bakit hindi dapat basta mag-post ng personal na impormasyon online?
-tips,Bakit kailangan kong maging responsable sa paggamit ng internet?
-tips,Ano ang kahalagahan ng pagiging responsable sa paggamit ng internet?
-tips,Ano ang epekto kung hindi ako magiging maingat online?
-tips,Ano ang epekto ng hindi pag-iingat sa pagbabahagi ng personal na impormasyon?
-tips,Bakit kailangan kong alagaan ang aking digital na seguridad?
-tips,Bakit kailangan kong protektahan ang aking digital na seguridad?
-tips,Bakit mahalagang maging maingat sa pakikipag-ugnayan sa mga tao online?
-tips,Ano ang kahalagahan ng pag-iingat sa pakikipag-ugnayan sa mga estranghero online?
-tips,Ano ang panganib kung walang ingat sa paggamit ng social media?
-tips,Paano maaapektuhan ang aking buhay kung hindi ako maingat sa internet?
-tips,Ano ang dapat kong malaman para maprotektahan ang sarili ko sa internet?
-tips,May dagdag pa bang tips para sa kaligtasan sa social media?
-tips,Ano pa ang pwede kong gawin para mas maging secure sa social media?
-tips,Ano pang hakbang ang maaari kong gawin para maiwasan ang panganib sa social media?
-tips,Mayroon pa bang ibang paraan para maprotektahan ang sarili ko online?
-tips,Ano pa ang maipapayo mo para sa mas ligtas na paggamit ng social media?
-tips,May extra precautions ba na pwede kong gawin sa social media?
-tips,Ano pang mga dapat tandaan para manatiling ligtas sa social media?
-tips,May karagdagang payo ka ba para sa kaligtasan ng aking social media?
-tips,Ano pa ang pwede kong idagdag sa aking mga safety practices online?
-tips,May iba pa bang best practices para sa online safety?
-tips,Ano pang tips ang makakatulong para hindi ako mabiktima online?
-tips,May iba pa bang dapat i-aktibo sa settings para maging mas ligtas ako?
-tips,Ano pang paraan para mapalakas ang proteksyon ng aking account?
-tips,May mga simpleng dagdag na hakbang pa ba para sa seguridad ko online?
-tips,Ano pa ang pwede kong gawin bukod sa basic security settings?
-tips,Mayroon bang advanced tips para sa online safety?
-tips,Ano pang strategy ang makakatulong para maging secure ako online?
-tips,May iba pa bang dapat iwasan para manatiling ligtas online?
-tips,Ano pa ang maaari kong gawin para masigurado na protektado ang aking social media account?
-tips,Paano maging ligtas sa araw-araw na paggamit ng social media?
-tips,Ano ang mga paraan para manatiling ligtas sa social media?
-tips,Paano ako magiging responsable sa paggamit ng social media?
-tips,Ano ang dapat kong gawin para maging maayos ang paggamit ko ng social media?
-tips,Ano ang mga hakbang para maging safe sa social networking sites?
-tips,Ano ang dapat tandaan para sa ligtas na pagso-social media?
-tips,Ano ang mga simpleng paraan para maging ligtas sa social media?
-tips,Paano maging matalino sa paggamit ng social media?
-tips,Ano ang mga patakaran para sa ligtas na paggamit ng social media?
-tips,Ano ang mga dapat iwasan para maging ligtas sa social media?
-tips,Ano ang mga dapat gawin para sa secure na paggamit ng social media?
-tips,Paano ako gagawa ng malakas na password?
-tips,Ano ang mga tips sa paggawa ng secure na password?
-tips,Paano gumawa ng password na mahirap hulaan?
-tips,Ano ang dapat isaalang-alang sa paggawa ng ligtas na password?
-tips,Paano ko mapapalakas ang aking password?
-tips,Paano gumawa ng password na hindi madaling ma-hack?
-tips,Ano ang mga katangian ng isang malakas na password?
-tips,Paano ko masisigurong ligtas ang aking password?
-tips,Paano gumawa ng password na secure at madaling tandaan?
-tips,Ano ang mga dapat iwasan sa paggawa ng password?
-tips,Ano ang halimbawa ng isang secure na password?
-tips,Paano gumawa ng unique na password para sa bawat account?
-tips,Paano maiwasan ang mahihinang password?
-tips,Ano ang tamang haba ng isang malakas na password?
-tips,Paano ko gagawing mas ligtas ang aking mga login credentials?
-tips,Ano ang mga best practices sa paggawa ng password?
-tips,Paano ko mapapangalagaan ang seguridad ng aking social media account?
-tips,Paano ko maaayos ang security settings ng aking social media?
-tips,Ano ang dapat kong i-check sa security settings ng social media?
-tips,Ano ang mga paraan para hindi ma-hack ang aking social media account?
-tips,Paano ko ia-update ang privacy at security settings ko?
-tips,Ano ang mga setting na dapat baguhin para sa mas ligtas na account?
-tips,Paano ko mapapanatiling pribado ang aking social media profile?
-tips,Ano ang mga security features na dapat kong i-activate?
-tips,Paano ko maiiwasan ang unauthorized access sa aking account?
-tips,Ano ang mga setting na makakatulong laban sa mga hacker?
-tips,Paano ko ma-on ang two-factor authentication sa social media?
-tips,Ano ang mga paraan para mapanatiling ligtas ang aking login details?
-tips,Paano ko mababantayan ang activity sa aking social media account?
-tips,Ano ang mga dapat tandaan para sa mas secure na social media account?
-tips,Paano ko mapapangalagaan ang aking smartphone o laptop mula sa mga panganib?
-tips,Paano ko mase-secure ang aking laptop laban sa mga virus?
-tips,Paano ko mapapanatiling ligtas ang aking cellphone habang naka-online?
-tips,Paano ko maiiwasan ang malware sa aking smartphone?
-tips,Ano ang dapat kong gawin para maging secure ang aking mga gadget?
-tips,Ano ang mga tips para sa ligtas na paggamit ng smartphone?
-tips,Paano ko mase-secure ang aking personal na files sa laptop?
-tips,Paano ko mapapanatiling updated at ligtas ang aking mga gadget?
-tips,Ano ang mga paraan para hindi mapasukan ng virus ang aking cellphone?
-tips,Ano ang mga best practices para sa seguridad ng device?
-tips,Paano ko mase-set up ang seguridad ng aking laptop?
-tips,Paano ako magiging ligtas kapag nagba-browse o gumagawa ng mga online activities?
-tips,Ano ang mga paraan para maging secure kapag online?
-tips,Ano ang mga hakbang para sa ligtas na pagba-browse?
-tips,Ano ang mga tips para sa safe browsing?
-tips,Ano ang dapat tandaan kapag gumagawa ng online transactions?
-tips,Paano ako magiging maingat sa aking online activities?
-tips,Ano ang mga dapat iwasan habang nag-i-internet?
-tips,Ano ang mga best practices para sa ligtas na paggamit ng internet?
-tips,Ano ang mga simpleng hakbang para sa online safety?
-tips,Paano ko mapapanatiling secure ang aking online sessions?
-tips,Paano ko mapoprotektahan ang aking personal na impormasyon online?
-tips,Ano ang mga paraan para mapanatiling pribado ang aking personal na datos?
-tips,Paano ko mapangangalagaan ang aking personal data?
-tips,Ano ang mga hakbang para protektahan ang aking pribadong datos?
-tips,Paano ko maiiwasan ang pagkalat ng aking personal na impormasyon online?
-tips,Paano ko mase-secure ang aking personal records online?
-tips,Ano ang mga dapat iwasan para hindi makompromiso ang aking data?
-tips,Paano ko makokontrol kung sino ang makakakita ng aking impormasyon?
-tips,Paano ko mapipigilan ang unauthorized access sa aking datos?
-tips,Paano ko mapapanatiling pribado ang aking online accounts?
-tips,Paano ko malalaman kung ligtas ang website na pinaglalagyan ko ng impormasyon?
-tips,Ano ang mga simpleng paraan para mapangalagaan ang aking personal data?
-tips,Ano ang mga dapat kong tandaan para mas mapoprotektahan ang sarili ko online?
-tips,Paano ko maiiwasan ang mga panganib online?
-tips,Ano ang mga hakbang para sa internet safety?
-tips,Paano ako magiging mas maingat habang online?
-tips,Paano ko mapapanatiling secure ang aking online activities?
-tips,Ano ang mga dapat iwasan para hindi mabiktima sa internet?
-tips,Ano ang mga paalala para sa ligtas na pagba-browse?
-tips,Paano ko masisigurong secure ang aking mga account online?
-tips,Ano ang mga dapat kong bantayan habang gumagamit ng internet?
-tips,Paano ko maaalagaan ang aking digital security?
-tips,Ano ang mga rekomendasyon para sa mas ligtas na online experience?
-tips,Paano ko mapapalakas ang proteksyon ko laban sa cybercrime?
-tips,Ano ang mga pangunahing alituntunin sa internet safety?
-tips,Paano ko mapapanatiling pribado at ligtas ang aking online presence?
-tips,Paano ko magagamit ang karanasan sa scam para matuto at maging mas maingat?
-tips,Paano gamitin ang karanasan sa scam para turuan ang iba at maging mas alerto?
-tips,Ano ang dapat gawin para hindi na maulit ang panloloko sa akin?
-tips,Paano ko maiiwasan ang scam sa susunod na pagkakataon?
-tips,Paano maiiwasan ang financial loss at stress mula sa scam sa hinaharap?
-tips,Ano ang dapat gawin kapag nakatanggap ako ng kahina-hinalang mensahe?
-tips,Paano ko malalaman kung mapagkakatiwalaan ang isang website bago ko gamitin?
-tips,Ano ang dapat gawin bago mag-click ng link na natanggap sa text o email?
-tips,Paano ko masisigurong ligtas ang aking online banking?
-tips,Ano ang mga dapat tandaan bago mag-transact sa online banking?
-tips,Paano ko mapapangalagaan ang aking bank account sa internet?
-tips,Ano ang mga dapat gawin para maging ligtas ang paggamit ng online banking?
-tips,Paano ko maaalis ang hindi kilalang devices na naka-login sa aking account?
-tips,Ano ang dapat gawin kung may hindi kilalang login activity sa aking account?
-tips,Paano ko malalaman kung may nagbabasa ng aking mga mensahe online?
-tips,Ano ang dapat gawin para maprotektahan ang aking email account?
-tips,Paano ko mase-secure ang aking Gmail o ibang email account?
-tips,Ano ang mga tips para hindi ma-hack ang aking email?
-tips,Paano ko mapipigilan ang spam at phishing emails?
-tips,Ano ang dapat gawin kapag nakatanggap ng suspicious na email?
-tips,Paano ko malalaman kung ligtas ang email na natanggap ko?
-tips,Ano ang tamang paraan ng pag-verify ng impormasyon na natanggap online?
-tips,Paano ko mabe-verify kung totoo ang isang balita o alok bago maniwala?
-tips,Ano ang dapat gawin bago ibahagi ang isang impormasyon online?
-tips,Paano ko masisigurong hindi ako nagpapakalat ng maling impormasyon?
-tips,Paano ko mapoprotektahan ang aking mga anak sa paggamit ng internet?
-tips,Ano ang mga tips para sa ligtas na paggamit ng internet ng mga bata?
-tips,Paano ko maituturo sa aking pamilya ang online safety?
-tips,Ano ang dapat malaman ng mga magulang tungkol sa online safety ng kanilang mga anak?
-tips,Paano ko mapangangalagaan ang matatanda sa aking pamilya laban sa online scams?
-tips,Ano ang mga dapat ituro sa mga lolo at lola para hindi sila maloko online?
-tips,Paano ko maprotektahan ang aking mga kaibigan at pamilya sa mga online scam?
-tips,Paano ko malalaman kung ligtas ang public WiFi na ginagamit ko?
-tips,Ano ang mga panganib ng paggamit ng public WiFi?
-tips,Ano ang dapat gawin at iwasan kapag gumagamit ng public WiFi?
-tips,Paano ko mapoprotektahan ang aking data habang naka-connect sa public WiFi?
-tips,Ligtas bang mag-transact online habang naka-public WiFi?
-tips,Paano ko mase-secure ang aking koneksyon sa internet?
-tips,Ano ang dapat gawin bago mag-download ng anumang app o file online?
-tips,Paano ko malalaman kung ligtas ang isang app bago ko i-install?
-tips,Ano ang mga dapat tingnan sa permissions ng isang app bago gamitin?
-tips,Paano ko mapipigilan ang pag-install ng mapanganib na apps?
-tips,Ano ang mga babala na dapat bantayan sa mga app na dina-download?
-tips,Paano ko mase-secure ang aking mga online accounts gamit ang password manager?
-tips,Ano ang password manager at paano ito nakakatulong sa seguridad ko?
-tips,Paano ko mapoprotektahan ang maraming accounts nang hindi kailangang tandaan ang lahat ng password?
-tips,Ano ang kahalagahan ng regular na pagpapalit ng password?
-tips,Gaano kadalas dapat palitan ang aking password?
-tips,Ano ang dapat gawin kung nakalimutan ko ang aking password?
-tips,Paano ko mase-secure ang aking account kapag nagbago ang aking password?
-tips,Ano ang two-factor authentication at bakit ito mahalaga?
-tips,Paano gumagana ang two-factor authentication?
-tips,Bakit dapat i-enable ang two-factor authentication sa lahat ng accounts?
-tips,Ano ang mga uri ng two-factor authentication na maaari kong gamitin?
-tips,Paano ko mae-enable ang two-factor authentication sa aking mga account?
-tips,Ano ang backup codes at paano ko ito gagamitin para sa seguridad ng aking account?
-tips,Paano ko malalaman kung na-compromise na ang aking account?
-tips,Ano ang mga palatandaan na may ibang tao na nag-a-access ng aking account?
-tips,Ano ang dapat gawin kapag naniniwala akong na-hack ang aking account?
-tips,Paano ko mabibigo ang mga scammer na sumusubok na ma-access ang aking account?
-tips,Ano ang social engineering at paano ito ginagamit ng mga scammer?
-tips,Paano ko mapoprotektahan ang sarili ko sa social engineering attacks?
-tips,Paano ko malalaman kung ginagamit ang sikolohiya para lokohin ako online?
-tips,Ano ang mga karaniwang taktika ng mga scammer para makuha ang tiwala ng biktima?
-tips,Paano ko mapipigilan ang sarili ko na maging emosyonal sa mga kahina-hinalang mensahe?
-tips,Ano ang dapat gawin kapag may nag-pressure sa akin na kumilos nang mabilis online?
-tips,Paano ko malalaman kung ginagamit ang urgency o takot para lokohin ako?
-tips,Ano ang dapat gawin bago mag-send ng pera sa kahit sino online?
-tips,Paano ko mave-verify ang pagkakakilanlan ng taong hinihingian ko ng pera?
-tips,Ano ang mga dapat tandaan bago makipagtransaksyon sa isang taong hindi ko kilala online?
-tips,Paano ko masisiguro ang kaligtasan ng aking online transactions?
-tips,Ano ang ligtas na paraan ng pagbabayad online?
-tips,Paano ko mapoprotektahan ang aking credit o debit card sa online shopping?
-tips,Ano ang dapat gawin para maiwasan ang card fraud sa online transactions?
-tips,Paano ko malalaman kung ligtas ang online store bago ako magbayad?
-tips,Ano ang dapat gawin para maprotektahan ang aking financial information online?
-tips,Paano ko mapo-protektahan ang aking sarili mula sa mga fake news at maling impormasyon?
-tips,Ano ang mga tips para makilala ang fake news online?
-tips,Paano ko mave-verify ang totoo at pekeng balita sa social media?
-tips,Ano ang dapat gawin bago mag-share ng balita o impormasyon online?
-tips,Paano ko masisiguro na hindi ako nagpapakalat ng maling impormasyon sa aking mga kaibigan?
-tips,Ano ang dapat gawin para maprotektahan ang sarili laban sa AI-generated na content?
-tips,Paano ko malalaman kung ang isang larawan o video ay gawa ng AI?
-tips,Ano ang mga tips para makilala ang deepfake na content online?
-tips,Paano ko mapoprotektahan ang aking mga larawan at videos mula sa maling paggamit online?
-tips,Ano ang dapat gawin para hindi magamit ang aking mukha o boses para sa deepfake?
+scam_signs,Paano ko malalaman kung scam ang mensaheng natanggap ko?
+scam_signs,Paano masasabi na panloloko ang isang text o email?
+scam_signs,Ano ang mga palatandaan ng scam?
+scam_signs,Ano ang mga warning signs ng isang scam?
+scam_signs,Paano ko malalaman kung fake ang text o email?
+scam_signs,Ano ang senyales na scam ang isang offer?
+scam_signs,Paano ko matutukoy kung scam ang tawag na natanggap ko?
+scam_signs,Paano ko malalaman kung niloloko na ako online?
+scam_signs,Ano ang mga red flags ng online scam?
+scam_signs,Paano ko makikilala ang isang scammer?
+scam_signs,Paano ko malalaman kung legit o scam ang isang bagay?
+scam_signs,Paano ko malalaman kung mapanlinlang ang mensaheng natanggap ko?
+scam_signs,Paano ko masasabi kung hindi totoo ang isang offer?
+scam_signs,Paano ko malalaman kung scam ang isang promo?
+scam_signs,Paano ko malalaman kung scam ang link na natanggap ko?
+scam_signs,Paano ko malalaman kung may scam sa social media?
+scam_signs,"Ano ang dapat bantayan para hindi maloko sa Facebook, Instagram, o TikTok?"
+scam_signs,Ano ang mga palatandaan ng scam sa social media?
+scam_signs,Paano ko malalaman kung legit ang nagpadala ng mensahe sa social media?
+scam_signs,Paano i-check kung scam ang nagpadala ng friend request o message?
+scam_signs,Paano ko malalaman kung totoo ang offer o mensahe sa social media?
+scam_signs,Ano ang dapat gawin bago mag-click o sumagot sa social media message?
+scam_signs,Paano ko matutukoy kung scam ang mensahe o post sa social media?
+scam_signs,Paano ko malalaman kung fake ang app na na-install ko?
+scam_signs,Paano ko malalaman kung scam ang website na binuksan ko?
+scam_signs,Ligtas ba ang app na na-download ko?
+scam_signs,Paano ko i-check kung legit ang isang website?
+scam_signs,Paano ko malalaman kung may virus ang app?
+scam_signs,Ano ang mga senyales na fake ang isang app?
+scam_signs,Paano ko malalaman kung mapanganib ang website?
+scam_signs,"Nag-click ako ng link at baka scam ito, ano ang gagawin ko?"
+scam_signs,Paano ko malalaman kung phishing website ang binuksan ko?
+scam_signs,Paano ko malalaman kung legit ang download na ginawa ko?
+scam_signs,Paano ko malalaman kung may malware ang app na na-install ko?
+scam_signs,Paano ko malalaman kung safe ang link na ibinigay sa akin?
+scam_signs,Ano ang dapat bantayan bago mag-download ng app?
+scam_signs,"Nagbigay ako ng impormasyon sa isang website at baka fake ito, ano gagawin ko?"
+scam_signs,Paano ko malalaman kung totoo ang isang online platform?
+scam_signs,Ano ang mga red flags ng fake apps o websites?
+scam_signs,May na-install akong app nang hindi sinasadya at hindi ko sure kung legit ito.
+scam_signs,"Hindi ko mabuksan ang mga files ko, may problema ba?"
+scam_signs,May lumabas na message na kailangan akong magbayad para ma-unlock ang files ko.
+scam_signs,"Na-encrypt daw ang files ko, ano ang ibig sabihin nito?"
+scam_signs,May nag-appear na warning na naka-lock ang system ko.
+scam_signs,Paano nangyari na na-lock ang phone ko?
+scam_signs,"May humihingi ng pera para maibalik ang data ko, scam ba ito?"
+scam_signs,Nawala ang access ko sa files ko nang biglaan.
+scam_signs,Bakit may ransom message na nagpapakita sa computer ko?
+scam_signs,Paano ko malalaman kung ransomware ang nangyayari sa device ko?
+scam_signs,Na-lock ang system ko at hindi ko alam kung ano ang gagawin.
+scam_signs,May nagpop-up na kailangan akong magbayad bago ma-access ang files ko.
+scam_signs,Bakit may demand na bayad para ma-unlock ang phone ko?
+scam_signs,Posible bang scam ang dahilan kung bakit hindi ko mabuksan ang files ko?
+scam_signs,Biglang na-lock ang mga files ko at hindi ko alam kung bakit.
+scam_signs,Paano ko malalaman kung pekeng message ito mula sa isang sikat na tao?
+scam_signs,Ano ang mga palatandaan na hindi totoong celebrity ang nag-message sa akin?
+scam_signs,Paano ko malalaman kung legit ang mensahe mula sa isang sikat na tao?
+scam_signs,Ano ang senyales na scam ang nag-a-approach sa pamamagitan ng celebrity account?
+scam_signs,Ano ang dapat bantayan sa mga mensahe mula sa sikat na tao online?
+scam_signs,Paano ko matutukoy kung pekeng celebrity ang nag-message sa akin?
+scam_signs,Ano ang mga red flags kapag may sikat na tao na humihingi ng bank details?
+scam_signs,Ano ang mga indikasyon na nagpapanggap lang na celebrity ang nag-message?
+scam_signs,Paano ko malalaman kung hindi totoong sikat na tao ang nag-message sa akin?
+scam_signs,Ano ang mga warning signs ng pekeng celebrity na nag-message?
+scam_signs,"May nagmessage na nagsasabing sikat na tao siya at humihingi ng address at bank details, legit ba ito?"
+scam_signs,Paano ko malalaman kung pekeng panalo sa lotto ang text na natanggap ko?
+scam_signs,Ano ang mga palatandaan na scam ang lottery message?
+scam_signs,Ano ang mga senyales na panloloko ang mensaheng nagsasabing nanalo ako sa lotto?
+scam_signs,Paano ko matutukoy kung scam ang lottery email o text?
+scam_signs,Paano ko malalaman kung scam ang nanalo sa raffle?
+scam_signs,Paano ko malalaman kung hindi totoo ang prize notification na natanggap ko?
+scam_signs,Ano ang mga warning signs ng lottery scam?
+scam_signs,Paano ko malalaman kung hindi legit ang lottery claim?
+scam_signs,Paano ko malalaman kung panloloko ang sweepstakes notification?
+scam_signs,"May natanggap akong text na nanalo raw ako sa lotto, legit ba ito?"
+scam_signs,Paano ko malalaman kung safe ang link na nasa text na natanggap ko?
+scam_signs,Ano ang mga palatandaan na scam ang link sa mensahe?
+scam_signs,Paano ko matutukoy kung phishing link ang ipinadala sa akin?
+scam_signs,Paano ko malalaman kung mapanganib ang link sa chat o email?
+scam_signs,Ano ang red flags ng suspicious link sa text?
+scam_signs,Paano ko matutukoy kung scam ang URL na ibinigay sa akin?
+scam_signs,Paano ko malalaman kung pekeng website ang link na natanggap ko?
+scam_signs,Ano ang mga senyales na panloloko ang link sa text o chat?
+scam_signs,Paano ko malalaman kung phishing ang link sa SMS?
+scam_signs,Paano ko matutukoy kung scam ang link na ibinahagi sa social media?
+scam_signs,"May link na nakalagay sa text, paano ko malalaman kung totoo ito?"
+scam_signs,"May text na nanghihingi ng personal information at nagbabanta kung hindi ako sumagot, ano ang gagawin ko?"
+scam_signs,Paano ko malalaman kung pekeng charity ang humihingi ng donasyon?
+scam_signs,Ano ang mga palatandaan ng charity scam?
+scam_signs,Paano ko matutukoy kung scam ang humihingi ng donasyon online?
+scam_signs,Ano ang mga senyales na hindi legit ang charity request?
+scam_signs,Ano ang red flags ng charity scam?
+scam_signs,Paano ko matutukoy kung panloloko ang charity email o message?
+scam_signs,Paano ko malalaman kung legit ang fundraising campaign?
+scam_signs,Paano ko malalaman kung scam ang charity website?
+scam_signs,Paano ko malalaman kung pekeng fundraiser ang online campaign na nakita ko?
+scam_signs,Paano ko malalaman kung totoong charity o scam ang humihingi ng donasyon?
+scam_signs,Paano ko matutukoy kung investment scam ang alok na natanggap ko?
+scam_signs,Ano ang mga palatandaan ng investment scam?
+scam_signs,Paano ko malalaman kung pekeng investment ang inaalok sa akin?
+scam_signs,Ano ang mga red flags ng investment scam?
+scam_signs,Paano ko malalaman kung hindi totoo ang investment company?
+scam_signs,Paano ko malalaman kung scam ang financial offer na natanggap ko?
+scam_signs,Ano ang mga babala sa pekeng investment schemes?
+scam_signs,Paano ko malalaman kung scam ang investment offer sa social media?
+scam_signs,Ano ang mga warning signs ng investment scam?
+scam_signs,Paano ko malalaman kung panloloko ang investment deal na inaalok sa akin?
+scam_signs,Paano ko malalaman kung pekeng advance fee ang natanggap kong mensahe?
+scam_signs,Ano ang mga palatandaan ng advance fee scam?
+scam_signs,Paano ko matutukoy kung scam ang humihingi ng advance payment?
+scam_signs,Ano ang red flags ng advance fee fraud?
+scam_signs,Paano ko malalaman kung fake ang request ng advance payment?
+scam_signs,Ano ang mga indikasyon na scam ang advance fee request?
+scam_signs,Paano ko malalaman kung hindi legit ang humihingi ng upfront payment?
+scam_signs,Paano ko malalaman kung scam ang advance fee sa email o text?
+scam_signs,Paano ko malalaman kung advance fee fraud ang nag-text sa akin?
+scam_signs,Ano ang mga palatandaan ng tech support scam?
+scam_signs,Paano ko malalaman kung pekeng tech support ang tumawag sa akin?
+scam_signs,Paano ko malalaman kung fake ang virus alert sa computer ko?
+scam_signs,Ano ang red flags ng tech support scam?
+scam_signs,Paano ko matutukoy kung scam ang pop-up na nagsasabing may virus ang device ko?
+scam_signs,Paano ko malalaman kung hindi legit ang technician na nag-aalok ng tulong online?
+scam_signs,Paano ko malalaman kung hindi totoo ang support message na natanggap ko?
+scam_signs,Paano ko malalaman kung kahina-hinala ang tech support call na natanggap ko?
+scam_signs,Paano ko malalaman kung scam ang tech support na tumatawag o nagpapakita sa screen ko?
+scam_signs,Paano ko malalaman kung romance scam ang kausap ko online?
+scam_signs,Ano ang mga palatandaan na romance scam ang nangyayari sa akin?
+scam_signs,Paano ko matutukoy kung peke ang taong kausap ko sa online dating?
+scam_signs,Ano ang mga senyales na love scam ang nangyayari sa akin?
+scam_signs,Paano ko malalaman kung niloloko lang ako ng ka-date ko online?
+scam_signs,Ano ang mga red flags ng romance scam?
+scam_signs,Paano ko makikilala kung scammer ang nagpapanggap na may gusto sa akin?
+scam_signs,Paano ko masisigurong hindi romance scam ang kausap ko?
+scam_signs,Paano ko malalaman kung pera lang ang habol ng kausap ko online?
+scam_signs,Ano ang mga karaniwang kilos ng romance scammer?
+scam_signs,Ano ang mga indikasyon na peke ang profile ng kausap ko?
+scam_signs,Paano ko malalaman kung scripted o paulit-ulit lang ang mga mensahe niya?
+scam_signs,Paano ko makukumpirma kung totoo ang pagkakakilanlan ng kausap ko online?
+scam_signs,Ano ang mga dapat gawin kapag pinaghihinalaan kong romance scam ang kausap ko?
+scam_signs,Paano ko malalaman kung scam ang nagbebenta sa GCash?
+scam_signs,"May humihingi ng GCash payment sa akin, legit ba ito?"
+scam_signs,Paano ko malalaman kung scam ang transaksyon sa GCash na hinihiling sa akin?
+scam_signs,Ano ang mga red flags kapag may humihingi ng GCash sa akin online?
+scam_signs,Paano ko masisigurong hindi scam ang taong hinihingian ko ng GCash?
+scam_signs,"May nagpadala sa akin ng GCash request, paano ko malalaman kung legit ito?"
+scam_signs,Paano ko malalaman kung scam ang seller na nagtatanggap lang ng GCash payment?
+scam_signs,Paano ko matutukoy kung scam ang online seller na nakausap ko?
+scam_signs,Ano ang mga palatandaan ng scam sa online marketplace?
+scam_signs,Paano ko malalaman kung legit ang seller bago ako magbayad online?
+scam_signs,Ano ang mga red flags ng pekeng online seller?
+scam_signs,Paano ko malalaman kung totoo ang item na ibinebenta online?
+scam_signs,"May nagbebenta ng murang gadget online, paano ko malalaman kung scam ito?"
+scam_signs,Paano ko masisigurong hindi scam ang seller bago ako mag-order?
+scam_signs,Paano ko malalaman kung scam ang crypto investment na inaalok sa akin?
+scam_signs,Ano ang mga palatandaan na scam ang isang cryptocurrency opportunity?
+scam_signs,Paano ko matutukoy kung panloloko ang crypto trading platform?
+scam_signs,Ano ang mga red flags ng scam sa cryptocurrency?
+scam_signs,Paano ko malalaman kung legit ang isang crypto project bago mag-invest?
+scam_signs,"May nag-aalok sa akin ng malaking kita sa crypto, paano ko malalaman kung scam ito?"
+scam_signs,Paano ko matutukoy kung Ponzi scheme ang isang crypto investment?
+scam_signs,Paano ko malalaman kung scam ang job offer na natanggap ko online?
+scam_signs,Ano ang mga palatandaan ng pekeng job offer?
+scam_signs,Paano ko matutukoy kung scam ang recruiter na nakausap ko?
+scam_signs,Ano ang mga red flags ng fake online job posting?
+scam_signs,"May nag-aalok ng trabaho sa akin online, paano ko malalaman kung totoo ito?"
+scam_signs,Paano ko malalaman kung scam ang job offer sa abroad?
+scam_signs,Ano ang mga senyales na scam ang placement agency na nakausap ko?
+scam_signs,Paano ko malalaman kung scam ang nagpadala ng delivery notification sa akin?
+scam_signs,"May text na may package daw ako at kailangan akong magbayad, scam ba ito?"
+scam_signs,Ano ang mga palatandaan ng parcel scam sa text o email?
+scam_signs,Paano ko matutukoy kung pekeng delivery notification ang natanggap ko?
+scam_signs,Paano ko malalaman kung legit ang delivery fee na hinihingi sa akin?
+scam_signs,"Nakatanggap ako ng text tungkol sa package, paano ko malalaman kung totoo ito?"
+scam_signs,Paano ko malalaman kung scam ang loan offer na natanggap ko?
+scam_signs,Ano ang mga palatandaan ng pekeng online loan?
+scam_signs,Paano ko matutukoy kung scam ang nagpapautang online?
+scam_signs,Ano ang mga red flags ng loan scam?
+scam_signs,"May nag-aalok ng mabilis na loan sa akin online, paano ko malalaman kung legit ito?"
+scam_signs,Paano ko malalaman kung scam ang nagtatanggap ng processing fee para sa loan?
+scam_signs,Paano ko malalaman kung scam ang QR code na pinapadala sa akin?
+scam_signs,"May nagpadala sa akin ng QR code para sa payment, ligtas ba ito?"
+scam_signs,Ano ang mga red flags ng scam na gumagamit ng QR code?
+scam_signs,Paano ko matutukoy kung pekeng QR code ang ibinigay sa akin?
+scam_signs,Paano ko malalaman kung scam ang QR code na hinilingang i-scan ko?
+scam_signs,Paano ko malalaman kung na-SIM swap na ang aking numero?
+scam_signs,Ano ang mga palatandaan na may nag-SIM swap sa aking number?
+scam_signs,Paano ko matutukoy kung may nag-hijack ng aking SIM card?
+scam_signs,"Biglang nawalan ng signal ang aking phone, posible bang SIM swap ito?"
+scam_signs,Ano ang mga red flags ng SIM swap scam?
+scam_signs,Paano ko malalaman kung scam ang investment group o negosyo na inimbitahan ako?
+scam_signs,Ano ang mga palatandaan ng pyramid scheme o MLM scam?
+scam_signs,Paano ko matutukoy kung panloloko ang negosyo na sinalihan ko?
+scam_signs,Ano ang mga red flags ng fake online investment group?
+scam_signs,"May nag-imbita sa akin sa isang negosyo online, paano ko malalaman kung legit ito?"
+scam_signs,Paano ko malalaman kung scam ang paluwagan na sinalihan ko online?
+scam_signs,Paano ko malalaman kung scam ang mensaheng nagmumula raw sa gobyerno?
+scam_signs,Ano ang mga palatandaan ng government impersonation scam?
+scam_signs,Paano ko matutukoy kung pekeng government official ang tumawag o nag-message sa akin?
+scam_signs,"Nakatanggap ako ng mensahe mula raw sa BIR o SSS, paano ko malalaman kung totoo ito?"
+scam_signs,Ano ang mga red flags ng pekeng government notice o demand?
+scam_signs,"May nagpadala ng official-looking na mensahe mula sa gobyerno, legit ba ito?"
+scam_signs,Paano ko malalaman kung scam ang travel package na inaalok sa akin?
+scam_signs,Ano ang mga palatandaan ng pekeng travel agency?
+scam_signs,Paano ko matutukoy kung scam ang murang flight o hotel deal na nakita ko online?
+scam_signs,Ano ang mga red flags ng travel scam?
+scam_signs,"May nag-aalok ng mura at all-inclusive na travel package, paano ko malalaman kung legit ito?"
+scam_signs,Paano ko malalaman kung scam ang mensaheng nagmumula raw sa aking bangko?
+scam_signs,Ano ang mga palatandaan ng fake bank message o alert?
+scam_signs,Paano ko matutukoy kung pekeng bank notification ang natanggap ko?
+scam_signs,"Nakatanggap ako ng SMS mula raw sa bangko ko, paano ko malalaman kung totoo ito?"
+scam_signs,Ano ang mga red flags ng fake bank alert sa text o email?
+scam_signs,Paano ko malalaman kung scam ang nagpupunta sa bahay namin na nagpapanggap na collector?
+scam_signs,Ano ang mga palatandaan ng door-to-door scam?
+scam_signs,"May pumunta sa aming bahay na nagpapanggap na Meralco o NAWASA collector, legit ba siya?"
+scam_signs,Paano ko matutukoy kung pekeng utility collector ang pumunta sa aming tahanan?
+scam_signs,Paano ko malalaman kung scam ang video o larawan na mukhang totoo pero gawa ng AI?
+scam_signs,Ano ang mga palatandaan ng deepfake na video o larawan?
+scam_signs,Paano ko matutukoy kung AI-generated ang video na nakita ko online?
+scam_signs,"May video na kumakalat ng mukha ng isang tao, paano ko malalaman kung deepfake ito?"
+scam_signs,Ano ang mga red flags ng AI-generated na scam content?
+scam_signs,Paano ko malalaman kung scam ang scholarship o grant na inaalok sa akin?
+scam_signs,Ano ang mga palatandaan ng pekeng scholarship offer?
+scam_signs,"May nag-aalok ng scholarship sa akin pero may bayad, paano ko malalaman kung legit ito?"
+scam_signs,Paano ko matutukoy kung scam ang nagpapanggap na school official na nag-contact sa akin?
 emotional_support,Ano ang karaniwang nararamdaman ng isang tao matapos ma-scam?
 emotional_support,Ano ang nararamdaman ng biktima ng scam?
 emotional_support,Normal lang ba matakot matapos ma-scam?
