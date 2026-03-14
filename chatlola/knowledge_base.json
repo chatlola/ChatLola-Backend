@@ -27,9 +27,9 @@
         },
         "Digital Safety Importance": {
             "keywords": {
-                "first": ["kailangan", "kahalagahan"],
-                "second": ["magingat", "safety"]
-            }, 
+                "first": ["bakit", "kailangan", "mahalaga", "kahalagahan"],
+                "second": ["mag-ingat", "magingat", "maingat", "ingat", "safety"]
+            },
             "response": "Kailangan mas maging maingat online dahil maraming panloloko ang nangyayari sa internet, at madalas target ang mga nakatatanda. Kapag hindi tayo maingat, maaaring mawala ang pera o magamit ang personal na impormasyon natin. \n\nAng magandang balita, karamihan sa scam ay maiiwasan kung magiging mapagmatyag at magche-check muna bago magtiwala. Kung may kahina-hinala, huwag agad magbigay ng impormasyon o pera, at puwedeng magtanong sa taong pinagkakatiwalaan mo.", 
             "context": {},
             "child": {},
@@ -103,6 +103,16 @@
                 }
             ]
         },
+        "Scammer's Tactics": {
+            "keywords": {
+            "first": ["paano", "ano", "papaano", "paano nga", "paano ba"],
+            "second": ["scammer", "panloloko", "panlilinlang", "trick", "taktika", "manloko", "ginagawa"]
+        },
+            "response": "Karaniwang nanloloko ang mga scammer gamit ang panlilinlang at pagmamadali. Madalas nagpapanggap sila na kakilala, bangko, kumpanya, o opisyal na ahensya para mapaniwala ka. Maaari ka rin nilang hikayatin na mag-click ng link, magbukas ng attachment, o magbigay ng personal na impormasyon. \n\nGinagamit nila ang emosyon tulad ng takot, awa, pagmamadali, o excitement para mapasunod ka agad nang hindi ka na nakakapag-isip. Halimbawa, sasabihin nilang may emergency, may premyo ka, o may problema ang account mo. \n\nKaya mahalagang mag-isip muna at mag-check bago magtiwala sa anumang mensahe, tawag, o alok online.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
         "Scam Definition": {
             "keywords": {
                 "first": [
@@ -136,7 +146,7 @@
     "prevent_scam": {
         "Scam Prevention": {
             "keywords": {
-                "first": ["seniors", "matatanda", "nakatatanda", "senior", "elderly"]
+                "first": ["seniors", "matatanda", "nakatatanda", "senior", "elderly", "scam", "panloloko", "panlilinlang", "panganib", "mascam"]
             },
             "response": "Upang maiwasan ang mga scam na target ang mga senior, narito ang ilang mahahalagang paalala:\n\n• Huwag magmadali. Kapag may taong nanggigipit na magdesisyon ka agad, mag-ingat. Madalas itong taktika ng mga scammer para hindi ka na makapag-isip nang mabuti.\n• Kumonsulta sa pinagkakatiwalaang tao. Makipag-usap muna sa kapamilya o kaibigan bago magpadala ng pera o sumagot sa kahina-hinalang mensahe.\n• Magduda sa mga alok na masyadong maganda para maging totoo. Kung parang napakagandang oportunidad o premyo, malamang ito ay panloloko.\n• Siguraduhing kilala mo ang kausap mo. Kung may nagpapakilalang kamag-anak at humihingi ng pera, magtanong ng impormasyong sila lang ang makakaalam o kumpirmahin muna sa ibang kapamilya.\n• Huwag ibigay ang sensitibong impormasyon. Iwasang ibahagi ang detalye ng bangko, password, o personal na datos kung hindi ka sigurado sa kausap.\n• Iwasan ang delikadong paraan ng pagbabayad. Huwag gumamit ng wire transfer o gift cards bilang bayad, dahil madalas itong ginagamit sa scam.\n• Suriin ang organisasyon o nagbebenta. Bago magbigay ng donasyon o magbayad, tiyaking lehitimo ang kanilang pagkakakilanlan.\n• Mag-ingat sa social media. Limitahan ang impormasyong ibinabahagi at panatilihing pribado ang iyong account kung maaari.\n• Panatilihing updated ang seguridad ng mga device. Siguraduhing may updated na security software upang maprotektahan laban sa mapanlinlang na website at scam.\n\nAng pagiging maingat, mapanuri, at hindi agad nagtitiwala ay malaking tulong upang makaiwas sa mga scam na target ang mga senior.",
             "context": "prevention",
@@ -157,8 +167,47 @@
             ]
         }
     },
-    "scam_response": {},
-    "scam_signs": {},
-    "emotional_support": {},
+    "scam_response": {
+        "Scam Response": {
+            "keywords": {
+                "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko"]
+            },
+            "response": "Kung sa tingin mo ay na-scam ka, mahalagang kumilos agad:\n\n• Tawagan agad ang bangko o e-wallet kung may naibigay kang pera o financial information\n• Palitan ang password ng mga account na maaaring na-access\n• I-report ang nangyari sa awtoridad o kinauukulan\n\nTandaan, hindi mo kasalanan na maloko ka, at hindi ka nag-iisa. May mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong pera at impormasyon.",
+            "context": {},
+            "child": {},
+            "related": {}
+        }
+    },
+    "scam_signs": {
+        "Text Scam Signs": {
+            "keywords": {
+                "first": ["text", "mensahe", "message", "nagtext"]
+            },
+            "response": "May ilang palatandaan para malaman kung scam ang isang text o mensahe:\n\n• Biglaang humihingi ng personal na impormasyon tulad ng OTP, password, o bank details\n• Nanakot na may multa, problema sa account, o may mangyayaring masama kapag hindi ka sumunod\n• Nangangako ng premyo o pera na parang masyadong maganda para maging totoo\n• Pinapagawa ka agad ng aksyon tulad ng pag-click ng link o pagtawag sa numero\nTandaan, ang mga totoong bangko o opisyal na ahensya ay hindi basta humihingi ng sensitibong impormasyon sa text. Kapag may duda, huwag muna mag-reply o mag-click ng link.",
+            "context": {},
+            "child": {},
+            "related": {}
+        }
+    },
+    "emotional_support": {
+        "Shame": {
+            "keywords": {
+                "first": ["nakakahiya", "hiya", "lungkot", "tanga", "bobo"]
+            },
+            "response": "Normal lang na makaramdam ng gulat, hiya, galit, o lungkot pagkatapos ma-scam.Nangyayari ito dahil may taong nanloko at sinamantala ang tiwala mo. Madalas magaling magpanggap ang mga scammer kaya nagmumukhang totoo at ligtas ang sitwasyon.\n\nTandaan, hindi mo kasalanan ang nangyari at hindi ibig sabihin na pabaya ka. Kahit sino ay maaaring mabiktima. Ang pag-amin sa nararamdaman mo ay mahalagang unang hakbang para makabangon at makaiwas sa ganitong sitwasyon sa hinaharap.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Anger": {
+            "keywords": {
+                "first": ["galit", "nakakagalit", "sama ng loob", "sama sa loob"]
+            },
+            "response": "Normal lang na makaramdam ng gulat, hiya, galit, o lungkot pagkatapos ma-scam. Maraming tao ang nakakaranas nito, kaya hindi ka nag-iisa. Hindi mo kasalanan ang nangyari — magaling talaga magmanipula ang mga scammer at kahit sino ay maaaring mabiktima.\n\nMaaaring makatulong na kausapin ang isang taong pinagkakatiwalaan mo tungkol sa nangyari. Unti-unti mong maibabalik ang tiwala sa sarili. Ang mahalaga ngayon ay matuto sa karanasan at mag-focus sa mga susunod na hakbang para maprotektahan ang sarili mo.",
+            "context": {},
+            "child": {},
+            "related": {}
+        }
+    },
     "where_to_report": {}
 }

@@ -24,7 +24,6 @@ def conversation_management(query, intent):
     }
 
     intent_data = chatlola_data[intent]
-    words = query.split()
 
     # skip empty intents for now
     if not intent_data:
@@ -32,12 +31,12 @@ def conversation_management(query, intent):
     
     for tag_name, tag_data in intent_data.items():
         for key1 in tag_data["keywords"]["first"]:
-            if key1 in words:
+            if key1 in query:
                 if "second" not in tag_data["keywords"]:
                     return tag_data
                 else:
                     for key2 in tag_data["keywords"]["second"]:
-                        if key2 in words:
+                        if key2 in query:
                             return tag_data
 
     
