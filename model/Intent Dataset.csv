@@ -250,8 +250,8 @@ explain_concept,Bakit hindi dapat magpadala agad ng pera kapag may humihingi?
 explain_concept,Bakit kailangan kong mag-ingat sa mga tawag o mensahe mula sa hindi kilala?
 explain_concept,Bakit mahalagang maging mapanuri sa mga online na alok?
 explain_concept,Paano ba nanloloko ang mga scammers
-explain_concept,
-explain_concept,
+explain_concept,Ano ang mga panloloko online.
+explain_concept,Paano gumawa ng malakas at ligtas na password?
 explain_concept,
 ,
 ,
@@ -341,7 +341,7 @@ prevent_scam,Paano ko malalaman kung peke ang emergency na sinasabi ng tumatawag
 prevent_scam,Ano ang mga dapat iwasan kapag may tumatawag na humihingi ng agarang tulong pinansyal?
 prevent_scam,Paano hindi mabiktima ng scam na gumagamit ng takot at emosyon para manipulahin?
 prevent_scam,Ano ang dapat suriin bago mag-invest sa cryptocurrency?
-prevent_scam,Ano ang mga red flags na nagpapakita na scam ang isang crypto investment?
+prevent_scam,
 prevent_scam,Paano ko makikilala ang mga babala sa mga crypto investments?
 prevent_scam,Paano ko mave-verify kung totoo ang isang crypto project?
 prevent_scam,Ano ang dapat gawin kung may nag-aalok ng crypto investment online?
@@ -387,7 +387,7 @@ prevent_scam,Ano ang dapat gawin bago magtiwala sa sinumang nag-aalok ng tech su
 prevent_scam,Paano ko mapipigilan ang mga scammer na nagpapanggap na computer technician?
 prevent_scam,Paano ko maiiwasan ang phishing scam?
 prevent_scam,Ano ang dapat gawin para hindi mabiktima ng phishing?
-prevent_scam,Paano ko malalaman kung phishing ang isang email o link?
+prevent_scam,
 prevent_scam,Anong mga bagay ang dapat iwasan para hindi mahulog sa phishing?
 prevent_scam,Paano ko maiiwasan ang pekeng website na humihingi ng aking impormasyon?
 prevent_scam,Paano ko susuriin kung mapagkakatiwalaan ang isang link o email?
@@ -399,7 +399,7 @@ prevent_scam,Ano ang dapat bantayan sa mga email o text message para maiwasan an
 prevent_scam,Ano ang dapat gawin para hindi mabiktima ng online shopping scam?
 prevent_scam,Ano ang mga tips para ligtas mamili sa internet?
 prevent_scam,Ano ang dapat bantayan bago magbayad sa isang online seller?
-prevent_scam,Paano ko malalaman kung legit ang isang online store?
+prevent_scam,
 prevent_scam,Paano ko maiiwasan ang pekeng promo o sale online?
 prevent_scam,Ano ang dapat i-check bago bumili sa isang online store?
 prevent_scam,Paano ko maiiwasan ang panloloko sa delivery o payment?
@@ -428,7 +428,7 @@ prevent_scam,Paano ko maiiwasan ang pekeng bank SMS o email?
 prevent_scam,Ano ang dapat gawin kung may kahina-hinalang naghahanap ng aking bank details?
 prevent_scam,Paano ko maiiwasan ang check overpayment scam?
 prevent_scam,Ano ang dapat gawin para hindi maloko ng pekeng overpaid na tseke?
-prevent_scam,Paano ko malalaman kung ligtas ang transaksyon bago ibalik ang sobrang bayad?
+prevent_scam,
 prevent_scam,Paano ko mabe-verify kung totoo ang isang overpayment request bago ibalik ang pera?
 prevent_scam,Ano ang dapat gawin bago magbalik ng pera sa isang overpayment request?
 prevent_scam,Paano ko mapipigilan ang sarili na maging biktima ng pekeng overpayment scheme?
@@ -467,7 +467,7 @@ prevent_scam,Ano ang dapat suriin bago magbigay ng pera o impormasyon sa isang b
 prevent_scam,Paano ko ma-verify kung tunay ang isang business invoice bago aksyunan?
 prevent_scam,Paano ako makakaiwas sa mga pekeng balita online?
 prevent_scam,Ano ang dapat gawin para hindi maloko ng maling impormasyon?
-prevent_scam,Paano ko malalaman kung totoo ang balita bago ko paniwalaan?
+prevent_scam,
 prevent_scam,Ano ang mga hakbang para maiwasan ang panloloko ng fake news?
 prevent_scam,Paano ko maiiwasan ang pekeng balita sa Facebook o ibang platform?
 prevent_scam,Ano ang dapat gawin bago mag-share ng balita online?
@@ -521,7 +521,7 @@ prevent_scam,Ano ang precautions bago mag-fill out ng online form?
 prevent_scam,Paano ko maiiwasan na maloko bago magbigay ng details sa chat o email?
 prevent_scam,Paano hindi maloko sa online shopping?
 prevent_scam,Paano iwasan ang [topic] sa email?
-prevent_scam,Paano malaman kung fake ang promo o giveaway?
+prevent_scam,
 prevent_scam,Paano hindi mahulog sa lottery scam?
 prevent_scam,Paano maiiwasan ang panloloko sa social media messages?
 prevent_scam,Paano ko maiiwasan na masundan ng scammer ang account ko?
@@ -531,18 +531,18 @@ prevent_scam,Ano ang maaari kong gawin kung naloko ako ng scammer?
 prevent_scam,Paano ako hihingi ng tulong kung na-scam ako?
 prevent_scam,Ano ang susunod na hakbang kung nabiktima ako ng scam?
 prevent_scam,Sino ang dapat kong kontakin kung na-scam ako?
-prevent_scam,Paano ko maire-report ang scam na nangyari sa akin?
+prevent_scam,
 prevent_scam,Ano ang dapat gawin kung may nakuha sa akin na pera ang scammer?
 prevent_scam,Paano kung napadala ko na ang pera sa scammer?
 prevent_scam,Ano ang gagawin kung ibinigay ko ang impormasyon ko sa scammer?
 prevent_scam,Ano ang dapat kong gawin kung pinaghihinalaan kong na-scam ako?
-prevent_scam,
-,
-,
-,
-,
-,
-,
+prevent_scam,Paano ko maiiwasan na maulit ito?
+prevent_scam,Ano ang dapat gawin bago mag-click o sumagot sa social media message?
+prevent_scam,Paano ko masisigurong ligtas na ulit ang aking device matapos ang ransomware?
+prevent_scam,Ano ang dapat kong gawin para mas maging ligtas sa hinaharap
+prevent_scam,Ano ang dapat kong gawin para hindi na maulit ang nangyari?
+prevent_scam,Paano ako hindi mascam sa facebook?
+prevent_scam,Paano maiiwasan ang mga scam sa social media?
 ,
 ,
 ,
@@ -590,7 +590,7 @@ scam_response,Kailangan ko bang i-reset ang aking phone dahil sa ransomware?
 scam_response,Paano ko malilinis ang computer ko pagkatapos ng ransomware attack?
 scam_response,Saan ako maaaring humingi ng tulong para sa ransomware?
 scam_response,Ano ang mga emergency steps kapag bigla na lang na-lock ang aking system?
-scam_response,Paano ko masisigurong ligtas na ulit ang aking device matapos ang ransomware?
+scam_response,
 scam_response,"Na-scam ako online, ano ang dapat kong gawin?"
 scam_response,"Parang na-scam ako, hindi ko sure kung ano ang susunod na hakbang."
 scam_response,"Sa tingin ko nabiktima ako ng scam, ano ang gagawin ko?"
@@ -817,7 +817,7 @@ scam_response,Paano ko malulutas ito?
 scam_response,Ano ang dapat kong simulan?
 scam_response,Ano ang pwedeng gawin para hindi lumala?
 scam_response,Ano ang dapat kong gawin pagkatapos maloko?
-scam_response,Paano ko maiiwasan na maulit ito?
+scam_response,
 scam_response,Ano ang pwede kong gawin sa sitwasyong ito?
 scam_response,Ano ang hakbang para maayos ito?
 scam_response,Ano ang dapat kong gawin kapag naloko ako?
@@ -831,8 +831,8 @@ scam_response,Ano ang dapat kong gawin pagkatapos maloko online?
 scam_response,Ano ang hakbang para safe ulit ang personal info ko pagkatapos maloko?
 scam_response,Paano ko mapapalakas ang seguridad ko pagkatapos ng panloloko?
 scam_response,Wala na akong ideya kung ano gagawin ko.
-,
-,
+scam_response,Biglang na-lock ang mga files ko at hindi ko alam kung bakit.
+scam_response,Ano ang mga dapat gawin kapag pinaghihinalaan kong romance scam ang kausap ko?
 ,
 ,
 ,
@@ -859,7 +859,7 @@ scam_signs,Ano ang mga palatandaan ng scam sa social media?
 scam_signs,Paano ko malalaman kung legit ang nagpadala ng mensahe sa social media?
 scam_signs,Paano i-check kung scam ang nagpadala ng friend request o message?
 scam_signs,Paano ko malalaman kung totoo ang offer o mensahe sa social media?
-scam_signs,Ano ang dapat gawin bago mag-click o sumagot sa social media message?
+scam_signs,
 scam_signs,Paano ko matutukoy kung scam ang mensahe o post sa social media?
 scam_signs,Paano ko malalaman kung fake ang app na na-install ko?
 scam_signs,Paano ko malalaman kung scam ang website na binuksan ko?
@@ -889,7 +889,7 @@ scam_signs,Paano ko malalaman kung ransomware ang nangyayari sa device ko?
 scam_signs,Na-lock ang system ko at hindi ko alam kung ano ang gagawin.
 scam_signs,May nagpop-up na kailangan akong magbayad bago ma-access ang files ko.
 scam_signs,Posible bang scam ang dahilan kung bakit hindi ko mabuksan ang files ko?
-scam_signs,Biglang na-lock ang mga files ko at hindi ko alam kung bakit.
+scam_signs,
 scam_signs,Paano ko malalaman kung pekeng message ito mula sa isang sikat na tao?
 scam_signs,Ano ang mga palatandaan na hindi totoong celebrity ang nag-message sa akin?
 scam_signs,Paano ko malalaman kung legit ang mensahe mula sa isang sikat na tao?
@@ -974,7 +974,7 @@ scam_signs,Ano ang mga karaniwang kilos ng romance scammer?
 scam_signs,Ano ang mga indikasyon na peke ang profile ng kausap ko?
 scam_signs,Paano ko malalaman kung scripted o paulit-ulit lang ang mga mensahe niya?
 scam_signs,Paano ko makukumpirma kung totoo ang pagkakakilanlan ng kausap ko online?
-scam_signs,Ano ang mga dapat gawin kapag pinaghihinalaan kong romance scam ang kausap ko?
+scam_signs,
 scam_signs,Paano ko malalaman kung scam ang nagbebenta sa GCash?
 scam_signs,"May humihingi ng GCash payment sa akin, legit ba ito?"
 scam_signs,Paano ko malalaman kung scam ang transaksyon sa GCash na hinihiling sa akin?
@@ -1060,6 +1060,15 @@ scam_signs,Paano ko malalaman kung scam ang scholarship o grant na inaalok sa ak
 scam_signs,Ano ang mga palatandaan ng pekeng scholarship offer?
 scam_signs,"May nag-aalok ng scholarship sa akin pero may bayad, paano ko malalaman kung legit ito?"
 scam_signs,Paano ko matutukoy kung scam ang nagpapanggap na school official na nag-contact sa akin?
+scam_signs,Paano ko malalaman kung totoo ang balita bago ko paniwalaan?
+scam_signs,Paano malaman kung fake ang promo o giveaway?
+scam_signs,Paano ko malalaman kung phishing ang isang email o link?
+scam_signs,Paano ko malalaman kung legit ang isang online store?
+scam_signs,Paano ko malalaman kung ligtas ang transaksyon bago ibalik ang sobrang bayad?
+scam_signs,Ano ang mga red flags na nagpapakita na scam ang isang crypto investment?
+,
+,
+,
 emotional_support,Kinakabahan ako di ko na alam gagawin ko.
 emotional_support,
 emotional_support,Ang stress ko na kasi baka maloko ako.
@@ -1197,46 +1206,46 @@ emotional_support,"Nakakagalit, galit na galit ako sa sarili ko."
 emotional_support,"Nakakagalit, paano ko haharapin ang nangyari?"
 emotional_support,"Nakakagalit, pakiramdam ko nasaktan ang loob ko."
 emotional_support,"Nakakagalit, hindi ko alam kung kanino ako hihingi ng tulong."
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
-emotional_support,
+emotional_support,Hindi ko alam kung sino na ang puwede kong pagkatiwalaan.
+emotional_support,Pakiramdam ko kasalanan ko kung bakit ako naloko.
+emotional_support,Siguro kasalanan ko rin kung bakit nangyari ito.
+emotional_support,Hindi ko alam kung paano ako napaniwala.
+emotional_support,Pakiramdam ko napaka-pabaya ko.
+emotional_support,Hindi ko na alam kung sino ang dapat kong paniwalaan.
+emotional_support,Iniisip ko kung mali ba ang ginawa ko.
+emotional_support,Parang ako ang may kasalanan sa nangyari.
+emotional_support,Hindi ko maintindihan kung bakit ako naniwala.
+emotional_support,Pakiramdam ko ako ang may mali.
+emotional_support,Hindi ko alam kung kanino ako lalapit ngayon.
+emotional_support,Pakiramdam ko ang dali kong naloko.
+emotional_support,Iniisip ko kung dapat ba akong nagtiwala.
+emotional_support,Hindi ko alam kung dapat pa ba akong magtiwala sa iba.
+emotional_support,Pakiramdam ko ang hina ko dahil naloko ako.
+emotional_support,Hindi ko alam kung bakit hindi ko agad napansin.
+emotional_support,Iniisip ko kung sana naging mas maingat ako.
+emotional_support,Pakiramdam ko nagkamali ako ng desisyon.
+emotional_support,Hindi ko alam kung kanino ako hihingi ng tulong.
+emotional_support,Pakiramdam ko ako ang dahilan kung bakit nangyari ito.
+emotional_support,Iniisip ko kung sana hindi na lang ako naniwala.
+emotional_support,Pakiramdam ko mali ang ginawa ko.
+emotional_support,Hindi ko alam kung paano ako nagtiwala agad.
+emotional_support,Iniisip ko kung dapat ba akong nagduda.
+emotional_support,Pakiramdam ko dapat alam ko na ito.
+emotional_support,Hindi ko alam kung bakit ako napaniwala.
+emotional_support,Pakiramdam ko nagkulang ako sa pag-iingat.
+emotional_support,Iniisip ko kung sana nagtanong muna ako sa iba.
+emotional_support,Hindi ko alam kung bakit hindi ako nag-isip agad.
+emotional_support,Pakiramdam ko napakadali kong napaniwala.
+emotional_support,Iniisip ko kung ako ba ang may kasalanan.
+emotional_support,Hindi ko alam kung paano ko haharapin ang nangyari.
+emotional_support,Pakiramdam ko dapat hindi ako nagpadala ng pera.
+emotional_support,Iniisip ko kung bakit hindi ako naging mas maingat.
+emotional_support,Hindi ko alam kung paano ako naging ganito kadaling maniwala.
+emotional_support,Pakiramdam ko nabigo ako sa sarili ko.
+emotional_support,Iniisip ko kung sana naghintay muna ako.
+emotional_support,Hindi ko alam kung sino na ang mapagkakatiwalaan ko.
+emotional_support,Pakiramdam ko ako ang nagkamali.
+emotional_support,Iniisip ko kung sana nakinig ako sa iba.
 emotional_support,
 emotional_support,
 emotional_support,
@@ -1311,7 +1320,7 @@ where_to_report,Kanino ba dapat iparating ang concern ko?
 where_to_report,Hindi ko alam kung anong ahensya ang dapat lapitan.
 where_to_report,Saan ko ba pwedeng humingi ng tulong para dito?
 where_to_report,di ko na alam sino mapagkakatiwalaan ko
-where_to_report,
+where_to_report,Paano ko maire-report ang scam na nangyari sa akin?
 where_to_report,
 where_to_report,
 where_to_report,
