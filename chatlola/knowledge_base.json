@@ -1,5 +1,42 @@
 {
     "explain_concept": {
+        "Phony Apps or Sites Definition": {
+            "keywords": {
+                "first": ["peke", "fake", "di totoo", "phony"],
+                "second": ["app", "website", "site"]
+            },
+            "response": "May mga scammer na gumagawa ng pekeng apps o website na mukhang totoo para makuha ang personal o bank information ng tao.\n\nKung hindi ka sigurado sa app, mas mabuting huwag muna maglagay ng anumang personal na detalye o card information. Maaari mo ring i-check ang reviews, pangalan ng developer, o i-search online kung legit ito. Kung may duda pa rin, mas ligtas na i-uninstall ang app.\n\nAng pag-iingat ngayon ay makakatulong para maiwasan ang posibleng problema.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Romance Scam Definition": {
+            "keywords": {
+                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "dating", "date"]
+            },
+            "response": "May mga taong makikilala ikaw sa online halimbawa ay ang social media, email, o telepono na magpapanggap na kaibigan o romantikong interes para makuha ang tiwala mo. Pagkatapos, puwede ka nilang hilingaan ng pera. Minsan, nagpapa-fake pa sila na sikat o kilala para mukhang totoo.\n\nHuwag kailanman ibigay ang personal o bank information mo sa taong nakilala mo online, kahit gaano pa sila ka-friendly o maalaga.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Ransomware Scam Definition": {
+            "keywords": {
+                "first": ["ransomware", "encrypted", "lock", "buksan"]
+            }, 
+            "response": "Posibleng ma-infect ang computer mo ng malware na tinatawag na ransomware. Ito ay virus na nagla-lock ng files para hindi mo mabuksan, tapos hihingi ng bayad ang scammer para ma-unlock daw.\n\nMahalagang huwag magbayad dahil walang garantiya na maibabalik nila ang files mo. Mas mabuting humingi ng tulong sa IT expert o taong marunong sa computer para ma-check ang device mo.\n\nKung maaari, i-disconnect muna ang internet ng computer para maiwasan ang paglala ng problema.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Tech Support Scam Definition": {
+            "keywords": {
+                "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
+            },
+            "response": "Ang tech support scam ay panloloko kung saan may nagpapanggap na eksperto sa computer o cellphone. Madalas may lalabas na pop-up o tatawag na may problema daw ang device mo at kailangan agad ayusin. Papabayarin ka nila para sa repair o serbisyo na kadalasan ay hindi naman kailangan o hindi totoo.\n\nMadalas target nito ang mga nakatatanda dahil ginagamit ng scammers ang takot tungkol sa virus o sira sa device. Tandaan, huwag basta magtiwala sa biglaang pop-up o tawag na humihingi ng bayad para ayusin ang device mo.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
         "Personal Data Privacy Definition": {
             "keywords": {
                 "first": ["data privacy"]
@@ -180,6 +217,42 @@
         }
     },
     "prevent_scam": {
+        "Romance Scam Prevention": {
+            "keywords": {
+                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "dating", "date"]
+            }, 
+            "response": "Para makaiwas sa online dating scams, mahalagang maging maingat at mag-check muna bago magtiwala:\n\n• I-verify ang impormasyon nila — puwedeng i-search ang pangalan o larawan online\n• Kausapin ang taong pinagkakatiwalaan mo kung may duda ka\n• Huwag magpadala ng pera, gift card, o cash sa taong nakilala mo lang online\n• Kung nakapagpadala ka na ng pera at may hinala ka, tawagan agad ang bangko para makahingi ng tulong\n\nTandaan, ang totoong relasyon ay hindi humihingi ng pera. Kapag may duda, mas mabuting mag-ingat.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Grandfather Scam Prevention": {
+            "keywords": {
+                "first": ["kamaganak", "apo", "anak"]
+            },
+            "response": "Minsan may tatawag na nagsasabing and kamag-anak mo ay nasa problema at nangangailaangan ng pera agad. Puwede rin nilang gayahin ang boses ng mahal mo sa buhay o magpanggap na abogado o pulis.\n\nHuwag agad magpadala ng pera sa taong hindi mo kilala. Huminga muna at tumawag sa ibang kapamilya para i-check kung totoo ang kwento. Huwag ibigay ang personal o bank information mo sa telepono.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Ransomware Prevention": {
+            "keywords": {
+                "first": ["ransomware", "encrypted", "lock", "buksan"]
+            },
+            "response": "Para maiwasan ang ransomware, mahalagang maging maingat sa paggamit ng device:\n\n• Mag-install ng maayos at updated na antivirus o security app\n• Panatilihing updated ang cellphone o computer at mga apps\n• Mag-backup ng importanteng files sa external drive o cloud kung maaari\n• Huwag mag-click ng links o magbukas ng attachments mula sa hindi kilalang sender\n• Mag-ingat sa mga pop-ups o files na biglang nagpapapindot\n\nAng pag-iingat at pag-update ng device ay malaking tulong para maprotektahan ang files at impormasyon mo.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Tech Support Scam Prevention": {
+            "keywords": {
+                "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
+            },
+            "response": "Para maiwasan ang tech support scam, mahalagang mag-ingat sa mga biglaang babala tungkol sa device mo:\n\n• Huwag pansinin ang random pop-ups, tawag, o text na nagsasabing may virus ang computer o cellphone mo\n• Huwag basta magbigay ng access sa device mo o magbayad para sa repair kung hindi mo sila kilala\n• Gumamit ng maayos at updated na antivirus o security app\n• Kung sinabing galing sila sa kilalang kumpanya, ibaba ang tawag at ikaw mismo ang tumawag sa official na numero para makasigurado\n\nTandaan, ang mga totoong kumpanya ay hindi basta nakikipag-ugnayan para sabihing may problema ang device mo kung hindi ka naman humingi ng tulong.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
         "Device Protection": {
             "keywords": {
                 "first": ["protekta", "alaga"],
@@ -269,6 +342,24 @@
         }
     },
     "scam_response": {
+         "Romance Scam Response": {
+            "keywords": {
+                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date"]
+            }, 
+            "response": "Kung sa tingin mo ay posibleng scammer ang kausap mong online, mahalagang mag-ingat at huwag magmadali. Makakatulong na kausapin muna ang taong pinagkakatiwalaan mo, tulad ng pamilya o kaibigan, bago gumawa ng desisyon.\n\nHuwag kailanman magpadala ng pera, gift card, o personal na impormasyon sa taong nakilala mo lang online. Kung nakapagpadala ka na ng pera, makipag-ugnayan agad sa bangko o e-wallet para makahingi ng tulong.\n\nMaaari mo ring i-report ang account sa dating site o platform para makatulong na maprotektahan ang ibang tao.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Ransomware Scam Response": {
+            "keywords": {
+                "first": ["ransomware", "encrypted", "lock", "buksan", "infect"]
+            },
+            "response": "Kung may ransomware ang cellphone mo, mahalagang kumilos agad:\n\n• Huwag magbayad ng hinihinging pera dahil walang garantiya na maaayos ang problema\n• I-disconnect muna ang internet o Wi-Fi para hindi kumalat ang virus\n• Magpa-check sa antivirus app o sa taong marunong sa cellphone o IT\n• Palitan ang mga password ng accounts mo para masigurong ligtas ang impormasyon\n• Kung kailangan, humingi ng tulong sa technician o eksperto\nAng mga ganitong pananakot ay ginagawa para mapilit kang magbayad, pero may mga paraan para matulungan kang maayos ito nang hindi nagbibigay ng pera.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
         "Scam Response": {
             "keywords": {
                 "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko"]
@@ -285,6 +376,43 @@
                 "first": ["text", "mensahe", "message", "chat", "nagtext"]
             },
             "response": "May ilang palatandaan para malaman kung scam ang isang text o mensahe:\n\n• Biglaang humihingi ng personal na impormasyon tulad ng OTP, password, o bank details\n• Nanakot na may multa, problema sa account, o may mangyayaring masama kapag hindi ka sumunod\n• Nangangako ng premyo o pera na parang masyadong maganda para maging totoo\n• Pinapagawa ka agad ng aksyon tulad ng pag-click ng link o pagtawag sa numero\nTandaan, ang mga totoong bangko o opisyal na ahensya ay hindi basta humihingi ng sensitibong impormasyon sa text. Kapag may duda, huwag muna mag-reply o mag-click ng link.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Cryptocurrency Scam Signs": {
+            "keywords": {
+                "first": ["crypto", "nft", "investment"]
+            }, 
+            "response": "May mga taong mag-aalok ng investments sa cryptocurrency tulad ng digital coins, NFTs, o tokenized real estate. Madalas may pangakong malaking kita o guaranteed returns, pero hindi ito regulated tulad ng bangko o pera.\n\nBago mag-invest, kausapin muna ang isang pinagkakatiwalaang tao na may alam sa investments, tulad ng financial advisor o knowledgeable na kapamilya. Mag-ingat sa pangakong “sobrang ganda para maging totoo.”",
+            "context": {},
+            "child": {},
+            "related": {}
+        }, 
+        "Romance Scam Signs": {
+            "keywords": {
+                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date"]
+            },
+            "response": "May ilang palatandaan para malaman kung maaaring romance scam ang kausap mo:\n\n• Mabilis magsabi ng “I love you” kahit kakakilala pa lang online\n• Humihingi ng pera dahil daw sa emergency, hospital, o travel\n• Gusto ilipat ang usapan sa email o text imbes na sa dating site\n• Laging may dahilan kung bakit hindi kayo magkita, pero humihingi ng tulong sa gastos\n\nKapag may ganitong senyales, mas mabuting mag-ingat at huwag muna magpadala ng pera o personal na impormasyon. Maaaring mag-check muna o magtanong sa taong pinagkakatiwalaan mo bago magtiwala.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Phony Apps or Sites Signs": {
+            "keywords": {
+                "first": ["peke", "fake", "totoo", "phony"],
+                "second": ["app", "website", "site"]
+            },
+            "response": "May ilang palatandaan para malaman kung maaaring pekeng app ang na-install mo:\n\n• Iba o mali ang pangalan ng developer kumpara sa kilalang brand\n• Kaunti o walang reviews, o pangit ang pagkakasulat ng description\n• Humihingi ng sobrang daming permissions o personal na impormasyon\n• Maraming pop-up ads o paulit-ulit kang pinapa-login\n\nKung may duda ka, puwede mong i-check ang reviews sa app store o i-search online kung legit ito. Kung hindi ka sigurado, mas ligtas na i-uninstall muna ang app at huwag maglagay ng personal o bank details.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Tech Support Scam Signs": {
+            "keywords": {
+                "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
+            },
+            "response": "Minsan may lalabas na message sa computer na may virus at hihingi ng click sa link o tawag sa support number para ayusin ito. Maaari itong paraan ng scammers para nakawin ang personal info mo o pasukin ang computer mo ng malware.\n\nHuwag ibigay ang password o hayaang ma-access ng hindi kilala ang computer mo. Kung hindi nawawala ang message, i-restart ang computer. Pwede ring gumamit ng security software para protektahan ito.",
             "context": {},
             "child": {},
             "related": {}

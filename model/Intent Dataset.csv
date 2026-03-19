@@ -276,13 +276,30 @@ explain_concept,Ano ang mga batas tungkol sa paggamit ng personal na datos ko?
 explain_concept,Ano ang karapatan ko laban sa maling paggamit ng impormasyon ko?
 explain_concept,Ano ang rights ko pagdating sa personal information ko online?
 explain_concept,Ano ang mga karapatan ko bilang user sa internet tungkol sa data ko?
+explain_concept,Ano ang ibig sabihin ng [topic]?
+explain_concept,Ano ang kahulugan ng [topic]?
+explain_concept,Ano ang [topic]?
+explain_concept,Ano ang depinisyon ng [topic]?
+explain_concept,Ano ang paliwanag sa [topic]?
+explain_concept,Ano ang konsepto ng [topic]?
+explain_concept,Ano ang tinutukoy ng [topic]?
+explain_concept,Ano ang simpleng paliwanag ng [topic]?
+explain_concept,Ano ang pangunahing ideya ng [topic]?
+explain_concept,Ano ang ibig sabihin kapag sinabing [topic]?
+explain_concept,
+explain_concept,
+explain_concept,Ano ang kahalagahan ng [topic]?
+explain_concept,Ano ang epekto ng [topic]?
+explain_concept,
+explain_concept,Ano ang proseso ng [topic]?
+explain_concept,
+explain_concept,Ano ang pinagkaiba ng [topic] sa iba?
+explain_concept,
+explain_concept,
 ,
 ,
 ,
-,
-,
-,
-prevent_scam,Paano ko mapapanatili ang aking kaligtasan sa internet?
+prevent_scam,Paano ko maaalagaan ang aking seguridad habang nagso-social media o nagba-browse?
 prevent_scam,Ano ang mga paraan para maprotektahan ang sarili habang naka-online?
 prevent_scam,Paano ako magiging ligtas habang gumagamit ng internet?
 prevent_scam,Paano ko masisigurado na safe ang aking mga ginagawa online?
@@ -376,16 +393,16 @@ prevent_scam,Paano ko maiiwasan ang scammer na nagpapanggap na may gusto sa akin
 prevent_scam,Ano ang mga hakbang para manatiling ligtas sa mga dating apps?
 prevent_scam,Paano ko haharapin ang online relationship kung may humihingi na ng pera?
 prevent_scam,Paano ko maiiwasan ang panloloko sa long-distance online relationship?
-prevent_scam,Paano ko mapoprotektahan ang aking device laban sa ransomware?
-prevent_scam,Ano ang dapat gawin para maiwasan ang ransomware attack?
-prevent_scam,Paano ko maiiwasan na ma-lock ang aking mga files ng ransomware?
-prevent_scam,Paano ko mapipigilan ang ransomware sa aking computer?
-prevent_scam,Anong mga gawi ang nagbubukas ng pinto sa ransomware?
-prevent_scam,Ano ang mga hakbang para maiwasan ang ransomware infection?
-prevent_scam,Ano ang mga pinakamabuting gawi laban sa ransomware?
-prevent_scam,Paano ko maiiwasan ang mga mapanganib na downloads na may kasamang ransomware?
-prevent_scam,Paano ko maiiwasan ang ransomware sa aking cellphone?
-prevent_scam,Paano ko mapipigilan ang pagkawala ng access sa aking mga files dahil sa ransomware?
+prevent_scam,Paano ko mapoprotektahan ang aking device laban sa [topic]?
+prevent_scam,Ano ang dapat gawin para maiwasan ang [topic] attack?
+prevent_scam,Paano ko maiiwasan na ma-lock ang aking mga files ng [topic]?
+prevent_scam,Paano ko mapipigilan ang [topic] sa aking computer?
+prevent_scam,
+prevent_scam,Ano ang mga hakbang para maiwasan ang [topic]?
+prevent_scam,Ano ang mga pinakamabuting gawi laban sa [topic]?
+prevent_scam,Paano ko maiiwasan ang mga mapanganib na downloads na may kasamang [topic]?
+prevent_scam,Paano ko maiiwasan ang [topic] sa aking cellphone?
+prevent_scam,Paano ko mapipigilan ang pagkawala ng access sa aking mga files dahil sa [topic]?
 prevent_scam,Ano ang dapat gawin para hindi mabiktima ng tech support scam?
 prevent_scam,Paano ko mapoprotektahan ang sarili laban sa pekeng tech support?
 prevent_scam,Ano ang dapat tandaan kapag may nag-aalok ng tech support?
@@ -550,7 +567,7 @@ prevent_scam,Ano ang gagawin kung ibinigay ko ang impormasyon ko sa scammer?
 prevent_scam,Ano ang dapat kong gawin kung pinaghihinalaan kong na-scam ako?
 prevent_scam,Paano ko maiiwasan na maulit ito?
 prevent_scam,Ano ang dapat gawin bago mag-click o sumagot sa social media message?
-prevent_scam,Paano ko masisigurong ligtas na ulit ang aking device matapos ang ransomware?
+prevent_scam,Paano ko masisigurong ligtas na ulit ang aking device matapos ang [scam]?
 prevent_scam,Ano ang dapat kong gawin para mas maging ligtas sa hinaharap
 prevent_scam,Ano ang dapat kong gawin para hindi na maulit ang nangyari?
 prevent_scam,Paano ako hindi mascam sa facebook?
@@ -600,7 +617,7 @@ scam_response,Paano ko mababawi ang access sa aking mga files na na-lock?
 scam_response,Ano ang unang dapat gawin kapag na-hack ang aking device?
 scam_response,Kailangan ko bang i-reset ang aking phone dahil sa ransomware?
 scam_response,Paano ko malilinis ang computer ko pagkatapos ng ransomware attack?
-scam_response,Saan ako maaaring humingi ng tulong para sa ransomware?
+scam_response,
 scam_response,Ano ang mga emergency steps kapag bigla na lang na-lock ang aking system?
 scam_response,
 scam_response,"Na-scam ako online, ano ang dapat kong gawin?"
@@ -829,7 +846,7 @@ scam_response,Paano ko malulutas ito?
 scam_response,Ano ang dapat kong simulan?
 scam_response,Ano ang pwedeng gawin para hindi lumala?
 scam_response,Ano ang dapat kong gawin pagkatapos maloko?
-scam_response,
+scam_response,Ano ang dapat gawin kung posibleng scammer ang kausap ko?
 scam_response,Ano ang pwede kong gawin sa sitwasyong ito?
 scam_response,Ano ang hakbang para maayos ito?
 scam_response,Ano ang dapat kong gawin kapag naloko ako?
@@ -845,10 +862,27 @@ scam_response,Paano ko mapapalakas ang seguridad ko pagkatapos ng panloloko?
 scam_response,Wala na akong ideya kung ano gagawin ko.
 scam_response,Biglang na-lock ang mga files ko at hindi ko alam kung bakit.
 scam_response,Ano ang mga dapat gawin kapag pinaghihinalaan kong romance scam ang kausap ko?
-,
-,
-,
-,
+scam_response,Ano ang gagawin ko kung mukhang scammer yung kausap ko?
+scam_response,Paano ko haharapin kung kahina-hinala yung kausap ko online?
+scam_response,Ano ang dapat kong gawin kung feeling ko scammer siya?
+scam_response,Paano ako dapat mag-react kung parang scam yung kausap ko?
+scam_response,Ano ang steps kapag may duda akong scammer yung kausap ko?
+scam_response,Ano ang pwede kong gawin kung hindi ako sigurado sa kausap ko?
+scam_response,Paano ko iha-handle kung mukhang manloloko yung kausap ko?
+scam_response,Ano ang dapat kong gawin kung may red flags yung kausap ko?
+scam_response,Paano ako dapat kumilos kung pinaghihinalaan kong scammer siya?
+scam_response,Ano ang gagawin ko kung kahina-hinala na yung kausap ko?
+scam_response,Ano ang dapat gawin kung feeling ko romance scammer ang kausap ko?
+scam_response,Paano ko haharapin kung kahina-hinala yung ka-chat ko na nagpapakita ng romantic interest?
+scam_response,Ano ang gagawin ko kung parang nanloloko yung kausap kong online na nagpapakilig?
+scam_response,Paano ko malalaman kung romance scam na yung nangyayari sa amin?
+scam_response,Ano ang dapat kong gawin kung humihingi siya ng pera pero hindi pa kami nagkikita?
+scam_response,Paano ko i-handle kung parang hindi totoo yung sinasabi ng kausap ko tungkol sa sarili niya?
+scam_response,Ano ang gagawin ko kung may red flags yung kausap kong nagpapanggap na may relasyon kami?
+scam_response,Paano ko haharapin kung parang ginagamit lang ako ng kausap ko online?
+scam_response,Ano ang dapat kong gawin kung pinipilit niya akong magpadala ng pera dahil sa “emergency”?
+scam_response,Paano ko malalaman kung niloloko lang ako ng kausap kong nagpapakita ng pagmamahal online?
+scam_response,Ano ang dapat gawin kung scam ang akikipagdate sa akin online?
 ,
 scam_signs,Paano ko malalaman kung scam ang mensaheng natanggap ko?
 scam_signs,Paano masasabi na panloloko ang isang text o email?
@@ -1333,7 +1367,7 @@ where_to_report,Hindi ko alam kung anong ahensya ang dapat lapitan.
 where_to_report,Saan ko ba pwedeng humingi ng tulong para dito?
 where_to_report,di ko na alam sino mapagkakatiwalaan ko
 where_to_report,Paano ko maire-report ang scam na nangyari sa akin?
-where_to_report,
+where_to_report,Saan ako maaaring humingi ng tulong para sa ransomware?
 where_to_report,
 where_to_report,
 where_to_report,
