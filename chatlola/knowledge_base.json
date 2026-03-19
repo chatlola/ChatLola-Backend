@@ -1,5 +1,24 @@
 {
     "explain_concept": {
+        "Personal Data Privacy Definition": {
+            "keywords": {
+                "first": ["data privacy"]
+            }, 
+            "response": "Ang personal data privacy ay ang pagprotekta sa iyong personal na impormasyon. Kasama dito ang pangalan, address, phone number, birthday, ID numbers, photos, videos, bank details, at medical records.\n\nMahalaga ito para maiwasan ang identity theft, panloloko, o iba pang problema.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "": {
+            "keywords": {
+                "first": ["karapatan", "batas", "rights", "law"],
+                "second": ["impormasyon", "data", "information"]
+            },
+            "response": "May karapatan ka na panatilihing ligtas ang personal na impormasyon mo. Kasama dito ang:\n\n• Siguraduhing legal at tama ang pagkolekta ng data mo.\n• Malaman kung paano gagamitin ang impormasyon mo.\n• Ibigay lang ang impormasyong kailangan.\n• Tumangging gamitin ang data mo sa ibang layunin.\n• Ma-access at maitama ang personal data kung may mali.\n• Malaman ang privacy policies ng kumpanya o website.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
         "Scams' Psychological Effects": {
             "keywords": {
                 "first": ["pakiramdam", "epekto"],
@@ -123,6 +142,16 @@
             "child": {},
             "related": {}
         },
+        "Password Tips": {
+            "keywords": {
+                "first": ["malakas", "maganda", "gawa", "gumawa", "mabuti", "maayos"],
+                "second": ["password"]
+            },
+            "response": "1. Gumamit ng kombinasyon ng malalaki at maliliit na letra, numero, at special characters sa password mo.\n2. Iwasan ang madaling hulaan na salita tulad ng “password” o “123456.”\n3. Gawing mahaba ang password, kahit 12 characters o higit pa.\n4. Pwede kang gumamit ng password manager para ligtas na maalala ang lahat ng password mo.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
         "Scam Definition": {
             "keywords": {
                 "first": [
@@ -151,6 +180,43 @@
         }
     },
     "prevent_scam": {
+        "Device Protection": {
+            "keywords": {
+                "first": ["protekta", "alaga"],
+                "second": ["device", "cellphone", "laptop", "cp", "phone"]
+            },
+            "response": "1. Mag-install lang ng apps mula sa official sources at basahin ang privacy statement bago i-download.\n2. Regular na i-check ang privacy settings ng device mo.\n3. Tanggalin ang apps na hindi mo ginagamit o kahina-hinala.\n4. Huwag i-save ang sensitibong impormasyon, tulad ng bank passwords, sa phone contacts.\n5. I-delete ang importanteng data bago ipa-repair o itapon ang device.\n6. I-backup ang importanteng files nang regular.\n7. I-on ang automatic screen lock para hindi makita ng iba ang phone mo.\n8. Patayin ang location services kung hindi kailangan para hindi matrack ng apps ang galaw mo.\n9. Huwag hayaang tandaan ng device ang login details para walang makapasok sa accounts mo.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Information Protection": {
+            "keywords": {
+                "first": ["protekta", "alaga"],
+                "second": ["impormasyon", "information", "data"]
+            },
+            "response": "Para protektahan ang impormasyon mo: huwag basta-basta ibigay sa hindi kilala, siguraduhing ligtas ang websites na ginagamit mo, at i-check ang privacy settings sa online accounts mo.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Account Security": {
+            "keywords": {
+                "first": ["mapangalagaan", "mapapangalagaan", "mapabuti", "maprotektahan"],
+                "second": ["social media", "account"]
+            },
+            "response": "1. I-on ang two-factor authentication (2FA) para may dagdag na proteksyon sa account mo.\n2. Regular na i-check ang privacy settings para kontrolado mo kung sino ang makakakita ng posts at impormasyon mo.\n3. Siguraduhing updated ang apps at devices mo para mas ligtas ang account.\n4. Mag-ingat sa public Wi-Fi. Iwasan mag-login sa accounts mo dito dahil maaaring hindi ligtas.",
+            "context": {},
+            "child": {},
+            "related": {}
+        },
+        "Suspicious Account": {
+            "keywords": {
+                "first": ["kahinahinala", "kadudaduda"],
+                "second": ["account", "tao"]
+            },
+            "response": "Kung may kahina-hinalang tao o account sa social media, i-double check bago gumawa ng aksyon. Pwede mong kontakin ang tao sa ibang paraan, tulad ng tawag sa telepono, para siguraduhing sila talaga iyon.\n\nPwede ring gumamit ng fingerprint, facial scan, o iba pang biometric method sa two-factor authentication. Mas nagbibigay ito ng dagdag na proteksyon sa password o security code mo para mahirapan ang scammers na ma-access ang account mo."
+        },
         "Social Media Safety": {
             "keywords": {
                 "first": ["ligtas", "ingat"],
@@ -216,7 +282,7 @@
     "scam_signs": {
         "Text Scam Signs": {
             "keywords": {
-                "first": ["text", "mensahe", "message", "nagtext"]
+                "first": ["text", "mensahe", "message", "chat", "nagtext"]
             },
             "response": "May ilang palatandaan para malaman kung scam ang isang text o mensahe:\n\n• Biglaang humihingi ng personal na impormasyon tulad ng OTP, password, o bank details\n• Nanakot na may multa, problema sa account, o may mangyayaring masama kapag hindi ka sumunod\n• Nangangako ng premyo o pera na parang masyadong maganda para maging totoo\n• Pinapagawa ka agad ng aksyon tulad ng pag-click ng link o pagtawag sa numero\nTandaan, ang mga totoong bangko o opisyal na ahensya ay hindi basta humihingi ng sensitibong impormasyon sa text. Kapag may duda, huwag muna mag-reply o mag-click ng link.",
             "context": {},
@@ -227,7 +293,7 @@
     "emotional_support": {
         "Shame": {
             "keywords": {
-                "first": ["nakakahiya", "hiya", "lungkot", "tanga", "bobo"]
+                "first": ["hiya", "nakakahiya", "lungkot", "tanga", "bobo"]
             },
             "response": "Normal lang na makaramdam ng gulat, hiya, galit, o lungkot pagkatapos ma-scam.Nangyayari ito dahil may taong nanloko at sinamantala ang tiwala mo. Madalas magaling magpanggap ang mga scammer kaya nagmumukhang totoo at ligtas ang sitwasyon.\n\nTandaan, hindi mo kasalanan ang nangyari at hindi ibig sabihin na pabaya ka. Kahit sino ay maaaring mabiktima. Ang pag-amin sa nararamdaman mo ay mahalagang unang hakbang para makabangon at makaiwas sa ganitong sitwasyon sa hinaharap.",
             "context": {},

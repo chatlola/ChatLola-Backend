@@ -252,18 +252,30 @@ explain_concept,Bakit mahalagang maging mapanuri sa mga online na alok?
 explain_concept,Paano ba nanloloko ang mga scammers
 explain_concept,Ano ang mga panloloko online.
 explain_concept,Paano gumawa ng malakas at ligtas na password?
-explain_concept,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
+explain_concept,Paano gumawa ng malakas na password para sa aking account?
+explain_concept,Ano ang mga dapat isaalang-alang sa paggawa ng secure na password?
+explain_concept,Paano gumawa ng password na mahirap hulaan ng iba?
+explain_concept,Ano ang mga katangian ng isang malakas at secure na password?
+explain_concept,Paano gumawa ng password na hindi madaling ma-hack?
+explain_concept,Paano gumawa ng password na secure pero madaling tandaan?
+explain_concept,Ano ang isang halimbawa ng isang malakas na password?
+explain_concept,Bakit kailangan gumawa ng natatanging password para sa bawat account?
+explain_concept,Paano ko gagawing mas ligtas ang aking mga login credentials?
+explain_concept,Ano ang mga pinakamabuting gawi sa paggawa ng password?
+explain_concept,Ano ang iba't ibang klase ng scam?
+explain_concept,Ano ang iba't ibang uri ng scam?
+explain_concept,Ipaliwanag mo ang iba't ibang klase ng scam.
+explain_concept,Ipaliwanag mo ang iba't ibang uri ng scam.
+explain_concept,Ano ang mga karapatan ko sa paggamit ng personal na impormasyon ko?
+explain_concept,Ano ang karapatan ko pagdating sa personal data ko?
+explain_concept,Ano ang mga karapatan ko sa paghawak ng impormasyon ko online?
+explain_concept,Ano ang pwede kong gawin para protektahan ang personal info ko?
+explain_concept,Ano ang mga karapatan ko sa data privacy?
+explain_concept,Ano ang karapatan ko kapag ginagamit ang impormasyon ko?
+explain_concept,Ano ang mga batas tungkol sa paggamit ng personal na datos ko?
+explain_concept,Ano ang karapatan ko laban sa maling paggamit ng impormasyon ko?
+explain_concept,Ano ang rights ko pagdating sa personal information ko online?
+explain_concept,Ano ang mga karapatan ko bilang user sa internet tungkol sa data ko?
 ,
 ,
 ,
@@ -543,8 +555,8 @@ prevent_scam,Ano ang dapat kong gawin para mas maging ligtas sa hinaharap
 prevent_scam,Ano ang dapat kong gawin para hindi na maulit ang nangyari?
 prevent_scam,Paano ako hindi mascam sa facebook?
 prevent_scam,Paano maiiwasan ang mga scam sa social media?
-,
-,
+prevent_scam,Paano ko maiiwasan ang mga scam na target ang mga senior?
+prevent_scam,Pano ba makakaiwas sa mga scam na target ang mga senior?
 ,
 ,
 ,
