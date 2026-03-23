@@ -133,7 +133,7 @@
             "response": "Ang personal data privacy ay ang pagprotekta sa iyong personal na impormasyon. Kasama dito ang pangalan, address, phone number, birthday, ID numbers, photos, videos, bank details, at medical records.\n\nMahalaga ito para maiwasan ang identity theft, panloloko, o iba pang problema.",
             "context": "digital_safety"
         },
-        "Personal Privacy Rights": {
+        "personal_privacy_rights": {
             "keywords": {
                 "first": ["karapatan", "batas", "rights", "law"],
                 "second": ["impormasyon", "data", "information"]
@@ -361,7 +361,7 @@
                 "first": ["ulit", "hinaharap"]
             },
             "response": "Hindi mo kasalanan na na-scam ka, pero may mga paraan para hindi na maulit ito sa mga susunod. Alamin ang mga bagong paraan ng scammers at pakinggan ang kutob mo. Kung nakakaramdam ng duda, maglaan ng oras para i-check bago ibigay ang personal na impormasyon. Huwag ibahagi ang importanteng detalye sa telepono, kahit sabihin ng tumatawag na galing ito sa bangko o ibang kumpanya na kilala mo.\n\nMas safe rin kung gagamit ng paraan ng pagbayad na may proteksyon laban sa panloloko, tulad ng credit card, para mas mabawasan ang stress at maprotektahan ang pera mo. Pwede mo rin gamitin ang nangyari para matuto ng bagong skills at mas maging confident sa pag-handle ng personal o online na gawain.\n\nMahalaga rin ang suporta ng pamily at kaibigan. Ang pakikipag-usap tungkol sa nangyari ay makakatulong para maunawaan at matanggap ang nangyari, at makapagturo rin sa iba tungkol sa scams. Ang pagbabahagi ng karanasan mo ay nagpapaalala na normal lang ma-scam at okay lang humingi ng tulong.",
-            "context": ["general_scam_response"]
+            "context": "general_scam_response"
         },
         "social_media_scam_prevention": {
             "keywords": {
@@ -401,7 +401,7 @@
             "response": "Kung sa tingin mo ay posibleng scammer ang kausap mong online, mahalagang mag-ingat at huwag magmadali. Makakatulong na kausapin muna ang taong pinagkakatiwalaan mo, tulad ng pamilya o kaibigan, bago gumawa ng desisyon.\n\nHuwag kailanman magpadala ng pera, gift card, o personal na impormasyon sa taong nakilala mo lang online. Kung nakapagpadala ka na ng pera, makipag-ugnayan agad sa bangko o e-wallet para makahingi ng tulong.\n\nMaaari mo ring i-report ang account sa dating site o platform para makatulong na maprotektahan ang ibang tao.",
             "context": "romance_scam"
         },
-        "Ransomware Scam Response": {
+        "ransomware_scam_response": {
             "keywords": {
                 "first": ["ransomware", "encrypted", "lock", "buksan", "infect"]
             },

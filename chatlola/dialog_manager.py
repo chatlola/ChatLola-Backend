@@ -18,8 +18,8 @@ def conversation_management(query, intent):
     #temporary response if can't find any
     temp_response = {
         "response": f"Can't find response for query with intent: {intent}",
-        "context": ""
-    }
+        "context": "",
+    }, ""
 
     intent_data = chatlola_data[intent]
 
@@ -31,11 +31,11 @@ def conversation_management(query, intent):
         for key1 in tag_data["keywords"]["first"]:
             if key1 in query:
                 if "second" not in tag_data["keywords"]:
-                    return tag_data
+                    return tag_data, tag_name
                 else:
                     for key2 in tag_data["keywords"]["second"]:
                         if key2 in query:
-                            return tag_data
+                            return tag_data, tag_name
 
     
     # would add trying to infer appropriate response from context

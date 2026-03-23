@@ -16,9 +16,12 @@ def respond():
     
     intent = intent_recognition(query)
     
-    response_data = conversation_management(query, intent)
+    response_data, topic = conversation_management(query, intent)
 
-    return jsonify({k: v for k, v in response_data.items() if k != "keywords"})
+    return jsonify({
+        **{k: v for k, v in response_data.items() if k != "keywords"},
+        "topic": topic
+    })
 
 #get specific response for when user clicks a suggestion    
 @app.route('/getresponse', methods=['GET'])
