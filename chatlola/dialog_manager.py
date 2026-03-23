@@ -18,9 +18,7 @@ def conversation_management(query, intent):
     #temporary response if can't find any
     temp_response = {
         "response": f"Can't find response for query with intent: {intent}",
-        "context": {},
-        "child": {},
-        "related": [{"intent": "define_concept", "topic": "Scam Types"}, {"intent": "prevent_scam", "topic": "Scam Prevention"}]
+        "context": ""
     }
 
     intent_data = chatlola_data[intent]
