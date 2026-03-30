@@ -506,21 +506,21 @@
         }
     },
     "emotional_support": {
-        "Shame": {
+        "shame": {
             "keywords": {
                 "first": ["hiya", "nakakahiya", "lungkot", "tanga", "bobo"]
             },
             "response": "Normal lang na makaramdam ng gulat, hiya, galit, o lungkot pagkatapos ma-scam.Nangyayari ito dahil may taong nanloko at sinamantala ang tiwala mo. Madalas magaling magpanggap ang mga scammer kaya nagmumukhang totoo at ligtas ang sitwasyon.\n\nTandaan, hindi mo kasalanan ang nangyari at hindi ibig sabihin na pabaya ka. Kahit sino ay maaaring mabiktima. Ang pag-amin sa nararamdaman mo ay mahalagang unang hakbang para makabangon at makaiwas sa ganitong sitwasyon sa hinaharap.",
             "context": ""
         },
-        "Anger": {
+        "anger": {
             "keywords": {
                 "first": ["galit", "nakakagalit", "sama ng loob", "sama sa loob"]
             },
             "response": "Normal lang na makaramdam ng gulat, hiya, galit, o lungkot pagkatapos ma-scam. Maraming tao ang nakakaranas nito, kaya hindi ka nag-iisa. Hindi mo kasalanan ang nangyari — magaling talaga magmanipula ang mga scammer at kahit sino ay maaaring mabiktima.\n\nMaaaring makatulong na kausapin ang isang taong pinagkakatiwalaan mo tungkol sa nangyari. Unti-unti mong maibabalik ang tiwala sa sarili. Ang mahalaga ngayon ay matuto sa karanasan at mag-focus sa mga susunod na hakbang para maprotektahan ang sarili mo.",
             "context": ""
         },
-        "Distrust": {
+        "distrust": {
             "keywords": {
                 "first": ["tiwala", "naniwala", "paniwala", "mapagkakatiwalaan", "lito", "hilo", "naloko"]
             },
