@@ -410,7 +410,7 @@
         },
         "general_scam_response": {
             "keywords": {
-                "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko"]
+                "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko", "gawin"]
             },
             "response": "Kung sa tingin mo ay na-scam ka, mahalagang kumilos agad:\n\n• Tawagan agad ang bangko o e-wallet kung may naibigay kang pera o financial information\n• Palitan ang password ng mga account na maaaring na-access\n• I-report ang nangyari sa awtoridad o kinauukulan\n\nTandaan, hindi mo kasalanan na maloko ka, at hindi ka nag-iisa. May mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong pera at impormasyon.",
             "context": "scam"

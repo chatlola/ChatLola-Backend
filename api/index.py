@@ -1,6 +1,6 @@
 #run locally with: python -m api.index
 from flask import Flask, request, jsonify
-from chatlola.dialog_manager import intent_recognition, conversation_management
+from chatlola.dialog_manager import intent_recognition, confusion_detection, conversation_management
 import string
 import json
 
@@ -15,8 +15,9 @@ def respond():
     query = query.lower()
     
     intent = intent_recognition(query)
-    
-    response_data, topic = conversation_management(query, intent)
+    confusion_label = confusion_detection(query)
+
+    response_data, topic = conversation_management(query, intent, confusion_label)
 
     return jsonify({
         **{k: v for k, v in response_data.items() if k != "keywords"},

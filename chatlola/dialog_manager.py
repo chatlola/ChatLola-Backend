@@ -14,7 +14,17 @@ def intent_recognition(query):
 
     return intent
 
-def conversation_management(query, intent):
+def confusion_detection(query):
+    confusion_detection_model = joblib.load("models/confusion/confusion_model.pkl")
+    user_utterance_vectorizer = joblib.load("models/confusion/confusion_tfidf_vectorizer.pkl")
+
+    vectorized_query = user_utterance_vectorizer.transform([query])[0]
+    
+    confusion_label = confusion_detection_model.predict(vectorized_query)[0]
+
+    return confusion_label
+
+def conversation_management(query, intent, confusion_label):
     #temporary response if can't find any
     temp_response = {
         "response": f"Can't find response for query with intent: {intent}",
@@ -31,13 +41,17 @@ def conversation_management(query, intent):
         for key1 in tag_data["keywords"]["first"]:
             if key1 in query:
                 if "second" not in tag_data["keywords"]:
-                    return tag_data, tag_name
+                    return return_response_data(confusion_label, intent_data, tag_data, tag_name)
                 else:
                     for key2 in tag_data["keywords"]["second"]:
                         if key2 in query:
-                            return tag_data, tag_name
-
+                            return return_response_data(confusion_label, intent_data, tag_data, tag_name)
     
-    # would add trying to infer appropriate response from context
+    # would return response that asks for clarification
     # for now just skip
     return temp_response
+
+def return_response_data(confusion_label, intent_data, tag_data, tag_name):
+    #will also handle here if confusion is detected
+    
+    return tag_data, tag_name
