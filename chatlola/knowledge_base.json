@@ -12,7 +12,7 @@
             "keywords": {
                 "first": ["phish", "pish", "email", "text", "message", "mensahe"]
             },
-            "response": "Ang phishing scam ay isang uri ng panloloko kung saan makakatanggap ka ng email o text message na mukhang mula sa isang lehitimong pinagkukunan, tulad ng iyong bangko o internet service provider, ngunit ang layunin nito ay makuha ang iyong personal na impormasyon.\n\nHalimbawa, maaari kang makatanggap ng email mula sa iyong bangko na nagsasabing kailangan mong i-verify ang isang transaksyon. Kapag sinabi mong hindi ito awtorisado, makokonekta ka sa isang “fraud department” na hihingi ng personal na detalye upang “maibalik ang iyong pera.” Maaari rin itong maging text mula sa Amazon o UPS na humihingi ng impormasyon para sa delivery ng package o verification ng transaksyon.\n\nNais mo bang malaman kung paano talaga makikilala at maiiwasan ang ganitong scam bago ka pa man mabiktima?",
+            "response": "Ang phishing scam ay isang uri ng panloloko kung saan makakatanggap ka ng email o text message na mukhang mula sa isang lehitimong pinagkukunan, tulad ng iyong bangko o internet service provider, ngunit ang layunin nito ay makuha ang iyong personal na impormasyon.\n\nHalimbawa, maaari kang makatanggap ng email mula sa iyong bangko na nagsasabing kailangan mong i-verify ang isang transaksyon. Kapag sinabi mong hindi ito awtorisado, makokonekta ka sa isang “fraud department” na hihingi ng personal na detalye upang “maibalik ang iyong pera.” Maaari rin itong maging text mula sa Amazon o UPS na humihingi ng impormasyon para sa delivery ng package o verification ng transaksyon.",
             "context": "scam_types"
         },
         "robocall_scam": {
@@ -165,7 +165,7 @@
                 "first": ["nakatatanda", "matatanda", "seniors"],
                 "second": ["target", "punterya"]
             },
-            "response": "May iba’t ibang uri ng scam na madalas target ang mga seniors. Ilan sa mga karaniwan ay:\n\n• Beneficiary at Investment Scams\n• Romance Scams\n• Tech Support Scams\n• Social Media Scams\n• Emergency o Grandparent Scams\n• Election Scams\n• Natural Disaster Relief o Charity Scams\n• Gift Card Scams\n• Advance Fee Fraud\n• Bank at Check Scams\n• Travel Scams\n• Government Impersonation Scams\n• Robocalls at Phone Scams\n• Business Imposter Scams\n• Medicare at Health Insurance Scams\n\nIto ang ilan sa mga pinakakaraniwang uri ng panloloko na ginagamit ng mga scammer laban sa mga nakatatanda. Mahalaga na makilala ang mga ito upang mas madaling makaiwas sa panlilinlang. Gusto mo bang ipaliwanag ko ang bawat isa?",
+            "response": "May iba’t ibang uri ng scam na madalas target ang mga seniors. Ilan sa mga karaniwan ay:\n\n• Beneficiary at Investment Scams\n• Romance Scams\n• Tech Support Scams\n• Social Media Scams\n• Emergency o Grandparent Scams\n• Election Scams\n• Natural Disaster Relief o Charity Scams\n• Gift Card Scams\n• Advance Fee Fraud\n• Bank at Check Scams\n• Travel Scams\n• Government Impersonation Scams\n• Robocalls at Phone Scams\n• Business Imposter Scams\n• Medicare at Health Insurance Scams\n\nIto ang ilan sa mga pinakakaraniwang uri ng panloloko na ginagamit ng mga scammer laban sa mga nakatatanda. Mahalaga na makilala ang mga ito upang mas madaling makaiwas sa panlilinlang.",
             "context": "scam"
         },
         "scam_types": {
@@ -177,7 +177,7 @@
                     "scam", "scams", "panloloko", "panlilinlang", "panganib"
                 ]
             },
-            "response": "May iba’t ibang uri ng scam na dapat mong malaman. Ilan sa mga karaniwan ay:\n\n• Email Fraud or Phishing Scams \n• Phone or Voicemail Scams \n• The Grandparent Scam \n• Tech Support Scams \n• Romance Scams \n• Fake Websites and Applications \n• Ransomware \n• Emergency Scams \n\nKahit iba-iba ang paraan, iisa lamang ang layunin ng scam at ito ay ang makuha ang pera o personal na impormasyon mo. Kaya mahalagang mag-ingat at huwag agad magtiwala. Gusto mo bang malaman ang ibig sabihin ng mga scam na ito?",
+            "response": "May iba’t ibang uri ng scam na dapat mong malaman. Ilan sa mga karaniwan ay:\n\n• Email Fraud or Phishing Scams \n• Phone or Voicemail Scams \n• The Grandparent Scam \n• Tech Support Scams \n• Romance Scams \n• Fake Websites and Applications \n• Ransomware \n• Emergency Scams \n\nKahit iba-iba ang paraan, iisa lamang ang layunin ng scam at ito ay ang makuha ang pera o personal na impormasyon mo. Kaya mahalagang mag-ingat at huwag agad magtiwala.",
             "context": "general"
         },
         "internet_crimes": {
@@ -201,7 +201,7 @@
                 "first": ["malakas", "maganda", "gawa", "gumawa", "mabuti", "maayos"],
                 "second": ["password"]
             },
-            "response": "1. Gumamit ng kombinasyon ng malalaki at maliliit na letra, numero, at special characters sa password mo.\n2. Iwasan ang madaling hulaan na salita tulad ng “password” o “123456.”\n3. Gawing mahaba ang password, kahit 12 characters o higit pa.\n4. Pwede kang gumamit ng password manager para ligtas na maalala ang lahat ng password mo.",
+            "response": "1. Gumamit ng kombinasyon ng malalaki at maliliit na letra, numero, at special characters sa password mo.\n2. Iwasan ang madaling hulaan na salita tulad ng “password” o “123456.”\n3. Gawing mahaba ang password, kahit 12 characters o higit pa.\n4. Pwede kang gumamit ng password manager para ligtas na maalala ang lahat ng password mo.\n\nPaalala: Huwag magbigay ng personal o sensitibong impormasyon tulad ng password o OTP.",
             "context": "general_scam_response"
         },
         "scam": {
