@@ -65,7 +65,7 @@
                 "second": ["overpayment", "sobra"]
             },
             "response": "Ang Check Overpayment Scam ay nangyayari kapag may bumili ng item mo online at nagbayad gamit ang tseke o money order na mas mataas kaysa sa presyo. Hihilingin nila na i-cash mo ang tseke at ibalik sa kanila ang sobrang pera.\n\nKalaunan, malalaman na peke pala ang tseke, kaya mawawala ang perang ipinadala mo at maaari ka pang magbayad ng bank fees.\n\nTip: Huwag magpadala ng pera kung sobra ang bayad ng buyer, lalo na kung hindi mo sila kilala o nasa ibang bansa.",
-            "context": "scams_targetting_seniors"
+            "context": "bank_and_check_scam_types"
         },
         "fake_bank_communication_scam": {
             "keywords": {
@@ -73,7 +73,7 @@
                 "second": ["banko", "bank", "bangko"]
             },
             "response": "Ang Fake Communications from “Your Bank” Scam ay isang uri ng panloloko kung saan nagpapanggap ang scammer na sila ay mula sa iyong bangko.\n\nMaaaring alamin ng mga scammer kung anong bangko ang gamit mo sa pamamagitan ng iyong social media, internet activity, o kahit simpleng paghula sa isang kilalang bangko. Pagkatapos nito, magpapadala sila ng mensahe—sa pamamagitan ng mail, email, text, o social media—na mukhang opisyal at galing talaga sa bangko.\n\nSa mga pekeng mensaheng ito, maaari nilang:\n• Mag-alok ng magandang deal kapalit ng upfront fee\n• Hilingin na kumpirmahin mo ang iyong bank information\n• Sabihing may “suspicious activity” sa iyong account na kailangan mong aksyunan\n\nNgunit ang totoo, nagsisinungaling sila. Layunin lamang nilang makuha ang iyong pera o sensitibong impormasyon. Kung makakatanggap ka ng ganitong mensahe, huwag agad magbigay ng detalye. Mas mabuting direktang makipag-ugnayan sa opisyal na bangko gamit ang kanilang lehitimong contact information.",
-            "context": "scams_targetting_seniors"
+            "context": "bank_and_check_scam_types"
         },
         "bank_and_check_scam_types": {
             "keywords": {
@@ -209,7 +209,7 @@
                 "first": [
                     "scam", "scams", "panloloko", "panlilinlang"]
             },
-            "response": "Ang scam ay isang uri ng panloloko kung saan may taong nagsisinungaling o nagpapanggap upang makuha ang iyong pera o personal na impormasyon. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ang kanilang biktima. Kaya mahalagang maging maingat, lalo na kung may biglang humihingi ng pera o sensitibong impormasyon online. Gusto mo bang ipaliwanag ko sa iyo kung paanong maiiwasan ang mga ganitong krimen sa internet?",
+            "response": "Ang scam ay isang uri ng panloloko kung saan may taong nagsisinungaling o nagpapanggap upang makuha ang iyong pera o personal na impormasyon. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ang kanilang biktima. Kaya mahalagang maging maingat, lalo na kung may biglang humihingi ng pera o sensitibong impormasyon online.",
             "context": "general"
         }
     },
@@ -430,7 +430,7 @@
                 "first": ["advance fee fraud", "advance", "fee", "bayad", "bayaran", "beneficiary", "benefit", "benepisyaryo"]
             },
             "response": "Malalaman mong maaaring advance fee fraud ang nag-text sa iyo kung may mga sumusunod na palatandaan:\n• Humihingi ng bayad muna (upfront fee). Kung sinabihan kang nanalo ka ng premyo, natanggap sa trabaho, o naaprubahan sa loan pero kailangan mong magbayad muna bago ito makuha, malamang scam ito. Isipin mo: kung kailangan mo ng loan dahil kulang ang pera mo, bakit ka magbabayad muna bago ito ibigay? Ang mga lehitimong nagpapautang ay hindi naniningil ng bayad bago ibigay ang loan.\n• Walang credit check. Kapag sinasabing “No credit check required!” o “Bad credit OK!” mag-ingat. Kadalasan, sinusuri muna ng totoong lender ang credit history bago magbigay ng loan.\n• Alok sa pamamagitan ng tawag o hindi inaasahang mensahe. Kung may tumawag o nag-text na nag-aalok agad ng loan at humihingi ng personal na impormasyon, ito ay kahina-hinala. Ang mga lehitimong lender ay hindi basta-basta tumatawag para manghikayat.\n• Halos kapareho ang pangalan sa kilalang kumpanya. Maaaring gumamit ang scammer ng pangalang kahawig ng isang sikat o lehitimong negosyo upang malito ka. Suriing mabuti ang pangalan at contact details, at i-verify ito online.\n• Walang lisensya. Ang mga lehitimong cash advance lender ay kailangang may rehistradong lisensya. Kung hindi sila makapagbigay ng patunay nito, umiwas agad.\n\nKung may isa o higit pa sa mga palatandaang ito sa natanggap mong text, mag-ingat at huwag magbigay ng pera o personal na impormasyon.",
-            "context": "advance_fee_fraud"
+            "context": "advance_fee_fraud_scam"
         },
         "famous_scam_signs": {
             "keywords": {
