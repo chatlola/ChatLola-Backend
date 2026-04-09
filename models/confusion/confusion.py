@@ -66,7 +66,7 @@ print("\nAccuracy:", accuracy)
 
 # print/generate classification report
 report = classification_report(y_test, y_pred_naive)
-print("Classification Report:")
+print("\nClassification Report:")
 print(report)
 
 #print specific rows in the data that are misclassified

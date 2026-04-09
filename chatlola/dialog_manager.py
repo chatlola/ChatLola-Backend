@@ -25,17 +25,11 @@ def confusion_detection(query):
     return confusion_label
 
 def conversation_management(query, intent, confusion_label):
-    #temporary response if can't find any
-    temp_response = {
-        "response": f"Can't find response for query with intent: {intent}",
-        "context": "",
-    }, ""
-
     intent_data = chatlola_data[intent]
 
     # skip empty intents for now
     if not intent_data:
-        return temp_response
+        return { "response": None }, ""
     
     for tag_name, tag_data in intent_data.items():
         for key1 in tag_data["keywords"]["first"]:
@@ -46,10 +40,8 @@ def conversation_management(query, intent, confusion_label):
                     for key2 in tag_data["keywords"]["second"]:
                         if key2 in query:
                             return return_response_data(confusion_label, intent_data, tag_data, tag_name)
-    
-    # would return response that asks for clarification
-    # for now just skip
-    return temp_response
+
+    return { "response": None }, ""
 
 def return_response_data(confusion_label, intent_data, tag_data, tag_name):
     #will also handle here if confusion is detected
