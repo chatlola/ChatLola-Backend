@@ -13,16 +13,17 @@ def respond():
 
     query = query.translate(str.maketrans('', '', string.punctuation))
     query = query.lower()
+
+    #previous topic
+    prev_intent = request.args.get('intent')
+    prev_topic = request.args.get('topic')
     
     intent = intent_recognition(query)
     confusion_label = confusion_detection(query)
 
-    response_data, topic = conversation_management(query, intent, confusion_label)
+    response_data = conversation_management(query, intent, confusion_label, prev_intent, prev_topic)
 
-    return jsonify({
-        **{k: v for k, v in response_data.items() if k != "keywords"},
-        "topic": topic
-    })
+    return response_data
 
 #get specific response for when user clicks a suggestion    
 @app.route('/getresponse', methods=['GET'])
