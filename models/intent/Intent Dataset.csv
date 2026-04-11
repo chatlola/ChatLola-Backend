@@ -883,7 +883,7 @@ scam_response,Ano ang dapat gawin kung scam ang akikipagdate sa akin online?
 scam_response,"Nagbigay ako ng impormasyon sa isang website at baka peke ito, ano gagawin ko?"
 scam_response,"Nag-click ako ng link at baka scam ito, ano ang gagawin ko?"
 scam_response,Na-lock ang system ko at hindi ko alam kung ano ang gagawin.
-,Ano ang gagawin kung may humihingi ng pera at nagsasabing pamilya mo siya?
+scam_response,Ano ang gagawin kung may humihingi ng pera at nagsasabing pamilya mo siya?
 ,
 ,
 ,
@@ -933,11 +933,11 @@ scam_signs,"Na-encrypt daw ang files ko, ano ang ibig sabihin nito?"
 scam_signs,May nag-appear na warning na naka-lock ang system ko.
 scam_signs,Paano nangyari na na-lock ang phone ko?
 scam_signs,"May humihingi ng pera para maibalik ang data ko, scam ba ito?"
-scam_signs,Nawala ang access ko sa files ko nang biglaan.
+scam_signs,
 scam_signs,Paano ko malalaman kung ransomware ang nangyayari sa device ko?
 scam_signs,
-scam_signs,May nagpop-up na kailangan akong magbayad bago ma-access ang files ko.
-scam_signs,Posible bang scam ang dahilan kung bakit hindi ko mabuksan ang files ko?
+scam_signs,
+scam_signs,
 scam_signs,
 scam_signs,Paano ko malalaman kung pekeng message ito mula sa isang sikat na tao?
 scam_signs,Ano ang mga palatandaan na hindi totoong celebrity ang nag-message sa akin?

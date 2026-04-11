@@ -19,6 +19,7 @@ print(df['label'].value_counts())
 df = df.dropna()
 df = df.drop_duplicates()
 
+print("\nWithout empty rows: \n")
 #check number of utterances per intent
 print(df['label'].value_counts())
 

@@ -70,21 +70,21 @@ def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_d
             })
 
         #if confused and prev data are available, then send the response data of the previous topic but for the confused response
-        if (prev_intent != "" and prev_intent != None) and (prev_topic != "" and prev_topic != None):
+        if (prev_intent != "" and prev_intent != None) and (prev_topic != "" and prev_topic != None) and (prev_intent != None and prev_topic != "clarify") :
             print("got to here")
             response_data = chatlola_data[prev_intent][prev_topic]
 
             return jsonify({
                 **{k: v for k, v in response_data.items() if k != "keywords" and k != "confused_response" and k != "response"},
-                "topic": tag_name,
-                "intent": intent,
+                "topic": prev_topic,
+                "intent": prev_intent,
                 "response": response_data["confused_response"],
                 "confusion_label": confusion_label #only for testing
             })
         
         return jsonify({
-            "topic": tag_name,
-            "intent": intent,
+            "topic": "clarify",
+            "intent": None,
             "response": "Pasensya na kung medyo nakakalito 😅. Maaari mo bang linawin kung anong bahagi o topic ang gusto mong maintindihan?",
             "confusion_label": confusion_label  # only for testing
         })
