@@ -52,7 +52,6 @@ label,utterance
 1,Nalilito ako kung bakit bigla silang nagpapakita ng interes sakin
 1,May nakita akong binebenta online na mura hindi ko sure kung legit
 1,Hindi ko maintindihan kung bakit may nag-aalok ng sobrang baba ang presyo netong gamit
-1,Gusto kong bilhin itong bagay sa facebook at sobrang mura niya anong masasabi mo?
 1,May nagsasabi na may magandang offer hindi ko alam kung paniniwalaan ko
 1,Hindi ko masigurado kung maayos ba yung kausap ko sa internet
 1,May kausap akong investor daw sa ibang bansa hindi ko alam kung totoo siya
@@ -77,12 +76,10 @@ label,utterance
 1,May natanggap akong mensahe na may reward daw ako hindi ko alam kung totoo yun
 1,Pinindot ko yung link kasi akala ko galing sa network ko talaga
 1,Hindi ko maintindihan kung paano naging ganun kalaki ang nabawas
-1,Akala ko maliit lang ang kailangan kong ilabas pero iba ang nangyari
 1,Hindi ko masigurado kung ligtas ba yung site na pinuntahan ko
 1,Sabi nila kailangan ilagay yung detalye ko para ma-claim hindi ko alam kung tama yun
 1,Naguguluhan ako kung bakit may foreign na transaksyon na lumabas
 1,Natatakot ako na baka singilin ako ulit nila
-1,Sumali ako sa mga online facebook groups na nagsasabing lalago o dadami ang pera ko totoo kaya yun?
 1,Sabi nila lalago daw ang inilagay ko pero hindi ko maintindihan kung paano
 1,Nagpadala ako gamit ang gcash wallet tulad ng gcash hindi ko sigurado kung ligtas yun
 1,May nakausap ako na tutulungan daw ako mabawi ang nawalang pera hindi ko alam kung magtitiwala ako sakanya
@@ -107,7 +104,6 @@ label,utterance
 1,"Ang gulo na, di ko na alam gagawin"
 1,Parang wala na akong idea kung paano to
 1,Hindi ko na alam kung paano ko itutuloy
-1,Naliligaw na ako sa proseso
 1,Di ko na alam kung anong susunod
 1,Hindi ko na alam kung paano ko to tatapusin
 1,"Parang stuck na ako, di ko na alam gagawin"
@@ -250,7 +246,6 @@ label,utterance
 1,Hindi ko na mahabol
 1,Parang puno na ang isip ko
 1,Hindi na kaya ng isip ko
-1,Maraming nangyayari sabay-sabay
 1,Hindi ko na maayos sa isip
 1,Parang nagkakagulo lahat
 1,Hindi ko na masundan ang daloy
@@ -446,22 +441,14 @@ label,utterance
 0,Paano nila nahihikayat ang mga tao na magtiwala sa kanila?
 0,Ano ang aking mga karapatan pagdating sa personal na impormasyon ko?
 0,May karapatan ba ako na kontrolin kung paano ginagamit ang datos ko?
-0,Ano ang mga legal na karapatan ko sa data privacy?
 0,Pwede ko bang i-request na burahin ang aking personal na impormasyon?
-0,May karapatan ba akong malaman kung saan ginagamit ang datos ko?
-0,Pwede ba akong humingi ng kopya ng aking personal na impormasyon?
-0,Paano ko babaguhin o itatama ang maling datos na nakalagay sa akin?
 0,Pwede ko bang bawiin ang aking pahintulot sa paggamit ng aking datos?
-0,Pwede ko bang pigilan ang paggamit ng aking impormasyon?
 0,Ano ba ang romance scam?
 0,Ano ang panloloko na ginagawa sa mga taong naghahanap ng relasyon online?
 0,Ano ang tinatawag na love scam?
-0,Bakit nahuhulog sa romance scam ang maraming tao?
 0,Paano ka niloloko sa pamamagitan ng pekeng pagmamahal online?
-0,Nangyayari ba ang romance scam sa social media?
 0,Bakit humihingi ng pera ang nagpapanggap na mahal mo sa buhay online?
 0,Ano ang online dating scam at paano ito nangyayari?
-0,Paano nagpapanggap ang mga scammer na may romantikong interes?
 0,"Na-encrypt daw ang aking mga files, ano ang ibig sabihin noon?"
 0,Paano nangyari na na-lock ang aking phone?
 0,Ano ang ibig sabihin ng tech support scam?
@@ -474,7 +461,6 @@ label,utterance
 0,Ano ang scam na gumagamit ng pekeng link?
 0,Paano nagpapanggap ang scammer na bangko para lokohin ako?
 0,Ano ang panloloko gamit ang SMS o text na may link?
-0,Bakit may mensahe na kailangan ko daw i-verify ang aking account?
 0,Paano nagpapanggap ang scammer na isang kumpanya?
 0,Ano ang tawag sa scam na gumagamit ng pekeng website?
 0,Paano ginagamit ng mga scammer ang pekeng charity para manlooko?
@@ -529,9 +515,6 @@ label,utterance
 0,Paano ginagamit ng mga scammer ang online relationship para manloko?
 0,Paano nagpapanggap ang scammer na siya ang iyong karelasyon?
 0,Ano ang scam na nagpapanggap na tumutulong sa aking computer?
-0,Sa anong paraan ginagamit ang email para dayain ang mga tao?
-0,Sa anong paraan ginagamit ang social media para isagawa ang election scam?
-0,Sa anong paraan ginagamit ang social media o email sa advance fee scam?
 0,Paano niloloko ng mga scammer ang mga tao gamit ang bank transactions?
 0,Ano ang tawag sa scam na humihingi ng bank details o nagpapadala ng pekeng tseke?
 0,Paano ginagamit ang pekeng bank transaction para manlooko?
@@ -552,8 +535,6 @@ label,utterance
 0,Paano gumawa ng malakas at ligtas na password?
 0,Paano gumawa ng malakas na password para sa aking account?
 0,Paano gumawa ng password na mahirap hulaan ng iba?
-0,Paano gumawa ng password na hindi madaling ma-hack?
-0,Paano gumawa ng password na secure pero madaling tandaan?
 0,Ano ang isang halimbawa ng isang malakas na password?
 0,Paano ko gagawing mas ligtas ang aking mga login credentials?
 0,Ano ang mga pinakamabuting gawi sa paggawa ng password?
@@ -597,7 +578,6 @@ label,utterance
 0,Paano ko malalaman kung safe ang link na ibinigay sa akin?
 0,Ano ang dapat bantayan bago mag-download ng [topic]?
 0,Paano ko malalaman kung totoo ang isang online platform?
-0,
 0,"Hindi ko mabuksan ang mga files ko, may problema ba?"
 0,"Na-encrypt daw ang files ko, ano ang ibig sabihin nito?"
 0,May nag-appear na warning na naka-lock ang system ko.
@@ -617,3 +597,33 @@ label,utterance
 0,Paano ko malalaman kung pekeng panalo sa lotto ang text na natanggap ko?
 0,Ano ang mga palatandaan na scam ang lottery message?
 0,Ano ang mga senyales na panloloko ang mensaheng nagsasabing nanalo ako sa lotto?
+0,Ano ang dapat i-check bago magbigay ng personal info?
+0,Paano ko maiiwasan ang panloloko bago mag-register sa online service?
+0,Ano ang dapat gawin bago mag-download ng app online?
+0,
+0,Ano ang precautions bago mag-fill out ng online form?
+0,Paano ko maiiwasan na maloko bago magbigay ng details sa chat o email?
+0,Paano hindi maloko sa online shopping?
+0,Paano iwasan ang [topic] sa email?
+0,
+0,Paano hindi mahulog sa lottery scam?
+0,Paano maiiwasan ang panloloko sa social media messages?
+0,Paano ko maiiwasan na masundan ng scammer ang account ko?
+0,Paano ko maiiwasan na maulit yung [topic] sa akin?
+0,Paano ko maiiwasang maulit ang parehong [topic] sa hinaharap?
+0,Ano ang maaari kong gawin kung naloko ako ng scammer?
+0,Paano ako hihingi ng tulong kung na-scam ako?
+0,Ano ang susunod na hakbang kung nabiktima ako ng scam?
+0,Sino ang dapat kong kontakin kung na-scam ako?
+0,Ano ang dapat gawin kung may nakuha sa akin na pera ang scammer?
+0,Paano kung napadala ko na ang pera sa scammer?
+0,Ano ang dapat kong gawin kung pinaghihinalaan kong na-scam ako?
+0,Paano ko maiiwasan na maulit ito?
+0,Ano ang dapat gawin bago mag-click o sumagot sa social media message?
+0,Paano ko masisigurong ligtas na ulit ang aking device matapos ang [scam]?
+0,Ano ang dapat kong gawin para mas maging ligtas sa hinaharap
+0,Ano ang dapat kong gawin para hindi na maulit ang nangyari?
+0,Paano ako hindi mascam sa facebook?
+0,Paano maiiwasan ang mga scam sa social media?
+0,Paano ko maiiwasan ang mga scam na target ang mga senior?
+0,Pano ba makakaiwas sa mga scam na target ang mga senior?
