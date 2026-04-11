@@ -70,7 +70,7 @@ def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_d
             })
 
         #if confused and prev data are available, then send the response data of the previous topic but for the confused response
-        if prev_intent != None and prev_topic != None:
+        if (prev_intent != "" and prev_intent != None) and (prev_topic != "" and prev_topic != None):
             print("got to here")
             response_data = chatlola_data[prev_intent][prev_topic]
 
