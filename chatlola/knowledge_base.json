@@ -44,7 +44,7 @@
         },
         "business_scam": {
             "keywords": {
-                "first": ["impersonate", "imposter", "impersonation","peke", "fake", "di totoo", "panggap", "loko"],
+                "first": ["impersonate", "imposter", "impersonation","peke", "fake", "di totoo", "panggap", "loko", "business"],
                 "second": ["business", "negosyo", "kumpaniya", "company"]
             },
             "response": "Ang business imposter scam ay panloloko kung saan may taong nagpapanggap na galing sa isang kumpanya o charity para makuha ang pera o personal na impormasyon mo. Karaniwan, ginagamit nila ang pekeng caller ID para magmukhang lehitimo ang tawag o mensahe. Maaari nilang hilingin na magpadala ka ng pera, gift card, o ibigay ang sensitibong impormasyon mo.\n\nTandaan: Ang totoong kumpanya o charity ay hindi basta-basta humihingi ng pera o personal na detalye sa pamamagitan ng tawag o text lang.",
@@ -69,7 +69,7 @@
         },
         "check_overpayment_scam": {
             "keywords": {
-                "first": ["check", "cheke", "tseke"],
+                "first": ["check", "cheke", "tseke", "overpayment"],
                 "second": ["overpayment", "sobra"]
             },
             "response": "Ang Check Overpayment Scam ay nangyayari kapag may bumili ng item mo online at nagbayad gamit ang tseke o money order na mas mataas kaysa sa presyo. Hihilingin nila na i-cash mo ang tseke at ibalik sa kanila ang sobrang pera.\n\nKalaunan, malalaman na peke pala ang tseke, kaya mawawala ang perang ipinadala mo at maaari ka pang magbayad ng bank fees.\n\nTip: Huwag magpadala ng pera kung sobra ang bayad ng buyer, lalo na kung hindi mo sila kilala o nasa ibang bansa.",
@@ -96,7 +96,7 @@
         },
         "bank_and_check_scam": {
             "keywords": {
-                "first": ["banko", "bangko", "bank", "check", "cheke", "tseke", "deposit"]
+                "first": ["bank and check", "bank at check", "banko", "bangko", "bank", "check", "cheke", "tseke", "deposit"]
             },
             "response": "Ang Bank and Check Scams ay isang uri ng panloloko na kinasasangkutan ng paggamit ng pekeng tseke, tulad ng cashier’s check, na mukhang lehitimo at kapani-paniwala.\n\nKaraniwan, hihilingin sa iyo na ideposito ang tseke sa iyong bank account, at pagkatapos ay ibalik o ipadala ang bahagi ng pera sa isang taong hindi mo kilala. Sa una, maaaring magmukhang maayos ang tseke, ngunit kalaunan ay malalaman na ito ay peke. Kapag nangyari ito, ikaw ang mananagot sa perang naipadala mo na.\nKung may humihiling sa iyo na magdeposito ng tseke sa kahina-hinalang sitwasyon at magpadala ng pera pabalik sa isang estranghero, mag-ingat—maaaring ito ay isang scam.",
             "confused_response": "",
@@ -137,19 +137,11 @@
         },
         "tech_support_scam": {
             "keywords": {
-                "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
+                "first": ["tech support", "tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
             },
             "response": "Ang tech support scam ay panloloko kung saan may nagpapanggap na eksperto sa computer o cellphone. Madalas may lalabas na pop-up o tatawag na may problema daw ang device mo at kailangan agad ayusin. Papabayarin ka nila para sa repair o serbisyo na kadalasan ay hindi naman kailangan o hindi totoo.\n\nMadalas target nito ang mga nakatatanda dahil ginagamit ng scammers ang takot tungkol sa virus o sira sa device. Tandaan, huwag basta magtiwala sa biglaang pop-up o tawag na humihingi ng bayad para ayusin ang device mo.",
             "confused_response": "",
             "context": "scam_types"
-        },
-        "personal_data_privacy": {
-            "keywords": {
-                "first": ["data privacy"]
-            }, 
-            "response": "Ang personal data privacy ay ang pagprotekta sa iyong personal na impormasyon. Kasama dito ang pangalan, address, phone number, birthday, ID numbers, photos, videos, bank details, at medical records.\n\nMahalaga ito para maiwasan ang identity theft, panloloko, o iba pang problema.",
-            "confused_response": "",
-            "context": "digital_safety"
         },
         "personal_privacy_rights": {
             "keywords": {
@@ -160,9 +152,17 @@
             "confused_response": "",
             "context": "personal_data_privacy"
         },
+        "personal_data_privacy": {
+            "keywords": {
+                "first": ["data privacy"]
+            }, 
+            "response": "Ang personal data privacy ay ang pagprotekta sa iyong personal na impormasyon. Kasama dito ang pangalan, address, phone number, birthday, ID numbers, photos, videos, bank details, at medical records.\n\nMahalaga ito para maiwasan ang identity theft, panloloko, o iba pang problema.",
+            "confused_response": "",
+            "context": "digital_safety"
+        },
         "scam_psychological_effects": {
             "keywords": {
-                "first": ["pakiramdam", "epekto"],
+                "first": ["pakiramdam", "epekto", "effect"],
                 "second": ["scam", "maloko", "niloko", "naloko", "nascam", "mascam"]
             },
             "response": "Ang pagiging biktima ng scam ay maaaring makaapekto sa isip at damdamin ng isang tao. Maaaring mawalan ka ng tiwala sa sarili at magduda sa iyong mga desisyon. Maaari ring mahirapan magtiwala ulit sa ibang tao, lalo na kung ang scammer ay nagpanggap na kaibigan o may relasyon sa iyo.\n\nAng iba ay nakakaramdam ng stress, kaba, o takot kahit matagal na matapos ang pangyayari. Normal lang din na maging mas maingat o mag-alala sa mga tawag, mensahe, o transaksyon.\n\nTandaan, normal ang mga reaksyong ito at hindi ka nag-iisa. Ang paghilom ay nangangailangan ng oras, suporta, at pag-unawa. Makakatulong ang pakikipag-usap sa taong pinagkakatiwalaan mo at pagtuon sa mga paraan para muli kang makaramdam ng seguridad.",
@@ -214,7 +214,7 @@
         },
         "scammers_tactics": {
             "keywords": {
-            "first": ["paano", "papaano", "paano nga", "paano ba"],
+            "first": ["paano", "papaano", "paano nga", "paano ba", "tactics"],
             "second": ["scammer", "panloloko", "panlilinlang", "trick", "taktika", "manloko", "ginagawa"]
         },
             "response": "Karaniwang nanloloko ang mga scammer gamit ang panlilinlang at pagmamadali. Madalas nagpapanggap sila na kakilala, bangko, kumpanya, o opisyal na ahensya para mapaniwala ka. Maaari ka rin nilang hikayatin na mag-click ng link, magbukas ng attachment, o magbigay ng personal na impormasyon. \n\nGinagamit nila ang emosyon tulad ng takot, awa, pagmamadali, o excitement para mapasunod ka agad nang hindi ka na nakakapag-isip. Halimbawa, sasabihin nilang may emergency, may premyo ka, o may problema ang account mo. \n\nKaya mahalagang mag-isip muna at mag-check bago magtiwala sa anumang mensahe, tawag, o alok online.",
@@ -223,7 +223,7 @@
         },
         "password_tips": {
             "keywords": {
-                "first": ["malakas", "maganda", "gawa", "gumawa", "mabuti", "maayos"],
+                "first": ["malakas", "maganda", "gawa", "gumawa", "mabuti", "maayos", "strong", "password"],
                 "second": ["password"]
             },
             "response": "1. Gumamit ng kombinasyon ng malalaki at maliliit na letra, numero, at special characters sa password mo.\n2. Iwasan ang madaling hulaan na salita tulad ng “password” o “123456.”\n3. Gawing mahaba ang password, kahit 12 characters o higit pa.\n4. Pwede kang gumamit ng password manager para ligtas na maalala ang lahat ng password mo.\n\nPaalala: Huwag magbigay ng personal o sensitibong impormasyon tulad ng password o OTP.",

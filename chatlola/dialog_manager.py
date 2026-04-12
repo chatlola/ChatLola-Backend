@@ -76,8 +76,8 @@ def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_d
 
             return jsonify({
                 **{k: v for k, v in response_data.items() if k != "keywords" and k != "confused_response" and k != "response"},
-                "topic": prev_topic,
-                "intent": prev_intent,
+                "topic": "clarify",
+                "intent": None,
                 "response": response_data["confused_response"],
                 "confusion_label": confusion_label #only for testing
             })
@@ -85,8 +85,9 @@ def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_d
         return jsonify({
             "topic": "clarify",
             "intent": None,
-            "response": "Pasensya na kung medyo nakakalito 😅. Maaari mo bang linawin kung anong bahagi o topic ang gusto mong maintindihan?",
-            "confusion_label": confusion_label  # only for testing
+            "response": "Maaari mo bang linawin kung anong bahagi o topic ang gusto mong maintindihan?",
+            "confusion_label": confusion_label,  # only for testing
+            "context": "general"
         })
 
     #if not confused then just output what was sent to this func
@@ -96,3 +97,33 @@ def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_d
         "intent": intent,
         "confusion_label": confusion_label #only for testing
     })
+
+def clarify_response(query):
+    #maybe there is an easier way of doing this
+    for intent_name, intent_data in chatlola_data.items():
+        for tag_name, tag_data in intent_data.items():
+            for key1 in tag_data["keywords"]["first"]:
+                if key1 in query:
+                    if "second" not in tag_data["keywords"]:
+                        return jsonify({
+                            "response": tag_data["response"],
+                            "intent": intent_name,
+                            "topic": tag_name,
+                            "context": tag_data["context"]
+                        })
+                    else:
+                        for key2 in tag_data["keywords"]["second"]:
+                            if key2 in query:
+                                return jsonify({
+                                    "response": tag_data["response"],
+                                    "intent": intent_name,
+                                    "topic": tag_name,
+                                    "context": tag_data["context"]
+                                })
+
+    return { 
+        "response": None, 
+        "topic": "clarify",
+        "intent": None,
+        "context": "general"
+        }
