@@ -6,14 +6,14 @@
                 "second": ["ingat", "safety"]
             },
             "response": "Kailangan mas maging maingat online dahil maraming panloloko ang nangyayari sa internet, at madalas target ang mga nakatatanda. Kapag hindi tayo maingat, maaaring mawala ang pera o magamit ang personal na impormasyon natin. \n\nAng magandang balita, karamihan sa scam ay maiiwasan kung magiging mapagmatyag at magche-check muna bago magtiwala. Kung may kahina-hinala, huwag agad magbigay ng impormasyon o pera, at puwedeng magtanong sa taong pinagkakatiwalaan mo.", 
-            "confused_response": "",
+            "confused_response": "Kailangan maging maingat online dahil maraming panloloko sa internet, lalo na sa mga nakatatanda. Kapag hindi nag-ingat, puwedeng mawala ang pera o magamit ang personal na impormasyon.\n\nAng mabuti naman, karamihan sa scam ay puwedeng maiwasan. Kailangan lang maging mapagmatyag at mag-check muna bago magtiwala. Kapag may kahina-hinala, huwag agad magbigay ng impormasyon o pera, at mas mabuting magtanong muna sa taong pinagkakatiwalaan.",
             "context": "digital_safety"
         },
         "phishing_scam": {
             "keywords": {
                 "first": ["phish", "pish", "email", "text", "message", "mensahe"]
             },
-            "response": "Ang phishing scam ay isang uri ng panloloko kung saan makakatanggap ka ng email o text message na mukhang mula sa isang lehitimong pinagkukunan, tulad ng iyong bangko o internet service provider, ngunit ang layunin nito ay makuha ang iyong personal na impormasyon.\n\nHalimbawa, maaari kang makatanggap ng email mula sa iyong bangko na nagsasabing kailangan mong i-verify ang isang transaksyon. Kapag sinabi mong hindi ito awtorisado, makokonekta ka sa isang “fraud department” na hihingi ng personal na detalye upang “maibalik ang iyong pera.” Maaari rin itong maging text mula sa Amazon o UPS na humihingi ng impormasyon para sa delivery ng package o verification ng transaksyon.",
+            "response": "Ang phishing scam ay panloloko kung saan may matatanggap kang email o text na kunwari galing sa totoong kumpanya tulad ng bangko o delivery service. Layunin nitong makuha ang iyong personal na impormasyon tulad ng password o account details.",
             "confused_response": "",
             "context": "scam_types"
         },
@@ -21,7 +21,7 @@
             "keywords": {
                 "first": ["robocall", "call", "tawag", "tumawag", "robot"]
             },
-            "response": "Ang robocalls ay mga tawag na gumagamit ng automated o recorded na boses upang tumawag sa maraming tao nang sabay-sabay. May mga legal na gamit ito, pero madalas din itong ginagamit sa scams.\n\nHalimbawa ng phone scams:\n• “Can you hear me?” call – Kapag sumagot ka ng “yes,” maaaring i-record ng scammer ang boses mo at gamitin ito para sa hindi awtorisadong transaksyon.\n• Fake warranty calls – May magsasabing malapit nang mag-expire ang warranty ng kotse o gadget mo para makahingi ng bayad o impormasyon.\n• Impending lawsuit scam – May tatawag na kunwari ay mula sa gobyerno o pulis, tulad ng Philippine National Police, at mananakot na maaaresto ka o masasampahan ng kaso kapag hindi ka nagbayad agad.\n\nMag-ingat dahil kayang pekein ng scammers ang caller ID para magmukhang galing sa totoong organisasyon ang tawag. Kapag may kahina-hinalang tawag:\n• Huwag magbigay ng personal o financial information.\nHuwag agad maniwala sa pananakot o urgent na hinihingi.\nIbaba ang tawag at i-verify sa opisyal na numero ng ahensya kung kinakailangan.\n\nTandaan: Ang mga lehitimong organisasyon ay hindi basta humihingi ng sensitibong impormasyon o bayad sa pamamagitan lamang ng random na tawag.",
+            "response": "Ang robocall ay tawag na gumagamit ng automated o recorded na boses para tumawag sa maraming tao. May legal itong gamit, pero madalas din itong ginagamit sa panloloko. Halimbawa, may tatawag at magtatanong ng “Can you hear me?” para makuha ang boses mo, o kaya ay kunwari galing sa gobyerno o kumpanya para manakot o manghingi ng bayad.",
             "confused_response": "",
             "context": "scam_types"
         },
@@ -29,7 +29,7 @@
             "keywords": {
                 "first": ["election", "eleksyon", "kandidato"]
             },
-            "response": "Ang election scam ay isang uri ng panloloko na karaniwang nangyayari tuwing panahon ng eleksyon. Sa ganitong scam, nagpapadala ang mga manloloko ng email, text, o mensahe sa social media na kunwari ay galing sa opisyal na tanggapan ng eleksyon o kampanya ng kandidato.\n\nMaaaring hilingin nila na:\n• Kumpirmahin ang iyong voter registration\n• Magbigay ng donasyon sa pekeng layunin\n• Mag-click ng link para i-update ang iyong voter information\n\nMahalagang tandaan na ang mga opisyal ng eleksyon ay hindi kailanman hihingi ng iyong Social Security number, detalye ng bangko, o login information sa pamamagitan ng email o text.\n\nKung kailangan mong i-verify ang iyong impormasyon bilang botante, dumiretso lamang sa opisyal na website ng eleksyon ng iyong estado o county.",
+            "response": "Ang election scam ay panloloko kung saan may nagpapanggap na mula sa election office o political campaign. Maaari silang magpadala ng email, text, o social media message para hingin ang iyong impormasyon o hikayatin kang mag-click ng link o mag-donate sa pekeng dahilan.",
             "confused_response": "",
             "context": "scams_targetting_seniors"
         },
@@ -38,7 +38,7 @@
                 "first": ["impersonate", "imposter", "impersonation","peke", "fake", "di totoo", "panggap", "loko"],
                 "second": ["gobyerno", "government", "official", "opisyal"]
             },
-            "response": "Ang government impersonation scam ay panloloko kung saan may tumatawag, nagte-text, o nagme-message na nagpapanggap na taga-gobyerno para takutin ka at kunin ang iyong pera o personal na impormasyon. Sa Pilipinas, maaari nilang sabihing sila ay mula sa Bureau of Internal Revenue (BIR), Social Security System (SSS), PhilHealth, o Pag-IBIG Fund.\n\nKaraniwang sinasabi ng scammers:\n• May utang ka raw na buwis o kontribusyon at kailangan mong magbayad agad para hindi ka makasuhan.\n• Puputulin daw ang benepisyo mo kung hindi ka magbibigay ng personal na detalye (tulad ng ID number o bank info).\n• Kailangan mong magbayad gamit ang e-wallet, remittance, gift card, o bank transfer.\n\nMinsan, gumagamit pa sila ng pekeng numero na mukhang galing sa totoong opisina para magmukhang legit ang tawag o mensahe.\n\nTandaan:\nHindi basta-basta humihingi ng agarang bayad o sensitibong impormasyon ang mga totoong ahensya ng gobyerno sa tawag o text lang. Kung may natanggap kang ganito, huwag agad maniwala — mas mabuting ikaw mismo ang makipag-ugnayan sa opisyal na website o hotline ng ahensya para mag-verify.",
+            "response": "Ang government impersonation scam ay panloloko kung saan may nagpapanggap na galing sa ahensya ng gobyerno. Tatawag o magme-message sila at mananakot na may utang ka, kaso, o mawawala ang benepisyo mo kung hindi ka agad magbabayad o magbibigay ng impormasyon.",
             "confused_response": "",
             "context": "scams_targetting_seniors"
         },
@@ -178,7 +178,7 @@
                     "kaligtasan sa internet"]
             },
             "response": "Ang digital safety ay ang pagiging ligtas habang gumagamit ng cellphone, computer, o internet. Kasama dito ang pag-iingat sa iyong personal na impormasyon at pag-iwas sa mga scam o panloloko online. Para itong pag-iingat sa totoong buhay, pero ginagawa habang gumagamit ng teknolohiya at internet.",
-            "confused_response": "Mukhang medyo nakakalito 😅. Ang digital safety ay tungkol sa pagiging ligtas habang gumagamit ng internet, tulad ng pagprotekta sa personal na impormasyon at pag-iwas sa scam.",
+            "confused_response": "Ang digital safety ay tungkol sa pagiging ligtas habang gumagamit ng internet, tulad ng pagprotekta sa personal na impormasyon at pag-iwas sa scam.",
             "context": "general"
         },
         "scams_targetting_seniors": {
@@ -253,16 +253,24 @@
             "keywords": {
                 "first": ["robocall", "call", "tawag", "tumawag", "robot"]
             },
-            "response": "Para maiwasan ang robocalls at phone scams, narito ang mga dapat mong gawin:\n\n• Huwag sagutin ang tawag mula sa hindi kilalang numero. Kapag nasagot mo man, ibaba agad kung kahina-hinala. Tandaan: Kahit mukhang local ang number sa caller ID, puwede pa rin itong peke.\n• Huwag pindutin ang anumang button kapag may recording na nagsasabing pindutin ito para tumigil ang tawag. Madalas trick lang ito para malaman ng scammer na active ang numero mo.\n• Huwag sumagot ng “Oo” o “Yes” sa mga tanong, dahil maaaring i-record ang boses mo at gamitin sa panloloko.\n• Huwag magbigay ng personal o financial information tulad ng account number, password, OTP, o ID details sa hindi inaasahang tawag.\n• Kung may tumawag na nagsasabing galing sa kumpanya o gobyerno, ibaba ang tawag at tumawag sa opisyal na numero na makikita sa website o dokumento ng ahensya.\n• Mag-ingat sa pananakot o pagmamadali. Karaniwang tactic ng scammers ang pressure para hindi ka na makapag-isip.\n• Lagyan ng password ang voicemail kung meron ka, para hindi ito ma-access ng iba.\n• Tanungin ang iyong telco provider tungkol sa call-blocking services o apps na puwedeng gamitin laban sa spam calls.\n• Maaari ka ring mag-report ng scam calls sa awtoridad tulad ng National Telecommunications Commission upang makatulong sa pag-block ng mga numero.\n\nTandaan: Ang mga lehitimong kumpanya o ahensya ay hindi basta humihingi ng sensitibong impormasyon o bayad sa pamamagitan lamang ng random na tawag.",
+            "response": "Para makaiwas sa robocall scam:\n• Huwag sagutin ang tawag mula sa hindi kilalang numero\n• Kapag kahina-hinala ang tawag, ibaba agad\n• Huwag sumagot ng “yes” o anumang tanong\n• Huwag magbigay ng personal o financial na impormasyon\n• Iwasan ang pag-pindot ng buttons kapag inutusan sa tawag\n• I-verify muna ang tumatawag gamit ang opisyal na numero\n• Gumamit ng call blocking o apps para i-block ang scam calls",
             "confused_response": "",
             "context": "robocall_scam"
+        },
+        "election_scam_prevention": {
+            "keywords": {
+                "first": ["election", "eleksyon", "kandidato"]
+            },
+            "response": "Para makaiwas sa election scam:\n• Huwag basta magtiwala sa mga mensaheng may kinalaman sa eleksyon\n• Huwag magbigay ng personal o financial na impormasyon\n• Huwag mag-click ng mga kahina-hinalang link\n• Direktang pumunta sa opisyal na website ng election office para mag-verify\n• Tandaan na ang totoong ahensya ay hindi humihingi ng sensitibong impormasyon sa text o email",
+            "confused_response": "",
+            "context": "election_scam"
         },
         "government_impersonation_scam_prevention": {
             "keywords": {
                 "first": ["impersonate", "impersonation","peke", "fake", "di totoo", "panggap"],
                 "second": ["gobyerno", "government", "official", "opisyal"]
             },
-            "response": "Para maiwasan ang government impersonation scams, mag-ingat kapag may tumatawag o nagme-message na nagpapanggap na taga-gobyerno, tulad ng Bureau of Internal Revenue (BIR), Social Security System (SSS), PhilHealth, o Pag-IBIG Fund.\n\nHuwag magpadala ng pera gamit ang wire transfer, gift card, cryptocurrency, o payment apps kapag may nagsasabing taga-gobyerno sila. Madalas itong ginagamit ng scammers dahil mahirap ma-trace ang pera.\n\nHuwag magbigay ng personal o financial information sa tawag, text, email, o social media message. Kung sa tingin mo ay totoo ang mensahe, ibaba ang tawag at ikaw mismo ang tumawag sa opisyal na numero ng ahensya.\n• Huwag agad magtiwala sa caller ID dahil puwede itong pekein ng scammers.\n• Huwag mag-click ng links sa mga biglaang email o mensahe na kunwari galing sa gobyerno. Mas mabuting i-delete ang mga ito.\n\nTandaan: Ang mga totoong ahensya ng gobyerno ay hindi basta nananakot o humihingi ng agarang bayad at sensitibong impormasyon sa tawag o message lang. Kapag may duda, laging mag-verify sa opisyal na channels.",
+            "response": "Para makaiwas sa ganitong scam:\n• Huwag magpadala ng pera gamit ang gift card, wire transfer, o cryptocurrency\n• Huwag magbigay ng personal o financial na impormasyon\n• Ibaba ang tawag at direktang kontakin ang opisyal na ahensya\n• Huwag magtiwala sa caller ID dahil puwede itong peke\n• Huwag mag-click ng links mula sa hindi inaasahang mensahe",
             "confused_response": "",
             "context": "government_impersonation_scam"
         },
@@ -319,9 +327,9 @@
         },
         "phishing_scam_prevention": {
             "keywords": {
-                "first": ["phish", "pish", "email", "text", "message", "mensahe", "link"]
+                "first": ["phish", "pish", "email", "text", "message", "mensahe", "chact"]
             },
-            "response": "Upang makaiwas sa phishing scam, narito ang ilang mahahalagang hakbang:\n\n• Mag-ingat sa mga hindi hinihinging mensahe. Halimbawa, kung may email mula sa bangko na humihingi ng account information, maaaring ito ay scam. Sa halip, hanapin ang opisyal na numero ng bangko sa kanilang website at tawagan sila upang alamin kung lehitimo ang email.\n• Huwag ibigay ang login credentials o password. Maliban kung sigurado kang tunay ang humihingi, iwasang ibigay ang anumang impormasyon sa online requests.\n• Suriin nang mabuti ang mga URL. Kahit maliit na pagbabago sa isang letra o numero sa link ay maaaring magdala sa iyo sa pekeng website na mukhang totoo.\n• Iwasan ang pag-click sa mga link. Ang pekeng link ay maaaring mag-install ng malware sa iyong computer o humingi pa ng karagdagang impormasyon upang makapanloko.",
+            "response": "Para makaiwas sa phishing scam:\n• Huwag basta magtiwala sa mga hindi inaasahang email o text\n• Huwag magbigay ng password o login details kahit kanino\n• I-check ang link bago i-click (baka peke)\n• Mas mabuting tawagan ang opisyal na numero ng kumpanya para i-verify\n• Iwasan ang pag-click ng mga link sa kahina-hinalang mensahe",
             "confused_response": "",
             "context": "phishing_scam"
         },
@@ -437,13 +445,46 @@
         }
     },
     "scam_response": {
+        "robocall_scam_response": {
+            "keywords": {
+                "first": ["robocall", "call", "tawag", "tumawag", "robot"]
+            },
+            "response": "Kapag ikaw ay nabiktima ng robocall scam:\n• Itigil agad ang pakikipag-usap at ibaba ang tawag\n• I-report ang numero sa telco o awtoridad\n• I-check ang iyong account kung may kahina-hinalang transaksyon\n• Kung may naibigay na impormasyon, agad palitan ang password\n• Makipag-ugnayan sa bangko kung may posibleng financial risk",
+            "confused_response": "",
+            "context": "robocall_scam"
+        },
+        "election_scam_response": {
+            "keywords": {
+                "first": ["election", "eleksyon", "kandidato"]
+            },
+            "response": "Kapag ikaw ay nabiktima ng election scam:\n• Huwag nang makipag-ugnayan sa scammer\n• I-report ang mensahe sa tamang awtoridad\n• Kung may naibigay na impormasyon, agad palitan ang passwords\n• I-check ang iyong accounts kung may kahina-hinalang activity\n• Makipag-ugnayan sa bangko kung may naibigay na financial details",
+            "confused_response": "",
+            "context": "election_scam"
+        },
+        "government_impersonation_scam_response": {
+            "keywords": {
+                "first": ["impersonate", "impersonation","peke", "fake", "di totoo", "panggap"],
+                "second": ["gobyerno", "government", "official", "opisyal"]
+            },
+            "response": "Kapag ikaw ay nabiktima ng scam:\n• Itigil agad ang pakikipag-usap at huwag nang sumagot\n• I-report ang insidente sa tamang awtoridad\n• Kung may naibigay na impormasyon, agad palitan ang passwords\n• Makipag-ugnayan sa bangko kung may naibigay na pera o details\n• Bantayan ang iyong identity at accounts laban sa posibleng misuse",
+            "confused_response": "",
+            "context": "government_impersonation_scam"
+        },
+        "phishing_scam_response": {
+            "keywords": {
+                "first": ["phish", "pish", "email", "text", "message", "mensahe", "chact"]
+            },
+            "response": "Kapag ikaw ay nabiktima ng phishing scam:\n• Agad palitan ang password ng iyong account\n• I-report sa bangko o kumpanya na ginamit ang pangalan nila\n• I-monitor ang iyong account para sa kahina-hinalang galaw\n• Kung may pera na nawala, agad makipag-ugnayan sa bangko",
+            "confused_response": "",
+            "context": "phishing_scam"
+        },
         "sms_scam_response": {
             "keywords": {
                 "first": ["text", "mensahe", "message", "chat", "nagtext"]
             }, 
             "response": "Huwag maniwala sa email o text na humihingi ng personal o account information. Kahit mukhang lehitimo, puwede itong scam.\n\nMaraming scammers ang gumagawa ng urgent messages para pilitin kang kumilos agad, tulad ng:\n\n“Kung hindi namin marinig bukas, masasara ang account mo”\n“Order na ngayon, limitado ang offer”\n\nHuwag mag-reply o mag-click sa link. Walang bangko o kilalang kumpanya ang hihingi ng password o personal info sa ganitong paraan. I-delete na lang ang mensahe at huwag ibigay ang impormasyon mo.",
             "confused_response": "",
-            "context": "phishing_scam"
+            "context": ""
         },
          "romance_scam_response": {
             "keywords": {
@@ -471,6 +512,31 @@
         }
     },
     "scam_signs": {
+        "robocall_scam_signs": {
+            "keywords": {
+                "first": ["robocall", "call", "tawag", "tumawag", "robot"]
+            },
+            "response": "Narito ang mga palatandaan ng robocall scam:\n• Automated o recorded ang boses\n• May tanong na “Can you hear me?”\n• May pananakot (hal. kaso o pag-aresto)\n• May urgent na hinihinging bayad\n• Kunwari galing sa gobyerno o kumpanya\n• Caller ID ay mukhang local pero hindi kilala",
+            "confused_response": "",
+            "context": "robocall_scam"
+        },
+        "election_scam_signs": {
+            "keywords": {
+                "first": ["election", "eleksyon", "kandidato"]
+            },
+            "response": "Narito ang mga palatandaan ng election scam:\n• May mensahe na kunwari galing sa election office o campaign\n• Humihingi ng personal o financial na impormasyon\n• May link na pinapa-click para mag-update ng voter info\n• Humihingi ng donasyon sa hindi kilalang source\n• May urgent na mensahe na kailangang gawin agad",
+            "confused_response": "",
+            "context": "election_scam"
+        },
+        "government_impersonation_scam_signs": {
+            "keywords": {
+                "first": ["impersonate", "impersonation","peke", "fake", "di totoo", "panggap"],
+                "second": ["gobyerno", "government", "official", "opisyal"]
+            },
+            "response": "Narito ang mga palatandaan ng government impersonation scam:\n• May tumatawag o nagme-message na kunwari galing sa gobyerno\n• May pananakot (kaso, deportation, pagkawala ng benepisyo)\n• May urgent na hinihinging bayad\n• Pinapabayad gamit ang gift card o hindi karaniwang paraan\n• Caller ID ay mukhang legit pero hindi sigurado",
+            "confused_response": "",
+            "context": "government_impersonation_scam"
+        },
         "ai_&_deepfake_signs": {
             "keywords": {
                 "first": ["ai", "peke", "fake", "di totoo", "deepfake"],
@@ -513,13 +579,21 @@
             "confused_response": "",
             "context": "phony_apps_or_sites"
         },
+        "phishing_scam_signs": {
+            "keywords": {
+                "first": ["phish", "pish", "email", "text", "message", "mensahe", "chat"]
+            },
+            "response": "Narito ang mga palatandaan ng phishing scam:\nMay mensahe na humihingi ng personal na impormasyon\nMay link na kakaiba o may maling spelling\nMay urgent na mensahe (hal. “i-verify agad”)\nKunwari ay galing sa bangko o delivery service\nMay alok o problema na kailangan mong ayusin agad",
+            "confused_response": "",
+            "context": "phishing_scam"
+        },
         "sms_scam_signs": {
             "keywords": {
                 "first": ["text", "mensahe", "message", "chat", "nagtext"]
             },
             "response": "May ilang palatandaan para malaman kung scam ang isang text o mensahe:\n\n• Biglaang humihingi ng personal na impormasyon tulad ng OTP, password, o bank details\n• Nanakot na may multa, problema sa account, o may mangyayaring masama kapag hindi ka sumunod\n• Nangangako ng premyo o pera na parang masyadong maganda para maging totoo\n• Pinapagawa ka agad ng aksyon tulad ng pag-click ng link o pagtawag sa numero\nTandaan, ang mga totoong bangko o opisyal na ahensya ay hindi basta humihingi ng sensitibong impormasyon sa text. Kapag may duda, huwag muna mag-reply o mag-click ng link.",
             "confused_response": "",
-            "context": "phishing_scam"
+            "context": ""
         },
         "cryptocurrency_scam_signs": {
             "keywords": {

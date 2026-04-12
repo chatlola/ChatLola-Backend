@@ -78,7 +78,7 @@ def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_d
                 **{k: v for k, v in response_data.items() if k != "keywords" and k != "confused_response" and k != "response"},
                 "topic": "clarify",
                 "intent": None,
-                "response": response_data["confused_response"],
+                "response": "Mukhang medyo nakakalito 😅. " + response_data["confused_response"],
                 "confusion_label": confusion_label #only for testing
             })
         
