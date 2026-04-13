@@ -71,6 +71,6 @@ print(report)
 
 #print specific rows in the data that are misclassified
 #for actual, pred, sample in zip(y_test, y_pred_naive, X_test):
-    #if actual != pred:
-        #print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
+#    if actual != pred:
+#        print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
         
