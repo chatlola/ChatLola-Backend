@@ -1,0 +1,279 @@
+{
+    "general": {
+        "scam": { 
+            "intent": "explain_concept"
+        },
+        "digital_safety": {
+            "intent": "explain_concept"
+        }, 
+        "scam_types": {
+            "intent": "explain_concept"
+        }
+    },
+    "scam": {
+        "scammers_tactics": {
+            "intent": "explain_concept"
+        },
+        "scam_prevention": {
+            "intent": "prevent_scam"
+        }, 
+        "general_scam_response": {
+            "intent": "scam_response"
+        }, 
+        "scams_targetting_seniors": {
+            "intent": "explain_concept"
+        }
+    },
+    "general_scam_response": {
+        "future_scam_prevention": {
+            "intent": "prevent_scam"
+        }, 
+        "password_tips": {
+            "intent": "explain_concept"
+        }
+    },
+    "digital_safety": {
+        "digital_safety_importance": {
+            "intent": "explain_concept"
+        },
+        "social_media_safety": {
+            "intent": "prevent_scam"
+        },
+        "internet_crimes": {
+            "intent": "explain_concept"
+        },
+        "personal_data_privacy": {
+            "intent": "explain_concept"
+        }
+    },
+    "personal_data_privacy": {
+        "personal_privacy_rights": {
+            "intent": "explain_concept"
+        },
+        "information_protection": {
+            "intent": "prevent_scam"
+        }
+    },
+    "social_media_safety": {
+        "account_security": {
+            "intent": "prevent_scam"
+        },
+        "social_media_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "suspicious_account": {
+            "intent": "prevent_scam"
+        }
+    },
+    "scam_types": {
+        "phishing_scam": {
+            "intent": "explain_concept"
+        },
+        "robocall_scam": {
+            "intent": "explain_concept"
+        },
+        "phony_apps_or_sites": {
+            "intent": "explain_concept"
+        },
+        "romance_scam": {
+            "intent": "explain_concept"
+        },
+        "ransomware_scam": {
+            "intent": "explain_concept"
+        },
+        "tech_support_scam": {
+            "intent": "explain_concept"
+        }
+    },
+    "phishing_scam": {
+        "phishing_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "phishing_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "phishing_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "robocall_scam": {
+        "robocall_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "robocall_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "robocall_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "election_scam": {
+        "election_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "election_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "election_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "phony_apps_or_sites": {
+        "phony_apps_or_sites_signs": {
+            "intent": "scam_signs"
+        },
+        "phony_apps_or_sites_prevention": {
+            "intent": "prevent_scam"
+        },
+        "phony_apps_or_sites_response": {
+            "intent": "scam_response"
+        }
+    },
+    "romance_scam": {
+        "romance_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "romance_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "romance_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "ransomware_scam": {
+        "ransomware_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "ransomware_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "device_protection": {
+            "intent": "prevent_scam"
+        },
+        "ransomware_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "tech_support_scam": {
+        "tech_support_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "tech_support_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "tech_support_scam_response": {
+            "intent": "scam_response"
+        }
+    }, 
+    "scams_targetting_seniors": {
+        "election_scam": {
+            "intent": "explain_concept"
+        },
+        "charity_scam": {
+            "intent": "explain_concept"
+        },
+        "government_impersonation_scam": {
+            "intent": "explain_concept"
+        },
+        "advance_fee_fraud_scam": {
+            "intent": "explain_concept"
+        },
+        "bank_and_check_scam": {
+            "intent": "explain_concept"
+        },
+        "travel_scam": {
+            "intent": "explain_concept"
+        },
+        "business_scam": {
+            "intent": "explain_concept"
+        }
+
+    },
+    "charity_scam": {
+        "charity_scam_signs": {
+            "intent": "scam_signs"
+        }
+    },
+    "government_impersonation_scam": {
+        "government_impersonation_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "government_impersonation_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "government_impersonation_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "advance_fee_fraud_scam": {
+        "advance_fee_fraud_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "advance_fee_fraud_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "advance_fee_fraud_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "bank_and_check_scam": {
+        "bank_and_check_scam_types": {
+            "intent": "explain_concept"
+        },
+        "bank_and_check_scam_prevention": {
+            "intent": "prevent_scam"
+        }
+    },
+    "bank_and_check_scam_types": {
+        "fake_bank_communication_scam": {
+            "intent": "explain_concept"
+        },
+        "check_overpayment_scam": {
+            "intent": "explain_concept"
+        }
+    },
+    "fake_bank_communication_scam": {
+        "fake_bank_communication_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "fake_bank_communication_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "fake_bank_communication_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "check_overpayment_scam": {
+        "check_overpayment_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "check_overpayment_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "check_overpayment_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "travel_scam": {
+        "travel_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "travel_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "travel_scam_response": {
+            "intent": "scam_response"
+        }
+    },
+    "business_scam": {
+        "business_scam_signs": {
+            "intent": "scam_signs"
+        },
+        "business_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "business_scam_response": {
+            "intent": "scam_response"
+        }
+    }
+}

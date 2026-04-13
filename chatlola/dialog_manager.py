@@ -5,6 +5,9 @@ from flask import jsonify
 with open("chatlola/knowledge_base.json", "r", encoding="utf-8") as file:
     chatlola_data = json.load(file)
 
+with open("chatlola/context.json", "r", encoding="utf-8") as file:
+    context_data = json.load(file)
+
 def intent_recognition(query):
     intent_model = joblib.load("models/intent/intent_model.pkl")
     intent_utterance_vectorizer = joblib.load("models/intent/intent_tfidf_vectorizer.pkl")
@@ -25,7 +28,7 @@ def confusion_detection(query):
 
     return confusion_label
 
-def conversation_management(query, intent, confusion_label, prev_intent, prev_topic):
+def conversation_management(query, intent, confusion_label, prev_intent, prev_topic, context):
     intent_data = chatlola_data[intent]
 
     # skip empty intents for now
@@ -42,6 +45,10 @@ def conversation_management(query, intent, confusion_label, prev_intent, prev_to
                         if key2 in query:
                             return return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_data, tag_name)
 
+    #if no specific response is found
+    return no_keys_response(intent, context, prev_intent, prev_topic, confusion_label)
+
+    #return no response
     return return_response_data(confusion_label, prev_intent, prev_topic, intent, { "response": None }, "")
 
 def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_data, tag_name):
@@ -97,6 +104,40 @@ def return_response_data(confusion_label, prev_intent, prev_topic, intent, tag_d
         "intent": intent,
         "confusion_label": confusion_label #only for testing
     })
+
+def no_keys_response(intent, context, prev_intent, prev_topic, confusion_label): 
+    if intent == "explain_concept" or (context is None or context == ""):
+        return { 
+            "response": None, 
+            "topic": "clarify",
+            "intent": intent,
+            "context": context
+        }
+
+    print(context)
+    current_context_data = context_data[context]
+
+    #find the response that belongs to context and have the same intent as the predicted intent
+    for topic_name, topic_data in current_context_data.items():
+        if topic_data["intent"] == intent:
+
+            response_data = chatlola_data[intent][topic_name]
+
+            # if previous intent and topic matches the response found, then output the confused response 
+            if (prev_topic == topic_name and prev_intent == intent) or confusion_label == 1:
+                return {
+                    "response": response_data["confused_response"],
+                    "intent": intent,
+                    "topic": topic_name,
+                    "context": response_data["context"]
+                }
+            else:
+                return {
+                    "response": response_data["response"],
+                    "intent": intent,
+                    "topic": topic_name,
+                    "context": response_data["context"]
+                }
 
 def clarify_response(query):
     #maybe there is an easier way of doing this

@@ -18,6 +18,8 @@ def respond():
     prev_intent = request.args.get('intent')
     prev_topic = request.args.get('topic')
 
+    context = request.args.get('context')
+
     #if in clarify mode
     if prev_topic == "clarify":
         return clarify_response(query)
@@ -25,7 +27,7 @@ def respond():
     intent = intent_recognition(query)
     confusion_label = confusion_detection(query)
 
-    response_data = conversation_management(query, intent, confusion_label, prev_intent, prev_topic)
+    response_data = conversation_management(query, intent, confusion_label, prev_intent, prev_topic, context)
 
     return response_data
 

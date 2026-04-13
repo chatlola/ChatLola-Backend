@@ -19,6 +19,7 @@ print(df['intent'].value_counts())
 df = df.dropna()
 df = df.drop_duplicates()
 
+print("\nWithout empty rows:")
 #check number of utterances per intent
 print(df['intent'].value_counts())
 
@@ -70,7 +71,7 @@ print("\nClassification Report:")
 print(report)
 
 #print specific rows in the data that are misclassified
-#for actual, pred, sample in zip(y_test, y_pred_naive, X_test):
-#    if actual != pred:
-#        print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
+for actual, pred, sample in zip(y_test, y_pred_naive, X_test):
+    if actual != pred:
+        print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
         

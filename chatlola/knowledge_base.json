@@ -5,8 +5,8 @@
                 "first": ["kailangan", "halaga", "importante", "importance"],
                 "second": ["ingat", "safety"]
             },
-            "response": "Kailangan mas maging maingat online dahil maraming panloloko ang nangyayari sa internet, at madalas target ang mga nakatatanda. Kapag hindi tayo maingat, maaaring mawala ang pera o magamit ang personal na impormasyon natin. \n\nAng magandang balita, karamihan sa scam ay maiiwasan kung magiging mapagmatyag at magche-check muna bago magtiwala. Kung may kahina-hinala, huwag agad magbigay ng impormasyon o pera, at puwedeng magtanong sa taong pinagkakatiwalaan mo.", 
-            "confused_response": "Kailangan maging maingat online dahil maraming panloloko sa internet, lalo na sa mga nakatatanda. Kapag hindi nag-ingat, puwedeng mawala ang pera o magamit ang personal na impormasyon.\n\nAng mabuti naman, karamihan sa scam ay puwedeng maiwasan. Kailangan lang maging mapagmatyag at mag-check muna bago magtiwala. Kapag may kahina-hinala, huwag agad magbigay ng impormasyon o pera, at mas mabuting magtanong muna sa taong pinagkakatiwalaan.",
+            "response": "Kailangan mong maging mas maingat online dahil maraming cybercrime ang nangyayari, lalo na sa mga nakatatanda. Ayon sa mga ulat, malaking halaga ng pera ang nawawala dahil sa panloloko sa internet, at patuloy pa itong tumataas. Maraming scam ang target ang seniors dahil mas madali silang malinlang.\n\nAng magandang balita, karamihan sa mga panloloko ay maiiwasan kung may sapat na kaalaman at pag-iingat. Sa pamamagitan ng pagiging mapanuri at hindi basta pagtitiwala sa mga mensahe o impormasyon online, mas mapoprotektahan mo ang iyong sarili.", 
+            "confused_response": "Kailangan mong mag-ingat online dahil may mga taong nanloloko sa internet at maaaring mawala ang iyong pera o impormasyon. Madalas target ang mga nakatatanda kaya importante ang pagiging maingat.\n\nAng mabuti, maraming scam ang maiiwasan kung hindi agad nagtitiwala at nagche-check muna bago gumawa ng aksyon.",
             "context": "digital_safety"
         },
         "phishing_scam": {
@@ -148,16 +148,16 @@
                 "first": ["karapatan", "batas", "rights", "law"],
                 "second": ["impormasyon", "data", "information"]
             },
-            "response": "May karapatan ka na panatilihing ligtas ang personal na impormasyon mo. Kasama dito ang:\n\n• Siguraduhing legal at tama ang pagkolekta ng data mo.\n• Malaman kung paano gagamitin ang impormasyon mo.\n• Ibigay lang ang impormasyong kailangan.\n• Tumangging gamitin ang data mo sa ibang layunin.\n• Ma-access at maitama ang personal data kung may mali.\n• Malaman ang privacy policies ng kumpanya o website.",
-            "confused_response": "",
+            "response": "May karapatan kang protektahan ang iyong personal na impormasyon. Dapat itong kinokolekta nang tama at legal, at may karapatan kang malaman kung paano ito gagamitin. Maaari ka ring pumili kung anong impormasyon lang ang ibibigay mo at tumanggi kung gagamitin ito sa ibang paraan.\n\nMay karapatan ka ring makita ang iyong personal na data at ipabago ito kung mali, at dapat malinaw sa iyo ang privacy policies ng kumpanya o serbisyo na kumukuha ng iyong impormasyon.",
+            "confused_response": "May karapatan kang protektahan ang iyong personal na impormasyon. Dapat alam mo kung paano ito ginagamit at hindi ka dapat pilitin magbigay ng hindi kailangan.\n\nPwede mo ring i-check at itama ang iyong impormasyon, at dapat ipaliwanag sa iyo kung paano ito gagamitin.",
             "context": "personal_data_privacy"
         },
         "personal_data_privacy": {
             "keywords": {
                 "first": ["data privacy"]
             }, 
-            "response": "Ang personal data privacy ay ang pagprotekta sa iyong personal na impormasyon. Kasama dito ang pangalan, address, phone number, birthday, ID numbers, photos, videos, bank details, at medical records.\n\nMahalaga ito para maiwasan ang identity theft, panloloko, o iba pang problema.",
-            "confused_response": "",
+            "response": "Ang personal data privacy ay ang pagprotekta sa iyong personal na impormasyon. Kasama dito ang mga detalye tulad ng iyong pangalan, address, numero ng telepono, petsa ng kapanganakan, ID numbers, larawan, bank details, at medical records.\n\nMahalagang maprotektahan ang impormasyong ito upang maiwasan ang identity theft, panloloko, at iba pang problema.",
+            "confused_response": "Ang personal data privacy ay ang pag-iingat sa iyong personal na impormasyon tulad ng pangalan, address, o bank details.\n\nMahalaga ito para maiwasan ang panloloko o paggamit ng iyong impormasyon nang walang pahintulot.",
             "context": "digital_safety"
         },
         "scam_psychological_effects": {
@@ -165,8 +165,8 @@
                 "first": ["pakiramdam", "epekto", "effect"],
                 "second": ["scam", "maloko", "niloko", "naloko", "nascam", "mascam"]
             },
-            "response": "Ang pagiging biktima ng scam ay maaaring makaapekto sa isip at damdamin ng isang tao. Maaaring mawalan ka ng tiwala sa sarili at magduda sa iyong mga desisyon. Maaari ring mahirapan magtiwala ulit sa ibang tao, lalo na kung ang scammer ay nagpanggap na kaibigan o may relasyon sa iyo.\n\nAng iba ay nakakaramdam ng stress, kaba, o takot kahit matagal na matapos ang pangyayari. Normal lang din na maging mas maingat o mag-alala sa mga tawag, mensahe, o transaksyon.\n\nTandaan, normal ang mga reaksyong ito at hindi ka nag-iisa. Ang paghilom ay nangangailangan ng oras, suporta, at pag-unawa. Makakatulong ang pakikipag-usap sa taong pinagkakatiwalaan mo at pagtuon sa mga paraan para muli kang makaramdam ng seguridad.",
-            "confused_response": "",
+            "response": "Ang pagiging biktima ng scam ay maaaring magdulot ng malalim na epekto sa iyong emosyon at pag-iisip. Maaaring mawalan ka ng tiwala sa sarili at magduda sa iyong mga desisyon. Maaari ka ring mahirapang magtiwala muli sa ibang tao, lalo na kung ginamit ng scammer ang iyong tiwala para lokohin ka.\n\nMarami ring nakakaramdam ng stress at anxiety kahit matapos ang pangyayari. Minsan, nagiging sobrang maingat o natatakot sa mga normal na sitwasyon tulad ng tawag o mensahe. Normal lamang ang mga ganitong reaksyon, at nangangailangan ito ng panahon at suporta upang makabawi.",
+            "confused_response": "Kapag na-scam ang isang tao, maaaring mawalan siya ng tiwala sa sarili at sa ibang tao. Maaari rin siyang makaramdam ng takot, stress, o pag-aalala kahit tapos na ang nangyari.\n\nNormal lang ito dahil masakit at nakakaapekto talaga ang ganitong karanasan, at kailangan ng panahon para makabawi.",
             "context": ""
         },
         "digital_safety": {
@@ -186,8 +186,8 @@
                 "first": ["nakatatanda", "matatanda", "seniors"],
                 "second": ["target", "punterya"]
             },
-            "response": "May iba’t ibang uri ng scam na madalas target ang mga seniors. Ilan sa mga karaniwan ay:\n\n• Beneficiary at Investment Scams\n• Romance Scams\n• Tech Support Scams\n• Social Media Scams\n• Emergency o Grandparent Scams\n• Election Scams\n• Natural Disaster Relief o Charity Scams\n• Gift Card Scams\n• Advance Fee Fraud\n• Bank at Check Scams\n• Travel Scams\n• Government Impersonation Scams\n• Robocalls at Phone Scams\n• Business Imposter Scams\n• Medicare at Health Insurance Scams\n\nIto ang ilan sa mga pinakakaraniwang uri ng panloloko na ginagamit ng mga scammer laban sa mga nakatatanda. Mahalaga na makilala ang mga ito upang mas madaling makaiwas sa panlilinlang.",
-            "confused_response": "",
+            "response": "Maraming uri ng scam ang madalas tumatarget sa mga seniors. Kabilang dito ang romance scams, tech support scams, at investment scams kung saan sinusubukang makuha ang kanilang pera o impormasyon. Mayroon ding government impersonation scams, robocalls, at business imposter scams na nagpapanggap na lehitimong organisasyon.\n\nBukod dito, karaniwan din ang charity scams, election scams, at gift card scams. May mga kaso rin ng advance fee fraud, bank at check scams, at travel scams. Madalas target ang seniors dahil maaaring mas madali silang malinlang o mapagkatiwala.",
+            "confused_response": "Maraming scam ang tumatarget sa seniors tulad ng romance scam, tawag o robocall, at pagpapanggap na galing sa gobyerno o kumpanya. Mayroon ding mga scam na humihingi ng pera tulad ng investment, gift card, o charity scams.\n\nTarget ang seniors dahil iniisip ng scammers na mas madali silang mapaniwala o mapagkatiwala.",
             "context": "scam"
         },
         "scam_types": {
@@ -597,7 +597,7 @@
         },
         "general_scam_response": {
             "keywords": {
-                "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko", "gawin"]
+                "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko"]
             },
             "response": "Kung sa tingin mo ay na-scam ka, mahalagang kumilos agad:\n\n• Tawagan agad ang bangko o e-wallet kung may naibigay kang pera o financial information\n• Palitan ang password ng mga account na maaaring na-access\n• I-report ang nangyari sa awtoridad o kinauukulan\n\nTandaan, hindi mo kasalanan na maloko ka, at hindi ka nag-iisa. May mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong pera at impormasyon.",
             "confused_response": "",
