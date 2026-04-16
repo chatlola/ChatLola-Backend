@@ -1,6 +1,7 @@
 #run locally with: python -m api.index
 from flask import Flask, request, jsonify
 from chatlola.dialog_manager import intent_recognition, confusion_detection, conversation_management, clarify_response
+from chatlola.tts import existing_tts, getTTS, uploadAudio
 import string
 import json
 
@@ -30,6 +31,27 @@ def respond():
     response_data = conversation_management(query, intent, confusion_label, prev_intent, prev_topic, context)
 
     return response_data
+
+@app.route('/tts', methods=['GET'])
+
+def tts():
+    text = request.args.get('text')
+    public_id = request.args.get('public_id')
+
+    url = existing_tts(public_id)
+
+    if url:
+        return { "url": url }
+
+    audio = getTTS(text)
+    
+    if audio: 
+        url = uploadAudio(audio, public_id)
+
+    if url:
+        return { "url": url }
+    
+    return { "url": None }
 
 if __name__=='__main__':
     app.run(debug=True)

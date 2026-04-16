@@ -711,7 +711,7 @@
             "keywords": {
                 "first": ["phish", "pish", "email", "text", "message", "mensahe", "chat"]
             },
-            "response": "Narito ang mga palatandaan ng phishing scam:\nMay mensahe na humihingi ng personal na impormasyon\nMay link na kakaiba o may maling spelling\nMay urgent na mensahe (hal. “i-verify agad”)\nKunwari ay galing sa bangko o delivery service\nMay alok o problema na kailangan mong ayusin agad",
+            "response": "Narito ang mga palatandaan ng phishing scam:\n• May mensahe na humihingi ng personal na impormasyon\n• May link na kakaiba o may maling spelling\n• May urgent na mensahe (hal. “i-verify agad”)\n• Kunwari ay galing sa bangko o delivery service\n• May alok o problema na kailangan mong ayusin agad",
             "confused_response": "Malalaman na phishing scam ito kung may mensahe na humihingi ng personal na impormasyon o may link na mukhang kakaiba. Madalas din itong may urgent na sinasabi at kunwari galing sa bangko o delivery service para magmukhang totoo.",
             "context": "phishing_scam"
         },

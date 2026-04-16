@@ -192,6 +192,12 @@
     "charity_scam": {
         "charity_scam_signs": {
             "intent": "scam_signs"
+        },
+        "charity_scam_prevention": {
+            "intent": "prevent_scam"
+        },
+        "charity_scam_response": {
+            "intent": "scam_response"
         }
     },
     "government_impersonation_scam": {
