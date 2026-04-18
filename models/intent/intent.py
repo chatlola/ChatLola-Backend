@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 from sklearn.metrics import accuracy_score
 import joblib
+import json
 
 path = "models/intent/Intent Dataset.csv"
 df = pd.read_csv(path, on_bad_lines='error', encoding='unicode_escape')
@@ -70,8 +71,19 @@ report = classification_report(y_test, y_pred_naive)
 print("\nClassification Report:")
 print(report)
 
+misclassified_intents = { "items": [] }
+
 #print specific rows in the data that are misclassified
 for actual, pred, sample in zip(y_test, y_pred_naive, X_test):
     if actual != pred:
-        print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
+        #print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
+        misclassified_intents["items"].append({
+            "question": sample,
+            "actual": actual,
+            "predicted": pred
+        })
+
+#save misclassified
+with open(r"models\intent\misclassified_test_intents.json", "w") as f:
+    json.dump(misclassified_intents, f, indent=4)
         
