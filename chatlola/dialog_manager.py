@@ -46,6 +46,11 @@ def build_response(tag_data, intent, topic, confusion_label, confused=False):
         if confused else tag_data.get("response")
     )
 
+    topic = (
+        topic + "_confused"
+        if confused else topic
+    )
+
     return jsonify({
         **{k: v for k, v in tag_data.items()
            if k not in ("keywords", "confused_response", "response")},
@@ -122,6 +127,8 @@ def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
         return build_response(data, intent, topic, confusion)
 
     # If current topic has confused response
+    
+    # Check if data has response
     if data.get("response"):
         return build_response(data, intent, topic, confusion, confused=True)
 
@@ -130,8 +137,8 @@ def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
         prev_data = chatlola_data[prev_intent][prev_topic]
         return jsonify({
             "response": "Mukhang medyo nakakalito 😅. " + prev_data["confused_response"],
-            "intent": None,
-            "topic": "clarify",
+            "intent": prev_intent,
+            "topic": prev_topic + "_confused",
             "confusion_label": confusion
         })
 
