@@ -25,10 +25,10 @@ def respond():
     if prev_topic == "clarify":
         return clarify_response(query)
     
-    intent = intent_recognition(query)
-    confusion_label = confusion_detection(query)
+    intent, intent_prob = intent_recognition(query)
+    confusion, confusion_prob = confusion_detection(query)
 
-    response_data = conversation_management(query, intent, confusion_label, prev_intent, prev_topic, context)
+    response_data = conversation_management(query, intent, intent_prob, confusion, confusion_prob, prev_intent, prev_topic, context)
 
     return response_data
 
@@ -52,6 +52,30 @@ def tts():
         return { "url": url }
     
     return { "url": None }
+
+# For testing
+@app.route("/predict")
+
+def predict():
+    query = request.args.get("query")
+
+    if not query:
+        return jsonify({"error": "Missing query"}), 400
+
+    intent, intent_conf = intent_recognition(query)
+    confusion, confusion_conf = confusion_detection(query)
+
+    return jsonify({
+        "query": query,
+        "intent": {
+            "label": intent,
+            "confidence": intent_conf
+        },
+        "confusion": {
+            "label": confusion,
+            "confidence": confusion_conf
+        }
+    })
 
 if __name__=='__main__':
     app.run(debug=True)

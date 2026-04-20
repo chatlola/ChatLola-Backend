@@ -1,7 +1,7 @@
 import joblib
 import json
 from flask import jsonify
-
+import numpy as np
 
 # --- Load data ---
 with open("chatlola/knowledge_base.json", encoding="utf-8") as f:
@@ -60,19 +60,31 @@ def build_response(tag_data, intent, topic, confusion_label, confused=False):
         "confusion_label": confusion_label
     })
 
+# Predict with probabilities
+def predict(model, vec):
+    # Get probabilities
+    probs = model.predict_proba(vec)[0]
+
+    # Get class labels
+    classes = model.classes_
+
+    # Find index of highest probability
+    max_index = np.argmax(probs)
+
+    return [classes[max_index], probs[max_index]]
 
 # --- Core Models ---
 def intent_recognition(query):
     vec = vectorize(query, intent_vectorizer)
-    return intent_model.predict(vec)[0]
+    return predict(intent_model, vec)
 
 def confusion_detection(query):
     vec = vectorize(query, confusion_vectorizer)
-    return confusion_model.predict(vec)[0]
+    return predict(confusion_model, vec)
 
 
 # --- Main Logic ---
-def conversation_management(query, intent, confusion, prev_intent, prev_topic, context):
+def conversation_management(query, intent, intent_prob, confusion, confusion_prob, prev_intent, prev_topic, context):
     intent_data = chatlola_data.get(intent)
 
     if not intent_data:
@@ -104,11 +116,14 @@ def conversation_management(query, intent, confusion, prev_intent, prev_topic, c
             "context": context
         })
 
-    # 4. Try context-based response
-    response = no_keys_response(intent, context, prev_intent, prev_topic, confusion)
+    # 4. Try context-based response but only if probability is high enough
+    if intent_prob >= 0.3:
+        response = no_keys_response(intent, context, prev_intent, prev_topic, confusion)
 
-    if response:
-        return jsonify(response)
+        if response:
+            return jsonify(response)
+    
+    print("skipped checking context")
 
     return build_response(None, intent, None, confusion)
 
