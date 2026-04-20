@@ -194,7 +194,6 @@ label,utterance
 1,"Di ko masyadong narinig, ulit?"
 1,Pakiulit ng konti
 1,Pwede bang dahan-dahan ulit?
-1,Paki-summarize ulit
 1,Pwede ulitin from the start?
 1,Paki-clarify ulit
 1,Pwede bang ulitin mo yung part na yun?
@@ -284,26 +283,23 @@ label,utterance
 1,Parang may hindi ako maintindihan sa sarili ko
 1,Hindi ko alam kung bakit ako ganito
 1,Ang gulo-gulo ng loob ko
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
+1,"Hindi ko masyadong naintindihan, pwede mo ba ipaliwanag ulit?"
+1,"Di ko gets, pwede bang ulitin mo yung paliwanag?"
+1,"Medyo nalilito ako, pwede mo bang linawin ulit?"
+1,"Hindi malinaw sa akin, pwede bang i-explain mo ulit?"
+1,Pwede mo bang gawing mas simple yung paliwanag?
+1,"Parang di ko nakuha, pwede mo bang ipaliwanag ulit?"
+1,Pwede bang ulitin mo yung explanation? Medyo magulo pa sa akin.
+1,"Hindi ko gets yung tungkol sa scam, pwede mo bang ipaliwanag ulit?"
+1,Pwede mo bang ipaliwanag ulit nang mas detalyado?
+1,"Di ko masyadong nasundan, pwede bang ulitin mo?"
+1,"Hindi pa rin malinaw sa akin yung phishing, pwede bang ipaliwanag ulit?"
+1,"Medyo mahirap intindihin, pwede bang gawing mas simple?"
+1,"Di ko pa rin gets kung paano gumagana yung scam, pwede bang ulitin?"
+1,Pwede bang pakilinaw ulit yung explanation?
+1,"Hindi ko masyadong maintindihan yung sinabi mo, pwede bang ulitin?"
+1,Pwede mo bang ipaliwanag ulit sa ibang paraan?
+1,"Di ko pa rin gets, pwede bang mas klaro yung paliwanag?"
 ,
 ,
 ,
@@ -531,17 +527,13 @@ label,utterance
 0,Paano ba nanloloko ang mga scammers
 0,Ano ang mga panloloko online.
 0,Paano gumawa ng malakas at ligtas na password?
-0,Paano gumawa ng malakas na password para sa aking account?
-0,Paano gumawa ng password na mahirap hulaan ng iba?
 0,Ano ang isang halimbawa ng isang malakas na password?
 0,Paano ko gagawing mas ligtas ang aking mga login credentials?
 0,Ano ang mga pinakamabuting gawi sa paggawa ng password?
 0,Ano ang iba't ibang klase ng scam?
 0,Ipaliwanag mo ang iba't ibang klase ng scam.
 0,Ano ang mga karapatan ko sa paggamit ng personal na impormasyon ko?
-0,Ano ang mga karapatan ko sa data privacy?
 0,Ano ang mga batas tungkol sa paggamit ng personal na datos ko?
-0,Ano ang mga karapatan ko bilang user sa internet tungkol sa data ko?
 0,Ano ang halaga ng pagiging maingat online?
 0,Paano ko malalaman kung scam ang mensaheng natanggap ko?
 0,Paano masasabi na panloloko ang isang text o email?
@@ -556,7 +548,6 @@ label,utterance
 0,Paano ko malalaman kung mapanlinlang ang mensaheng natanggap ko?
 0,Paano ko masasabi kung hindi totoo ang isang offer?
 0,Paano ko malalaman kung scam ang isang promo?
-0,Paano ko malalaman kung scam ang link na natanggap ko?
 0,Paano ko malalaman kung may scam sa social media?
 0,"Ano ang dapat bantayan para hindi maloko sa Facebook, Instagram, o TikTok?"
 0,Ano ang mga palatandaan ng scam sa social media?
