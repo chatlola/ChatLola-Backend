@@ -13,8 +13,8 @@
             "keywords": {
                 "first": ["phish", "pish", "email", "text", "message", "mensahe"]
             },
-            "response": "Ang phishing scam ay panloloko kung saan may matatanggap kang email o text na kunwari galing sa totoong kumpanya tulad ng bangko o delivery service. Layunin nitong makuha ang iyong personal na impormasyon tulad ng password o account details.",
-            "confused_response": "Ang phishing scam ay panloloko kung saan may natatanggap kang email o text na parang galing sa totoong kumpanya tulad ng bangko o delivery service. Kadalasan, hinihiling nito na ibigay mo ang iyong personal na impormasyon tulad ng password o account details. Maaaring may mga link din na pinapapindot na mukhang totoo pero peke pala.",
+            "response": "Ang phishing scam ay panloloko kung saan may natatanggap kang email o text na parang galing sa totoong kumpanya tulad ng bangko o delivery service. Kadalasan, hinihiling nito na ibigay mo ang iyong personal na impormasyon tulad ng password o account details. Maaaring may mga link din na pinapapindot na mukhang totoo pero peke pala.",
+            "confused_response": "Ang phishing scam ay panloloko kung saan may matatanggap kang email o text na kunwari galing sa totoong kumpanya tulad ng bangko o delivery service. Layunin nitong makuha ang iyong personal na impormasyon tulad ng password o account details.",
             "context": "scam_types"
         },
         "robocall_scam": {
@@ -208,8 +208,8 @@
                 "first": ["krimen", "panganib", "crimes"],
                 "second": ["internet", "online", "cyber"]
             },
-            "response": "May iba’t ibang krimen at panganib na maaaring mangyari sa internet. Ilan sa mga karaniwan ay:\n\n• Identity theft o pagnanakaw ng personal na impormasyon\n• Data breach kung saan nakukuha ang pribadong data mo\n• Virus o malware na nakakasira ng cellphone o computer\n• Phishing o pekeng email at mensahe na nanloloko\n• Pekeng website at online scams\n• Romance o love scams\n• Cyberbullying o pang-aabuso online\n• Pagkakalantad sa hindi angkop na content\n• Mahinang privacy settings na maaaring maglabas ng personal mong impormasyon\n\nDahil patuloy na nagbabago ang teknolohiya, mahalagang maging maingat sa pag-click ng links, pag-share ng impormasyon, at pakikipag-usap sa internet.",
-            "confused_response": "",
+            "response": "May iba’t ibang panganib sa internet na dapat mong bantayan, tulad ng:\n\n• Identity theft o pagnanakaw ng personal na impormasyon\n• Data breach kung saan nakukuha ang pribadong data\n• Virus o malware na nakakasira ng device\n• Phishing o pekeng mensahe na nanloloko\n• Pekeng websites at online scams\n• Romance scams\n• Cyberbullying o pang-aabuso online\n• Pagkakalantad sa hindi angkop na content\n• Mahinang privacy settings na naglalabas ng personal na impormasyon\n\nDahil dito, mahalagang mag-ingat sa pag-click ng links, pag-share ng impormasyon, at pakikipag-usap online.",
+            "confused_response": "Maraming panganib sa internet tulad ng pagnanakaw ng impormasyon, virus, pekeng mensahe, at scams. Maaari ring magkaroon ng cyberbullying o makita ang hindi angkop na content.\n\nKaya mahalagang mag-ingat sa pag-click ng links at huwag basta magbahagi ng personal na impormasyon.",
             "context": "digital_safety"
         },
         "scammers_tactics": {
@@ -217,8 +217,8 @@
             "first": ["paano", "papaano", "paano nga", "paano ba", "tactics"],
             "second": ["scammer", "panloloko", "panlilinlang", "trick", "taktika", "manloko", "ginagawa"]
         },
-            "response": "Karaniwang nanloloko ang mga scammer gamit ang panlilinlang at pagmamadali. Madalas nagpapanggap sila na kakilala, bangko, kumpanya, o opisyal na ahensya para mapaniwala ka. Maaari ka rin nilang hikayatin na mag-click ng link, magbukas ng attachment, o magbigay ng personal na impormasyon. \n\nGinagamit nila ang emosyon tulad ng takot, awa, pagmamadali, o excitement para mapasunod ka agad nang hindi ka na nakakapag-isip. Halimbawa, sasabihin nilang may emergency, may premyo ka, o may problema ang account mo. \n\nKaya mahalagang mag-isip muna at mag-check bago magtiwala sa anumang mensahe, tawag, o alok online.",
-            "confused_response": "",
+            "response": "Ang mga scammer ay gumagamit ng social engineering, isang paraan ng panlilinlang para makuha ang iyong tiwala at impormasyon.\n\n• Nagpapanggap ang scammer na kakilala, bangko, kumpanya, o opisyal na ahensya\n• Pinapamadali ka para hindi ka makapag-isip nang maayos\n• Pinapagawa ka ng aksyon tulad ng pag-click ng link o pagbibigay ng impormasyon\n• Ginagamit ang emosyon tulad ng takot, awa, o excitement\n\nKaya mahalagang mag-isip muna at mag-check bago magtiwala sa anumang mensahe o alok.",
+            "confused_response": "Ang mga scammer ay gumagamit ng social engineering, isang paraan ng panlilinlang para makuha ang iyong tiwala. Pinapamadali ka nila, pinapagawa ng aksyon tulad ng pag-click ng link o pagbibigay ng impormasyon, at ginagamit ang emosyon tulad ng takot o excitement para mapasunod ka. Kaya mahalagang mag-ingat at mag-check muna bago magtiwala.",
             "context": "scam"
         },
         "password_tips": {
@@ -235,8 +235,8 @@
                 "first": [
                     "scam", "scams", "panloloko", "panlilinlang"]
             },
-            "response": "Ang scam ay isang uri ng panloloko kung saan may taong nagsisinungaling o nagpapanggap upang makuha ang iyong pera o personal na impormasyon. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ang kanilang biktima. Kaya mahalagang maging maingat, lalo na kung may biglang humihingi ng pera o sensitibong impormasyon online.",
-            "confused_response": "",
+            "response": "AAng scam ay panloloko kung saan may taong nagsisinungaling o nagpapanggap para makuha ang pera o personal na impormasyon mo. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ka. Kaya mahalagang mag-ingat lalo na kung may biglang humihingi ng pera o detalye tungkol sa iyo.",
+            "confused_response": "Ang scam ay panloloko kung saan may taong nagpapanggap o nagsisinungaling para makuha ang iyong pera o impormasyon. Kaya mag-ingat kung may biglang humihingi ng pera o personal na detalye.",
             "context": "general"
         }
     },
@@ -280,7 +280,7 @@
                 "second": ["business", "negosyo", "kumpaniya", "company"]
             },
             "response": "Para makaiwas sa business imposter scam:\n• Huwag magpadala ng pera, gift card, o cryptocurrency sa hindi kilala\n• Huwag agad maniwala sa mga mensaheng may urgent na hinihingi\n• Huwag magbigay ng personal o financial na impormasyon\n• Makipag-usap sa taong pinagkakatiwalaan bago magdesisyon\n• I-verify ang kumpanya gamit ang opisyal na contact details\n• Huwag mag-click ng links o tumawag sa numerong galing sa kahina-hinalang mensahe",
-            "confused_response": "Para makaiwas sa scam, huwag magpadala ng pera o magbigay ng impormasyon sa hindi kilala. Kung may kahina-hinalang mensahe, huwag agad maniwala. Mas mabuting i-check muna kung totoo ang kumpanya at magtanong sa taong pinagkakatiwalaan.",
+            "confused_response": "Para makaiwas sa business imposter scam, huwag magpadala ng pera o magbigay ng impormasyon sa hindi kilala. Kung may kahina-hinalang mensahe, huwag agad maniwala. Mas mabuting i-check muna kung totoo ang kumpanya at magtanong sa taong pinagkakatiwalaan.",
             "context": "business_scam"
         },
         "travel_scam_prevention": {
@@ -288,7 +288,7 @@
                 "first": ["travel", "vacation", "bakasyon"]
             },
             "response": "Para makaiwas sa travel scam:\n• Humingi ng written na detalye ng offer at basahin ang fine print\n• I-check ang mga kondisyon, bayarin, at restrictions\n• I-verify ang hotel o travel agency gamit ang opisyal na impormasyon\n• Huwag basta magbigay ng credit card details kung hindi ikaw ang nag-initiate\n• Mag-ingat sa mga alok na masyadong maganda para maging totoo\n• Siguraduhing malinaw ang cancellation at refund policies",
-            "confused_response": "Para makaiwas sa scam, siguraduhing malinaw ang detalye ng offer at basahin ang mga kondisyon. Huwag basta magbigay ng credit card information. Mas mabuting i-check muna kung totoo ang travel offer bago magbayad.",
+            "confused_response": "Para makaiwas sa scam na ito, siguraduhing malinaw ang detalye ng offer at basahin ang mga kondisyon. Huwag basta magbigay ng credit card information. Mas mabuting i-check muna kung totoo ang travel offer bago magbayad.",
             "context": "travel_scam"
         },
         "advance_fee_fraud_prevention": {
@@ -296,7 +296,7 @@
                 "first": ["advance fee fraud", "advance", "fee", "bayad", "bayaran", "beneficiary", "benefit", "benepisyaryo"]
             },
             "response": "Para makaiwas sa advance fee scam:\n• Huwag magbayad para makuha ang premyo, loan, o trabaho\n• Mag-ingat sa mga alok na masyadong maganda para maging totoo\n• I-verify ang kumpanya at siguraduhing may lisensya\n• Huwag magbigay ng personal o financial na impormasyon\n• Huwag magtiwala sa mga alok na dumadaan lang sa tawag o mensahe\n• Mag-research muna bago magdesisyon",
-            "confused_response": "Para makaiwas sa scam, huwag magbayad muna para makakuha ng benepisyo. Kung may alok na mukhang maganda pero may bayad agad, mag-ingat. Mas mabuting i-check muna kung totoo ang kumpanya bago magtiwala",
+            "confused_response": "Para makaiwas sa scam na ito, huwag magbayad muna para makakuha ng benepisyo. Kung may alok na mukhang maganda pero may bayad agad, mag-ingat. Mas mabuting i-check muna kung totoo ang kumpanya bago magtiwala.",
             "context": "advance_fee_fraud_scam"
         },
         "check_overpayment_scam_prevention": {
@@ -305,7 +305,7 @@
                 "second": ["overpayment", "sobra"]
             },
             "response": "Para makaiwas sa overpayment scam:\n• I-verify muna ang tseke sa bangko bago magpadala ng pera\n• Huwag magpadala ng pera hangga’t hindi sigurado ang bayad\n• Mag-ingat sa mga bayad na sobra sa presyo\n• Huwag agad magtiwala sa hindi kilalang buyer\n• Hintaying malinaw na ma-confirm ang payment bago gumawa ng aksyon",
-            "confused_response": "Para makaiwas sa scam, huwag agad magpadala ng pera lalo na kung sobra ang bayad sa iyo. Siguraduhing totoo ang bayad sa bangko bago ka magtiwala.",
+            "confused_response": "Para makaiwas sa scam na ito, huwag agad magpadala ng pera lalo na kung sobra ang bayad sa iyo. Siguraduhing totoo ang bayad sa bangko bago ka magtiwala.",
             "context": "check_overpayment_scam"
         },
         "fake_bank_communication_scam_prevention": {
@@ -314,7 +314,7 @@
                 "second": ["banko", "bank", "bangko"]
             },
             "response": "Para makaiwas sa bank impersonation scam:\n• Huwag magbigay ng sensitibong impormasyon sa email o tawag\n• Huwag mag-click ng kahina-hinalang link\n• Direktang kontakin ang bangko gamit ang opisyal na numero o website\n• Mag-ingat sa mga mensaheng may urgent na hinihingi\n• I-verify muna ang anumang claim bago magtiwala",
-            "confused_response": "Para makaiwas sa scam, huwag magbigay ng impormasyon sa mga mensaheng kunwari galing sa bangko. Kung hindi sigurado, direktang tawagan ang bangko gamit ang opisyal na numero",
+            "confused_response": "Para makaiwas sa scam na ito, huwag magbigay ng impormasyon sa mga mensaheng kunwari galing sa bangko. Kung hindi sigurado, direktang tawagan ang bangko gamit ang opisyal na numero.",
             "context": "fake_bank_communication_scam"
         },
         "charity_scam_prevention": {
@@ -322,7 +322,7 @@
                 "first": ["donate", "donasyon", "charity", "charities", "kalamidad", "calamity", "emergency", "hingi ng tulong", "tumulong"]
             },
             "response": "Para makaiwas sa charity scam:\n• I-check muna ang charity bago mag-donate\n• Mag-donate lamang sa opisyal na website o verified contact\n• Huwag magpadala ng pera kung pinapamadali ka\n• Mag-ingat sa mga website o page na kahina-hinala\n• Huwag agad magtiwala sa mga taong nagpapanggap na opisyal\n• Magtanong sa taong pinagkakatiwalaan kung hindi sigurado",
-            "confused_response": "Para makaiwas sa scam, huwag agad magbigay ng donasyon lalo na kung hindi mo kilala ang charity. I-check muna kung totoo ito at siguraduhing sa opisyal na website ka magbibigay.",
+            "confused_response": "Para makaiwas sa scam na ito, huwag agad magbigay ng donasyon lalo na kung hindi mo kilala ang charity. I-check muna kung totoo ito at siguraduhing sa opisyal na website ka magbibigay.",
             "context": "charity_scam"
         },
         "phony_apps_or_sites_prevention": {
@@ -331,7 +331,7 @@
                 "second": ["app", "website", "site"]
             },
             "response": "Para makaiwas sa phony apps at fake sites:\n• Mag-download lamang mula sa official app stores\n• I-check ang developer name at reviews ng app\n• Huwag magbigay ng sobrang permissions\n• Siguraduhing legit ang website bago maglagay ng impormasyon\n• Huwag mag-enter ng credit card details kung hindi sigurado\n• Mag-ingat sa mga site na mukhang hindi maayos o kahina-hinala",
-            "confused_response": "Para makaiwas sa scam, siguraduhing legit ang app o website bago gamitin. Huwag agad magbigay ng personal o credit card information kung hindi ka sigurado.",
+            "confused_response": "Para makaiwas sa scam na ito, siguraduhing legit ang app o website bago gamitin. Huwag agad magbigay ng personal o credit card information kung hindi ka sigurado.",
             "context": "phony_apps_or_sites"
         },
         "bank_and_check_scam_prevention": {
@@ -371,7 +371,7 @@
                 "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "dating", "date"]
             }, 
             "response": "Para makaiwas sa romance scam:\n• Huwag magpadala ng pera sa taong nakilala lang online\n• I-verify ang kanilang identity (pangalan, larawan, at iba pa)\n• Mag-ingat sa mga taong masyadong mabilis maging malapit\n• Makipag-usap sa taong pinagkakatiwalaan tungkol sa sitwasyon\n• Iwasan ang pagbibigay ng personal o financial na impormasyon",
-            "confused_response": "Para makaiwas sa scam, huwag magpadala ng pera sa taong nakilala mo lang online. Mas mabuting i-check muna kung totoo sila at magtanong sa taong pinagkakatiwalaan.",
+            "confused_response": "Para makaiwas sa scam na ito, huwag magpadala ng pera sa taong nakilala mo lang online. Mas mabuting i-check muna kung totoo sila at magtanong sa taong pinagkakatiwalaan.",
             "context": "romance_scam"
         },
         "ransomware_scam_prevention": {
@@ -387,7 +387,7 @@
                 "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
             },
             "response": "Para makaiwas sa tech support scam:\n• Huwag magtiwala sa random pop-ups o mensahe tungkol sa virus\n• Huwag tumawag sa mga numerong ibinigay sa kahina-hinalang alert\n• Gumamit ng legit at updated na antivirus software\n• Huwag magbigay ng passwords o access sa hindi kilala\n• I-verify ang kumpanya gamit ang opisyal na contact details\n• I-restart ang device kung may kahina-hinalang pop-up",
-            "confused_response": "Para makaiwas sa scam, huwag magtiwala sa mga pop-up na nagsasabing may virus ang iyong computer. Huwag magbigay ng impormasyon o access sa hindi kilala, at i-check muna kung totoo ang mensahe.",
+            "confused_response": "Para makaiwas sa scam na ito, huwag magtiwala sa mga pop-up na nagsasabing may virus ang iyong computer. Huwag magbigay ng impormasyon o access sa hindi kilala, at i-check muna kung totoo ang mensahe.",
             "context": "tech_support_scam"
         },
         "device_protection": {
@@ -455,8 +455,8 @@
             "keywords": {
                 "first": ["seniors", "matatanda", "nakatatanda", "senior", "elderly", "scam", "panloloko", "panlilinlang", "panganib", "mascam"]
             },
-            "response": "Upang maiwasan ang mga scam na target ang mga senior, narito ang ilang mahahalagang paalala:\n\n• Huwag magmadali. Kapag may taong nanggigipit na magdesisyon ka agad, mag-ingat. Madalas itong taktika ng mga scammer para hindi ka na makapag-isip nang mabuti.\n• Kumonsulta sa pinagkakatiwalaang tao. Makipag-usap muna sa kapamilya o kaibigan bago magpadala ng pera o sumagot sa kahina-hinalang mensahe.\n• Magduda sa mga alok na masyadong maganda para maging totoo. Kung parang napakagandang oportunidad o premyo, malamang ito ay panloloko.\n• Siguraduhing kilala mo ang kausap mo. Kung may nagpapakilalang kamag-anak at humihingi ng pera, magtanong ng impormasyong sila lang ang makakaalam o kumpirmahin muna sa ibang kapamilya.\n• Huwag ibigay ang sensitibong impormasyon. Iwasang ibahagi ang detalye ng bangko, password, o personal na datos kung hindi ka sigurado sa kausap.\n• Iwasan ang delikadong paraan ng pagbabayad. Huwag gumamit ng wire transfer o gift cards bilang bayad, dahil madalas itong ginagamit sa scam.\n• Suriin ang organisasyon o nagbebenta. Bago magbigay ng donasyon o magbayad, tiyaking lehitimo ang kanilang pagkakakilanlan.\n• Mag-ingat sa social media. Limitahan ang impormasyong ibinabahagi at panatilihing pribado ang iyong account kung maaari.\n• Panatilihing updated ang seguridad ng mga device. Siguraduhing may updated na security software upang maprotektahan laban sa mapanlinlang na website at scam.\n\nAng pagiging maingat, mapanuri, at hindi agad nagtitiwala ay malaking tulong upang makaiwas sa mga scam na target ang mga senior.",
-            "confused_response": "",
+            "response": "Para makaiwas sa scam:\n\n• Huwag magmadali sa desisyon\n• Kumonsulta sa pinagkakatiwalaang tao\n• Magduda sa alok na masyadong maganda\n• Huwag magbigay ng personal o bank details\n• Siguraduhing lehitimo ang kausap o organisasyon\n• Iwasan ang kahina-hinalang paraan ng bayad\n• Mag-ingat sa social media at panatilihing secure ang device\n\nAng pagiging maingat ay makakatulong para maiwasan ang scam.",
+            "confused_response": "Para makaiwas sa scam, huwag magmadali at huwag agad magtiwala. Huwag magbigay ng personal na impormasyon o magpadala ng pera kung hindi sigurado.\n\nMas mabuting magtanong muna sa taong pinagkakatiwalaan bago gumawa ng desisyon.",
             "context": "scam"
         },
         "fake_news_prevention": {
@@ -491,7 +491,7 @@
                 "first": ["impersonate", "impersonation","peke", "fake", "di totoo", "panggap"],
                 "second": ["gobyerno", "government", "official", "opisyal"]
             },
-            "response": "Kapag ikaw ay nabiktima ng scam:\n• Itigil agad ang pakikipag-usap at huwag nang sumagot\n• I-report ang insidente sa tamang awtoridad\n• Kung may naibigay na impormasyon, agad palitan ang passwords\n• Makipag-ugnayan sa bangko kung may naibigay na pera o details\n• Bantayan ang iyong identity at accounts laban sa posibleng misuse",
+            "response": "Kapag ikaw ay nabiktima ng scam na ito:\n• Itigil agad ang pakikipag-usap at huwag nang sumagot\n• I-report ang insidente sa tamang awtoridad\n• Kung may naibigay na impormasyon, agad palitan ang passwords\n• Makipag-ugnayan sa bangko kung may naibigay na pera o details\n• Bantayan ang iyong identity at accounts laban sa posibleng misuse",
             "confused_response": "Kung sa tingin mo ay na-scam ka, itigil agad ang pakikipag-usap. Palitan ang iyong passwords kung may naibigay kang impormasyon at i-check ang iyong accounts. Kung may kinalaman sa pera, makipag-ugnayan agad sa bangko at i-report ang insidente.",
             "context": "government_impersonation_scam"
         },
@@ -542,7 +542,7 @@
             "keywords": {
                 "first": ["donate", "donasyon", "charity", "charities", "kalamidad", "calamity", "emergency", "hingi ng tulong", "tumulong"]
             },
-            "response": "Kapag ikaw ay nabiktima ng disaster scam:\n• Itigil agad ang pakikipag-ugnayan\n• I-report ang scam sa tamang awtoridad\n• Makipag-ugnayan sa bangko kung may naibigay na pera\n• I-save ang mga detalye bilang ebidensya\n• Bantayan ang iyong account laban sa posibleng misuse",
+            "response": "Kapag ikaw ay nabiktima ng charity scam:\n• Itigil agad ang pakikipag-ugnayan\n• I-report ang scam sa tamang awtoridad\n• Makipag-ugnayan sa bangko kung may naibigay na pera\n• I-save ang mga detalye bilang ebidensya\n• Bantayan ang iyong account laban sa posibleng misuse",
             "confused_response": "Kung sa tingin mo ay na-scam ka, ihinto agad ang pakikipag-usap. Kung may naibigay kang pera, makipag-ugnayan agad sa bangko at i-report ang nangyari kung kinakailangan.",
             "context": "charity_scam"
         },
@@ -599,8 +599,8 @@
             "keywords": {
                 "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko"]
             },
-            "response": "Kung sa tingin mo ay na-scam ka, mahalagang kumilos agad:\n\n• Tawagan agad ang bangko o e-wallet kung may naibigay kang pera o financial information\n• Palitan ang password ng mga account na maaaring na-access\n• I-report ang nangyari sa awtoridad o kinauukulan\n\nTandaan, hindi mo kasalanan na maloko ka, at hindi ka nag-iisa. May mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong pera at impormasyon.",
-            "confused_response": "",
+            "response": "Kung sa tingin mo ay na-scam ka:\n\n• Tawagan agad ang bangko o e-wallet\n• Palitan ang iyong passwords\n• I-report ang nangyari sa awtoridad\n\nTandaan, may mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong impormasyon.",
+            "confused_response": "Kung na-scam ka, kumilos agad. Tawagan ang bangko, palitan ang password, at i-report ang nangyari.\n\nMay tutulong sa iyo, kaya huwag mag-alala at humingi ng tulong.",
             "context": "scam"
         }
     },
@@ -627,7 +627,7 @@
                 "second": ["gobyerno", "government", "official", "opisyal"]
             },
             "response": "Narito ang mga palatandaan ng government impersonation scam:\n• May tumatawag o nagme-message na kunwari galing sa gobyerno\n• May pananakot (kaso, deportation, pagkawala ng benepisyo)\n• May urgent na hinihinging bayad\n• Pinapabayad gamit ang gift card o hindi karaniwang paraan\n• Caller ID ay mukhang legit pero hindi sigurado",
-            "confused_response": "Para makaiwas sa ganitong scam, huwag magpadala ng pera o magbigay ng personal na impormasyon sa mga hindi inaasahang tawag o mensahe. Kung hindi sigurado, ibaba ang tawag at direktang kontakin ang opisyal na ahensya. Huwag din magtiwala agad sa caller ID o mag-click ng kahina-hinalang links.",
+            "confused_response": "Ang ganitong scam ay kadalasang may tumatawag o nagme-message na kunwari galing sa gobyerno. Maaaring manakot o magmadali para magpabayad. Minsan, mukhang totoong numero ang gamit pero peke pala.",
             "context": "government_impersonation_scam"
         },
         "business_scam_signs": {
@@ -719,8 +719,8 @@
             "keywords": {
                 "first": ["text", "mensahe", "message", "chat", "nagtext"]
             },
-            "response": "May ilang palatandaan para malaman kung scam ang isang text o mensahe:\n\n• Biglaang humihingi ng personal na impormasyon tulad ng OTP, password, o bank details\n• Nanakot na may multa, problema sa account, o may mangyayaring masama kapag hindi ka sumunod\n• Nangangako ng premyo o pera na parang masyadong maganda para maging totoo\n• Pinapagawa ka agad ng aksyon tulad ng pag-click ng link o pagtawag sa numero\nTandaan, ang mga totoong bangko o opisyal na ahensya ay hindi basta humihingi ng sensitibong impormasyon sa text. Kapag may duda, huwag muna mag-reply o mag-click ng link.",
-            "confused_response": "",
+            "response": "Narito ang palatandaan ng scam na mensahe:\n\n• Humihingi ng personal na impormasyon tulad ng OTP o bank details\n• Nanakot o nagmamadali para sumunod ka\n• Nangangako ng premyo na masyadong maganda\n• Pinapagawa ka agad ng aksyon tulad ng pag-click ng link\n\nTandaan, hindi basta humihingi ng sensitibong impormasyon ang mga bangko. Kapag may duda, huwag mag-reply o mag-click ng link.",
+            "confused_response": "Maaaring scam ang mensahe kung humihingi ito ng personal na impormasyon, nananakot, o nangangako ng premyo. Madalas pinapamadali ka rin nila na mag-click ng link o sumunod agad.\n\nKapag may duda, huwag mag-reply at huwag mag-click ng link.",
             "context": ""
         },
         "cryptocurrency_scam_signs": {

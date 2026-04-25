@@ -188,7 +188,7 @@ def no_keys_response(intent, context, prev_intent, prev_topic, confusion):
             return {
                 "response": kb["confused_response"] if use_confused else kb["response"],
                 "intent": intent,
-                "topic": topic,
+                "topic": topic + "_confused" if use_confused else topic,
                 "context": kb["context"]
             }
 
