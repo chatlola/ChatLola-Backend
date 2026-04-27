@@ -1,285 +1,397 @@
 {
     "general": {
         "scam": { 
+            "question": "Ano ang online scams?",
             "intent": "explain_concept"
         },
         "digital_safety": {
+            "question": "Ano ang digital safety?",
+            "intent": "explain_concept"
+        },
+        "online_safety": {
+            "question": "Ano ang online safety?",
             "intent": "explain_concept"
         }, 
+        "cybercrimes": {
+            "question": "Ano ang cybercrimes?",
+            "intent": "explain_concept"
+        },
         "scam_types": {
+            "question": "Ano ang iba't ibang klase ng scam?",
             "intent": "explain_concept"
         }
     },
     "scam": {
         "scammers_tactics": {
+            "question": "Paano ba nangloloko ang mga scammer?",
             "intent": "explain_concept"
         },
         "scam_prevention": {
+            "question": "Paano ko maiiwasan ang mga scam na target ang mga senior?",
             "intent": "prevent_scam"
         }, 
         "general_scam_response": {
+            "question": "Ano dapat kong gawin kung mascam ako?",
             "intent": "scam_response"
         }, 
         "scams_targetting_seniors": {
+            "question": "Ano ang mga scams na madalas target ang mga seniors?",
             "intent": "explain_concept"
         }
     },
     "general_scam_response": {
         "future_scam_prevention": {
+            "question": "Paano ko maiiwasan na ma-scam ulit sa hinaharap?",
             "intent": "prevent_scam"
         }, 
         "password_tips": {
+            "question": "Paano gumawa ng malakas at ligtas na password?",
             "intent": "explain_concept"
         }
     },
     "digital_safety": {
         "digital_safety_importance": {
+            "question": "Bakit kailangan kong mas maging mag-ingat online?",
+            "intent": "explain_concept"
+        },
+        "digital_safety_need": {
+            "question": "Sino ang nangangailangan ng digital safety?",
             "intent": "explain_concept"
         },
         "social_media_safety": {
+            "question": "Paano maging ligtas at maayos sa social media?",
             "intent": "prevent_scam"
         },
-        "internet_crimes": {
+        "personal_data_privacy": {
+            "question": "Ano ang personal data privacy?",
+            "intent": "explain_concept"
+        }
+    },
+    "online_safety": {
+        "digital_online_safety_diff": {
+            "question": "Ano ang pagkakaiba ng digital safety at online safety?",
+            "intent": "explain_concept"
+        }
+    },
+    "cybercrimes": {
+        "scam_cybercrime_diff": {
+            "question": "Ano ang pagkakaiba ng scam sa cybercrime?",
             "intent": "explain_concept"
         },
-        "personal_data_privacy": {
+        "growing_cybercrime": {
+            "question": "Bakit maraming cybercrime ang nagaganap ngayon?",
+            "intent": "explain_concept"
+        },
+        "cybercrime_examples": {
+            "question": "Halimbawa ng mga cybercrime na nangyare sa Pilipinas?",
             "intent": "explain_concept"
         }
     },
     "personal_data_privacy": {
         "personal_privacy_rights": {
+            "question": "Ano ang mga karapatan ko sa paggamit ng personal na impormasyon ko?",
             "intent": "explain_concept"
         },
         "information_protection": {
+            "question": "Paano ko mapoprotektahan ang impormasyon ko?",
             "intent": "prevent_scam"
         }
     },
     "social_media_safety": {
         "account_security": {
+            "question": "Paano ko mapapangalagaan ang seguridad ng aking social media accounts?",
             "intent": "prevent_scam"
         },
         "social_media_scam_prevention": {
+            "question": "Paano ko maiiwasan ang scam sa social media?",
             "intent": "prevent_scam"
         },
         "suspicious_account": {
-            "intent": "prevent_scam"
+            "question": "Ano ang dapat gawin kung may kahina-hinalang account sa social media?",
+            "intent": "scam_response"
         }
     },
     "scam_types": {
         "phishing_scam": {
+            "question": "Ano ang phishing scam?",
             "intent": "explain_concept"
         },
         "robocall_scam": {
+            "question": "Ano ang robocalls at phone scams?",
             "intent": "explain_concept"
         },
         "phony_apps_or_sites": {
+            "question": "Ano ang mga scam na pekeng websites at apps?",
             "intent": "explain_concept"
         },
         "romance_scam": {
+            "question": "Ano ang romance scam?",
             "intent": "explain_concept"
         },
         "ransomware_scam": {
+            "question": "Ano ang ibig sabihin ng ransomware?",
             "intent": "explain_concept"
         },
         "tech_support_scam": {
+            "question": "Ano ang tech support scams?",
             "intent": "explain_concept"
         }
     },
     "phishing_scam": {
         "phishing_scam_signs": {
+            "question": "Ano ang mga palatandaan na phishing scam ang isang mensahe?",
             "intent": "scam_signs"
         },
         "phishing_scam_prevention": {
+            "question": "Paano ako makakaiwas sa phishing scam?",
             "intent": "prevent_scam"
         },
         "phishing_scam_response": {
+            "question": "Ano ang gagawin ko kung mabiktima ng phishing scam?",
             "intent": "scam_response"
         }
     },
     "robocall_scam": {
         "robocall_scam_signs": {
+            "question": "Paano malalaman kung robocall ang tumatawag sa akin?",
             "intent": "scam_signs"
         },
         "robocall_scam_prevention": {
+            "question": "Paano ko maiiwasan ang mga robocall scams?",
             "intent": "prevent_scam"
         },
         "robocall_scam_response": {
+            "question": "Ano ang dapat kong gawin kung aksidente kong nasagot ang robocall?",
             "intent": "scam_response"
         }
     },
     "election_scam": {
         "election_scam_signs": {
+            "question": "Paano malalaman kung election scam ito?",
             "intent": "scam_signs"
         },
         "election_scam_prevention": {
+            "question": "Paano makaiwas sa election scam?",
             "intent": "prevent_scam"
         },
         "election_scam_response": {
+            "question": "Ano ang gagawin kapag na-scam ako tungkol sa eleksyon?",
             "intent": "scam_response"
         }
     },
     "phony_apps_or_sites": {
         "phony_apps_or_sites_signs": {
+            "question": "Paano ko malalalaman kung totoo ang app o shopping site?",
             "intent": "scam_signs"
         },
         "phony_apps_or_sites_prevention": {
+            "question": "Paano makaiwas sa pekeng apps at sites?",
             "intent": "prevent_scam"
         },
         "phony_apps_or_sites_response": {
+            "question": "Ano ang dapat gawin kung mabiktima ako ng pekeng apps at sites?",
             "intent": "scam_response"
         }
     },
     "romance_scam": {
         "romance_scam_signs": {
+            "question": "Paano ko malalaman kung isang romance scam ang kausap ko?",
             "intent": "scam_signs"
         },
         "romance_scam_prevention": {
+            "question": "Paano ko maiiwasan ang online dating scams?",
             "intent": "prevent_scam"
         },
         "romance_scam_response": {
+            "question": "Ano ang dapat gawin kung posibleng scammer ang kausap ko?",
             "intent": "scam_response"
         }
     },
     "ransomware_scam": {
         "ransomware_scam_signs": {
+            "question": "Ano ang mga palatandaan ng ransomware?",
             "intent": "scam_signs"
         },
         "ransomware_scam_prevention": {
+            "question": "Paano ko maiiwasan ang ransomware?",
             "intent": "prevent_scam"
         },
         "device_protection": {
+            "question": "Paano ko mapapangalagaan ang aking device mula sa mga panganib?",
             "intent": "prevent_scam"
         },
         "ransomware_scam_response": {
+            "question": "Ano dapat kong gawin pag nagkaransomware cellphone ko?",
             "intent": "scam_response"
         }
     },
     "tech_support_scam": {
         "tech_support_scam_signs": {
+            "question": "Paano ko malalaman kung scam ang tech support na tumatawag o nagpapakita sa computer ko?",
             "intent": "scam_signs"
         },
         "tech_support_scam_prevention": {
+            "question": "Paano ko maiiwasan ang tech support scam?",
             "intent": "prevent_scam"
         },
         "tech_support_scam_response": {
+            "question": "Ano dapat kong gawin pag mabiktima ng tech support scam?",
             "intent": "scam_response"
         }
     }, 
     "scams_targetting_seniors": {
         "election_scam": {
+            "question": "Ano ang election scam?",
             "intent": "explain_concept"
         },
         "charity_scam": {
+            "question": "Ano ang charity scam?",
             "intent": "explain_concept"
         },
         "government_impersonation_scam": {
+            "question": "Ano ang government impersonation scams?",
             "intent": "explain_concept"
         },
         "advance_fee_fraud_scam": {
+            "question": "Ano ang advance fee fraud scam?",
             "intent": "explain_concept"
         },
         "bank_and_check_scam": {
+            "question": "Ano ang bank and check scams?",
             "intent": "explain_concept"
         },
         "travel_scam": {
+            "question": "Ano ang travel scams?",
             "intent": "explain_concept"
         },
         "business_scam": {
+            "question": "Ano ang business imposter scams?",
             "intent": "explain_concept"
         }
 
     },
     "charity_scam": {
         "charity_scam_signs": {
+            "question": "Paano ko malalaman kung totoong charity o scam ang humihingi ng donasyon?",
             "intent": "scam_signs"
         },
         "charity_scam_prevention": {
+            "question": "Paano maiwasan ang charity scam?",
             "intent": "prevent_scam"
         },
         "charity_scam_response": {
+            "question": "Ano ang dapat gawin kung mabiktima ako ng charity scam?",
             "intent": "scam_response"
         }
     },
     "government_impersonation_scam": {
         "government_impersonation_scam_signs": {
+            "question": "Paano malalaman kung government impersonation scam ito?",
             "intent": "scam_signs"
         },
         "government_impersonation_scam_prevention": {
+            "question": "Paano makaiwas sa government impersonation scam?",
             "intent": "prevent_scam"
         },
         "government_impersonation_scam_response": {
+            "question": "Ano ang gagawin kapag na-scam ako ng nagpapanggap na gobyerno?",
             "intent": "scam_response"
         }
     },
     "advance_fee_fraud_scam": {
         "advance_fee_fraud_scam_signs": {
+            "question": "Ano ang palatandaan ng advance fee fraud scams?",
             "intent": "scam_signs"
         },
         "advance_fee_fraud_scam_prevention": {
+            "question": "Paano maiiwasan ang advance free fraud scams?",
             "intent": "prevent_scam"
         },
         "advance_fee_fraud_scam_response": {
+            "question": "Ano ang dapat gawin kung mabiktima ako ng advance free fraud? scam?",
             "intent": "scam_response"
         }
     },
     "bank_and_check_scam": {
         "bank_and_check_scam_types": {
+            "question": "Ano ano ang mga bank and check scams na pwede kong maencounter online o pag-gumamit ng cellphone?",
             "intent": "explain_concept"
         },
         "bank_and_check_scam_prevention": {
+            "question": "Paano ko maiiwasan ang mga bank and check scams?",
             "intent": "prevent_scam"
         }
     },
     "bank_and_check_scam_types": {
         "fake_bank_communication_scam": {
+            "question": "Ano ang bank impersonation scam?",
             "intent": "explain_concept"
         },
         "check_overpayment_scam": {
+            "question": "Ano ang check overpayment scam?",
             "intent": "explain_concept"
         }
     },
     "fake_bank_communication_scam": {
         "fake_bank_communication_scam_signs": {
+            "question": "Ano ang mga palatandaan ng bank impersonation scam?",
             "intent": "scam_signs"
         },
         "fake_bank_communication_scam_prevention": {
+            "question": "Paano maiiwasan ang bank impersonation scam?",
             "intent": "prevent_scam"
         },
         "fake_bank_communication_scam_response": {
+            "question": "Ano ang gagawin kung mabiktima ng bank impersonation scam?",
             "intent": "scam_response"
         }
     },
     "check_overpayment_scam": {
         "check_overpayment_scam_signs": {
+            "question": "Ano ang mga palatandaan ng check overpayment scam?",
             "intent": "scam_signs"
         },
         "check_overpayment_scam_prevention": {
+            "question": "Paano ko maiiwasan ang check overpayment scam?",
             "intent": "prevent_scam"
         },
         "check_overpayment_scam_response": {
+            "question": "Ano ang dapat gawin kung mabiktima ako ng check overpayment scam?",
             "intent": "scam_response"
         }
     },
     "travel_scam": {
         "travel_scam_signs": {
+            "question": "Ano ang mga palatandaan ng travel scams?",
             "intent": "scam_signs"
         },
         "travel_scam_prevention": {
+            "question": "Paano ko maiiwasan ang travel scams?",
             "intent": "prevent_scam"
         },
         "travel_scam_response": {
+            "question": "Ano ang dapat gawin kung mabiktima ako ng travel scam?",
             "intent": "scam_response"
         }
     },
     "business_scam": {
         "business_scam_signs": {
+            "question": "Ano ang mga palatandaan ng business imposter scam?",
             "intent": "scam_signs"
         },
         "business_scam_prevention": {
+            "question": "Paano ko maiiwasan ang business imposter scams?",
             "intent": "prevent_scam"
         },
         "business_scam_response": {
+            "question": "Ano ang dapat gawin kung mabiktima ako ng business imposter scam?",
             "intent": "scam_response"
+        }
+    },
+    "scammers_tactics": {
+        "social_engineering": {
+            "question": "Ano ang social engineering?",
+            "intent": "explain_concept"
         }
     }
 }

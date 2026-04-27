@@ -1,16 +1,16 @@
 intent,utterance
 explain_concept,Ano ba ang scam?
-explain_concept,Ano po ang ibig sabihin ng scam?
-explain_concept,"Hindi ko maintindihan scam, pwede mo bang ipaliwanag?"
+explain_concept,Ano ba ang fake news?
+explain_concept,ano ang cybercrime?
 explain_concept,Paano ba nangyayari scam?
-explain_concept,"Yung panloloko sa internet, ano ba iyon?"
+explain_concept,ano ba ang artificial Intelligence o AI?
 explain_concept,Bakit maraming tao nadadaya sa scam?
 explain_concept,Ano layunin ng mga scammer?
 explain_concept,Ano digital safety?
 explain_concept,Bakit mahalaga digital safety?
 explain_concept,Ano online safety at paano ito nakakatulong?
 explain_concept,Ano kaligtasan sa internet?
-explain_concept,Ano-ano kasama sa digital safety?
+explain_concept,bakit mahalaga ang digital safety?
 explain_concept,Ano pagkakaiba ng digital safety at online safety?
 explain_concept,Paano nakakaapekto digital safety sa araw-araw na buhay?
 explain_concept,Ano mga benepisyo ng pag-alam sa digital safety?
@@ -21,7 +21,7 @@ explain_concept,Anong mga scam ang madalas mangyari ngayon?
 explain_concept,Ano-ano ang mga paraan ng panloloko online?
 explain_concept,Ano ang pinaka-karaniwang scam na dapat kong malaman?
 explain_concept,Sino ang karaniwang tinutugmain ng mga scammer?
-explain_concept,Ano ang mga karaniwang panloloko sa social media?
+explain_concept,Paano ginagamit ang AI sa mabuti at masamang paraan?
 explain_concept,Mayroon ka bang halimbawa ng scam?
 explain_concept,Anong mga scam ang madalas na punterya ang mga senior citizen?
 explain_concept,Anong panloloko ang madalas na nangyayari sa mga matatanda?
@@ -41,7 +41,7 @@ explain_concept,Ano ang ibig sabihin ng cybercrime?
 explain_concept,Ano ang pagkakaiba ng scam at cybercrime?
 explain_concept,Lahat ba ng scam ay cybercrime?
 explain_concept,Bakit maraming cybercrime ang nagaganap ngayon?
-explain_concept,Anong mga krimen ang madalas na nangyayari sa social media?
+explain_concept,Anong mga krimen ang madalas na nangyayari sa [topic]?
 explain_concept,Mayroon bang mga halimbawa ng cybercrime na nangyari sa Pilipinas?
 explain_concept,Anong mga krimen sa internet ang nakakaapekto sa mga ordinaryong tao?
 explain_concept,Paano ba talaga nangloloko ang mga scammer?
@@ -51,10 +51,10 @@ explain_concept,Ano ang modus operandi ng mga scammer?
 explain_concept,Paano nila kinukuha ang pera ng mga tao?
 explain_concept,Anong mga teknik ang ginagamit ng mga scammer?
 explain_concept,Paano gumagalaw ang mga scammer para hindi mahuli?
-explain_concept,Paano ginagamit ng mga scammer ang social media para manlooko?
+explain_concept,Paano ginagamit ng mga scammer ang [topic] para manlooko?
 explain_concept,Pinaplano ba nila ang scam bago nila gawin?
 explain_concept,Paano nila ginagamit ang personal na impormasyon ng tao sa scam?
-explain_concept,Paano nila nahihikayat ang mga tao na magtiwala sa kanila?
+explain_concept,Ano ang misinformation at disinformation?
 explain_concept,Paano nila inuuto ang mga taong hindi marunong sa teknolohiya?
 explain_concept,Ano ang aking mga karapatan pagdating sa personal na impormasyon ko?
 explain_concept,May karapatan ba ako na kontrolin kung paano ginagamit ang datos ko?
@@ -72,7 +72,7 @@ explain_concept,Ano ang tinatawag na love scam?
 explain_concept,Bakit nahuhulog sa romance scam ang maraming tao?
 explain_concept,Paano nila ginagamit ang emosyon ng tao sa romance scam?
 explain_concept,Paano ka niloloko sa pamamagitan ng pekeng pagmamahal online?
-explain_concept,Nangyayari ba ang romance scam sa social media?
+explain_concept,Nangyayari ba ang romance scam sa [topic]?
 explain_concept,Bakit humihingi ng pera ang nagpapanggap na mahal mo sa buhay online?
 explain_concept,Ano ang online dating scam at paano ito nangyayari?
 explain_concept,Paano nagpapanggap ang mga scammer na may romantikong interes?
@@ -102,7 +102,7 @@ explain_concept,"Sa simpleng salita, paano gumagana ang [topic]?"
 explain_concept,Paano nalilinlang ng [topic] scam ang mga taong gustong tumulong?
 explain_concept,Paano gumagana ang pekeng donation request?
 explain_concept,Paano gumagana ang pekeng fundraising website?
-explain_concept,Paano ginagamit ang social media bilang kasangkapan ng scam?
+explain_concept,Paano ginagamit ang [topic] bilang kasangkapan ng scam?
 explain_concept,Paano nagpapanggap ang mga scammer na NGO o fundraising group?
 explain_concept,Ano ang ibig sabihin ng lottery scam?
 explain_concept,Paano gumagana ang lottery scam?
@@ -184,9 +184,9 @@ explain_concept,Ano ang [topic] message at paano ito gumagana?
 explain_concept,Paano niloloko ang mga tao gamit ang pekeng donation?
 explain_concept,Paano niloloko ang mga tao gamit ang pekeng impormasyon tungkol sa eleksyon?
 explain_concept,Ano ang tawag sa panloloko na may kinalaman sa botohan?
-explain_concept,Sa anong paraan ginagamit ang social media para isagawa ang [topic] scam?
+explain_concept,Sa anong paraan ginagamit ang [topic] para isagawa ang [topic] scam?
 explain_concept,Paano niloloko ang mga tao sa pamamagitan ng upfront payment?
-explain_concept,Sa anong paraan ginagamit ang social media o email sa scam?
+explain_concept,Sa anong paraan ginagamit ang [topic] o email sa scam?
 explain_concept,Paano niloloko ng mga scammer ang mga tao gamit ang bank transactions?
 explain_concept,Ano ang tawag sa scam na humihingi ng bank details o nagpapadala ng pekeng tseke?
 explain_concept,Paano ginagamit ang pekeng bank transaction para manlooko?
@@ -206,8 +206,8 @@ explain_concept,Paano ba nanloloko ang mga scammers
 explain_concept,Ano ang mga panloloko online.
 explain_concept,Paano gumawa ng malakas at ligtas na password?
 explain_concept,Paano gumawa ng malakas na password para sa aking account?
-explain_concept,Ano ang mga dapat isaalang-alang sa paggawa ng secure na password?
-explain_concept,Paano gumawa ng password na mahirap hulaan ng iba?
+explain_concept,Paano nila nahihikayat ang mga tao na magtiwala sa kanila?
+explain_concept,Paano ginagamit ang fake news para manloko?
 explain_concept,Ano ang mga katangian ng isang malakas at secure na password?
 explain_concept,Paano gumawa ng password na hindi madaling ma-hack?
 explain_concept,Paano gumawa ng password na secure pero madaling tandaan?
@@ -284,7 +284,7 @@ explain_concept,Ano ang ibig sabihin kapag sinabing fake website o app scam?
 explain_concept,Ano ang scam na pekeng websites at apps sa madaling salita?
 explain_concept,Bakit kailangan kong mas maging maingat online?
 explain_concept,Bakit dapat maging alerto sa mga transaksyon sa internet?
-explain_concept,Bakit kailangang doblehin ang pag-iingat sa social media?
+explain_concept,Bakit kailangang doblehin ang pag-iingat sa [topic]?
 explain_concept,Bakit delikado ang hindi pagiging maingat online?
 explain_concept,Bakit importante ang pagiging mapanuri sa mga website at apps?
 explain_concept,Bakit dapat mag-ingat sa pagbibigay ng personal na impormasyon online?
@@ -314,12 +314,12 @@ explain_concept,Pwede bang ipaliwanag mo ulit sa ibang paraan?
 explain_concept,Paki-explain ulit kasi hindi ko pa rin gets.
 explain_concept,Ano ang scam na nagpapanggap na bangko at humihingi ng detalye ko?
 explain_concept,Ano ang scam na nag-aalok ng trabaho pero may bayad muna?
-explain_concept,Ano ang scam na gumagamit ng fake online seller para makapanloko?
+explain_concept,Dapat ba paniwalaan lahat ng nakikita sa Facebook?
 explain_concept,Ano ang scam na nagpapadala ng link para makuha ang impormasyon ko?
 explain_concept,Ano ang scam na nanghihingi ng OTP para ma-access ang account ko?
 ,
 ,
-prevent_scam,Paano ko mapapangalagaan ang aking seguridad habang nagso-social media o nagba-browse?
+prevent_scam,Paano ko mapapangalagaan ang aking seguridad habang nagso-[topic] o nagba-browse?
 prevent_scam,mga paraan para maprotektahan ang sarili habang naka-online?
 prevent_scam,Paano ako magiging ligtas habang gumagamit ng internet?
 prevent_scam,Paano ko maiingatan ang aking personal na impormasyon sa internet?
@@ -329,28 +329,28 @@ prevent_scam,Paano hindi mahulog sa panganib habang gumagamit ng internet?
 prevent_scam,dapat tandaan kapag gumagawa ng mga online transactions?
 prevent_scam,Paano ako magiging mas maingat sa lahat ng aking ginagawa online?
 prevent_scam,mga bagay na dapat iwasan habang nag-i-internet?
-prevent_scam,Paano ko maaalagaan ang aking seguridad habang nagso-social media o nagba-browse?
+prevent_scam,Paano ko maaalagaan ang aking seguridad habang nagso-[topic] o nagba-browse?
 prevent_scam,Paano ko mapapansin ang mga mapanganib na bagay habang naka-online?
 prevent_scam,mga dapat bantayan habang gumagamit ng internet?
 prevent_scam,Paano ko mapapanatiling pribado at ligtas ang aking presensya online?
-prevent_scam,Paano ko maiiwasan ang mga panloloko sa social media?
-prevent_scam,dapat gawin para hindi maloko sa Facebook o ibang social media?
-prevent_scam,Paano mag-ingat laban sa mga scammer sa social media?
-prevent_scam,mga paraan para mapanatiling ligtas ang aking account sa social media?
-prevent_scam,Paano ko mapipigilan ang sarili na mahulog sa bitag ng mga scammer sa social media?
-prevent_scam,dapat gawin kapag may kahina-hinalang mensahe na natanggap sa social media?
-prevent_scam,mga bagay na dapat iwasan para hindi mabiktima ng [topic] sa social media?
-prevent_scam,Paano umiwas sa mga taong may masamang intensyon sa social media?
-prevent_scam,Paano maging mapanuri sa mga alok o mensaheng natanggap sa social media?
-prevent_scam,Paano maging ligtas sa araw-araw na paggamit ng social media?
-prevent_scam,Paano ko mapapanatiling secure ang aking social media account?
-prevent_scam,Paano ko maaalagaan ang aking privacy sa social media?
-prevent_scam,Paano maging matalino at maingat sa paggamit ng social media?
-prevent_scam,mga patakaran na dapat sundin para sa ligtas na paggamit ng social media?
-prevent_scam,dapat iwasang gawin para hindi mapanganib ang sarili sa social media?
-prevent_scam,Paano mapanatiling pribado ang aking impormasyon sa social media?
-prevent_scam,Paano maging alerto laban sa mga panganib sa social media?
-prevent_scam,Paano ko masisigurado na ligtas ang aking pakikipag-usap sa mga tao sa social media?
+prevent_scam,Paano ko maiiwasan ang mga panloloko sa [topic]?
+prevent_scam,dapat gawin para hindi maloko sa Facebook o ibang [topic]?
+prevent_scam,Paano mag-ingat laban sa mga scammer sa [topic]?
+prevent_scam,mga paraan para mapanatiling ligtas ang aking account sa [topic]?
+prevent_scam,Paano ko mapipigilan ang sarili na mahulog sa bitag ng mga scammer sa [topic]?
+prevent_scam,dapat gawin kapag may kahina-hinalang mensahe na natanggap sa [topic]?
+prevent_scam,mga bagay na dapat iwasan para hindi mabiktima ng [topic] sa [topic]?
+prevent_scam,Paano umiwas sa mga taong may masamang intensyon sa [topic]?
+prevent_scam,Paano maging mapanuri sa mga alok o mensaheng natanggap sa [topic]?
+prevent_scam,Paano maging ligtas sa araw-araw na paggamit ng [topic]?
+prevent_scam,Paano ko mapapanatiling secure ang aking [topic] account?
+prevent_scam,Paano ko maaalagaan ang aking privacy sa [topic]?
+prevent_scam,Paano maging matalino at maingat sa paggamit ng [topic]?
+prevent_scam,mga patakaran na dapat sundin para sa ligtas na paggamit ng [topic]?
+prevent_scam,dapat iwasang gawin para hindi mapanganib ang sarili sa [topic]?
+prevent_scam,Paano mapanatiling pribado ang aking impormasyon sa [topic]?
+prevent_scam,Paano maging alerto laban sa mga panganib sa [topic]?
+prevent_scam,Paano ko masisigurado na ligtas ang aking pakikipag-usap sa mga tao sa [topic]?
 prevent_scam,Paano ko mapapangalagaan ang aking smartphone o laptop mula sa mga banta online?
 prevent_scam,Paano ko mase-secure ang aking laptop laban sa mga virus?
 prevent_scam,Paano ko mapapanatiling ligtas ang aking cellphone habang naka-online?
@@ -358,7 +358,7 @@ prevent_scam,Paano ko maiiwasan ang malware sa aking smartphone?
 prevent_scam,dapat gawin para maging secure ang aking mga gadget?
 prevent_scam,mga tips para sa ligtas na paggamit ng smartphone?
 prevent_scam,mga dapat i-install para maprotektahan ang aking device?
-prevent_scam,Paano ko mapapanatiling updated at ligtas ang aking mga gadget?
+prevent_scam,
 prevent_scam,Paano mapigilan ang virus na makapasok sa aking cellphone?
 prevent_scam,mga pinakamabuting gawin para sa seguridad ng device?
 prevent_scam,mga dapat iwasan para hindi malagay sa panganib ang aking device?
@@ -444,7 +444,7 @@ prevent_scam,Paano ko mapipigilan ang sarili na maging biktima ng pekeng overpay
 prevent_scam,Paano ko maiiwasan ang mga [topic]?
 prevent_scam,Ano ang dapat gawin para hindi maloko ng pekeng [topic] deals?
 prevent_scam,Ano ang dapat gawin bago magbayad para sa isang [topic] package?
-prevent_scam,"Paano ko maiiwasan ang pekeng [topic] offers sa email, text, o social media?"
+prevent_scam,"Paano ko maiiwasan ang pekeng [topic] offers sa email, text, o [topic]?"
 prevent_scam,Ano ang dapat gawin para hindi maloko ng nagpapanggap na opisyal ng gobyerno?
 prevent_scam,Ano ang mga tips para maiwasan ang panloloko ng nagpapanggap na [topic] agency?
 prevent_scam,Paano ko maiiwasan ang pekeng tawag o mensahe mula sa nagpapanggap na gobyerno?
@@ -474,7 +474,7 @@ prevent_scam,Paano maiiwasan ang [topic]?
 prevent_scam,Paano hindi maloko sa [topic]?
 prevent_scam,Ano gagawin para hindi mahulog sa [topic]?
 prevent_scam,Paano hindi ma-fall sa [topic] online?
-prevent_scam,Pano maiwasan yung [topic] sa social media?
+prevent_scam,Pano maiwasan yung [topic] sa [topic]?
 prevent_scam,Ano tips para safe sa [topic]?
 prevent_scam,Paano hindi mahulog sa mga [topic] call o text?
 prevent_scam,Ano gagawin para hindi maniwala sa fake news?
@@ -483,7 +483,7 @@ prevent_scam,Ano dapat gawin para hindi maloko sa [topic]?
 prevent_scam,Paano maiiwasan yung [topic]?
 prevent_scam,Paano makakaiwas sa [topic] kapag nagbabayad ?
 prevent_scam,Ano paraan para safe sa [topic] transactions?
-prevent_scam,Paano hindi ma-scam sa social media?
+prevent_scam,Paano hindi ma-scam sa [topic]?
 prevent_scam,Ano tips para hindi maging victim ng [topic]?
 prevent_scam,Paano ako hindi mascam sa [topic] na to?
 prevent_scam,Pano ako makakaiwas sa [topic] na to?
@@ -497,7 +497,7 @@ prevent_scam,Ano ang tips para safe sa [topic]?
 prevent_scam,Paano hindi mahulog sa panlilinlang?
 prevent_scam,Paano ko maiiwasan na mapaniwala sa fake news?
 prevent_scam,Paano makakaiwas sa [topic]?
-prevent_scam,Paano maiiwasan ang panloloko sa social media?
+prevent_scam,Paano maiiwasan ang panloloko sa [topic]?
 prevent_scam,Ano ang steps para safe sa online transactions?
 prevent_scam,Paano hindi maloko sa fake job offer?
 prevent_scam,Ano ang dapat gawin bago mag-share ng personal info ?
@@ -513,17 +513,17 @@ prevent_scam,Paano ko maiiwasan na maloko bago magbigay ng details sa chat o ema
 prevent_scam,Paano hindi maloko sa shopping?
 prevent_scam,Paano iwasan ang [topic] sa email?
 prevent_scam,Paano hindi mahulog sa lottery [topic]?
-prevent_scam,Paano maiiwasan ang panloloko sa social media messages?
+prevent_scam,Paano maiiwasan ang panloloko sa [topic] messages?
 prevent_scam,Paano ko maiiwasan na masundan ng scammer ang account ko?
 prevent_scam,Paano ko maiiwasan na maulit yung [topic] sa akin?
 prevent_scam,Paano ko maiiwasang maulit ang parehong [topic] sa hinaharap?
 prevent_scam,Paano ko maiiwasan na maulit ito?
-prevent_scam,Ano ang dapat gawin bago mag-click o sumagot sa social media message?
+prevent_scam,Ano ang dapat gawin bago mag-click o sumagot sa [topic] message?
 prevent_scam,Paano ko masisigurong ligtas na ulit ang aking device matapos ang [topic]?
 prevent_scam,Ano ang dapat kong gawin para mas maging ligtas sa hinaharap
 prevent_scam,Ano ang dapat kong gawin para hindi na maulit ang nangyari?
 prevent_scam,Paano ako hindi mascam sa facebook?
-prevent_scam,Paano maiiwasan ang mga [topic] sa social media?
+prevent_scam,Paano maiiwasan ang mga [topic] sa [topic]?
 prevent_scam,Paano ko maiiwasan ang mga [topic] na punterya ang mga senior?
 prevent_scam,Pano ba makakaiwas sa mga [topic] na punterya ang mga senior?
 prevent_scam,Ano ang dapat kong gawin para hindi ako mabiktima ng scam
@@ -567,7 +567,7 @@ prevent_scam,Paano ko maiiwasan ang pekeng link na ipinapadala
 prevent_scam,Ano ang dapat kong gawin para hindi ako mapasok sa lottery scam
 prevent_scam,"Naibigay ko ang aking password sa scammer, paano ko mase-secure ulit ang account ko?"
 prevent_scam,Ano ang dapat kong gawin para hindi ako mabiktima ng account hacking
-prevent_scam,Paano ko mapoprotektahan ang aking social media account
+prevent_scam,Paano ko mapoprotektahan ang aking [topic] account
 prevent_scam,Ano ang dapat kong gawin para hindi ako mapasok sa shopping scam
 prevent_scam,Paano ko maiiwasan ang scam attempts sa email
 prevent_scam,Ano ang dapat kong gawin para hindi ako maloko sa delivery scam
@@ -584,7 +584,7 @@ prevent_scam,Ano ang hakbang para safe ulit ang personal info ko pagkatapos malo
 prevent_scam,Paano makaiwas sa phishing emails?
 prevent_scam,Paano umiwas sa investment scam sa Facebook?
 prevent_scam,Paano makaiwas sa OTP scam?
-prevent_scam,Paano makaiwas sa romance scam sa social media?
+prevent_scam,Paano makaiwas sa romance scam sa [topic]?
 prevent_scam,Paano umiwas sa fake [topic] donations ?
 prevent_scam,Paano makaiwas sa crypto investment scam?
 prevent_scam,Paano umiwas sa marketplace scams?
@@ -595,7 +595,7 @@ prevent_scam,Paano umiwas sa deepfake scams at fake videos ?
 prevent_scam,Paano ako makakaiwas sa phishing scams ?
 prevent_scam,Paano umiwas sa text scams at spam messages?
 prevent_scam,Ano ang paraan para makaiwas sa fake sellers?
-prevent_scam,Paano iwasan ang investment scams sa social media?
+prevent_scam,Paano iwasan ang investment scams sa [topic]?
 prevent_scam,Paano ako iiwas sa tawag na nagpapanggap na bangko?
 prevent_scam,Ano ang mga paraan para umiwas sa fake job offers sa internet?
 prevent_scam,Paano makaiwas sa OTP scams?
@@ -625,7 +625,7 @@ prevent_scam,Paano makakaiwas sa deepfake at fake video scams?
 prevent_scam,Bakit hindi dapat agad magtiwala sa mga hindi kilala online?
 prevent_scam,Ano ang mga dapat kong tandaan para maiwasan ang mga ganitong scam?
 prevent_scam,Ano ang mga dapat kong tandaan para mas maging ligtas online?
-prevent_scam,Ano ang mga dapat kong tandaan para makaiwas sa panloloko sa internet?
+prevent_scam,
 prevent_scam,Ano ang mga bagay na dapat kong tandaan para hindi maloko online?
 prevent_scam,Ano ang mga dapat kong tandaan para maiwasan ang mga online scams?
 prevent_scam,Ano ang mga paalala na dapat kong tandaan para maging ligtas sa scam?
@@ -633,12 +633,12 @@ prevent_scam,Ano ang mga dapat kong tandaan para hindi mabiktima ng panloloko?
 prevent_scam,Ano ang mga tips na dapat kong tandaan para makaiwas sa scam?
 prevent_scam,Ano ang mga dapat kong tandaan para mas maging maingat sa online?
 prevent_scam,Ano ang mga dapat kong tandaan para hindi maloko ng scammers?
-prevent_scam,Ano ang mga dapat kong tandaan para maging safe sa internet?
+prevent_scam,
 prevent_scam,Ano ang mga dapat kong tandaan para maiwasan ang ganitong klaseng panloloko?
-prevent_scam,Ano ang mga dapat kong tandaan para maprotektahan ang sarili laban sa scam?
+prevent_scam,
 prevent_scam,Ano ang mga dapat kong tandaan para hindi ma-scam online?
 prevent_scam,Ano ang mga dapat kong tandaan para maging alerto sa mga scam?
-prevent_scam,Ano ang mga dapat kong tandaan para makaiwas sa panlilinlang online?
+prevent_scam,
 ,
 scam_response,"Maling ginagamit aking datos, ano magagawa ko?"
 scam_response,"May nag-abuso sa aking personal na impormasyon, ano dapat kong gawin?"
@@ -652,7 +652,7 @@ scam_response,"Na-click ko isang link na mukhang scam, ano na gagawin ko?"
 scam_response,"Napunta ako sa isang suspicious na website, ano dapat kong gawin ngayon?"
 scam_response,"Nagbigay ako ng impormasyon sa isang website na baka peke, ano na?"
 scam_response,"Na-lock computer ko at may hinihinging bayad, ano nangyari?"
-scam_response,Paano ko matatgal ransomware sa aking device?
+scam_response,Paano ko matatanggal ransomware sa aking device?
 scam_response,"Na-encrypt files ko at hindi ko na ma-access, ano gagawin ko?"
 scam_response,"Bigl hindi ko na ma-access aking mga dokumento, ano ito?"
 scam_response,"May humihingi ng pera para maibalik aking data, ano dapat gawin?"
@@ -670,7 +670,7 @@ scam_response,"Sa tingin ko nabiktima ako ng scam, ano na ang gagawin kapag na-s
 scam_response,"Kinuha nila pera ko online, ano dapat kong gawin ngayon?"
 scam_response,"Nawala aking pera dahil sa online scam, paano ko ito mahahabol?"
 scam_response,"Naloko ako sa internet, sino maaari kong lapitan?"
-scam_response,"Nabiktima ako ng scammer sa social media, ano susunod na hakbang?"
+scam_response,"Nabiktima ako ng scammer sa [topic], ano susunod na hakbang?"
 scam_response,"Nakapagpadala na ako ng pera sa scammer, may magagawa pa ba ako?"
 scam_response,"Nakuha nila OTP ko, ano dapat kong gawin agad?"
 scam_response,"Naibigay ko aking personal information sa scammer, paano ko ito aayusin?"
@@ -804,7 +804,7 @@ scam_response,"Nagbigay ako ng impormasyon sa isang website at baka peke ito, an
 scam_response,"Nag-click ako ng link at baka scam ito, ano gagawin ko?"
 scam_response,Na-lock system ko at hindi ko alam kung ano gagawin.
 scam_response,Ano gagawin kung may humihingi ng pera at nagsasabing pamilya mo siya?
-scam_response,Hindi ko alam kung sino pwede lapitan.
+scam_response,"Naka-share na ako ng fake news, ano ang dapat kong gawin?"
 scam_response,Hindi ko alam kung saan ako pwedeng mag-report.
 scam_response,Hindi ko alam kung sino dapat kong kontakin.
 scam_response,Kanino ba dapat lumapit para i-report ito?
@@ -890,7 +890,7 @@ scam_response,Ano dapat kong gawin kung nabiktima ako ng buy-and-sell scam?
 scam_response,Ano gagawin ko kung naloko ako ng fake [topic] booking online?
 scam_response,Ano dapat kong gawin kung nabiktima ako ng online raffle scam?
 scam_response,Ano dapat kong gawin pag nagka-ransomware cellphone ko?
-scam_response,Ano dapat kong gawin kapag na-hack social media account ko?
+scam_response,Ano dapat kong gawin kapag na-hack [topic] account ko?
 scam_response,Ano dapat gawin kapag na-scam ako sa online shopping?
 scam_response,Ano gagawin ko pag nabiktima ako ng phishing email?
 scam_response,Ano dapat kong gawin kung naibigay ko OTP ko sa scammer?
@@ -947,7 +947,7 @@ scam_response,Ano dapat gawin kung mabiktima ako ng phishing email?
 scam_response,Ano dapat gawin kung mabiktima ako ng online banking scam?
 scam_response,Ano dapat gawin kung mabiktima ako ng investment scam?
 scam_response,Ano dapat gawin kung mabiktima ako ng fake online seller?
-scam_response,Ano dapat gawin kung mabiktima ako ng romance scam sa social media?
+scam_response,Ano dapat gawin kung mabiktima ako ng romance scam sa [topic]?
 scam_response,Ano dapat gawin kung mabiktima ako ng OTP scam?
 scam_response,Ano dapat gawin kung mabiktima ako ng delivery scam?
 scam_response,Ano dapat gawin kung mabiktima ako ng job offer scam?
@@ -973,14 +973,14 @@ scam_signs,Paano ko malalaman kung mapanlinlang mensaheng natanggap ko?
 scam_signs,Paano ko masasabi kung hindi totoo isang offer?
 scam_signs,Paano ko malalaman kung scam isang promo? Ano ba ang mga palatandaan nito?
 scam_signs,Paano ko malalaman kung scam link na natanggap ko?
-scam_signs,Paano ko malalaman kung may scam sa social media?
+scam_signs,Paano ko malalaman kung may scam sa [topic]?
 scam_signs,"Ano dapat bantayan para hindi maloko sa Facebook, Instagram, o TikTok?"
-scam_signs,ano ang mga palatandaan ng scam sa social media?
-scam_signs,Paano ko malalaman kung legit nagpadala ng mensahe sa social media?
+scam_signs,ano ang mga palatandaan ng scam sa [topic]?
+scam_signs,Paano ko malalaman kung legit nagpadala ng mensahe sa [topic]?
 scam_signs,Paano i-check kung scam nagpadala ng friend request o message?
-scam_signs,Paano ko malalaman kung totoo offer o mensahe sa social media?
+scam_signs,Paano ko malalaman kung totoo offer o mensahe sa [topic]?
 scam_signs,Paano ko susuriin kung mapagkakatiwalaan isang link o email?
-scam_signs,Paano ko matutukoy kung scam mensahe o post sa social media?
+scam_signs,Paano ko matutukoy kung scam mensahe o post sa [topic]?
 scam_signs,Paano ko malalaman kung fake [topic] na na-install ko? Ano ba ang mga palatandaan ng mga ganitong uri ng scam?
 scam_signs,Paano ko malalaman kung scam website na binuksan ko?
 scam_signs,Ligtas ba [topic] na na-download ko?
@@ -1040,7 +1040,7 @@ scam_signs,Paano ko matutukoy kung scam URL na ibinigay sa akin?
 scam_signs,Paano ko malalaman kung pekeng website link na natanggap ko?
 scam_signs,ano ang mga palatandaan na panloloko link sa text o chat?
 scam_signs,Paano ko malalaman kung [topic] link sa SMS?
-scam_signs,Paano ko matutukoy kung scam link na ibinahagi sa social media?
+scam_signs,Paano ko matutukoy kung scam link na ibinahagi sa [topic]?
 scam_signs,"May link na nakalagay sa text, paano ko malalaman kung totoo ito?"
 scam_signs,Paano ko matutukoy kung Ponzi scheme isang crypto investment?
 scam_signs,Paano ko malalaman kung pekeng [topic] humihingi ng donasyon?
@@ -1057,7 +1057,7 @@ scam_signs,Paano ko malalaman kung pekeng investment inaalok sa akin?
 scam_signs,Paano ko malalaman kung hindi totoo investment company?
 scam_signs,Paano ko malalaman kung scam financial offer na natanggap ko?
 scam_signs,ano ang mga babala sa pekeng investment schemes?
-scam_signs,Paano ko malalaman kung scam investment offer sa social media?
+scam_signs,Paano ko malalaman kung scam investment offer sa [topic]?
 scam_signs,Paano ko malalaman kung panloloko investment deal na inaalok sa akin?
 scam_signs,Paano ko malalaman kung peke natanggap kong mensahe?
 scam_signs,Paano ko matutukoy kung scam humihingi ng payment?
@@ -1276,6 +1276,10 @@ scam_signs,Ano ang palatandaan ng scams?
 scam_signs,Ano ang mga palatandaan ng travel scams?
 scam_signs,Ano ang mga palatandaan ng pangloloko na nangyari sa akin?
 scam_signs,Ano ba ang mga palatandaan kung scam ang nangyari sa akin?
+scam_signs,Paano malalaman kung fake news ang nabasa ko?
+scam_signs,Ano ang mga warning signs ng pekeng balita?
+scam_signs,Paano mag-check kung legit ang post o viral message?
+scam_signs,Ano ang dapat tingnan bago paniwalaan ang balita online?
 emotional_support,Kinakabahan ako di ko na alam gagawin ko.
 emotional_support,Ang stress ko na kasi baka maloko ako.
 emotional_support,Nakakabahala yung mga [topic] na kumakalat.
@@ -1446,12 +1450,12 @@ emotional_support,Iniisip ko kung sana naghintay muna ako.
 emotional_support,Hindi ko alam kung sino na ang mapagkakatiwalaan ko.
 emotional_support,Pakiramdam ko ako ang nagkamali.
 emotional_support,Iniisip ko kung sana nakinig ako sa iba.
-emotional_support,Ano ba dapat kong gawin ngayonâ¦ hindi ko na maintindihan.
+emotional_support,Ano ba dapat kong gawin ngayonÃ¢Â€Â¦ hindi ko na maintindihan.
 emotional_support,"Grabe, hindi ko alam paano nagsimula lahat ng ito."
 emotional_support,Parang ang hirap tanggapin ng nangyari.
 emotional_support,Bakit ganito yung nangyari sa akin?
 emotional_support,"Hindi ko ma-process lahat, ang gulo ng isip ko."
-emotional_support,Pwede ba akong humingi ng tulongâ¦ hindi ko kaya mag-isa.
+emotional_support,Pwede ba akong humingi ng tulongÃ¢Â€Â¦ hindi ko kaya mag-isa.
 emotional_support,Parang gusto ko na lang umiyak pero wala akong lakas.
 emotional_support,Hindi ko alam kung saan magsisimula ulit.
 emotional_support,Ang sakit isipin na nangyari ito sa akin.
@@ -1478,12 +1482,12 @@ emotional_support,Ang bigat lang talaga dalhin nito.
 emotional_support,Parang gusto ko lang magpahinga muna sa lahat.
 emotional_support,Sana nag-isip pa ako ng mabuti bago ako nag-decide.
 emotional_support,Sana may napagtanungan ako bago nangyari ito.
-emotional_support,"Hindi ko na mababalik yung ginawa ko, ano naâ¦"
+emotional_support,"Hindi ko na mababalik yung ginawa ko, ano naÃ¢Â€Â¦"
 emotional_support,Sana naging mas maingat ako kahit konti.
 emotional_support,Hindi ko alam bakit hindi ako nagduda agad.
 emotional_support,Sana hindi ako nagmadali.
 emotional_support,Parang mali yung naging choice ko.
-emotional_support,Kung pwede lang ibalik yung orasâ¦
+emotional_support,Kung pwede lang ibalik yung orasÃ¢Â€Â¦
 emotional_support,Sana hindi ako nagtiwala agad.
 emotional_support,Parang may pagkukulang ako sa sarili ko.
 emotional_support,"Baka may mangyari pang masama, yun ang ang kinakatakot ko."

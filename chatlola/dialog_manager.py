@@ -29,8 +29,14 @@ def match_keywords(query, keywords):
 
     if "second" not in keywords:
         return True
+    
+    if not any(k in query for k in keywords["second"]):
+        return False
 
-    return any(k in query for k in keywords["second"])
+    if "third" not in keywords:
+        return True
+
+    return any(k in query for k in keywords["third"])
 
 def build_response(tag_data, intent, topic, confusion_label, confused=False):
     if not tag_data:

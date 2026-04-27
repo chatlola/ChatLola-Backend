@@ -90,16 +90,16 @@
                 "first": ["types", "uri", "klase", "different", "ang mga"],
                 "second": ["banko", "bank", "check", "cheke", "tseke", "deposit"]
             },
-            "response": "Narito ang mga karaniwang Bank and Check Scams na maaari mong ma-encounter online o habang gumagamit ng cellphone:\n\n• Fake Communications mula sa “Iyong Bangko” – Makakatanggap ka ng email, text, o tawag na kunwari ay galing sa iyong bangko. Maaaring sabihing may problema sa iyong account at hihingan ka ng personal o banking details. Layunin nitong makuha ang iyong sensitibong impormasyon.\n\n• Check Overpayment Scam – Padadalhan ka ng tseke na mas mataas kaysa sa dapat na halaga, at hihilingin sa iyong ibalik ang sobrang pera. Kalaunan, malalaman na peke ang tseke at ikaw ang mawawalan ng pera.\n\nMahalagang maging mapanuri sa mga mensaheng natatanggap at huwag agad magtiwala, lalo na kung may kasamang paghingi ng pera o personal na impormasyon.",
-            "confused_response": "",
+            "response": "Narito ang mga karaniwang bank at check scams na maaari mong ma-encounter online o sa cellphone:\n\n• Bank impersonation scam, ito ay fake messages o tawag na kunwari galing sa bangko\n• Check overpayment scam kung saan papadalhan ka ng tseke at hihilingin na magpadala ka ng pera pabalik",
+            "confused_response": "May dalawang karaniwang scam na dapat bantayan:\n\n• Pekeng mensahe o tawag na kunwari galing sa bangko\n• Tsekeng ibibigay sa iyo tapos hihingi sila ng pera pabalik\n\nMag-ingat sa ganitong sitwasyon dahil maaaring scam ito.",
             "context": "bank_and_check_scam"
         },
         "bank_and_check_scam": {
             "keywords": {
                 "first": ["bank and check", "bank at check", "banko", "bangko", "bank", "check", "cheke", "tseke", "deposit"]
             },
-            "response": "Ang Bank and Check Scams ay isang uri ng panloloko na kinasasangkutan ng paggamit ng pekeng tseke, tulad ng cashier’s check, na mukhang lehitimo at kapani-paniwala.\n\nKaraniwan, hihilingin sa iyo na ideposito ang tseke sa iyong bank account, at pagkatapos ay ibalik o ipadala ang bahagi ng pera sa isang taong hindi mo kilala. Sa una, maaaring magmukhang maayos ang tseke, ngunit kalaunan ay malalaman na ito ay peke. Kapag nangyari ito, ikaw ang mananagot sa perang naipadala mo na.\nKung may humihiling sa iyo na magdeposito ng tseke sa kahina-hinalang sitwasyon at magpadala ng pera pabalik sa isang estranghero, mag-ingat—maaaring ito ay isang scam.",
-            "confused_response": "",
+            "response": "Ang bank at check scam ay panloloko kung saan gumagamit ang scammer ng pekeng tseke na mukhang tunay.\n\nKaraniwan, papadeposito nila ang tseke sa iyo at hihilingin na magpadala ka ng pera pabalik sa kanila. Sa una, mukhang valid ang tseke, pero kalaunan malalaman na ito ay peke. Kapag nangyari ito, ikaw ang mawawalan ng pera.\n\nKaya kung may humihiling na magdeposito ka ng tseke at magpadala ng pera sa hindi mo kilala, mag-ingat dahil maaaring scam ito.",
+            "confused_response": "Ang bank o check scam ay panloloko gamit ang pekeng tseke.\n\nPapadeposito nila ito sa iyo at hihilingin na magpadala ka ng pera pabalik. Pero peke pala ang tseke, kaya ikaw ang mawawalan ng pera.\n\nKung may ganitong sitwasyon, mag-ingat dahil malamang scam ito.",
             "context": "scams_targetting_seniors"
         },
         "charity_scam": {
@@ -169,16 +169,52 @@
             "confused_response": "Kapag na-scam ang isang tao, maaaring mawalan siya ng tiwala sa sarili at sa ibang tao. Maaari rin siyang makaramdam ng takot, stress, o pag-aalala kahit tapos na ang nangyari.\n\nNormal lang ito dahil masakit at nakakaapekto talaga ang ganitong karanasan, at kailangan ng panahon para makabawi.",
             "context": ""
         },
+        "digital_safety_need": {
+            "keywords": {
+                "first": ["nangangailangan", "need"],
+                "second": ["ligtas", "safety", "di mapahamak", "ingat"],
+                "third": ["digital", "gadget", "phone", "cp", "computer"]
+            },
+            "response": "Lahat ng gumagamit ng cellphone, computer, o internet ay nangangailangan ng digital safety. Kahit nagme-message, nanonood, gumagamit ng social media, o online banking ay mahalagang mag-ingat. Ito ay lalo pang mahalaga sa mga senior citizens dahil madalas silang target ng scammers. Pero tandaan, kahit sino ay puwedeng mabiktima kung hindi nag-iingat. Sa madaling salita, kung gumagamit ka ng digital device o internet, kailangan mo ng digital safety para maprotektahan ang sarili mo at ang iyong impormasyon.",
+            "confused_response": "Kung gumagamit ka ng cellphone o internet, kailangan mo ng digital safety.\n\nIto ay pag-iingat para hindi ka maloko, ma-scam, o makuha ang impormasyon mo.\n\nHindi lang ito para sa experts sa gadget. Para ito sa lahat, lalo na sa mga senior.\n\nKaya kung gumagamit ka ng technology, kailangan mong mag-ingat para manatiling ligtas.",
+            "context": "general"
+        },
+        "digital_online_safety_diff": {
+            "keywords": {
+                "first": ["kaiba", "difference"],
+                "second": ["digital", "gadget", "phone", "cp", "computer"],
+                "third": ["online", "internet", "social media", "epbi", "facebook"]
+            },
+            "response": "Magka-ugnay ang digital safety at online safety, pero may kaibahan. Ang digital safety ay mas malawak at tumutukoy sa pagiging ligtas sa paggamit ng cellphone, computer, apps, at internet, kasama ang pagprotekta sa device at personal na impormasyon. Ang online safety naman ay mas nakatuon sa pagiging ligtas habang gumagamit ng internet, tulad ng pag-iwas sa scam at panloloko. Sa madaling salita, ang digital safety ay pangkalahatang safety sa technology, habang ang online safety ay safety habang online.",
+            "confused_response": "Ganito lang po isipin sa pagkakaiba ng digital at online safety:\n\nAng digital safety ay pag-iingat sa lahat ng gamit mong technology, tulad ng cellphone o computer.\n\nAng online safety naman ay pag-iingat kapag gumagamit ka ng internet.\n\nHalimbawa, ang paglagay ng password sa phone ay digital safety habang ang pag-iwas sa scam link online ay online safety.\n\nSa madaling salita, ang online safety ay bahagi ng digital safety.",
+            "context": "online_safety"
+        },
+        "scam_cybercrime_diff": {
+            "keywords": {
+                "first": ["kaiba", "difference"],
+                "second": ["scam", "panloloko sa internet", "panloloko sa cellphone"],
+                "third": ["cybercrime", "krimen sa internet", "digital crime"]
+            },
+            "response": "Magkaiba ang cybercrime at scam, pero magkaugnay sila. Ang cybercrime ay anumang krimen na ginagawa gamit ang computer o internet, tulad ng hacking o pagnanakaw ng data. Ang scam naman ay panloloko para makuha ang pera o impormasyon mo gamit ang panlilinlang. Sa madaling salita, ang scam ay isang uri ng cybercrime. Lahat ng scam ay cybercrime, pero hindi lahat ng cybercrime ay scam.",
+            "confused_response": "Ang cybercrime ay lahat ng krimen na nangyayari gamit ang internet o computer.\n\nAng scam naman ay isang uri ng panloloko para makuha ang pera o impormasyon mo.\n\nHalimbawa, ang hacking ay cybercrime. Ang Fake bank message na nanghihingi ng OTP ay scam.\n\nSa simpleng paliwanag, ang scam ay isang klase lang ng cybercrime.",
+            "context": "scam"
+        },
         "digital_safety": {
             "keywords": {
-                "first": [
-                    "digital safety",
-                    "internet safety",
-                    "online safety",
-                    "kaligtasan sa internet"]
+                "first": ["ligtas", "safety", "di mapahamak", "ingat"],
+                "second": ["digital", "gadget", "phone", "cp", "computer"]
             },
             "response": "Ang digital safety ay ang pagiging ligtas habang gumagamit ng cellphone, computer, o internet. Kasama dito ang pag-iingat sa iyong personal na impormasyon at pag-iwas sa mga scam o panloloko online. Para itong pag-iingat sa totoong buhay, pero ginagawa habang gumagamit ng teknolohiya at internet.",
             "confused_response": "Ang digital safety ay tungkol sa pagiging ligtas habang gumagamit ng internet, tulad ng pagprotekta sa personal na impormasyon at pag-iwas sa scam.",
+            "context": "general"
+        },
+        "online_safety": {
+            "keywords": {
+                "first": ["ligtas", "safety", "di mapahamak", "ingat"],
+                "second": ["online", "internet", "social media", "epbi", "facebook"]
+            },
+            "response": "Ang online safety ay ang pagiging maingat habang gumagamit ng internet para makaiwas sa scam, virus, at panlilinlang. Kasama dito ang hindi basta pagbibigay ng personal na impormasyon tulad ng password, OTP, o bank details, at pag-iingat sa mga kahina-hinalang links o mensahe. Mahalaga rin ang pagiging responsable online, tulad ng hindi pag-share ng maling impormasyon at paggalang sa iba. Sa madaling salita, ang online safety ay ligtas at maingat na paggamit ng internet para maprotektahan ang sarili at ang iba.",
+            "confused_response": "Ang online safety ay simpleng pag-iingat habang gumagamit ng internet. Ibig sabihin, huwag basta magtiwala sa mga mensahe, links, o tao online. Huwag ibigay ang password, OTP, o bank details sa iba. Mag-ingat din sa mga balitang hindi sigurado kung totoo. Parang pag-iingat din ito sa totoong buhay kung saan umiiwas tayo sa panganib para hindi maloko o mapasama. \n\nSa kabuan, ang online safety ay paggamit ng internet nang maingat para manatiling ligtas ka.",
             "context": "general"
         },
         "scams_targetting_seniors": {
@@ -203,31 +239,50 @@
             "confused_response": "",
             "context": "general"
         },
-        "internet_crimes": {
+        "growing_cybercrime": {
             "keywords": {
-                "first": ["krimen", "panganib", "crimes"],
-                "second": ["internet", "online", "cyber"]
+                "first": ["dami", "rami", "laki"],
+                "second": ["krimen", "panganib", "crime"],
+                "third": ["internet", "online", "cyber"]
             },
-            "response": "May iba’t ibang panganib sa internet na dapat mong bantayan, tulad ng:\n\n• Identity theft o pagnanakaw ng personal na impormasyon\n• Data breach kung saan nakukuha ang pribadong data\n• Virus o malware na nakakasira ng device\n• Phishing o pekeng mensahe na nanloloko\n• Pekeng websites at online scams\n• Romance scams\n• Cyberbullying o pang-aabuso online\n• Pagkakalantad sa hindi angkop na content\n• Mahinang privacy settings na naglalabas ng personal na impormasyon\n\nDahil dito, mahalagang mag-ingat sa pag-click ng links, pag-share ng impormasyon, at pakikipag-usap online.",
-            "confused_response": "Maraming panganib sa internet tulad ng pagnanakaw ng impormasyon, virus, pekeng mensahe, at scams. Maaari ring magkaroon ng cyberbullying o makita ang hindi angkop na content.\n\nKaya mahalagang mag-ingat sa pag-click ng links at huwag basta magbahagi ng personal na impormasyon.",
-            "context": "digital_safety"
+            "response": "Dumarami ang cybercrime dahil mas marami na ang gumagamit ng internet at digital devices. Habang dumarami ang gumagamit ng cellphone, social media, at online banking, mas marami ring pagkakataon para sa scammers na manloko. May mga tao ring napapaniwala sa fake messages o tawag dahil hindi alam ang mga panganib online. Mabilis din kumalat ang bagong paraan ng panloloko. Sa madaling salita, dumarami ang cybercrime dahil sinasamantala ng mga manloloko ang paggamit natin ng internet.",
+            "confused_response": "Mas dumadami ang cybercrime dahil mas maraming tao ang gumagamit ng internet.\n\nKapag mas maraming gumagamit online, mas maraming gustong lokohin ang scammers.\n\nMay mga tao ring nalilinlang sa pekeng tawag, messages, o links dahil mukhang totoo ang mga ito.\n\nIbig sabihin, habang mas ginagamit ang internet, mas sinusubukan din ito gamitin ng mga manloloko.",
+            "context": "cybercrime"
+        },
+        "cybercrime_examples": {
+            "keywords": {
+                "first": ["halimbawa", "types", "uri", "klase", "different", "ang mga"],
+                "second": ["krimen", "panganib", "crime"],
+                "third": ["internet", "online", "cyber"]
+            },
+            "response": "May iba’t ibang halimbawa ng cybercrime sa Pilipinas. Kabilang dito ang pag-hack ng bank accounts, data breaches kung saan nalalantad ang personal na impormasyon, at online scams tulad ng love scam at investment scam. May mga kaso rin ng hacking sa malalaking organisasyon at panloloko na ginagawa online. Sa madaling salita, ang cybercrime ay maaaring pagnanakaw ng impormasyon, hacking, o online panloloko, kaya mahalagang maging maingat sa paggamit ng internet.",
+            "confused_response": "Ang mga halimbawa po ng cybercrime ay:\n\n- ang pag-hack ng bank account\n- pagnanakaw ng personal information\n- online scams tulad ng love scam o investment scam\n\nIto ay mga krimen na ginagawa gamit ang internet o computer.Sa madaling salita, ang cybercrime ay mga online krimen na nanloloko o nagnanakaw gamit ang teknolohiya.",
+            "context": "cybercrime"
         },
         "scammers_tactics": {
             "keywords": {
-            "first": ["paano", "papaano", "paano nga", "paano ba", "tactics"],
-            "second": ["scammer", "panloloko", "panlilinlang", "trick", "taktika", "manloko", "ginagawa"]
-        },
+                "first": ["paano", "papaano", "paano nga", "paano ba", "tactics"],
+                "second": ["scammer", "panloloko", "panlilinlang", "trick", "taktika", "manloko", "ginagawa"]
+            },
             "response": "Ang mga scammer ay gumagamit ng social engineering, isang paraan ng panlilinlang para makuha ang iyong tiwala at impormasyon.\n\n• Nagpapanggap ang scammer na kakilala, bangko, kumpanya, o opisyal na ahensya\n• Pinapamadali ka para hindi ka makapag-isip nang maayos\n• Pinapagawa ka ng aksyon tulad ng pag-click ng link o pagbibigay ng impormasyon\n• Ginagamit ang emosyon tulad ng takot, awa, o excitement\n\nKaya mahalagang mag-isip muna at mag-check bago magtiwala sa anumang mensahe o alok.",
             "confused_response": "Ang mga scammer ay gumagamit ng social engineering, isang paraan ng panlilinlang para makuha ang iyong tiwala. Pinapamadali ka nila, pinapagawa ng aksyon tulad ng pag-click ng link o pagbibigay ng impormasyon, at ginagamit ang emosyon tulad ng takot o excitement para mapasunod ka. Kaya mahalagang mag-ingat at mag-check muna bago magtiwala.",
             "context": "scam"
+        },
+        "social_engineering": {
+             "keywords": {
+                "first": ["social engineering"]
+            },
+            "response": "Ang social engineering ay isang paraan ng panlilinlang kung saan ginagamit ng mga scammer ang natural na ugali ng tao, tulad ng pagtugon sa urgent na request o pagnanais tumulong, para makuha ang iyong tiwala. Ginagamit nila ito para mapasunod ka sa pagbibigay ng sensitibong impormasyon o pag-click ng malicious links na maaaring magdulot ng financial fraud o cybercrime.",
+            "confused_response": "Ang social engineering ay panlilinlang kung saan ginagamit ng scammer ang ugali ng tao tulad ng pagnanais tumulong o sumagot sa urgent na request para makuha ang impormasyon mo. Maaari ka nilang utuin para mag-click ng link o magbigay ng sensitibong detalye na pwedeng gamitin sa panloloko.",
+            "context": "scammers_tactics"
         },
         "password_tips": {
             "keywords": {
                 "first": ["malakas", "maganda", "gawa", "gumawa", "mabuti", "maayos", "strong", "password"],
                 "second": ["password"]
             },
-            "response": "1. Gumamit ng kombinasyon ng malalaki at maliliit na letra, numero, at special characters sa password mo.\n2. Iwasan ang madaling hulaan na salita tulad ng “password” o “123456.”\n3. Gawing mahaba ang password, kahit 12 characters o higit pa.\n4. Pwede kang gumamit ng password manager para ligtas na maalala ang lahat ng password mo.\n\nPaalala: Huwag magbigay ng personal o sensitibong impormasyon tulad ng password o OTP.",
-            "confused_response": "",
+            "response": "Narito ang mga tips sa paggawa ng malakas na password:\n\n1. Gumamit ng kombinasyon ng malalaki at maliliit na letra, numero, at special characters sa password mo.\n2. Iwasan ang madaling hulaan na salita tulad ng “password” o “123456.”\n3. Gawing mahaba ang password, kahit 12 characters o higit pa.\n4. Pwede kang gumamit ng password manager para ligtas na maalala ang lahat ng password mo.\n\nPaalala: Huwag magbigay ng personal o sensitibong impormasyon tulad ng password o OTP.",
+            "confused_response": "Narito ang mga tips sa paggawa ng malakas na password:\n\n1. Gumamit ng halo ng malalaki at maliliit na letra, numero, at simbolo tulad ng '!' o '@'\n2. Iwasan ang madaling hulaan na password tulad ng “123456” o “password”\n3.  Gawing mahaba ang password, mas mainam kung 12 characters o higit pa\n4.  Gumamit ng password manager para matulungan kang maalala ang iyong passwords\n\nPaalala: Huwag magbigay ng personal o sensitibong impormasyon tulad ng password o OTP.",
             "context": "general_scam_response"
         },
         "scam": {
@@ -235,7 +290,7 @@
                 "first": [
                     "scam", "scams", "panloloko", "panlilinlang"]
             },
-            "response": "AAng scam ay panloloko kung saan may taong nagsisinungaling o nagpapanggap para makuha ang pera o personal na impormasyon mo. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ka. Kaya mahalagang mag-ingat lalo na kung may biglang humihingi ng pera o detalye tungkol sa iyo.",
+            "response": "Ang scam ay panloloko kung saan may taong nagsisinungaling o nagpapanggap para makuha ang pera o personal na impormasyon mo. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ka. Kaya mahalagang mag-ingat lalo na kung may biglang humihingi ng pera o detalye tungkol sa iyo.",
             "confused_response": "Ang scam ay panloloko kung saan may taong nagpapanggap o nagsisinungaling para makuha ang iyong pera o impormasyon. Kaya mag-ingat kung may biglang humihingi ng pera o personal na detalye.",
             "context": "general"
         }
@@ -338,8 +393,8 @@
             "keywords": {
                 "first": ["banko", "bank", "check", "cheke", "tseke", "deposit"]
             },
-            "response": "Upang maiwasan ang Bank and Check Scams, mahalagang maging maingat lalo na kung may kinalaman sa iyong bank account. Ang ganitong uri ng scam ay delikado dahil maaari nitong ilagay sa panganib ang iyong buong ipon.\n\nNarito ang dapat tandaan:\n• Huwag basta-basta ibahagi ang iyong banking information. Kabilang dito ang account number, PIN, at Social Security number.\n• Kung may taong humihingi ng sensitibong detalye tungkol sa iyong bangko at hindi mo lubos na kilala o pinagkakatiwalaan, mag-ingat at huwag agad magbigay ng impormasyon.\n\nAng pagiging maingat sa pagbabahagi ng personal at pinansyal na detalye ang isa sa pinakamahalagang paraan upang maprotektahan ang iyong sarili laban sa ganitong uri ng panloloko.",
-            "confused_response": "",
+            "response": "Upang maiwasan ang bank at check scams:\n\n• Huwag basta ibahagi ang iyong banking information tulad ng account number, PIN, at iba pang detalye\n• Mag-ingat kung may humihingi ng sensitibong impormasyon, lalo na kung hindi mo kilala o lubos na pinagkakatiwalaan\n\nAng pagiging maingat sa pagbibigay ng impormasyon ay makakatulong para maprotektahan ang iyong pera.",
+            "confused_response": "Para makaiwas sa bank at check scams, huwag ibigay ang iyong bank details tulad ng account number o PIN sa kahit sino.\n\nKung may humihingi ng ganitong impormasyon at hindi mo kilala, huwag agad magtiwala dahil maaaring scam ito.",
             "context": "bank_and_check_scam"
         },
         "lottery_scam_prevention": {
@@ -417,30 +472,21 @@
             "confused_response": "",
             "context": "social_media_safety"
         },
-        "suspicious_account": {
-            "keywords": {
-                "first": ["kahinahinala", "kadudaduda"],
-                "second": ["account", "tao"]
-            },
-            "response": "Kung may kahina-hinalang tao o account sa social media, i-double check bago gumawa ng aksyon. Pwede mong kontakin ang tao sa ibang paraan, tulad ng tawag sa telepono, para siguraduhing sila talaga iyon.\n\nPwede ring gumamit ng fingerprint, facial scan, o iba pang biometric method sa two-factor authentication. Mas nagbibigay ito ng dagdag na proteksyon sa password o security code mo para mahirapan ang scammers na ma-access ang account mo.",
-            "confused_response": "",
-            "context": "social_media_safety"
-        },
         "social_media_safety": {
             "keywords": {
                 "first": ["ligtas", "ingat"],
                 "second": ["social media", "facebook", "fb", "epbi", "tiktok", "online", "internet"]
             },
-            "response": "Mag-ingat sa pagbibigay ng personal na impormasyon online, tulad ng buong pangalan, kaarawan, o detalye ng pamilya.\n\nHuwag basta-basta maniwala sa lahat ng nakikita o nababasa mo sa social media. Laging i-verify ang impormasyon bago paniwalaan o i-share.\n\nKung may nananakit o nanghaharass sa iyo online, i-report at i-block para hindi ka nila maabala.\n\nHuwag masyadong magtagal sa social media. Mainam ito para makipag-ugnayan, pero huwag palitan ang pakikipagkita sa tao sa personal.",
-            "confused_response": "",
+            "response": "Para maging ligtas sa social media, mag-ingat sa personal na impormasyon na ibinabahagi online. Tanggapin lamang ang friend requests ng kilala mo at magduda sa pekeng accounts. Bago mag-share o maniwala sa posts, siguraduhing tama ang impormasyon. Kung may kahina-hinalang tao o nanghaharass online, i-block at i-report agad. Ang mahalaga, maging maingat sa kausap, sa ibinabahagi, at sa mga nakikita sa social media para manatiling ligtas.",
+            "confused_response": "Para maging ligtas sa social media, huwag basta magbigay ng personal na impormasyon at huwag agad magtiwala sa hindi kilala. Mag-ingat sa friend requests, at huwag basta maniwala sa lahat ng nakikita online.\n\nKung may kahina-hinalang tao, i-block at i-report.\n\nMas mainan na gamitin ang social media nang may pag-iingat at maging mapanuri para manatiling ligtas.",
             "context": "digital_safety"
         },
         "future_scam_prevention": {
             "keywords": {
                 "first": ["ulit", "hinaharap"]
             },
-            "response": "Hindi mo kasalanan na na-scam ka, pero may mga paraan para hindi na maulit ito sa mga susunod. Alamin ang mga bagong paraan ng scammers at pakinggan ang kutob mo. Kung nakakaramdam ng duda, maglaan ng oras para i-check bago ibigay ang personal na impormasyon. Huwag ibahagi ang importanteng detalye sa telepono, kahit sabihin ng tumatawag na galing ito sa bangko o ibang kumpanya na kilala mo.\n\nMas safe rin kung gagamit ng paraan ng pagbayad na may proteksyon laban sa panloloko, tulad ng credit card, para mas mabawasan ang stress at maprotektahan ang pera mo. Pwede mo rin gamitin ang nangyari para matuto ng bagong skills at mas maging confident sa pag-handle ng personal o online na gawain.\n\nMahalaga rin ang suporta ng pamily at kaibigan. Ang pakikipag-usap tungkol sa nangyari ay makakatulong para maunawaan at matanggap ang nangyari, at makapagturo rin sa iba tungkol sa scams. Ang pagbabahagi ng karanasan mo ay nagpapaalala na normal lang ma-scam at okay lang humingi ng tulong.",
-            "confused_response": "",
+            "response": "Hindi mo kasalanan kung na-scam ka, pero may mga paraan para maiwasan itong maulit. Mag-ingat sa mga bagong paraan ng scammers at magtiwala sa kutob mo. Mag-check muna bago magbigay ng personal na impormasyon at huwag mag-share ng sensitive details sa telepono kahit kanino.\n\nMas mainam din gumamit ng payment methods na may fraud protection tulad ng credit card. Makakatulong din ang pagkatuto mula sa karanasan at pakikipag-usap sa pamilya o kaibigan para mas maging aware at mas confident sa pag-handle ng online situations.",
+            "confused_response": "Hindi mo kasalanan kung na-scam ka, pero puwede mo itong maiwasan sa susunod. Mag-ingat sa mga mensahe o tawag at huwag agad magbigay ng personal na impormasyon.\n\nMas safe din gumamit ng payment methods na may proteksyon, at makakatulong ang pakikipag-usap sa pamilya o kaibigan para mas maintindihan at matutunan ang nangyari.",
             "context": "general_scam_response"
         },
         "social_media_scam_prevention": {
@@ -470,6 +516,15 @@
         }
     },
     "scam_response": {
+        "suspicious_account": {
+            "keywords": {
+                "first": ["kahinahinala", "kadudaduda"],
+                "second": ["account", "tao"]
+            },
+            "response": "Kung may kahina-hinalang tao o account sa social media, i-double check bago gumawa ng aksyon. Pwede mong kontakin ang tao sa ibang paraan, tulad ng tawag sa telepono, para siguraduhing sila talaga iyon.\n\nPwede ring gumamit ng fingerprint, facial scan, o iba pang biometric method sa two-factor authentication. Mas nagbibigay ito ng dagdag na proteksyon sa password o security code mo para mahirapan ang scammers na ma-access ang account mo.",
+            "confused_response": "",
+            "context": "social_media_safety"
+        },
         "robocall_scam_response": {
             "keywords": {
                 "first": ["robocall", "call", "tawag", "tumawag", "robot"]
@@ -605,6 +660,14 @@
         }
     },
     "scam_signs": {
+        "tech_support_scam_signs": {
+            "keywords": {
+                "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
+            },
+            "response": "Narito ang mga palatandaan ng tech support scam:\n• May biglaang pop-up na nagsasabing may virus ang iyong computer\n• Pinapatawag ka sa isang tech support number\n• Humihingi ng bayad para sa “repair” services\n• Hinihingi ang remote access sa iyong computer\n• May urgent na babala na kailangan agad aksyonan\n• May tumatawag o nagme-message na kunwari galing sa tech company",
+            "confused_response": "Ang ganitong scam ay kadalasang may pop-up o mensahe na nagsasabing may virus ang iyong computer. Maaaring humingi ng bayad o access sa iyong device at magmadali para kumilos ka agad.",
+            "context": "tech_support_scam"
+        },
         "robocall_scam_signs": {
             "keywords": {
                 "first": ["robocall", "call", "tawag", "tumawag", "robot"]
@@ -652,8 +715,8 @@
                 "first": ["ai", "peke", "fake", "di totoo", "deepfake"],
                 "second": ["larawan", "video", "vidyo", "picture", "image"]
             },
-            "response": "Para malaman kung AI o pekeng larawan o video ang nakikita mo:\n\n• Sa video, bantayan ang kakaibang blinking, hindi tumutugmang labi sa sinasabi, o stiff na facial expressions.\n• Sa larawan, tingnan ang mata, bibig, kamay, at braso. Maaaring may sobrang daliri, extra braso, o kakaibang posisyon ng katawan.\n• Pansinin kung parang may mga hindi natural na ngipin o mata, o anumang detalye na mukhang mali o distorted.\n\nTandaan: Kapag may duda sa larawan o video, huwag agad maniwala at i-verify sa ibang mapagkakatiwalaang source.",
-            "confused_response": "",
+            "response": "Para malaman kung AI o pekeng larawan o video ang nakikita mo:\n\n• Sa video, bantayan ang kakaibang pagkurap ng mata, hindi tugmang galaw ng labi, o stiff na facial expressions\n• Sa larawan, tingnan ang mata, bibig, kamay, at braso. Maaaring may sobrang daliri o kakaibang posisyon\n• Pansinin kung may hindi natural na ngipin, mata, o distorted na detalye\n• Tingnan ang ilaw at anino. Kapag hindi tugma o nasa maling direksyon, maaaring peke\n• Obserbahan kung may malabo, pixelated (o blurred), o na-stretch na bahagi ng larawan\n• Suriin ang background kung ito ay mukhang warped, hindi pantay, o hindi natural\n\nTandaan: Kapag may duda sa larawan o video, huwag agad maniwala at i-verify muna sa mapagkakatiwalaang source.",
+            "confused_response": "Para malaman kung peke o AI ang larawan o video:\n\n• Tingnan kung kakaiba ang mukha o galaw, tulad ng hindi tugmang labi o kakaibang mata\n• Suriin ang kamay at katawan kung may sobrang daliri o mali ang itsura\n• Pansinin kung malabo, pixelated, o may part na mukhang na-stretch\n• Tingnan ang ilaw at anino kung hindi tugma\n• Obserbahan ang background kung mukhang hindi natural o magulo\n\nKapag may duda, huwag agad maniwala at i-check muna sa ibang mapagkakatiwalaang source.",
             "context": "fake_news"
         },
         "advance_fee_fraud_scam_signs": {
@@ -763,14 +826,6 @@
             "response": "Narito ang mga palatandaan ng phony apps at fake sites:\n\nPara sa apps:\n• Pangalan ng developer ay kahawig pero hindi eksakto sa totoong brand\n• Kulang o pangit ang description at reviews\n• Humihingi ng sobrang permissions\n• Maraming pop-up ads o paulit-ulit na humihingi ng impormasyon\n\nPara sa websites:\n• Mukhang hindi propesyonal o may sirang links\n• Walang malinaw na contact details\n• Hindi malinaw ang policies (return, privacy, etc.)\n• Hindi gumagana ang back button\n• Humihingi ng credit card info kahit hindi pa bibili",
             "confused_response": "Ang ganitong scam ay may app o website na mukhang totoo pero may mali. Maaaring pangit ang design, walang malinaw na detalye, o humihingi agad ng impormasyon kahit hindi kailangan.",
             "context": "phony_apps_or_sites"
-        },
-        "tech_support_scam_signs": {
-            "keywords": {
-                "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
-            },
-            "response": "Narito ang mga palatandaan ng tech support scam:\n• May biglaang pop-up na nagsasabing may virus ang iyong computer\n• Pinapatawag ka sa isang tech support number\n• Humihingi ng bayad para sa “repair” services\n• Hinihingi ang remote access sa iyong computer\n• May urgent na babala na kailangan agad aksyonan\n• May tumatawag o nagme-message na kunwari galing sa tech company",
-            "confused_response": "Ang ganitong scam ay kadalasang may pop-up o mensahe na nagsasabing may virus ang iyong computer. Maaaring humingi ng bayad o access sa iyong device at magmadali para kumilos ka agad.",
-            "context": "tech_support_scam"
         },
         "charity_scam_signs": {
             "keywords": {
