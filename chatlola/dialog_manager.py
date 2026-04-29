@@ -157,7 +157,7 @@ def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
     if prev_intent and prev_topic and prev_topic != "clarify":
         prev_data = chatlola_data[prev_intent][prev_topic]
         return jsonify({
-            "response": "Mukhang medyo nakakalito 😅. " + prev_data["confused_response"],
+            "response": "Mukhang medyo nakakalito 😅.\n" + prev_data["confused_response"],
             "intent": prev_intent,
             "topic": prev_topic + "_confused",
             "confusion_label": confusion

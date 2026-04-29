@@ -103,6 +103,18 @@
         "information_protection": {
             "question": "Paano ko mapoprotektahan ang impormasyon ko?",
             "intent": "prevent_scam"
+        },
+        "infringed_data_privacy_response": {
+            "question": "Napagtanto kong nilabag ang aking data privacy, ano susunod na hakbang?",
+            "intent": "scam_response"
+        },
+        "shared_info_response": {
+            "question": "Ano gagawin kung naibigay ko ang impormasyon ko sa scammer?",
+            "intent": "scam_response"
+        },
+        "shared_id_response": {
+            "question": "Naibigay ko ang aking ID sa scammer, ano dapat kong gawin?",
+            "intent": "scam_response"
         }
     },
     "social_media_online_safety": {
@@ -142,6 +154,10 @@
         },
         "tech_support_scam": {
             "question": "Ano ang tech support scams?",
+            "intent": "explain_concept"
+        },
+        "lottery_scam": {
+            "question": "Ano ang lottery scam?",
             "intent": "explain_concept"
         }
     },
@@ -392,6 +408,32 @@
             "intent": "scam_response"
         }
     },
+    "lottery_scam": {
+        "lottery_scam_signs": {
+            "question": "May nareceive akong text na nanalo raw ako sa lotto, legit ba to?",
+            "intent": "scam_signs"
+        },
+        "lottery_scam_prevention": {
+            "question": "Paano ko mapoprotektahan ang sarili ko sa lottery scam?",
+            "intent": "prevent_scam"
+        },
+        "lottery_scam_response": {
+            "question": "Ano dapat kong gawin kung mabiktima ako ng lottery scam?",
+            "intent": "scam_response"
+        }
+    },
+    "investment_scam": {
+        "investment_scam_signs": {
+            "question": "Paano ko malalaman kung scam ang investment na inaalok sa akin?",
+            "intent": "scam_signs"
+        }
+    },
+    "link_scams": {
+        "scam_link_signs": {
+            "question": "May link na nakalagay sa text, paano ko malaman kung totoo ito?",
+            "intent": "scam_signs"
+        }
+    },
     "scammers_tactics": {
         "social_engineering": {
             "question": "Ano ang social engineering?",
@@ -417,7 +459,7 @@
         }, 
         "fake_news_uses": {
             "question": "Paano ginagamit ang fake news para manloko?",
-            "intent": "prevent_scam"
+            "intent": "explain_concept"
         },
         "fake_news_prevention": {
             "question": "Paano ako makakaiwas sa fake news?",
@@ -427,6 +469,10 @@
             "question": "Paano malalaman kung fake news ang nabasa ko?",
             "intent": "scam_signs"
         }, 
+        "believe_facebook": {
+            "question": "Dapat ba paniwalaan lahat ng nakikita sa Facebook?",
+            "intent": "explain_concept"
+        },
         "fake_news_believe_signs": {
             "question": "Ano ang dapat tingnan bago paniwalaan ang balita online?",
             "intent": "scam_signs"

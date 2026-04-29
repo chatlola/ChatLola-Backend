@@ -7,7 +7,7 @@
                 "third": ["news", "information", "impormasyon", "balita"]
             },
             "response": "Ginagamit ang fake news para makapanlinlang o makaimpluwensya sa paniniwala at desisyon ng mga tao. Hindi lang ito tungkol sa scams, maaari rin itong gamitin para sa politika, kita, o kahit para magpakalat ng gulo, aliw, o itulak ang isang agenda o paniniwala.\n\nHalimbawa, maaaring gumawa ng pekeng balita para siraan o suportahan ang isang politiko, magdulot ng takot o galit, o makahikayat ng maraming views at shares. Mayroon ding gumagawa ng fake news bilang biro, pero maaari pa rin itong magdulot ng kalituhan.\n\nDahil dito, mahalagang maging mapanuri at i-check muna ang impormasyon bago maniwala o magbahagi nito online.",
-            "confused_response": "Ginagamit ang fake news para manloko o makaimpluwensya sa iniisip ng tao. Minsan para kumita, minsan para sa politika, at minsan para itulak ang isang paniniwala o agenda. Maaari rin itong gawin para magpakalat ng gulo o aliw.\n\nHalimbawa:\n• Balitang pabor o laban sa isang politiko kahit hindi totoo\n• Post na gawa-gawa para magalit o matakot ang mga tao\n• Maling impormasyon para makakuha ng views, likes, o followersn\n• Pekeng balita na ginawa lang bilang biro o prank\n\nKapag naniwala ka agad, puwede kang maapektuhan ang desisyon o maipasa mo pa ang maling impormasyon sa iba. Kaya mahalagang mag-check muna bago maniwala o mag-share.",
+            "confused_response": "Ginagamit ang fake news para manloko o makaimpluwensya sa iniisip ng tao. Minsan para kumita, minsan para sa politika, at minsan para itulak ang isang paniniwala o agenda. Maaari rin itong gawin para magpakalat ng gulo o aliw.\n\nHalimbawa:\n• Balitang pabor o laban sa isang politiko kahit hindi totoo\n• Post na gawa-gawa para magalit o matakot ang mga tao\n• Maling impormasyon para makakuha ng views, likes, o followers\n• Pekeng balita na ginawa lang bilang biro o prank\n\nKapag naniwala ka agad, puwede kang maapektuhan ang desisyon o maipasa mo pa ang maling impormasyon sa iba. Kaya mahalagang mag-check muna bago maniwala o mag-share.",
             "context": "fake_news"
         },
         "fake_news": {
@@ -36,6 +36,16 @@
             },
             "response": "Delikado ang pagbabahagi ng hindi verified na impormasyon dahil maaaring maling balita o fake news pala ito at pwedeng makapanlinlang sa ibang tao.\n\nKapag nag-share ng maling impormasyon, puwedeng magdulot ito ng takot, kalituhan, o maling desisyon. Minsan, ginagamit din ang maling impormasyon para manloko o magsimula ng scam.\n\nKung hindi nasusuri ang impormasyon bago ibahagi, puwede kang hindi sinasadyang makatulong sa pagkalat ng panlilinlang.\n\nAng hindi pag-verify ng impormasyon ay nakakatulong sa pagkalat ng maling balita. Kung kaya, delikado ang pag-share ng hindi verified na info dahil maaari itong makapanloko o makasama sa iba.",
             "confused_response": "Kapag nag-share ka ng fake news, kahit hindi mo alam na fake, ikaw ay:\n\n• Nakakasakit ng iba. Halimbawa, nag-share ka na \"may nanalo ng lotto sa barangay natin.\" Yung nabanggit mong tao, aabangan ng scammer o manghihiram.\n• Nakakapag-panic. \"May lindol bukas\" - pag i-share mo, matatakot ang lahat kahit fake pala.\n• Tumutulong sa manloloko. Pag nag-share ka ng scam message, mas maraming mabibiktima.\n\nKaya bago mag-share, tanungin mo sarili mo: \"Sigurado ba ako na totoo ito?\" Kung hindi, huwag i-share. Ganun lang kasimple.",
+            "context": "fake_news"
+        },
+        "believe_facebook": {
+            "keywords": {
+                "first": ["tiwala", "niwala", "trust", "believe"],
+                "second": ["kita", "basa", "rinig", "laman"],
+                "third": ["facebook"]
+            },
+            "response": "Hindi. Kailangan maging maingat dahil maraming maling impormasyon, scam, at nakakaloko na content sa Facebook.\n\nBakit dapat mag-duda:\n\n• Misinformation at scams - Madaling gumawa ng pekeng account at magkalat ng kasinungalingan.\n• Misleading content - Ang nakikita mo ay edited o hindi buong katotohanan. Puwedeng iba ang tunay na nangyari.\n• Walang verification - Maraming posts ay hindi verified. Walang nagsusuri kung totoo ba o hindi bago i-post.\n\nKaya bago maniwala, i-check muna sa ibang sources. Huwag agad paniwalaan lahat ng nababasa sa Facebook.",
+            "confused_response": "Huwag paniwalaan lahat ng nakikita mo sa Facebook.\n\nBakit?\n\nMadali lang gumawa ng fake account. Kahit sino puwedeng mag-post ng kung ano-ano. Walang pumipigil sa kanila.\n\nMaraming edited. Yung litrato na maganda - edited yan. Yung kwento na masaya - iba ang totoo. Hindi lahat ng nakikita mo ay totoo.\n\nWalang nagsusuri. Sa newspaper, may editor na nag-check kung totoo. Sa Facebook, wala. Kahit kasinungalingan, puwedeng i-post.\n\nKaya ganito: Kung may nakita ka sa Facebook na importante o nakakagulat, i-check mo muna sa news o tanungin ang iba. Huwag agad maniwala.",
             "context": "fake_news"
         },
         "suspicious_payment_methods": {
@@ -72,6 +82,15 @@
             "response": "Kailangan mong maging mas maingat online dahil maraming cybercrime ang nangyayari, lalo na sa mga nakatatanda. Ayon sa mga ulat, malaking halaga ng pera ang nawawala dahil sa panloloko sa internet, at patuloy pa itong tumataas. Maraming scam ang target ang seniors dahil mas madali silang malinlang.\n\nAng magandang balita, karamihan sa mga panloloko ay maiiwasan kung may sapat na kaalaman at pag-iingat. Sa pamamagitan ng pagiging mapanuri at hindi basta pagtitiwala sa mga mensahe o impormasyon online, mas mapoprotektahan mo ang iyong sarili.", 
             "confused_response": "Kailangan mong mag-ingat online dahil may mga taong nanloloko sa internet at maaaring mawala ang iyong pera o impormasyon. Madalas target ang mga nakatatanda kaya importante ang pagiging maingat.\n\nAng mabuti, maraming scam ang maiiwasan kung hindi agad nagtitiwala at nagche-check muna bago gumawa ng aksyon.",
             "context": "digital_safety"
+        },
+        "lottery_scam": {
+            "keywords": {
+                "first": ["lotto", "loto", "weteng", "lottery"],
+                "second": ["scam", "loko", "linlang", "nanalo", "panalo"]
+            },
+            "response": "Ang lottery scam ay panloloko kung saan sasabihin sa iyo na nanalo ka ng premyo kahit hindi ka naman sumali sa anumang lottery. Hihingan ka nila ng personal o bank information para “maipadala” ang premyo, pero ang totoo ay ninanakaw lang nila ang iyong pera o impormasyon.",
+            "confused_response": "Ang lottery scam ay kapag sinabihan kang nanalo ka ng premyo kahit hindi ka sumali. Hihingi sila ng impormasyon o pera, pero panloloko lang ito.",
+            "context": "lottery_scam"
         },
         "phishing_scam": {
             "keywords": {
@@ -339,7 +358,7 @@
             },
             "response": "Ang cybercrime ay krimen na ginagawa gamit ang computer, cellphone, o internet. Kabilang dito ang panloloko online, pagnanakaw ng personal na impormasyon, pag-hack ng accounts, at pagpapadala ng scam messages o links.Halimbawa ng cybercrime ang phishing scams, identity theft, at pagkalat ng virus o malware.Sa madaling salita, ang cybercrime ay krimen na gumagamit ng technology para manloko, magnakaw, o manira ng impormasyon.",
             "confused_response": "Ang Cybercrime ay mga krimen sa internet o cellphone.\n\nMga halimbawa:\n• Panloloko online - May nag-text na nanalo ka ng premyo, pero kailangan mo munang magbayad. Scam yan.\n• Pagnanakaw ng impormasyon - Kinuha nila ang password mo at ninakaw ang laman ng iyong bank account.\n• Hacking - Nakapasok sila sa Facebook mo at nag-post ng kung ano-ano.\n• Virus - May na-download ka na file, ngayon puro ads na ang cellphone mo o kaya naman ay hindi na gumagana.\nLahat ng ito ay cybercrime. Kapag nakaramdam ka na naloloko ka online, tumawag agad sa pulis o sa bantay cyber ng NBI.",
-            "context": "cybercrimes"
+            "context": "general"
         },
         "scammers_tactics_online": {
             "keywords": {
@@ -380,8 +399,7 @@
         },
         "scam": {
             "keywords": {
-                "first": [
-                    "scam", "scams", "panloloko", "panlilinlang"]
+                "first": ["scam", "scams", "panloloko", "panlilinlang"]
             },
             "response": "Ang scam ay panloloko kung saan may taong nagsisinungaling o nagpapanggap para makuha ang pera o personal na impormasyon mo. Madalas gumagamit sila ng kapani-paniwalang kuwento para mapaniwala ka. Kaya mahalagang mag-ingat lalo na kung may biglang humihingi ng pera o detalye tungkol sa iyo.",
             "confused_response": "Ang scam ay panloloko kung saan may taong nagpapanggap o nagsisinungaling para makuha ang iyong pera o impormasyon. Kaya mag-ingat kung may biglang humihingi ng pera o personal na detalye.",
@@ -492,10 +510,11 @@
         },
         "lottery_scam_prevention": {
             "keywords": {
-                "first": ["lotto", "loto", "weteng", "lottery", "nanalo", "panalo"]
+                "first": ["lotto", "loto", "weteng", "lottery"],
+                "second": ["scam", "loko", "linlang", "nanalo", "panalo"]
             },
-            "response": "Kapag may mensahe tungkol sa lotto o sweepstakes, mag-ingat kung hinihingi ang pera o personal na impormasyon mo para makuha ang premyo.\n\nTandaan:\nKung kailangan mong magbayad para manalo o para tumaas ang chance mo, scam iyon.\nHuwag ibigay ang bank, credit card, o personal info mo.Mag-research sa pangalan ng sender gamit ang Google. Huwag magmadali sa desisyon at huwag magpadala ng pera sa Western Union, gift card, o cryptocurrency.",
-            "confused_response": "",
+            "response": "Para makaiwas sa lottery scam:\n• Huwag maniwala kung hindi ka naman sumali\n• Huwag magbayad para makatanggap ng premyo\n• Huwag magbigay ng personal o bank information\n• Mag-check muna kung lehitimo ang source\n• Mag-ingat sa mga mensaheng nagmamadali o nananakot",
+            "confused_response": "Para makaiwas sa lottery scam:\n• Huwag maniwala kung hindi ka sumali\n• Huwag magpadala ng pera\n• Huwag magbigay ng impormasyon\n• Mag-check muna bago magtiwala",
             "context": "lottery_scam"
         },
         "phishing_scam_prevention": {
@@ -601,6 +620,34 @@
         }
     },
     "scam_response": {
+        "shared_id_response": {
+            "keywords": {
+                "first": [" id ", "identification"],
+                "second": ["bigay", "pasa", "shared", "send"],
+                "third": ["scammer", "manloloko", "nangsascam", "nangscam"]
+            },
+            "response": "Kung naibigay mo ang ID mo sa scammer, kumilos agad. Bantayan ang bank accounts, e-wallets, at iba pang accounts kung may kahina-hinalang activity. Kung ginamit ang ID mo sa bank o loan-related transactions, ipagbigay-alam agad sa bangko o kinauukulang kumpanya.\n\nMagandang i-report din ang insidente sa tamang awtoridad at mag-ingat sa posibleng identity theft o paggamit ng ID mo sa panloloko. Kung may scammer pang kumokontak sa iyo, i-block at huwag nang makipag-ugnayan.\n\nMas maiging bantayan ang iyong pagkakakilanlan at umaksyon agad para maiwasan ang mas malaking problema.",
+            "confused_response": "Kung naibigay mo ang ID mo sa scammer, huwag mataranta kundi ay kumilos agad. Bantayan kung may kakaibang paggamit ng pangalan o impormasyon mo. Kung may bank o loan account ka, ipaalam agad para makapag-ingat sila.\n\nI-report din ang nangyari at huwag na muling kausapin ang scammer.\n\nTandaan, kung nakuha ang ID mo, kumilos agad para maprotektahan ang iyong pagkakakilanlan laban sa panloloko.o.",
+            "context": "personal_data_privacy"
+        },
+        "shared_info_response": {
+            "keywords": {
+                "first": ["bigay", "pasa", "shared", "send"],
+                "second": ["scammer", "manloloko", "nangsascam", "nangscam"]
+            },
+            "response": "Kung naibigay mo ang impormasyon mo sa scammer, kumilos agad. Palitan agad ang password ng mga apektadong account, lalo na email, social media, at online banking. Kung naibigay mo ang OTP, bank details, o card information, tawagan agad ang bangko para ma-secure o ma-freeze ang account.\n\nBantayan kung may kahina-hinalang activity sa accounts mo, i-block at i-report ang scammer, at kung personal data mo ang nalantad, puwede ring humingi ng tulong sa National Privacy Commission.\n\nAng mahalaga, huwag maghintay kundi ay mas maagang umaksyon, mas makakaiwas sa mas malaking problema.",
+            "confused_response": "Kung naibigay mo na ang impormasyon mo, huwag mataranta kundi ay kumilos agad. Palitan ang password mo, tawagan ang bangko kung may naibigay kang bank details o OTP, at tingnan kung may kakaibang nangyayari sa account mo.\n\nI-block at i-report din ang scammer para hindi na sila makapangloko pa.\n\nTandaan na kapag may naibigay kang impormasyon sa scammer, mas mabuting umaksyon agad para maprotektahan ang pera at account mo.",
+            "context": "personal_data_privacy"
+        },
+        "infringed_data_privacy_response": {
+            "keywords": {
+                "first": ["nilabag", "breach", "compromised", "compromiso", "uway", "binalewala", "di sinunod"],
+                "second": ["data privacy", "personal data", "impormasyon", "data"]
+            },
+            "response": "Kung napagtanto mong nilabag ang data privacy mo, mayroon kang karapatang mag-file ng complaint sa National Privacy Commission (NPC).\n\nMga hakbang:\n\n• I-download ang complaint form sa https://privacy.gov.ph/filing-a-complaint/\n• Punan at pa-notarize ang form\n• I-submit sa NPC sa tatlong paraan:\n    • Personal sa NPC office\n  • Email sa complaints@privacy.gov.ph\n  • Courier service\n\nLibre lang ang pag-file. Ang NPC ay tutulong sa iyo na i-investigate ang violation at posibleng magbigay ng penalties sa nanlabag.\n\nPara sa tulong: tumawag sa +63 2 5322 1322 (local 114).",
+            "confused_response": "Maari itong gawin kung nalabag ang data privacy mo.\n\nHalimbawa ng violations:\n\n• Kinuha ng lending app ang contacts mo nang walang pahintulot\n• Nag-post ng personal info mo sa Facebook\n• Ibinigay ng kumpanya ang data mo sa iba\n\nAno ang gagawin:\n• Una, i-download ang form. Pumunta sa website ng National Privacy Commission: privacy.gov.ph\nPangalawa, punan ang form. Isulat kung ano ang nangyari at sino ang gumawa. Pa-notarize ito.\n• Pangatlo, i-submit. Puwedeng i-email sa complaints@privacy.gov.ph o personal na dalhin.\n\nLibre lang ito. Walang bayad sa pag-file ng complaint. Tutulungan ka ng NPC.\n\nTumawag: +63 2 5322 1322 (pindutin ang 114 sa telepono).",
+            "context": "personal_data_privacy"
+        },
         "share_fake_news_response": {
             "keywords": {
                 "first": ["bahagi", "sharing", "pasa", "kalat", "share", "kwento"],
@@ -619,6 +666,15 @@
             "response": "Kung may kahina-hinalang account sa social media, mag-ingat muna. Tawagan mo ang taong iyon gamit ang telepono para siguruhing sila nga. Huwag agad maniwala o mag-click ng kahit ano.\n\nPara sa dagdag na proteksyon, gamitin ang two-factor authentication. Mas maganda kung may fingerprint o facial scan. Kahit nakuha ng scammer ang password mo, hindi pa rin nila mabubuksan ang account mo nang walang fingerprint o facial scan mo.",
             "confused_response": "Kapag may nagtanong ng  pera o tulong sa social media at parang kakilala mo, huwag agad maniwala. Tawagan mo muna sila sa cellphone para sigurado. Baka hindi naman talaga sila iyon.\n\nMagtakda rin ng extra lock sa accounts mo. Pwedeng fingerprint (daldal ng daliri) o face scan (litrato ng mukha). Kahit alam ng masasamang tao ang password mo, kailangan pa rin nila ng daliri mo o mukha mo para ma access ito. ",
             "context": "social_media_online_safety"
+        },
+        "lottery_scam_response": {
+            "keywords": {
+                "first": ["lotto", "loto", "weteng", "lottery"],
+                "second": ["scam", "loko", "linlang", "nanalo", "panalo"]
+            },
+            "response": "Kapag ikaw ay nabiktima ng lottery scam:\n\n• Tawagan agad ang bangko kung may naibigay kang pera o impormasyon\n• Palitan ang iyong passwords\n• I-report ang scam sa awtoridad\n• Bantayan ang iyong account para sa kahina-hinalang activity",
+            "confused_response": "Kapag ikaw ay nabiktima ng lottery scam:\n\n• Tawagan ang bangko\n• Palitan ang password\n• I-report ang nangyari",
+            "context": "lottery_scam"
         },
         "robocall_scam_response": {
             "keywords": {
@@ -731,7 +787,7 @@
         },
          "romance_scam_response": {
             "keywords": {
-                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date"]
+                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date", "may gusto", "may pagtingin"]
             }, 
             "response": "Kapag ikaw ay nabiktima ng romance scam:\n• Itigil agad ang pakikipag-ugnayan\n• Huwag nang magpadala ng pera\n• Makipag-ugnayan sa bangko kung may naibigay na pera\n• I-report ang scam sa platform at awtoridad\n• Humingi ng tulong sa pamilya o kaibigan",
             "confused_response": "Kung sa tingin mo ay na-scam ka, ihinto agad ang pakikipag-usap. Huwag nang magpadala ng pera at makipag-ugnayan sa bangko kung kinakailangan. Sabihin din ito sa taong pinagkakatiwalaan.",
@@ -868,10 +924,11 @@
         },
         "lottery_scam_signs": {
             "keywords": {
-                "first": ["lotto", "loto", "weteng", "lottery", "nanalo", "panalo"]
+                "first": ["lotto", "loto", "weteng", "lottery"],
+                "second": ["scam", "loko", "linlang", "nanalo", "panalo"]
             },
-            "response": "Kung hindi ka naman sumali sa lotto, hindi ka rin puwede manalo.\n\nKaraniwan, scam ang ganitong mensahe at hihingi ng personal o bank information para nakawin ang pera mo. Huwag ibigay ang info mo.",
-            "confused_response": "",
+            "response": "Narito ang mga palatandaan ng lottery scam:\n\n• Sinabing nanalo ka kahit hindi ka sumali\n• Kailangan mong magbayad para makuha ang premyo\n• Humihingi ng personal o bank details\n• Pinapamadali ka para magdesisyon agad\n• Gumagamit ng pekeng pangalan o organisasyon\n• Pinapabayad gamit ang gift card, transfer, o crypto\n• Minsan nagpapadala ng tseke at hihingi ng pera pabalik",
+            "confused_response": "Maaaring lottery scam ito kung:\n\n• Sinabing nanalo ka kahit hindi ka sumali\n• Hinihingan ka ng pera para makuha ang premyo\n• Humihingi ng personal o bank info\n• Pinapamadali ka magdesisyon",
             "context": "lottery_scam"
         },
         "scam_link_signs": {
@@ -880,8 +937,8 @@
                 "second": ["link", "site", "blue"]
             },
             "response": "Huwag agad mag-click sa link na galing sa taong hindi mo kilala. Maaaring mukhang legit ang site, pero pekeng website lang ito.\n\nSa halip, hanapin ang website gamit ang search engine o tawagan ang numero na nakalagay sa statement mo. Markahan ang totoong website bilang favorite sa browser para safe ang pag-access mo palagi.",
-            "confused_response": "",
-            "context": ""
+            "confused_response": "Kung may nag-send ng link sa text o Facebook, huwag agad pindutin. Kahit mukhang totoo, baka peke lang yan.\n\nGawin mo ito: Buksan ang Google, tapos i-type mo doon ang pangalan ng bangko o kumpanya. Doon ka mag-click at hindi sa link na na-text sa'yo.\n\nO kaya, tawagan mo ang numero na nakalagay sa bill o statement mo. Tanungin mo kung totoo ba ang text na natanggap mo.\n\nPag nahanap mo na ang totoong website, i-save mo bilang \"favorite\" o \"bookmark\" para sunod-sunod na, doon ka na lang pumunta. Mas safe.",
+            "context": "link_scams"
         },
         "phishing_scam_signs": {
             "keywords": {
@@ -911,8 +968,8 @@
             "keywords": {
                 "first": ["invest", " kita", "savings"]
             },
-            "response": "May mga taong mag-aalok ng investment na pangakong malaki ang kita at maliit o walang risk. Madalas magmukhang professional at puwede silang manghikayat na gamitin ang savings o retirement money mo.\n\nMag-ingat kung pinipilit kang mag-invest agad, may pangakong guaranteed o sobrang taas na kita, o sinasabing magsimula sa “small amount” na kalaunan tataas. Kung parang sobrang ganda para maging totoo, malamang scam ito.",
-            "confused_response": "",
+            "response": "May mga taong mag-aalok ng investment na pangakong malaki ang kita at maliit o walang risk. Madalas magmukhang professional at puwede silang manghikayat na gamitin ang savings o retirement money mo.\n\nMag-ingat kung pinipilit kang mag-invest agad, may pangakong guaranteed o sobrang taas na kita, o sinasabing magsimula sa  small amount  na kalaunan tataas. Kung parang sobrang ganda para maging totoo, malamang scam ito.",
+            "confused_response": "Baka scam kung may taong nag-aalok ng investment na pangako ng malaking pera.\nAng totong investment ay may risk. Kung sabi nila guaranteed ang kita o sobrang taas—basta walang risk—huwag na. Ito ay hindi totoo.\nKung pinipilit ka nang mabilis na mag-invest o sabihin mong gamitin ang retirement money mo, mag-ingat. Ito ay red flag.\nKung nagsisimula lang sa konting pera tapos lalaki—baka trap lang ito para makuha ang mas maraming pera mo.\nKung sobrang ganda ng offer, malamang fake lang.",
             "context": "investment_scam"
         },
         "romance_scam_signs": {
