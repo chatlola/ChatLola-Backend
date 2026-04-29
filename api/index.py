@@ -77,5 +77,14 @@ def predict():
         }
     })
 
+#sends context, this ensures the context json in frontend is always up to date
+@app.route('/context', methods=['GET'])
+
+def context(): 
+    with open("chatlola/context.json", encoding="utf-8") as f:
+        context_data = json.load(f)
+
+    return jsonify(context_data)
+
 if __name__=='__main__':
     app.run(debug=True)
