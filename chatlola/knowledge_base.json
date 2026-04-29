@@ -1,5 +1,69 @@
 {
     "explain_concept": {
+        "fake_news_uses": {
+            "keywords": {
+                "first": ["gamit", "use", "application", "paraan", "gawa"],
+                "second": ["peke", "fake", "di totoo"],
+                "third": ["news", "information", "impormasyon", "balita"]
+            },
+            "response": "Ginagamit ang fake news para makapanlinlang o makaimpluwensya sa paniniwala at desisyon ng mga tao. Hindi lang ito tungkol sa scams, maaari rin itong gamitin para sa politika, kita, o kahit para magpakalat ng gulo, aliw, o itulak ang isang agenda o paniniwala.\n\nHalimbawa, maaaring gumawa ng pekeng balita para siraan o suportahan ang isang politiko, magdulot ng takot o galit, o makahikayat ng maraming views at shares. Mayroon ding gumagawa ng fake news bilang biro, pero maaari pa rin itong magdulot ng kalituhan.\n\nDahil dito, mahalagang maging mapanuri at i-check muna ang impormasyon bago maniwala o magbahagi nito online.",
+            "confused_response": "Ginagamit ang fake news para manloko o makaimpluwensya sa iniisip ng tao. Minsan para kumita, minsan para sa politika, at minsan para itulak ang isang paniniwala o agenda. Maaari rin itong gawin para magpakalat ng gulo o aliw.\n\nHalimbawa:\n• Balitang pabor o laban sa isang politiko kahit hindi totoo\n• Post na gawa-gawa para magalit o matakot ang mga tao\n• Maling impormasyon para makakuha ng views, likes, o followersn\n• Pekeng balita na ginawa lang bilang biro o prank\n\nKapag naniwala ka agad, puwede kang maapektuhan ang desisyon o maipasa mo pa ang maling impormasyon sa iba. Kaya mahalagang mag-check muna bago maniwala o mag-share.",
+            "context": "fake_news"
+        },
+        "fake_news": {
+            "keywords": {
+                "first": ["peke", "fake", "di totoo"],
+                "second": ["news", "information", "impormasyon", "balita"]
+            },
+            "response": "Ang fake news ay mali o pekeng impormasyon na ipinapakita na parang totoong balita. Maaari itong gawa-gawa, kulang sa detalye, o sadyang ginawa para manlinlang.\n\nGinagamit ang fake news para takutin, linlangin, o impluwensyahan ang paniniwala ng iba. Madalas itong makita sa social media, forwarded messages, o kahina-hinalang posts.\n\nMay dalawang uri: misinformation (maling impormasyon na naibabahagi kahit hindi sinasadya) at disinformation (maling impormasyon na sinadyang ikalat para manloko).\n\nSa madaling salita, ang fake news ay impormasyon na mukhang totoo pero mali o mapanlinlang.",
+            "confused_response": "Ang Fake news ay pekeng balita na parang totoo.\n\nHalimbawa: May nakita kang post na \"Libre na ang kuryente ngayong Abril!\" Mukhang totoo kasi may larawan pa. Pero pag i-check mo, walang announcement ang Meralco. Yan ang fake news - gawa-gawa lang.\n\nMinsan, ginagawa yan para takutin ka o linlangin ka. Minsan naman, na-share lang ng kaibigan mo kahit hindi niya alam na peke.\n\nKaya bago ka maniwala o mag-share, i-check mo muna kung totoo. Tingnan sa news o tanungin ang ibang tao. Huwag agad maniwala sa lahat ng nababasa online.",
+            "context": "general"
+        },
+        "misinformation_disinformation": {
+            "keywords": {
+                "first": ["misinformation"],
+                "second": ["disinformation"]
+            },
+            "response": "Ang misinformation at disinformation ay parehong maling impormasyon, pero may kaibahan.\n\nAng misinformation ay maling impormasyon na naibabahagi kahit hindi sinasadya. Halimbawa, may taong nag-share ng maling balita dahil akala niya totoo ito.\n\nAng disinformation naman ay maling impormasyon na sinasadyang ikalat para manloko, manlinlang, o magdulot ng kalituhan.\n\nAyon sa mga pag-aaral tungkol sa disinformation sa Pilipinas, mahalagang malaman ang pagkakaiba nito para hindi madaling malinlang online.\n\nSa madaling salita, misinformation ay maling impormasyon na hindi sinasadya, habang disinformation ay maling impormasyon na sinasadya.",
+            "confused_response": "Pareho silang maling impormasyon, pero iba ang dahilan:\n\n• Misinformation - hindi sinasadya. Halimbawa, si Lola ay nag-share sa family group chat ng balita na \"libre na ang buwis.\" Akala niya totoo kasi nakita niya sa Facebook. Hindi niya alam na peke pala. Walang masamang intensyon si Lola.\n\n• Disinformation - sinadya para manloko. Halimbawa, may gumawa ng pekeng poster na \"libre ang buwis\" para linlangin ang tao at kunin ang boto nila. Sinasadya nilang magsinungaling.\n\nKaya bago mag-share, i-check muna kung totoo. Para hindi ka naging parte ng pagkalat ng kasinungalingan.",
+            "context": "fake_news"
+        },
+        "share_unverified_info": {
+            "keywords": {
+                "first": ["bahagi", "sharing", "pasa", "kalat", "share", "kwento"],
+                "second": ["news", "impormasyon", "balita"],
+                "third": ["delikado", "panganib", "harm", "risk", "masama"]
+            },
+            "response": "Delikado ang pagbabahagi ng hindi verified na impormasyon dahil maaaring maling balita o fake news pala ito at pwedeng makapanlinlang sa ibang tao.\n\nKapag nag-share ng maling impormasyon, puwedeng magdulot ito ng takot, kalituhan, o maling desisyon. Minsan, ginagamit din ang maling impormasyon para manloko o magsimula ng scam.\n\nKung hindi nasusuri ang impormasyon bago ibahagi, puwede kang hindi sinasadyang makatulong sa pagkalat ng panlilinlang.\n\nAng hindi pag-verify ng impormasyon ay nakakatulong sa pagkalat ng maling balita. Kung kaya, delikado ang pag-share ng hindi verified na info dahil maaari itong makapanloko o makasama sa iba.",
+            "confused_response": "Kapag nag-share ka ng fake news, kahit hindi mo alam na fake, ikaw ay:\n\n• Nakakasakit ng iba. Halimbawa, nag-share ka na \"may nanalo ng lotto sa barangay natin.\" Yung nabanggit mong tao, aabangan ng scammer o manghihiram.\n• Nakakapag-panic. \"May lindol bukas\" - pag i-share mo, matatakot ang lahat kahit fake pala.\n• Tumutulong sa manloloko. Pag nag-share ka ng scam message, mas maraming mabibiktima.\n\nKaya bago mag-share, tanungin mo sarili mo: \"Sigurado ba ako na totoo ito?\" Kung hindi, huwag i-share. Ganun lang kasimple.",
+            "context": "fake_news"
+        },
+        "suspicious_payment_methods": {
+            "keywords": {
+                "first": ["hinala", "suspicious", "paraan"],
+                "second": ["bayad", "pay", "bayaran"]
+            },
+            "response": "Mag-ingat sa kahina-hinalang paraan ng pagbayad tulad ng gift cards, wire transfers, cryptocurrency, o payment apps para magpadala agad ng pera. Red flag din kung may nagsasabing ilipat ang pera mo sa isang “safe account” dahil delikadong scam ito. Madalas ginagamit ang mga paraang ito dahil mahirap na bawiin ang pera. Kung pinagmamadali kang magbayad o kakaibang payment method ang hinihingi, magduda muna. Ang mahalaga, huwag magpadala o maglipat ng pera nang hindi nakakasigurado.",
+            "confused_response": "Kung may humihingi ng bayad gamit gift card, wire transfer, crypto, o pinapadala agad ang pera, maaaring scam iyon.\n\nMadalas gusto ng scammers ang ganitong bayad dahil mahirap bawiin ang pera.\n\nKung kakaiba o minamadaling paraan ng bayad ang hinihingi, huwag agad sumunod.\n\nPalaging tandaan na kung kahina-hinala ang paraan ng pagbayad, suriin muna bago magpadala ng pera.",
+            "context": "scam_prevention"
+        },
+        "artificial_intelligence_uses": {
+            "keywords": {
+                "first": [" ai", "artificial intelligence"],
+                "second": ["gamit", "use", "application", "paraan"]
+            },
+            "response": "Maaaring gamitin ang AI sa mabuti at masamang paraan.\n\nSa mabuting paraan: Tumutulong ang AI sa tao, tulad ng pagsagot ng tanong, pagbibigay ng impormasyon, pagtulong sa trabaho, at pagpapadali ng gawain. Halimbawa, gamit ito sa chatbots, translation, at pagbigay ng recommendations.\n\nSa masamang paraan: Puwedeng gamitin ang AI para gumawa ng fake na larawan, pekeng balita, o scam messages para manloko ng tao.\n\nMahalagang gamitin ang AI nang responsable dahil maaari itong makatulong, pero maaari rin itong magdulot ng panganib kapag ginamit sa panlilinlang.\n\nSa kabuuan, ang AI ay kapaki-pakinabang o mapanganib depende kung paano ito gagamitin.",
+            "confused_response": "Ang AI ay parang kutsilyo - puwedeng pang-luto, puwede ring pansaksak.\n\nMabuting gamit ng AI ang sumusunod:\n\n• Tumutulong sagutin ang tanong mo\n• Nagtuturo ng direksyon sa Google Maps\n• Nagsasalin ng English sa Tagalog\n\n• Masamang gamit naman ito sa AI:\n\n• Gumawa ng pekeng litrato na parang totoo\n• Gumawa ng pekeng video ng kilalang tao\n• Gumawa ng scam message na mukhang galing sa bangko\n\nKaya pag may nakita kang kakaibang mga litrato, video, o mensahe - mag-isip muna. Baka gawa lang ng AI para linlangin ka. Tanungin ang iba kung totoo ba.",
+            "context": "ai_&_deepfake_signs"
+        },
+        "artificial_intelligence": {
+            "keywords": {
+                "first": ["artificial intelligence", " ai"]
+            },
+            "response": "Artificial Intelligence o AI ay teknolohiya na nagbibigay kakayahan sa computer o machine na gumawa ng gawain na karaniwang ginagawa ng tao, tulad ng pag-unawa, pagsagot ng tanong, at pagdedesisyon.\n\nHalimbawa, AI ang gamit sa chatbots, voice assistants (tulad ng Siri), at mga system na nagbibigay ng recommendations.\n\nMaaari itong gamitin sa mabuting paraan para makatulong sa tao, pero maaari rin itong magamit sa panlilinlang tulad ng fake content o scams.\n\nSa madaling salita, ang AI ay teknolohiya na tumutulong sa computer na mag-isip parang tao.",
+            "confused_response": "Ang AI o Artificial Intelligence ay parang utak ng computer. Dati, ang computer ay sumusunod lang sa utos mo. Ngayon, dahil sa AI, puwede na siyang mag-isip at sumagot mag-isa.\n\nHalimbawa:\n• Yung nagsasagot sa'yo sa chatbot ng bangko - AI yan\n• Yung nakakausap mo sa telepono na \"Press 1 for English\" - may AI na\n• Yung nag-susuggest ng palabas sa Netflix - AI rin\nMabuti yan kung tumutulong. Pero may masasamang tao na gumagamit ng AI para gumawa ng pekeng video o panloloko. Kaya mag-ingat pa rin.",
+            "context": "ai_&_deepfake_signs"
+        },
         "digital_safety_importance": {
             "keywords": {
                 "first": ["kailangan", "halaga", "importante", "importance"],
@@ -78,7 +142,7 @@
         },
         "fake_bank_communication_scam": {
             "keywords": {
-                "first": ["peke", "fake", "di totoo", "panggap"],
+                "first": ["peke", "fake", "di totoo", "panggap", "impersona"],
                 "second": ["banko", "bank", "bangko"]
             },
             "response": "Ang bank impersonation scam ay panloloko kung saan may nagpapanggap na galing sa iyong bangko. Magpapadala sila ng email, text, o mensahe na mukhang totoo para hingin ang iyong bank details o hikayatin kang magbayad ng fee.",
@@ -127,6 +191,15 @@
             "confused_response": "Ang romance scam ay panloloko kung saan may taong nagpapanggap na may gusto o nagmamalasakit sa iyo online para makahingi ng pera o impormasyon.",
             "context": "scam_types"
         },
+        "encrypted_files": {
+            "keywords": {
+                "first": ["encrypt", "lock", "di mabuksan", "di na mabuksan", "di mabukas", "di na mabukas"],
+                "second": ["file"]
+            }, 
+            "response": "Kapag sinabing \"na-encrypt ang files mo\", ibig sabihin ay na-lock o na-scramble ang mga files mo kaya hindi mo na sila mabuksan o magamit.\n\nParang ganito: yung pictures, documents, at videos mo ay ginawang parang naka-code na. Hindi mo na maintindihan kaya hindi mo na ma-access.\n\nKadalasan, nangyayari ito dahil sa virus na tinatawag na ransomware. Ito ay nag-eencrypt ng files para hindi mo mabuksan, at minsan hihingi pa ng bayad para maibalik ang access mo.",
+            "confused_response": "Na-lock ang mga files mo - pictures, documents, lahat. Parang may nag-lagay ng kandado at hindi mo na mabuksan kahit anong gawin mo.\n\nMay virus na pumasok sa computer mo na tinatawag na ransomware. Ginawa niyang baluktot ang lahat ng files mo. Ngayon, pag binuksan mo, puro gibberish o hindi mo maintindihan.\n\nMinsan, may lalabas na mensahe na nagsasabing: \"Magbayad ka para maibalik ang files mo.\" Huwag magbayad agad. Tumawag muna sa tech support o sa taong marunong ng computer para tumulong.",
+            "context": ""
+        },
         "ransomware_scam": {
             "keywords": {
                 "first": ["ransomware", "encrypted", "lock", "buksan"]
@@ -148,8 +221,8 @@
                 "first": ["karapatan", "batas", "rights", "law"],
                 "second": ["impormasyon", "data", "information"]
             },
-            "response": "May karapatan kang protektahan ang iyong personal na impormasyon. Dapat itong kinokolekta nang tama at legal, at may karapatan kang malaman kung paano ito gagamitin. Maaari ka ring pumili kung anong impormasyon lang ang ibibigay mo at tumanggi kung gagamitin ito sa ibang paraan.\n\nMay karapatan ka ring makita ang iyong personal na data at ipabago ito kung mali, at dapat malinaw sa iyo ang privacy policies ng kumpanya o serbisyo na kumukuha ng iyong impormasyon.",
-            "confused_response": "May karapatan kang protektahan ang iyong personal na impormasyon. Dapat alam mo kung paano ito ginagamit at hindi ka dapat pilitin magbigay ng hindi kailangan.\n\nPwede mo ring i-check at itama ang iyong impormasyon, at dapat ipaliwanag sa iyo kung paano ito gagamitin.",
+            "response": "May karapatan kang protektahan ang personal na impormasyon mo ayon sa Data Privacy Act of 2012 (RA No. 10173).\n\nIkaw ang may kontrol sa pangalan, address, contact number, at iba pang personal na detalye mo. May karapatan kang malaman ang dahilan ng pagkuha impormasyon mo at pwede ka ring tumangging magbigay.\n\nPuwede mo ring i-check kung tama ang data mo, humingi ng kopya, at ipabago o ipabura kung mali o hindi na kailangan. Responsibilidad ng kumpanya na ingatan ang impormasyon mo at huwag ibigay sa iba nang walang pahintulot mo.\n\nAng batas na ito ay para protektahan ang privacy mo.",
+            "confused_response": "May batas tayo na nag-iingat sa personal na impormasyon mo, tulad ng pangalan, address, numero ng telepono, at iba pa.\n\nIkaw ang may-ari ng impormasyon mo at puwede mong tanungin sila ng \"Bakit ninyo ito kinukuha?\" Puwede mo ring sabihin na \"Ayaw ko ibigay.\"\n\nKung may mali sa data mo sa bangko o ospital, puwede mo itong ipatama. Puwede ka ring humingi ng kopya para makita mo kung ano ang nakalagay rito.\n\nAng mga kumpanya o ahensya ay dapat mag-ingat ng impormasyon mo. Hindi nila pwedeng ibigay sa iba ito kung wala kang pahintulot. Ito ang iyong karapatan.",
             "context": "personal_data_privacy"
         },
         "personal_data_privacy": {
@@ -177,7 +250,7 @@
             },
             "response": "Lahat ng gumagamit ng cellphone, computer, o internet ay nangangailangan ng digital safety. Kahit nagme-message, nanonood, gumagamit ng social media, o online banking ay mahalagang mag-ingat. Ito ay lalo pang mahalaga sa mga senior citizens dahil madalas silang target ng scammers. Pero tandaan, kahit sino ay puwedeng mabiktima kung hindi nag-iingat. Sa madaling salita, kung gumagamit ka ng digital device o internet, kailangan mo ng digital safety para maprotektahan ang sarili mo at ang iyong impormasyon.",
             "confused_response": "Kung gumagamit ka ng cellphone o internet, kailangan mo ng digital safety.\n\nIto ay pag-iingat para hindi ka maloko, ma-scam, o makuha ang impormasyon mo.\n\nHindi lang ito para sa experts sa gadget. Para ito sa lahat, lalo na sa mga senior.\n\nKaya kung gumagamit ka ng technology, kailangan mong mag-ingat para manatiling ligtas.",
-            "context": "general"
+            "context": "digital_safety"
         },
         "digital_online_safety_diff": {
             "keywords": {
@@ -197,7 +270,7 @@
             },
             "response": "Magkaiba ang cybercrime at scam, pero magkaugnay sila. Ang cybercrime ay anumang krimen na ginagawa gamit ang computer o internet, tulad ng hacking o pagnanakaw ng data. Ang scam naman ay panloloko para makuha ang pera o impormasyon mo gamit ang panlilinlang. Sa madaling salita, ang scam ay isang uri ng cybercrime. Lahat ng scam ay cybercrime, pero hindi lahat ng cybercrime ay scam.",
             "confused_response": "Ang cybercrime ay lahat ng krimen na nangyayari gamit ang internet o computer.\n\nAng scam naman ay isang uri ng panloloko para makuha ang pera o impormasyon mo.\n\nHalimbawa, ang hacking ay cybercrime. Ang Fake bank message na nanghihingi ng OTP ay scam.\n\nSa simpleng paliwanag, ang scam ay isang klase lang ng cybercrime.",
-            "context": "scam"
+            "context": "cybercrimes"
         },
         "digital_safety": {
             "keywords": {
@@ -247,7 +320,7 @@
             },
             "response": "Dumarami ang cybercrime dahil mas marami na ang gumagamit ng internet at digital devices. Habang dumarami ang gumagamit ng cellphone, social media, at online banking, mas marami ring pagkakataon para sa scammers na manloko. May mga tao ring napapaniwala sa fake messages o tawag dahil hindi alam ang mga panganib online. Mabilis din kumalat ang bagong paraan ng panloloko. Sa madaling salita, dumarami ang cybercrime dahil sinasamantala ng mga manloloko ang paggamit natin ng internet.",
             "confused_response": "Mas dumadami ang cybercrime dahil mas maraming tao ang gumagamit ng internet.\n\nKapag mas maraming gumagamit online, mas maraming gustong lokohin ang scammers.\n\nMay mga tao ring nalilinlang sa pekeng tawag, messages, o links dahil mukhang totoo ang mga ito.\n\nIbig sabihin, habang mas ginagamit ang internet, mas sinusubukan din ito gamitin ng mga manloloko.",
-            "context": "cybercrime"
+            "context": "cybercrimes"
         },
         "cybercrime_examples": {
             "keywords": {
@@ -257,12 +330,32 @@
             },
             "response": "May iba’t ibang halimbawa ng cybercrime sa Pilipinas. Kabilang dito ang pag-hack ng bank accounts, data breaches kung saan nalalantad ang personal na impormasyon, at online scams tulad ng love scam at investment scam. May mga kaso rin ng hacking sa malalaking organisasyon at panloloko na ginagawa online. Sa madaling salita, ang cybercrime ay maaaring pagnanakaw ng impormasyon, hacking, o online panloloko, kaya mahalagang maging maingat sa paggamit ng internet.",
             "confused_response": "Ang mga halimbawa po ng cybercrime ay:\n\n- ang pag-hack ng bank account\n- pagnanakaw ng personal information\n- online scams tulad ng love scam o investment scam\n\nIto ay mga krimen na ginagawa gamit ang internet o computer.Sa madaling salita, ang cybercrime ay mga online krimen na nanloloko o nagnanakaw gamit ang teknolohiya.",
-            "context": "cybercrime"
+            "context": "cybercrimes"
+        },
+        "cybercrimes": {
+            "keywords": {
+                "first": ["krimen", "panganib", "crime"],
+                "second": ["internet", "online", "cyber"]
+            },
+            "response": "Ang cybercrime ay krimen na ginagawa gamit ang computer, cellphone, o internet. Kabilang dito ang panloloko online, pagnanakaw ng personal na impormasyon, pag-hack ng accounts, at pagpapadala ng scam messages o links.Halimbawa ng cybercrime ang phishing scams, identity theft, at pagkalat ng virus o malware.Sa madaling salita, ang cybercrime ay krimen na gumagamit ng technology para manloko, magnakaw, o manira ng impormasyon.",
+            "confused_response": "Ang Cybercrime ay mga krimen sa internet o cellphone.\n\nMga halimbawa:\n• Panloloko online - May nag-text na nanalo ka ng premyo, pero kailangan mo munang magbayad. Scam yan.\n• Pagnanakaw ng impormasyon - Kinuha nila ang password mo at ninakaw ang laman ng iyong bank account.\n• Hacking - Nakapasok sila sa Facebook mo at nag-post ng kung ano-ano.\n• Virus - May na-download ka na file, ngayon puro ads na ang cellphone mo o kaya naman ay hindi na gumagana.\nLahat ng ito ay cybercrime. Kapag nakaramdam ka na naloloko ka online, tumawag agad sa pulis o sa bantay cyber ng NBI.",
+            "context": "cybercrimes"
+        },
+        "scammers_tactics_online": {
+            "keywords": {
+                "first": ["paano", "pano"],
+                "second": ["loko", "linlang", "uto", "gawa", "trick", "tactic", "taktika"],
+                "third": ["social media", "internet", "online"]
+            },
+            "response": "May mga scammers sa social media na nagtatangkang kunin ang personal na impormasyon o pera mo.\n\nHuwag ibahagi ang passwords, bank details, o kahit impormasyon tulad ng mother’s maiden name, street kung saan ka lumaki, o pangalan ng alagang hayop mo.\n\nHuwag ibigay ang code na ipinapadala sa phone o email mo sa kahit sino.\n\nKung may humingi ng personal info o nagkukuwento ng problema sa account mo, itigil ang pakikipag-usap sa kanila.\n\nTumawag sa bangko o sa kumpanya mismo para i-check kung totoo ang mensahe at protektahan ang account mo.",
+            "confused_response": "Ganito po ang panloloko sa social media: may mga scammer na nagpapanggap na kaibigan, bangko, o customer service para mapaniwala ka. Maaari silang humingi ng password, OTP, bank details, o pera.\n\nMinsan gumagamit sila ng mensaheng nakakatakot o mga sitwasyon para mapilit kang sumunod agad.\n\nKapag may kahina-hinalang mensahe, huwag basta maniwala at huwag magbigay ng personal na impormasyon.\n\nTandaan lamang na madalas nanloloko ang scammers sa pamamagitan ng pagpapanggap para makuha ang tiwala, pera, o impormasyon mo.",
+            "context": "social_media_online_safety"
         },
         "scammers_tactics": {
             "keywords": {
-                "first": ["paano", "papaano", "paano nga", "paano ba", "tactics"],
-                "second": ["scammer", "panloloko", "panlilinlang", "trick", "taktika", "manloko", "ginagawa"]
+                "first": ["paano", "pano"],
+                "second": ["loko", "linlang", "uto", "gawa", "trick", "tactic", "taktika"],
+                "third": ["scammer", "scam", "sila"]
             },
             "response": "Ang mga scammer ay gumagamit ng social engineering, isang paraan ng panlilinlang para makuha ang iyong tiwala at impormasyon.\n\n• Nagpapanggap ang scammer na kakilala, bangko, kumpanya, o opisyal na ahensya\n• Pinapamadali ka para hindi ka makapag-isip nang maayos\n• Pinapagawa ka ng aksyon tulad ng pag-click ng link o pagbibigay ng impormasyon\n• Ginagamit ang emosyon tulad ng takot, awa, o excitement\n\nKaya mahalagang mag-isip muna at mag-check bago magtiwala sa anumang mensahe o alok.",
             "confused_response": "Ang mga scammer ay gumagamit ng social engineering, isang paraan ng panlilinlang para makuha ang iyong tiwala. Pinapamadali ka nila, pinapagawa ng aksyon tulad ng pag-click ng link o pagbibigay ng impormasyon, at ginagamit ang emosyon tulad ng takot o excitement para mapasunod ka. Kaya mahalagang mag-ingat at mag-check muna bago magtiwala.",
@@ -346,7 +439,7 @@
             "confused_response": "Para makaiwas sa scam na ito, siguraduhing malinaw ang detalye ng offer at basahin ang mga kondisyon. Huwag basta magbigay ng credit card information. Mas mabuting i-check muna kung totoo ang travel offer bago magbayad.",
             "context": "travel_scam"
         },
-        "advance_fee_fraud_prevention": {
+        "advance_fee_fraud_scam_prevention": {
             "keywords": {
                 "first": ["advance fee fraud", "advance", "fee", "bayad", "bayaran", "beneficiary", "benefit", "benepisyaryo"]
             },
@@ -365,7 +458,7 @@
         },
         "fake_bank_communication_scam_prevention": {
             "keywords": {
-                "first": ["peke", "fake", "di totoo", "panggap"],
+                "first": ["peke", "fake", "di totoo", "panggap", "impersona"],
                 "second": ["banko", "bank", "bangko"]
             },
             "response": "Para makaiwas sa bank impersonation scam:\n• Huwag magbigay ng sensitibong impormasyon sa email o tawag\n• Huwag mag-click ng kahina-hinalang link\n• Direktang kontakin ang bangko gamit ang opisyal na numero o website\n• Mag-ingat sa mga mensaheng may urgent na hinihingi\n• I-verify muna ang anumang claim bago magtiwala",
@@ -450,9 +543,9 @@
                 "first": ["protekta", "alaga"],
                 "second": ["device", "cellphone", "laptop", "cp", "phone"]
             },
-            "response": "1. Mag-install lang ng apps mula sa official sources at basahin ang privacy statement bago i-download.\n2. Regular na i-check ang privacy settings ng device mo.\n3. Tanggalin ang apps na hindi mo ginagamit o kahina-hinala.\n4. Huwag i-save ang sensitibong impormasyon, tulad ng bank passwords, sa phone contacts.\n5. I-delete ang importanteng data bago ipa-repair o itapon ang device.\n6. I-backup ang importanteng files nang regular.\n7. I-on ang automatic screen lock para hindi makita ng iba ang phone mo.\n8. Patayin ang location services kung hindi kailangan para hindi matrack ng apps ang galaw mo.\n9. Huwag hayaang tandaan ng device ang login details para walang makapasok sa accounts mo.",
-            "confused_response": "",
-            "context": "ransomware_scam"
+            "response": "Para maprotektahan ang iyong cellphone at personal na impormasyon, sundin ang mga simpleng tips na ito:\n\n• Mag-install lang ng apps mula sa official sources at basahin ang privacy statement bago mag-download\n• Regular na i-check ang privacy settings ng iyong device\n• Tanggalin ang apps na hindi ginagamit o kahina-hinala\n• Huwag i-save ang sensitibong impormasyon tulad ng bank passwords sa phone\n• I-delete ang importanteng data bago ipa-repair o itapon ang device\n• Mag-backup ng files nang regular\n• I-on ang automatic screen lock para hindi basta mabuksan ang phone\n• Patayin ang location services kung hindi kailangan\n• Huwag hayaang tandaan ng device ang login details ng iyong accounts",
+            "confused_response": "Para manatiling ligtas ang iyong cellphone, gawin ang mga ito:\n\n• Mag-download lang ng apps mula sa official app stores tulad ng Play Store o App Store\n• I-check ang settings ng phone para makita kung sino ang may access sa iyong impormasyon\n• Burahin ang apps na hindi mo ginagamit o mukhang hindi safe\n• Huwag i-save ang passwords o bank details sa phone\n• Bago ipaayos o itapon ang phone, burahin muna ang laman nito\n• Mag-save ng kopya ng iyong files sa ibang lugar tulad ng cloud o USB\n• Lagyan ng lock ang phone para hindi ito magamit ng iba\n• Patayin ang location para hindi alam ng apps kung nasaan ka\n• Huwag i-save ang login ng accounts para hindi basta mabuksan ng iba\n\nMas makakatulong ang pagiging maingat para maprotektahan ang iyong impormasyon.",
+            "context": "digital_safety"
         },
         "information_protection": {
             "keywords": {
@@ -460,7 +553,7 @@
                 "second": ["impormasyon", "information", "data"]
             },
             "response": "Para protektahan ang impormasyon mo: huwag basta-basta ibigay sa hindi kilala, siguraduhing ligtas ang websites na ginagamit mo, at i-check ang privacy settings sa online accounts mo.",
-            "confused_response": "",
+            "confused_response": "Ingatan ang personal na impormasyon mo tulad ng birthday, address, o numero ng bangko. Huwag ibigay kung hindi mo kilala ang taong humihingi.\n\nBago mag-type ng password o personal info sa website, tingnan kung may \"lock\" symbol sa tabi ng address. Ibig sabihin, ligtas ang site na iyon.\n\nPunta sa settings ng Facebook, email, at iba pang accounts mo. Tingnan kung sino ang nakakakita ng posts mo. Piliin mo lang na mga kaibigan o pamilya ang makakakita, at hindi dapat ito naka-public",
             "context": "personal_data_privacy"
         },
         "account_security": {
@@ -468,18 +561,18 @@
                 "first": ["mapangalagaan", "mapapangalagaan", "mapabuti", "maprotektahan"],
                 "second": ["social media", "account"]
             },
-            "response": "1. I-on ang two-factor authentication (2FA) para may dagdag na proteksyon sa account mo.\n2. Regular na i-check ang privacy settings para kontrolado mo kung sino ang makakakita ng posts at impormasyon mo.\n3. Siguraduhing updated ang apps at devices mo para mas ligtas ang account.\n4. Mag-ingat sa public Wi-Fi. Iwasan mag-login sa accounts mo dito dahil maaaring hindi ligtas.",
-            "confused_response": "",
-            "context": "social_media_safety"
+            "response": "Para mapapangalagaan ang seguridad ng iyong social media accounts:\n\n1. I-on ang two-factor authentication (2FA) para may dagdag na proteksyon sa account mo.\n2. Regular na i-check ang privacy settings para kontrolado mo kung sino ang makakakita ng posts at impormasyon mo.\n3. Siguraduhing updated ang apps at devices mo para mas ligtas ang account.\n4. Mag-ingat sa public Wi-Fi. Iwasan mag-login sa accounts mo dito dahil maaaring hindi ligtas.",
+            "confused_response": "Ito ang mga dapat mong gawin para mapapangalagaan ang seguridad ng iyong social media accounts:\n\n1. Buksan ang two-factor authentication o 2FA. Ito ay parang pangalawang susi para sa account mo - may text code ka pang tatanggapin bago ka makapasok.\n2. Tignan madalas ang privacy settings mo. Dito mo pipiliin kung sino lang ang pwedeng makakita ng mga post at personal na detalye mo.\n3. I-update ang iyong apps at cellphone/tablet. Ang mga bagong update ay may kasamang seguridad para protektado ka lagi.\n4. Huwag mag-login sa coffee shop, mall, o kahit saan na may libre na Wi-Fi. Hindi sigurado kung ligtas ito at baka nakawin ang password mo.",
+            "context": "social_media_online_safety"
         },
-        "social_media_safety": {
+        "social_media_online_safety": {
             "keywords": {
                 "first": ["ligtas", "ingat"],
                 "second": ["social media", "facebook", "fb", "epbi", "tiktok", "online", "internet"]
             },
-            "response": "Para maging ligtas sa social media, mag-ingat sa personal na impormasyon na ibinabahagi online. Tanggapin lamang ang friend requests ng kilala mo at magduda sa pekeng accounts. Bago mag-share o maniwala sa posts, siguraduhing tama ang impormasyon. Kung may kahina-hinalang tao o nanghaharass online, i-block at i-report agad. Ang mahalaga, maging maingat sa kausap, sa ibinabahagi, at sa mga nakikita sa social media para manatiling ligtas.",
-            "confused_response": "Para maging ligtas sa social media, huwag basta magbigay ng personal na impormasyon at huwag agad magtiwala sa hindi kilala. Mag-ingat sa friend requests, at huwag basta maniwala sa lahat ng nakikita online.\n\nKung may kahina-hinalang tao, i-block at i-report.\n\nMas mainan na gamitin ang social media nang may pag-iingat at maging mapanuri para manatiling ligtas.",
-            "context": "digital_safety"
+            "response": "Para maging ligtas sa social media at online, mahalagang maging maingat sa iyong kilos at ibinabahagi. Tanggapin lamang ang friend requests ng kakilala mo at magduda sa mga pekeng account. Huwag basta maniwala o mag-share ng impormasyon nang hindi ito chine-check. Mag-ingat sa personal na detalye na ibinabahagi at tandaan na ang anumang nai-post ay maaaring manatili sa internet. Iwasan ang pag-download mula sa hindi kilalang sources at siguraduhing may updated na antivirus ang iyong device. Mag-ingat din sa mga taong nakikilala online dahil hindi lahat ay totoo ang pagkakakilanlan. Kung may kahina-hinalang tao, scam, o cyberbullying, i-block at i-report agad. Para sa online transactions o donations, siguraduhing lehitimo ang kausap at regular na i-check ang iyong accounts para sa kahina-hinalang activity.",
+            "confused_response": "Para maging ligtas sa social media, huwag basta magbigay ng personal na impormasyon at huwag agad magtiwala sa hindi kilala. Tanggapin lang ang friend requests ng kakilala at huwag basta maniwala sa lahat ng nakikita online.\n\nMag-ingat sa dina-download at siguraduhing safe ang iyong device. Kung may kahina-hinalang tao o nanghaharass, i-block at i-report agad.\n\nI-check din ang iyong accounts para maiwasan ang scam. Mas mainam na maging maingat at mapanuri para manatiling ligtas.",
+            "context": "online_safety"
         },
         "future_scam_prevention": {
             "keywords": {
@@ -488,14 +581,6 @@
             "response": "Hindi mo kasalanan kung na-scam ka, pero may mga paraan para maiwasan itong maulit. Mag-ingat sa mga bagong paraan ng scammers at magtiwala sa kutob mo. Mag-check muna bago magbigay ng personal na impormasyon at huwag mag-share ng sensitive details sa telepono kahit kanino.\n\nMas mainam din gumamit ng payment methods na may fraud protection tulad ng credit card. Makakatulong din ang pagkatuto mula sa karanasan at pakikipag-usap sa pamilya o kaibigan para mas maging aware at mas confident sa pag-handle ng online situations.",
             "confused_response": "Hindi mo kasalanan kung na-scam ka, pero puwede mo itong maiwasan sa susunod. Mag-ingat sa mga mensahe o tawag at huwag agad magbigay ng personal na impormasyon.\n\nMas safe din gumamit ng payment methods na may proteksyon, at makakatulong ang pakikipag-usap sa pamilya o kaibigan para mas maintindihan at matutunan ang nangyari.",
             "context": "general_scam_response"
-        },
-        "social_media_scam_prevention": {
-            "keywords": {
-                "first": ["social media", "facebook", "fb", "epbi", "tiktok", "online", "internet"]
-            },
-            "response": "May mga scammers sa social media na nagtatangkang kunin ang personal na impormasyon o pera mo.\n\nHuwag ibahagi ang passwords, bank details, o kahit impormasyon tulad ng mother’s maiden name, street kung saan ka lumaki, o pangalan ng alagang hayop mo. Huwag ibigay ang code na ipinapadala sa phone o email mo sa kahit sino.\n\nKung may humingi ng personal info o nagkukuwento ng problema sa account mo, itigil ang pakikipag-usap sa kanila.Tumawag sa bangko o sa kumpanya mismo para i-check kung totoo ang mensahe at protektahan ang account mo.",
-            "confused_response": "",
-            "context": "social_media_safety"
         },
         "scam_prevention": {
             "keywords": {
@@ -510,20 +595,30 @@
                 "first": ["peke", "fake", "di totoo"],
                 "second": ["news", "balita"]
             },
-            "response": "Para makaiwas sa fake news:\n\n• Huwag tumigil sa headline lang—basahin ang buong article. Ang headlines ay puwedeng misleading.\n• Tingnan kung sino ang nag-publish. Reputable ba ang source?\n• I-verify ang date at time ng article. Bago ba ito?\n• Hanapin kung maraming news outlets ang nagsasabi ng parehong balita.\n• Bantayan ang kakaibang salita, wording, o larawan.\n• Maging aware sa confirmation bias—natural na maniwala tayo sa bagay na gusto nating totoo.\n• Mag-isip bago mag-share sa iba.\n\n• Tandaan: Kapag may duda, i-check sa fact-checking websites tulad ng Snopes.com o Politifact.com.",
-            "confused_response": "",
+            "response": "Para makaiwas sa fake news:\n\n• Huwag tumigil sa headline lang—basahin ang buong article. Ang headlines ay puwedeng nakakanlinlang.\n• Tingnan kung sino ang nag-publish. Kilala ba ang website, newspaper, o kaya naman ay facebook page o account?\n• I-check ang date. Bago ba ang balita o luma na?\n• Hanapin kung maraming news outlets ang nagsasabi ng parehong balita.\n• Bantayan ang kakaibang salita, wording, o larawan na mukhang edited.\n• Huwag agad maniwala sa bagay na gusto mo lang paniwalaan.\n• Mag-isip muna bago mag-share sa iba.",
+            "confused_response": "Bago maniwala sa balita sa Facebook o text:\n\n• Basahin ang buong balita, hindi yung title lang. Minsan ang title ay nakakagulat pero pag binasa mo, hindi pala totoo.\n• Tingnan kung saan nanggaling. Kilala mo ba ang GMA, ABS-CBN, Inquirer? Okay yan. Pero kung weird ang pangalan ng website, baka fake.\n• Tignan ang petsa. Baka lumang balita na, pina-share lang ulit.\n• Maraming news ba ang nagsasabi? Kung isang website lang, baka fake.\n• Huwag agad i-share. Baka mali pala, nakakahiya. Mag-isip muna.",
             "context": "fake_news"
         }
     },
     "scam_response": {
+        "share_fake_news_response": {
+            "keywords": {
+                "first": ["bahagi", "sharing", "pasa", "kalat", "share", "kwento"],
+                "second": ["peke", "fake", "di totoo"],
+                "third": ["news", "information", "impormasyon", "balita"]
+            },
+            "response": "Gumawa agad ng aksyon kung ikaw ay naka-share ng fake news:\n\n• I-delete ang post. Huwag i-edit lang, kasi hindi makikita ng iba na mali pala.\n• Mag-post ng correction. Sabihin na mali pala ang naunang post at humingi ng sorry.\n• Mag-reply sa mga nag-comment para malaman nila na fake pala.\n\nMatuto mula dito:\n• Patawarin ang sarili mo. Normal lang magkamali.\n\nSa susunod, i-check muna bago mag-share:\n\n• Basahin ang buong balita, hindi headline lang.\n• Tignan kung maraming news outlets ang nagsasabi ng pareho.\n\nMas maganda na aminin ang pagkakamali kaysa magpatuloy sa pagkalat ng kasinungalingan.",
+            "confused_response": "Naku, na-share mo na pala ang fake news? Okay lang yan. Ito ang gawin mo:\n\n• Una, tanggalin mo agad. I-delete ang post. Huwag i-edit lang kasi hindi makikita ng iba.\n• Pangalawa, humingi ng sorry. Mag-post ka ulit: \"Sorry po, mali pala ang naunang post ko. Fake news pala yan.\"\n• Pangatlo, sabihin sa mga nag-comment. Para malaman nila na mali pala.\n\nHuwag mahiya. Mas nakakahiya kung ipagpatuloy mo pa ang pagkalat ng kasinungalingan. Lahat tayo nagkakamali. Ang importante, itinama mo. Sa susunod, i-check mo muna bago mag-share. Magtanong: \"Totoo ba ito?\" Kung hindi ka sure, huwag i-share.",
+            "context": "fake_news"
+        },
         "suspicious_account": {
             "keywords": {
-                "first": ["kahinahinala", "kadudaduda"],
+                "first": ["hinala", "duda"],
                 "second": ["account", "tao"]
             },
-            "response": "Kung may kahina-hinalang tao o account sa social media, i-double check bago gumawa ng aksyon. Pwede mong kontakin ang tao sa ibang paraan, tulad ng tawag sa telepono, para siguraduhing sila talaga iyon.\n\nPwede ring gumamit ng fingerprint, facial scan, o iba pang biometric method sa two-factor authentication. Mas nagbibigay ito ng dagdag na proteksyon sa password o security code mo para mahirapan ang scammers na ma-access ang account mo.",
-            "confused_response": "",
-            "context": "social_media_safety"
+            "response": "Kung may kahina-hinalang account sa social media, mag-ingat muna. Tawagan mo ang taong iyon gamit ang telepono para siguruhing sila nga. Huwag agad maniwala o mag-click ng kahit ano.\n\nPara sa dagdag na proteksyon, gamitin ang two-factor authentication. Mas maganda kung may fingerprint o facial scan. Kahit nakuha ng scammer ang password mo, hindi pa rin nila mabubuksan ang account mo nang walang fingerprint o facial scan mo.",
+            "confused_response": "Kapag may nagtanong ng  pera o tulong sa social media at parang kakilala mo, huwag agad maniwala. Tawagan mo muna sila sa cellphone para sigurado. Baka hindi naman talaga sila iyon.\n\nMagtakda rin ng extra lock sa accounts mo. Pwedeng fingerprint (daldal ng daliri) o face scan (litrato ng mukha). Kahit alam ng masasamang tao ang password mo, kailangan pa rin nila ng daliri mo o mukha mo para ma access ito. ",
+            "context": "social_media_online_safety"
         },
         "robocall_scam_response": {
             "keywords": {
@@ -567,7 +662,7 @@
             "confused_response": "Kung sa tingin mo ay na-scam ka, ihinto agad ang pakikipag-usap. I-check ang iyong account at makipag-ugnayan sa bangko kung may bayad na naibigay. I-report din ang nangyari kung kinakailangan.",
             "context": "travel_scam"
         },
-        "advance_fee_fraud_response": {
+        "advance_fee_fraud_scam_response": {
             "keywords": {
                 "first": ["advance fee fraud", "advance", "fee", "bayad", "bayaran", "beneficiary", "benefit", "benepisyaryo"]
             },
@@ -586,7 +681,7 @@
         },
         "fake_bank_communication_scam_response": {
             "keywords": {
-                "first": ["peke", "fake", "di totoo", "panggap"],
+                "first": ["peke", "fake", "di totoo", "panggap", "impersona"],
                 "second": ["banko", "bank", "bangko"]
             },
             "response": "Kapag ikaw ay nabiktima ng bank impersonation scam:\n• Itigil agad ang pakikipag-ugnayan\n• Agad palitan ang iyong passwords at bank credentials\n• Makipag-ugnayan sa bangko tungkol sa posibleng risk\n• I-monitor ang iyong account para sa kahina-hinalang transaksyon\n• I-report ang insidente sa tamang awtoridad",
@@ -660,6 +755,24 @@
         }
     },
     "scam_signs": {
+        "fake_news_signs": {
+            "keywords": {
+                "first": ["peke", "fake", "di totoo"],
+                "second": ["news", "information", "impormasyon", "balita"]
+            },
+            "response": "Para malaman kung fake news ang nabasa mo, huwag agad maniwala o mag-share.\n\nTingnan kung ang balita ay galing sa mapagkakatiwalaang source. Suriin kung may malinaw na pinanggalingan, tamang detalye, at hindi puro nakakatakot o sobrang nakakagulat ang mensahe.\n\nMag-ingat kung ang balita ay walang ebidensya, walang source, o puro forwarded message lang. Minsan ginagamit ang fake news para manloko o manakot.\n\nI-double check ang impormasyon sa ibang mapagkakatiwalaang sources bago paniwalaan. Mahalaga ang pag-verify muna bago magtiwala o magbahagi ng impormasyon. Kung may duda ka, suriin muna, mag-verify, at huwag agad maniwala.",
+            "confused_response": "Bago maniwala sa balita, magtanong muna:\n\n• \"Saan nanggaling?\" Kung walang nakalagay na pangalan ng news o website, baka fake.\n• \"Sobra ba ang dating?\" Kung nakakatakot sobra o nakakagulat sobra, baka ginawa lang para mag-panic ka.\n• \"May larawan o video ba?\" Minsan fake din yan. Tignan kung mukhang edited.\n• \"Maraming news ba ang nagsasabi?\" I-check mo sa GMA, ABS-CBN, Inquirer. Kung wala doon, baka fake.\n\nKung may duda ka, huwag i-share. Magtanong muna sa iba o maghanap ng totoong balita bago ka maniwala.",
+            "context": "fake_news"
+        },
+        "fake_news_believe_signs": {
+            "keywords": {
+                "first": ["tiwala", "niwala", "trust", "believe"],
+                "second": ["news", "information", "impormasyon", "balita"]
+            },
+            "response": "Bago paniwalaan ang balita online, suriin muna kung saan ito galing.\n\nTingnan kung ang balita ay mula sa mapagkakatiwalaang source at hindi lang basta forwarded message o random post. Basahin kung may malinaw na detalye at ebidensya.\n\nMag-ingat kung ang headline ay sobrang nakakagulat o nakakatakot, dahil minsan ginagamit ito para madaling mapaniwala ang tao.\n\nI-check kung pareho ang impormasyon sa ibang mapagkakatiwalaang sources bago paniwalaan o i-share. Mahalaga ang pag-verify ng source, detalye, at katotohanan ng impormasyon bago magtiwala.\n\nSa kabuuan, tingnan ang source, ebidensya, at kumpirmahin muna bago paniwalaan.",
+            "confused_response": "Bago maniwala sa balita sa Facebook, messenger, o mga social media, tignan mo ito:\n\n• Saan galing? Kung walang pangalan ng news website, mag-ingat.\n• Forwarded message ba? Kung \"Forwarded many times\" nakasulat, baka fake na.\n• May detalye ba? Totoo bang balita ay may petsa, lugar, pangalan ng tao. Pag walang ganyan, baka gawa-gawa.\n• Sobra ba ang headline? \"NAKAKAGULAT! LAHAT NG TAO AY...\" - yan ay ginawa para mag-panic ka \n• I-Google mo. Tingnan kung nasa GMA News o Inquirer. Kung wala, fake yan.\n\nHuwag agad i-share. Baka ikaw pa ang nagkalat ng kasinungalingan.",
+            "context": "fake_news"
+        },
         "tech_support_scam_signs": {
             "keywords": {
                 "first": ["tech", "virus", "expert", "repair", "ayusin", "sira", "problema"]
@@ -738,7 +851,7 @@
         },
         "fake_bank_communication_scam_signs": {
             "keywords": {
-                "first": ["peke", "fake", "di totoo", "panggap"],
+                "first": ["peke", "fake", "di totoo", "panggap", "impersona"],
                 "second": ["banko", "bank", "bangko"]
             },
             "response": "Narito ang mga palatandaan ng bank impersonation scam:\n• May mensahe na kunwari galing sa bangko\n• Humihingi ng bank details o personal na impormasyon\n• May sinasabing problema o suspicious activity sa account\n• May alok na deal kapalit ng bayad\n• May link na pinapa-click para mag-verify",

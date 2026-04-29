@@ -16,6 +16,10 @@
             "question": "Ano ang cybercrimes?",
             "intent": "explain_concept"
         },
+        "fake_news": {
+            "question": "Ano ba ang fake news?",
+            "intent": "explain_concept"
+        },
         "scam_types": {
             "question": "Ano ang iba't ibang klase ng scam?",
             "intent": "explain_concept"
@@ -58,19 +62,23 @@
             "question": "Sino ang nangangailangan ng digital safety?",
             "intent": "explain_concept"
         },
-        "social_media_safety": {
-            "question": "Paano maging ligtas at maayos sa social media?",
-            "intent": "prevent_scam"
-        },
         "personal_data_privacy": {
             "question": "Ano ang personal data privacy?",
             "intent": "explain_concept"
+        },
+        "device_protection": {
+            "question": "Paano ko mapapangalagaan ang aking device mula sa mga panganib?",
+            "intent": "prevent_scam"
         }
     },
     "online_safety": {
         "digital_online_safety_diff": {
             "question": "Ano ang pagkakaiba ng digital safety at online safety?",
             "intent": "explain_concept"
+        },
+        "social_media_online_safety": {
+            "question": "Paano maging ligtas at maayos sa social media?",
+            "intent": "prevent_scam"
         }
     },
     "cybercrimes": {
@@ -97,14 +105,14 @@
             "intent": "prevent_scam"
         }
     },
-    "social_media_safety": {
+    "social_media_online_safety": {
         "account_security": {
             "question": "Paano ko mapapangalagaan ang seguridad ng aking social media accounts?",
             "intent": "prevent_scam"
         },
-        "social_media_scam_prevention": {
-            "question": "Paano ko maiiwasan ang scam sa social media?",
-            "intent": "prevent_scam"
+        "scammers_tactics_online": {
+            "question": "Paano nanloloko ang mga scammers sa social media?",
+            "intent": "explain_concept"
         },
         "suspicious_account": {
             "question": "Ano ang dapat gawin kung may kahina-hinalang account sa social media?",
@@ -214,10 +222,6 @@
         },
         "ransomware_scam_prevention": {
             "question": "Paano ko maiiwasan ang ransomware?",
-            "intent": "prevent_scam"
-        },
-        "device_protection": {
-            "question": "Paano ko mapapangalagaan ang aking device mula sa mga panganib?",
             "intent": "prevent_scam"
         },
         "ransomware_scam_response": {
@@ -391,6 +395,58 @@
     "scammers_tactics": {
         "social_engineering": {
             "question": "Ano ang social engineering?",
+            "intent": "explain_concept"
+        }
+    },
+    "scam_prevention": {
+        "suspicious_payment_methods": {
+            "question": "Ano ang mga kahina-hinalang paraan ng pagbayad na madalas hihingiin sa iyo ng scammer?",
+            "intent": "explain_concept"
+        }
+    },
+    "encrypted_files": {
+        "ransomware_scam": {
+            "question": "Ano ang ibig sabihin ng ransomware?",
+            "intent": "explain_concept"
+        }
+    },
+    "fake_news": {
+        "misinformation_disinformation": {
+            "question": "Ano ang misinformation at disinformation?",
+            "intent": "explain_concept"
+        }, 
+        "fake_news_uses": {
+            "question": "Paano ginagamit ang fake news para manloko?",
+            "intent": "prevent_scam"
+        },
+        "fake_news_prevention": {
+            "question": "Paano ako makakaiwas sa fake news?",
+            "intent": "prevent_scam"
+        },
+        "fake_news_signs": {
+            "question": "Paano malalaman kung fake news ang nabasa ko?",
+            "intent": "scam_signs"
+        }, 
+        "fake_news_believe_signs": {
+            "question": "Ano ang dapat tingnan bago paniwalaan ang balita online?",
+            "intent": "scam_signs"
+        },
+        "share_unverified_info": {
+            "question": "Bakit delikado ang pagbabahagi ng hindi verified na impormasyon?",
+            "intent": "explain_concept"
+        },
+        "share_fake_news_response": {
+            "question": "Naka-share na ako ng fake news, ano ang dapat kong gawin?",
+            "intent": "scam_response"
+        }
+    },
+    "ai_&_deepfake_signs": {
+        "artificial_intelligence": {
+            "question": "Ano ba ang Artificial Intelligence o AI?",
+            "intent": "explain_concept"
+        },
+        "artificial_intelligence_uses": {
+            "question": "Paano ginagamit ang AI sa mabuti at masamang paraan?",
             "intent": "explain_concept"
         }
     }
