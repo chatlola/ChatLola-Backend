@@ -41,6 +41,10 @@
         "scams_targetting_seniors": {
             "question": "Ano ang mga scams na madalas target ang mga seniors?",
             "intent": "explain_concept"
+        },
+        "senior_scam_victims": {
+            "question": "Bakit kadalasang matatanda ang nagiging biktima ng scam?",
+            "intent": "explain_concept"
         }
     },
     "general_scam_response": {
@@ -55,6 +59,10 @@
     },
     "digital_safety": {
         "digital_safety_importance": {
+            "question": "Bakit mahalaga ang digital safety?",
+            "intent": "explain_concept"
+        },
+        "online_safety_importance": {
             "question": "Bakit kailangan kong mas maging mag-ingat online?",
             "intent": "explain_concept"
         },
@@ -114,6 +122,14 @@
         },
         "shared_id_response": {
             "question": "Naibigay ko ang aking ID sa scammer, ano dapat kong gawin?",
+            "intent": "scam_response"
+        },
+        "spread_personal_info_prevention": {
+            "question": "Paano ko maiiwasan ang pagkalat ng aking personal na impormasyon online?",
+            "intent": "prevent_scam"
+        }, 
+        "shared_bank_details_response": {
+            "question": "Naibigay ko aking bank account details sa scammer, ano susunod na hakbang?",
             "intent": "scam_response"
         }
     },
@@ -229,6 +245,14 @@
         "romance_scam_response": {
             "question": "Ano ang dapat gawin kung posibleng scammer ang kausap ko?",
             "intent": "scam_response"
+        },
+        "trust_strangers": {
+            "question": "Ano ang mga dapat gawin bago magtiwala sa taong nakilala sa internet",
+            "intent": "prevent_scam"
+        },
+        "stop_interaction_response": {
+            "question": "Gusto kong itigil scammer na nakikipag-ugnayan sa akin, ano gagawin ko?",
+            "intent": "scam_response"
         }
     },
     "ransomware_scam": {
@@ -242,6 +266,10 @@
         },
         "ransomware_scam_response": {
             "question": "Ano dapat kong gawin pag nagkaransomware cellphone ko?",
+            "intent": "scam_response"
+        },
+        "ransomware_reset_device_response": {
+            "question": "Kailangan ko bang i-reset aking phone dahil sa ransomware?",
             "intent": "scam_response"
         }
     },
@@ -428,10 +456,14 @@
             "intent": "scam_signs"
         }
     },
-    "link_scams": {
+    "sms_scams": {
         "scam_link_signs": {
             "question": "May link na nakalagay sa text, paano ko malaman kung totoo ito?",
             "intent": "scam_signs"
+        },
+        "sms_personal_info_threat_response": {
+            "question": "May text na nanghihingi ng personal information at nagbabanta kung hindi ako sumagot, ano gagawin ko?",
+            "intent": "scam_response"
         }
     },
     "scammers_tactics": {
@@ -493,6 +525,40 @@
         },
         "artificial_intelligence_uses": {
             "question": "Paano ginagamit ang AI sa mabuti at masamang paraan?",
+            "intent": "explain_concept"
+        }
+    },
+    "hacking": {
+        "hack_account_prevention": {
+            "question": "Paano ko maiiwasan na ma-hack ang account ko?",
+            "intent": "prevent_scam"
+        },
+        "hacking_device_response": {
+            "question": "Ano unang dapat gawin kapag na-hack aking device?",
+            "intent": "scam_response"
+        }
+    },
+    "device_protection": {
+        "virus_prevention": {
+            "question": "Paano ko mase-secure ang aking laptop or cellphone laban sa mga virus?",
+            "intent": "prevent_scam"
+        }
+    },
+    "transaction": {
+        "online_transactions_safety": {
+            "question": "Ano ang dapat tandaan kapag gumagawa ng mga online transactions?",
+            "intent": "prevent_scam"
+        }
+    },
+    "scam_scenarios": {
+        "encrypted_data_response": {
+            "question": "Biglang hindi ko na ma-access aking mga dokumento, ano ang maaaring nangyare?",
+            "intent": "scam_response"
+        }
+    },
+    "encrypted_data_response": {
+        "ransomware_scam": {
+            "question": "Ano ang ibig sabihin ng ransomware?",
             "intent": "explain_concept"
         }
     }

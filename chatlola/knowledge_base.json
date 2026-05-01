@@ -77,6 +77,15 @@
         "digital_safety_importance": {
             "keywords": {
                 "first": ["kailangan", "halaga", "importante", "importance"],
+                "second": ["digital safety"]
+            },
+            "response": "Mahalaga ang digital safety dahil habang lumalaki ang ating paggamit ng internet, tumataas din ang panganib na mabiktima ng cyberattack, pagnanakaw ng identity, at panliligalig online.Ang digital safety ay mga paraan para protektahan ang personal na impormasyon, devices, at online interactions mula sa mga banta. Kailangan nating maging aware sa mga panganib sa digital world at magtayo ng malakas na digital safety habits.Sa pamamagitan nito, mapoprotektahan natin ang ating personal na impormasyon, mga importante files, at mapapanatili ang ligtas at magalang na presensya sa internet.", 
+            "confused_response": "Mahalaga ang digital safety dahil maraming masasamang tao sa internet.\n\nKung walang digital safety:\n• Puwedeng nakawin ang password mo at gamitin ang bangko account mo\n• Puwedeng kunin ang mga litrato mo at gamitin para sa kalokohan\n• Puwedeng ma-hack ang Facebook mo\n\nKaya kailangan matuto tayo mag-ingat online. Parang sa totoong buhay - hindi mo naman ibibigay ang wallet mo sa stranger, diba? Ganun din sa internet.\n\nProtektahan ang impormasyon mo, mag-ingat sa mga i-click, at huwag basta magtiwala sa lahat ng tao online.",
+            "context": "digital_safety"
+        },
+        "online_safety_importance": {
+            "keywords": {
+                "first": ["kailangan", "halaga", "importante", "importance"],
                 "second": ["ingat", "safety"]
             },
             "response": "Kailangan mong maging mas maingat online dahil maraming cybercrime ang nangyayari, lalo na sa mga nakatatanda. Ayon sa mga ulat, malaking halaga ng pera ang nawawala dahil sa panloloko sa internet, at patuloy pa itong tumataas. Maraming scam ang target ang seniors dahil mas madali silang malinlang.\n\nAng magandang balita, karamihan sa mga panloloko ay maiiwasan kung may sapat na kaalaman at pag-iingat. Sa pamamagitan ng pagiging mapanuri at hindi basta pagtitiwala sa mga mensahe o impormasyon online, mas mapoprotektahan mo ang iyong sarili.", 
@@ -90,7 +99,7 @@
             },
             "response": "Ang lottery scam ay panloloko kung saan sasabihin sa iyo na nanalo ka ng premyo kahit hindi ka naman sumali sa anumang lottery. Hihingan ka nila ng personal o bank information para “maipadala” ang premyo, pero ang totoo ay ninanakaw lang nila ang iyong pera o impormasyon.",
             "confused_response": "Ang lottery scam ay kapag sinabihan kang nanalo ka ng premyo kahit hindi ka sumali. Hihingi sila ng impormasyon o pera, pero panloloko lang ito.",
-            "context": "lottery_scam"
+            "context": "scam_types"
         },
         "phishing_scam": {
             "keywords": {
@@ -311,11 +320,22 @@
         },
         "scams_targetting_seniors": {
             "keywords": {
-                "first": ["nakatatanda", "matatanda", "seniors"],
-                "second": ["target", "punterya"]
+                "first": ["ano"],
+                "second": ["nakatatanda", "matatanda", "seniors"],
+                "third": ["target", "punterya"]
             },
             "response": "Maraming uri ng scam ang madalas tumatarget sa mga seniors. Kabilang dito ang romance scams, tech support scams, at investment scams kung saan sinusubukang makuha ang kanilang pera o impormasyon. Mayroon ding government impersonation scams, robocalls, at business imposter scams na nagpapanggap na lehitimong organisasyon.\n\nBukod dito, karaniwan din ang charity scams, election scams, at gift card scams. May mga kaso rin ng advance fee fraud, bank at check scams, at travel scams. Madalas target ang seniors dahil maaaring mas madali silang malinlang o mapagkatiwala.",
             "confused_response": "Maraming scam ang tumatarget sa seniors tulad ng romance scam, tawag o robocall, at pagpapanggap na galing sa gobyerno o kumpanya. Mayroon ding mga scam na humihingi ng pera tulad ng investment, gift card, o charity scams.\n\nTarget ang seniors dahil iniisip ng scammers na mas madali silang mapaniwala o mapagkatiwala.",
+            "context": "scam"
+        },
+        "senior_scam_victims": {
+            "keywords": {
+                "first": ["madalas", "kadalasan", "palagi", "ingat"],
+                "second": ["senior", "matatanda", "matanda"],
+                "third": ["scam", "panloloko", "target", "punterya"]
+            },
+            "response": "Ang mga matatanda ay madalas na target ng mga scammer dahil:\n• Akala nila maraming ipon at ari-arian ang seniors\n• May mabuting credit at puwedeng utangin\n• Hindi madalas mag-report dahil nahihiya o hindi alam kung paano\n\nAyon sa FBI, milyun-milyong seniors ang nabibiktima ng financial fraud bawat taon, na umabot sa mahigit $3 billion ang nawala.\n\nMaraming seniors din ang nahihirapang magbigay ng detalye sa pulis, kaya nakakalusot ang mga kriminal. Kaya mahalaga na mag-ingat at humingi ng tulong kapag may kahina-hinala.",
+            "confused_response": "Kadalasang mga matatanda ang biktima ng mga scams, dahil:\n\n• Una, alam ng scammer na kayo ay may ipon, may bahay, at may magandang credit sa bangko. Target kayo dahil may pera kayo.\n\nPangalawa, alam nila na marami sa inyo ay nahihiya mag-report. Takot kayong isipin ng pamilya na \"lolo/lola ay matanda na, hindi na makakapag-isip.\" Kaya pwedeng hindi kayo nagsusumbong.\n\nPangatlo, mahirap minsan alalahanin lahat ng detalye kaya nahihirapan kayong mag-report sa pulis.\n\nKaya dapat kayo mag-ingat. Walang nakakahiya sa pag-tanong o pagsumbong. Mas nakakahiya ang manakawan dahil hindi kayo nagiging maingat.",
             "context": "scam"
         },
         "scam_types": {
@@ -407,6 +427,53 @@
         }
     },
     "prevent_scam": {
+        "online_transactions_safety": {
+            "keywords": {
+                "first": ["gawin", "tandaan", "alalahanin"],
+                "second": ["transaction", "bayad", "bili", "transact"]
+            },
+            "response": "Kapag gumagawa ng online transactions, maging maingat para hindi ka maloko.\n\nUna: Huwag ibigay ang iyong password, OTP, o bank details sa kahit sino, kahit magpakilala silang taga-bangko.\n\nPangalawa: Iwasan ang pag-click ng kahina-hinalang link mula sa text, email, o social media.\n\nPangatlo: Siguraduhin na ang website ay legit at secure. Tingnan kung may \"https\" at lock icon sa browser.\n\nPang-apat: Huwag gumamit ng public Wi-Fi. Mas mabuti ang sariling data o trusted internet.\n\nPanglima: I-check lagi ang iyong transactions at mag-report sa bangko kung may kakaibang activity.",
+            "confused_response": "Kapag namimili o magbabayad online, bantayan ang iyong impormasyon.\n\n• Una: Hindi ka dapat magbigay ng password o ATM code sa sinuman, kahit sabi nila taga-bangko sila.\n\n• Pangalawa: Huwag mag-click sa mga link na nakita mo sa text o email kung hindi mo sigurado.\n\n• Pangatlo: Tingnan kung secure ang website, dapat may \"https\" at may padlock na icon sa gilid ng address sa itaas.\n\n• Pang-apat: Huwag mag-online banking sa public Wi-Fi. Gamitin ang iyong sariling internet kung maaari.\n\n• Panglima: Bantayan ang iyong bank statements. Kung may kakaibang bayad, sabihin agad sa bangko.",
+            "context": "transaction"
+        },
+        "virus_prevention": {
+            "keywords": {
+                "first": ["virus", "protekt", "protect", "secure"],
+                "second": ["phone", "computer", "cp", "virus"]
+            },
+            "response": "Para ma-secure ang iyong laptop o cellphone laban sa virus, maging maingat sa paggamit.\n\nUna: Mag-install ng antivirus o security app at panatilihing updated. Ito ay tumutulong na ma-detect at ma-block ang virus at malware.\n\nPangalawa: Mag-ingat sa pag-click ng links, emails, o pag-download ng files mula sa hindi kilalang pinanggalingan.\n\nPangatlo: Laging i-update ang iyong phone o computer. Ang updates ay may security fixes na tumutulong maiwasan ang hacking.\n\nPang-apat: Huwag mag-install ng apps mula sa hindi kilalang sources. Siguraduhing trusted at legit ang mga dinadownload mo.",
+            "confused_response": "Gusto mong protektahan ang iyong laptop o cellphone? Gawin ito:\n\n• Una: Mag-install ng antivirus program o software at panatilihin itong updated. Ito ang bantay laban sa virus.\n\n• Pangalawa: Huwag mag-click sa mga link o attachment mula sa mga email na hindi mo kilala o pamilyar.\n\n• Pangatlo: Laging i-update ang iyong device kapag may update. Ito ay nagdadagdag ng proteksyon.\n\n• Pang-apat: Mag-download lang ng apps sa official stores tulad ng Google Play o Apple App Store. Huwag sa ibang lugar.\n\n• Simpleng alagaan ang device, at ligtas ka!",
+            "context": "device_protection"
+        },
+        "spread_personal_info_prevention": {
+            "keywords": {
+                "first": ["kalat", "kumalat", "leak", "private", "pribado", "tago"],
+                "second": ["information", "impormasyon", "data"],
+                "third": ["personal", " ko"]
+            },
+            "response": "Para maiwasan ang pagkalat ng iyong personal na impormasyon online, maging maingat sa pag-share.\n\nUna: Huwag mag-post ng sensitibong impormasyon tulad ng buong address, ID, password, o bank details. Limitahan lang ang personal na detalye sa social media.\n\nPangalawa: I-check ang privacy settings ng iyong accounts para makita lang ng tamang tao ang iyong posts.\n\nPangatlo: Mag-ingat sa mga links, apps, o websites na hinihingan ka ng impormasyon. Siguraduhin na legit ang site.\n\nPang-apat: Gumamit ng malakas na password at huwag itong ibigay sa iba. Gumamit ng verification code para sa extra security.",
+            "confused_response": "Nais mong manatiling pribado ang iyong impormasyon? Ito ang dapat gawin:\n\n• Una: Huwag ibahagi ang iyong buong address, ID number, o bank details sa social media o online.\n\n• Pangalawa: I-adjust ang privacy settings ng iyong Facebook at iba pang accounts. Piliin kung sino lang ang makakakita ng iyong posts.\n\n• Pangatlo: Bago mag-lagay ng impormasyon sa website, siguraduhin na ito ay totoo at ligtas.\n\n• Pang-apat: Gumawa ng mahirap na password at huwag mo itong ibigay. Kung may option para sa verification code, gamitin ito.",
+            "context": "personal_data_privacy"
+        },
+        "hack_account_prevention": {
+            "keywords": {
+                "first": ["hack", "makuha"],
+                "second": ["acc", "account", "user"]
+            },
+            "response": "Para hindi ma-hack ang iyong account, maging maingat sa iyong login information.\n\nUna: Gumamit ng malakas na password na mahaba at may halong letters, numbers, at symbols. Iba-iba ang password sa bawat account.\n\nPangalawa: Huwag mag-click ng links o magbukas ng messages na hindi mo kilala, dahil puwedeng makuha ang login details mo.\n\nPangatlo: I-lock ang iyong cellphone o laptop at huwag iwanang bukas ang accounts mo, lalo na kung may ibang gumagamit ng device.\n\nPang-apat: Gamitin ang extra security tulad ng verification code (OTP o two-factor authentication) para sa dagdag proteksyon.",
+            "confused_response": "Gawin ang  mga sumusunod para maprotektahan ang iyong account:\n\n• Una: Gumawa ng mahirap na password. Isama ang uppercase, lowercase, numbers, at symbols. Gumawa ng iba-ibang password para sa bawat account.\n\n• Pangalawa: Huwag mag-click sa mga link mula sa mga di-kilalang tao. Baka scam ito para makuha ang iyong password.\n\n• Pangatlo: I-lock ang iyong phone o computer kapag hindi mo ginagamit. Kung may iba pang tao sa bahay, huwag iwanan ang accounts na bukas.\n\n• Pang-apat: Gamitin ang two-factor authentication—ito ay nagpapadala ng code para mas mahirap para sa hacker.",
+            "context": "hacking"
+        },
+        "trust_strangers": {
+            "keywords": {
+                "first": ["gawin", "tandaan", "alalahanin"],
+                "second": ["tiwala", "trust", "niwala"],
+                "third": ["kilala", "meet", "usap", "nakita"]
+            },
+            "response": "Kapag may nakilala ka sa internet, huwag agad magtiwala. Hindi mo kasi sigurado kung sino talaga sila.\n\nUna: Mag-ingat sa pagbibigay ng personal na impormasyon tulad ng address, phone number, o detalye ng pamilya.\n\nPangalawa: Magduda kung mabilis silang magpakita ng tiwala, emosyon, o biglang humihingi ng pera. Karaniwan ito sa scam.\n\nPangatlo: I-check ang kanilang pagkakakilanlan sa profile o iba pang paraan. Kung ayaw nilang magpakilala nang maayos, mag-ingat.\n\nPang-apat: Iwasan ang pakikipagkita agad sa personal kung hindi mo pa sila lubos na kilala.\n\nPanglima: Kung may duda, makinig sa sarili mo at humingi ng payo sa mapagkakatiwalaang tao.",
+            "confused_response": "May nakilala ka bang tao sa internet? Huwag agad magtiwala. Eto ang dapat gawin:\n\n• Una: Huwag ibigay ang iyong address, phone number, o pangalan ng iyong pamilya sa mga baguhan.\n\n• Pangalawa: Mag-ingat kung biglang nagsasabi sila ng \"mahal kita\" o humihingi ng pera. Ito ay scam.\n\n• Pangatlo: Tingnan ang kanilang profile. Kung totoo man sila, dapat may real photo at tunay na impormasyon.\n\n• Pang-apat: Huwag magpakita ng mukha o lumabas kung hindi mo sila kilala nang mabuti.\n\n• Panglima: Kung may pakiramdam ka na hindi tama, tanungin ang pamilya o kaibigan mo.",
+            "context": "romance_scam"
+        },
         "grandparent_scam_prevention": {
             "keywords": {
                 "first": ["kamaganak", " apo ", "anak"]
@@ -519,7 +586,7 @@
         },
         "phishing_scam_prevention": {
             "keywords": {
-                "first": ["phish", "pish", "email", "text", "message", "mensahe", "chact"]
+                "first": ["phish", "pish", "email", "text", "message", "mensahe", "chat"]
             },
             "response": "Para makaiwas sa phishing scam:\n• Huwag basta magtiwala sa mga hindi inaasahang email o text\n• Huwag magbigay ng password o login details kahit kanino\n• I-check ang link bago i-click (baka peke)\n• Mas mabuting tawagan ang opisyal na numero ng kumpanya para i-verify\n• Iwasan ang pag-click ng mga link sa kahina-hinalang mensahe",
             "confused_response": "Para makaiwas sa phishing scam, huwag basta magtiwala sa mga email o text na hindi mo inaasahan. Huwag magbigay ng password o personal na impormasyon. Iwasan ang pag-click ng link kung hindi ka sigurado, at mas mabuting i-check muna sa opisyal na kumpanya kung totoo ang mensahe.",
@@ -620,6 +687,15 @@
         }
     },
     "scam_response": {
+        "hacking_device_response": {
+            "keywords": {
+                "first": ["hack"],
+                "second": ["device", "cellphone", "laptop", "cp", "phone"]
+            },
+            "response": "Kapag na-hack ang device mo, ang unang gawin ay putulin muna ang internet connection; patayin ang Wi-Fi o mobile data para mahinto ang posibleng access ng hacker.\n\nPagkatapos, palitan agad ang passwords ng mahahalagang accounts tulad ng email at online banking gamit ang ibang trusted device kung maaari. Mag-scan din ng device para sa virus o malware at i-update ang security settings.",
+            "confused_response": "Kung sa tingin mo na-hack ang device mo, unang gawin ay patayin muna ang internet o Wi-Fi. Ito ay para mahinto ang posibleng pag-access ng hacker.\n\nPagkatapos, palitan ang passwords mo at ipa-check ang device kung may virus.panloloko.",
+            "context": "hacking"
+        },
         "shared_id_response": {
             "keywords": {
                 "first": [" id ", "identification"],
@@ -627,7 +703,17 @@
                 "third": ["scammer", "manloloko", "nangsascam", "nangscam"]
             },
             "response": "Kung naibigay mo ang ID mo sa scammer, kumilos agad. Bantayan ang bank accounts, e-wallets, at iba pang accounts kung may kahina-hinalang activity. Kung ginamit ang ID mo sa bank o loan-related transactions, ipagbigay-alam agad sa bangko o kinauukulang kumpanya.\n\nMagandang i-report din ang insidente sa tamang awtoridad at mag-ingat sa posibleng identity theft o paggamit ng ID mo sa panloloko. Kung may scammer pang kumokontak sa iyo, i-block at huwag nang makipag-ugnayan.\n\nMas maiging bantayan ang iyong pagkakakilanlan at umaksyon agad para maiwasan ang mas malaking problema.",
-            "confused_response": "Kung naibigay mo ang ID mo sa scammer, huwag mataranta kundi ay kumilos agad. Bantayan kung may kakaibang paggamit ng pangalan o impormasyon mo. Kung may bank o loan account ka, ipaalam agad para makapag-ingat sila.\n\nI-report din ang nangyari at huwag na muling kausapin ang scammer.\n\nTandaan, kung nakuha ang ID mo, kumilos agad para maprotektahan ang iyong pagkakakilanlan laban sa panloloko.o.",
+            "confused_response": "Kung naibigay mo ang ID mo sa scammer, huwag mataranta kundi ay kumilos agad. Bantayan kung may kakaibang paggamit ng pangalan o impormasyon mo. Kung may bank o loan account ka, ipaalam agad para makapag-ingat sila.\n\nI-report din ang nangyari at huwag na muling kausapin ang scammer.\n\nTandaan, kung nakuha ang ID mo, kumilos agad para maprotektahan ang iyong pagkakakilanlan laban sa panloloko.",
+            "context": "personal_data_privacy"
+        },
+        "shared_bank_details_response": {
+            "keywords": {
+                "first": ["bigay", "pasa", "shared", "send"],
+                "second": ["bank", "bangko"],
+                "third": ["details", "detalye", "info", "data"]
+            },
+            "response": "Kung naibigay mo ang bank account details mo sa scammer, kumilos agad. Tawagan kaagad ang bangko gamit ang official hotline at ipaalam na maaaring compromised ang account mo. Maaaring kailangan i-freeze, bantayan, o palitan ang account para maiwasan ang unauthorized transactions.\n\nBantayan ang account mo para sa kahina-hinalang galaw, palitan din ang passwords o PIN kung kailangan, at i-report agad kung may kahina-hinalang transaction. Huwag nang makipag-usap pa sa scammer.",
+            "confused_response": "Kung naibigay mo ang bank details mo, huwag mataranta kundi ay tawagan agad ang bangko. Sabihin na baka nakuha ng scammer ang impormasyon mo para matulungan kang protektahan ang account.\n\nTingnan din kung may kakaibang transaction at i-report agad kung meron. Huwag na ring sagutin o kausapin ang scammer.",
             "context": "personal_data_privacy"
         },
         "shared_info_response": {
@@ -769,9 +855,19 @@
             "confused_response": "Kung sa tingin mo ay na-scam ka, ihinto agad ang pakikipag-usap. I-check ang iyong device gamit ang antivirus at palitan ang iyong passwords. Kung may bayad na naibigay, makipag-ugnayan sa bangko.",
             "context": "tech_support_scam"
         },
+        "sms_personal_info_threat_response": {
+            "keywords": {
+                "first": ["text", "message", "mensahe", "chat"],
+                "second": ["info", "impormasyon", "data", "detail", "detalye"],
+                "third": ["banta", "threat", "takot", "nakot"]
+            },
+            "response": "Kung may text na humihingi ng personal information at nagbabanta, huwag sumagot at huwag magbigay ng impormasyon. Madalas ito ay smishing o text scam na gumagamit ng takot para mapilit kang sumunod. Huwag pindutin ang anumang link sa mensahe, i-block ang sender, at i-report bilang spam o scam.\n\nKung kunwari galing sa bangko o gobyerno ang text, i-verify muna sa official hotline at huwag sa numerong nasa mensahe. Kapag may pagbabanta, mag-ingat at huwag magpadala sa pressure.",
+            "confused_response": "Kung may text na nananakot at humihingi ng impormasyon, huwag mo pong sagutin. Madalas scam po iyan.\n\nHuwag ibigay ang password, OTP, o personal details. Huwag din pindutin ang link sa text. I-block ang number at kung kunwari bangko ang nag-text, tawagan ang bangko gamit official number para magtanong.",
+            "context": "sms_scams"
+        },
         "phishing_scam_response": {
             "keywords": {
-                "first": ["phish", "pish", "email", "text", "message", "mensahe", "chact"]
+                "first": ["phish", "pish", "email", "text", "message", "mensahe", "chat"]
             },
             "response": "Kapag ikaw ay nabiktima ng phishing scam:\n• Agad palitan ang password ng iyong account\n• I-report sa bangko o kumpanya na ginamit ang pangalan nila\n• I-monitor ang iyong account para sa kahina-hinalang galaw\n• Kung may pera na nawala, agad makipag-ugnayan sa bangko",
             "confused_response": "Kung nabiktima ka ng phishing scam, agad palitan ang iyong password. Sabihin sa bangko o kumpanya ang nangyari, at bantayan ang iyong account kung may kakaibang galaw. Kung may nawalang pera, makipag-ugnayan agad sa bangko.",
@@ -785,13 +881,41 @@
             "confused_response": "",
             "context": ""
         },
-         "romance_scam_response": {
+        "stop_interaction_response": {
+            "keywords": {
+                "first": ["stop", "tigil", "tapusin"],
+                "second": ["ugnayan", "usap", "relasyon", "relation"]
+            }, 
+            "response": "Kung gusto mong itigil ang scammer na kumokontak sa iyo, huwag na silang kausapin pa. Itigil ang pagsagot sa tawag, text, o chat, at i-block agad ang kanilang number o account. Huwag magbigay ng pera o personal na impormasyon.\n\nI-save ang messages o screenshots bilang ebidensya at i-report ang scammer sa platform, bangko (kung may kinalaman sa pera), o awtoridad kung kinakailangan.\n\nMahalagang putulin ang komunikasyon, huwag nang makipag-engage, at agad i-report ang scammer.",
+            "confused_response": "Simple lang po, huwag na pong sumagot sa scammer. I-block ang number o account nila para hindi ka na nila makontak.\n\nHuwag na rin mag-reply o makipagtalo. Kung may messages sila, puwedeng i-save bilang ebidensya at i-report sila.\n\nAng pinakamahusay na paraan para itigil ang scammer ay putulin ang contact at huwag na silang patulan.",
+            "context": "romance_scam"
+        },
+        "romance_scam_response": {
             "keywords": {
                 "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date", "may gusto", "may pagtingin"]
             }, 
             "response": "Kapag ikaw ay nabiktima ng romance scam:\n• Itigil agad ang pakikipag-ugnayan\n• Huwag nang magpadala ng pera\n• Makipag-ugnayan sa bangko kung may naibigay na pera\n• I-report ang scam sa platform at awtoridad\n• Humingi ng tulong sa pamilya o kaibigan",
             "confused_response": "Kung sa tingin mo ay na-scam ka, ihinto agad ang pakikipag-usap. Huwag nang magpadala ng pera at makipag-ugnayan sa bangko kung kinakailangan. Sabihin din ito sa taong pinagkakatiwalaan.",
             "context": "romance_scam"
+        },
+        "encrypted_data_response": {
+            "keywords": {
+                "first": ["encrypt", "di"],
+                "second": ["access", "mabukas", "mabuksan", "encrypt"],
+                "third": ["file", "dokumento", "document"]
+            },
+            "response": "Kung biglang hindi mo ma-access ang mga dokumento mo, posibleng may problema sa device o baka na-encrypt ang files mo dahil sa malware tulad ng ransomware. Sa ganitong scam, nilalock o ine-encrypt ang files kaya hindi mo mabuksan.\n\nPuwede rin namang dahil ito sa technical problem, deleted files, o storage issue. Kung may lumabas na mensahe na humihingi ng bayad para maibalik ang files, mag-ingat dahil maaaring ransomware iyon. Huwag agad magbayad o mag-click ng kung ano.",
+            "confused_response": "Ganito po ang posibleng nangyari: baka may virus o ransomware na nag-lock ng files mo kaya hindi mo mabuksan. Minsan maaari ring sira lang ang system o storage.\n\nKung may mensahe na humihingi ng bayad para ma-access muli ang documents mo, magduda dahil maaaring scam iyon.",
+            "context": "scam_scenarios"
+        },
+        "ransomware_reset_device_response": {
+            "keywords": {
+                "first": ["ransomware"],
+                "second": ["reset"]
+            },
+            "response": "Hindi agad kailangan mag-factory reset kapag nagkaransomware ang device mo. Ang mainam na gawin muna ay:\n• I-disconnect ang internet (WiFi/data)\n• Huwag magbayad sa scammer\n• I-scan ang phone gamit antivirus\n• I-report sa trusted support\n\nMag-reset lamang kung:\n• Hindi na ma-access ang phone\n• Patuloy pa rin ang virus\n\nMakakatulong ang factory reset laban sa ransomware, ngunit mawawala ang lahat ng iyong files.",
+            "confused_response": "Hindi mo agad kailangang mag-reset. Kung may ransomware:\n• Huwag kabahan\n• Huwag magbayad\n• I-off muna internet\n• Humingi ng tulong sa trusted tech support\n\nAng reset ay “last option” lang. Ginagamit lang ito kapag sobrang infected na ang phone. Mas safe kung i-check muna bago mag-reset",
+            "context": "ransomware_scam"
         },
         "ransomware_scam_response": {
             "keywords": {
@@ -938,7 +1062,7 @@
             },
             "response": "Huwag agad mag-click sa link na galing sa taong hindi mo kilala. Maaaring mukhang legit ang site, pero pekeng website lang ito.\n\nSa halip, hanapin ang website gamit ang search engine o tawagan ang numero na nakalagay sa statement mo. Markahan ang totoong website bilang favorite sa browser para safe ang pag-access mo palagi.",
             "confused_response": "Kung may nag-send ng link sa text o Facebook, huwag agad pindutin. Kahit mukhang totoo, baka peke lang yan.\n\nGawin mo ito: Buksan ang Google, tapos i-type mo doon ang pangalan ng bangko o kumpanya. Doon ka mag-click at hindi sa link na na-text sa'yo.\n\nO kaya, tawagan mo ang numero na nakalagay sa bill o statement mo. Tanungin mo kung totoo ba ang text na natanggap mo.\n\nPag nahanap mo na ang totoong website, i-save mo bilang \"favorite\" o \"bookmark\" para sunod-sunod na, doon ka na lang pumunta. Mas safe.",
-            "context": "link_scams"
+            "context": "sms_scams"
         },
         "phishing_scam_signs": {
             "keywords": {

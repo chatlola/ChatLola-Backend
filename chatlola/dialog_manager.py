@@ -102,7 +102,7 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
             return handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic)
 
     # 2. Fallback logic
-    if intent == "explain_concept":
+    if intent == "explain_concept" or intent == "emotional_support":
         if confusion:
             return handle_confusion({ "response": None }, intent, "", confusion, prev_intent, prev_topic)
         
@@ -135,7 +135,7 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
 
 def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
 
-    if intent == "emotional_support":
+    if intent == "emotional_support" and confusion != 1:
         return {
             "response": data["response"],
             "intent": intent,
@@ -157,7 +157,7 @@ def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
     if prev_intent and prev_topic and prev_topic != "clarify":
         prev_data = chatlola_data[prev_intent][prev_topic]
         return jsonify({
-            "response": "Mukhang medyo nakakalito 😅.\n" + prev_data["confused_response"],
+            "response": "Mukhang medyo nakakalito 😅.\n\n" + prev_data["confused_response"],
             "intent": prev_intent,
             "topic": prev_topic + "_confused",
             "confusion_label": confusion
@@ -174,7 +174,7 @@ def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
 def no_keys_response(intent, context, prev_intent, prev_topic, confusion):
     ctx = context_data.get(context, {})
 
-    if intent == "emotional_support":
+    if intent == "emotional_support" and confusion != 1:
         return {
            "response": None,
             "intent": intent,
