@@ -317,6 +317,12 @@ explain_concept,Ano ang scam na nag-aalok ng trabaho pero may bayad muna?
 explain_concept,Dapat ba paniwalaan lahat ng nakikita sa Facebook?
 explain_concept,Ano ang scam na nagpapadala ng link para makuha ang impormasyon ko?
 explain_concept,Ano ang scam na nanghihingi ng OTP para ma-access ang account ko?
+explain_concept,Dapat ba paniwalaan lahat ng natatanggap na email?
+explain_concept,Dapat ba agad magtiwala sa mga online sellers?
+explain_concept,Dapat ba paniwalaan ang mga mensaheng nagsasabing nanalo ako?
+explain_concept,Dapat ba pagkatiwalaan ang mga taong nag-aalok ng investment online?
+explain_concept,Dapat ba agad sundin ang instructions sa mga text na galing sa unknown number?
+,
 ,
 ,
 prevent_scam,Paano ko mapapangalagaan ang aking seguridad habang nagso-[topic] o nagba-browse?
@@ -358,7 +364,7 @@ prevent_scam,Paano ko maiiwasan ang malware sa aking smartphone?
 prevent_scam,dapat gawin para maging secure ang aking mga gadget?
 prevent_scam,mga tips para sa ligtas na paggamit ng smartphone?
 prevent_scam,mga dapat i-install para maprotektahan ang aking device?
-prevent_scam,
+prevent_scam,Paano maiwasan ang scam kung may tumatawag na nagsasabing kamag-anak ko?
 prevent_scam,Paano mapigilan ang virus na makapasok sa aking cellphone?
 prevent_scam,mga pinakamabuting gawin para sa seguridad ng device?
 prevent_scam,mga dapat iwasan para hindi malagay sa panganib ang aking device?
@@ -452,7 +458,7 @@ prevent_scam,Ano ang dapat suriin bago magbigay ng personal na impormasyon sa ka
 prevent_scam,Ano ang dapat gawin para hindi mawala ang pera sa scammer na nagpapanggap na opisyal?
 prevent_scam,Paano ko mapigilan ang mga pekeng abiso ng gobyerno na lokohin ako?
 prevent_scam,Paano ko maiiwasan ang mga [topic] at phone [topic]?
-prevent_scam,Ano ang dapat gawin kung may tumatawag na kahina-hinala ang layunin?
+prevent_scam,
 prevent_scam,Ano ang dapat gawin para hindi malinlang ng pekeng tawag sa telepono?
 prevent_scam,Paano ko maiiwasan ang pekeng tawag mula sa mga scammer?
 prevent_scam,Ano ang dapat gawin bago magbigay ng impormasyon sa telepono?
@@ -638,10 +644,17 @@ prevent_scam,Ano ang mga dapat kong tandaan para maiwasan ang ganitong klaseng p
 prevent_scam,
 prevent_scam,Ano ang mga dapat kong tandaan para hindi ma-scam online?
 prevent_scam,Ano ang mga dapat kong tandaan para maging alerto sa mga scam?
-,
+prevent_scam,Paano ako makakaiwas sa scam kung may tumatawag na nagsasabing kamag-anak ko?
+prevent_scam,Paano ko maiiwasan ang ganitong panloloko kapag may nagpapanggap na kamag-anak sa tawag?
+prevent_scam,Ano ang dapat kong gawin para hindi maloko kung may tumawag na kunwari kamag-anak ko?
+prevent_scam,Paano maging maingat kapag may tumatawag na nagsasabing kapamilya ko sila?
+prevent_scam,Ano ang mga paraan para hindi mabiktima ng scam na nagpapanggap na kamag-anak?
+prevent_scam,Paano ko mapoprotektahan ang sarili ko kung may tumawag na nagsasabing kamag-anak ko?
+prevent_scam,Ano ang pwede kong gawin para hindi malinlang ng tawag na nagpapanggap na kapamilya?
+prevent_scam,Paano ako magiging alerto sa scam na gumagamit ng pekeng kamag-anak sa tawag?
 scam_response,Ano dapat kong gawin kung mascam ako?
 scam_response,"May nag-abuso sa aking personal na impormasyon, ano dapat kong gawin?"
-scam_response,"Napagtanto kong nilabag ang aking data privacy, ano susunod na hakbang?"
+scam_response,"Napagtanto kong nilabag aking data privacy, ano susunod na hakbang?"
 scam_response,"Gusto kong magreklamo dahil mali paggamit ng aking datos, pwede ba?"
 scam_response,"Nakatanggap ako ng mensahe na nanalo daw ako sa raffle, ano gagawin ko?"
 scam_response,"Natuklasan kong scam taong naka-chat ko, paano ko ito haharapin?"
@@ -649,23 +662,23 @@ scam_response,"Gusto kong itigil scammer na nakikipag-ugnayan sa akin, ano gagaw
 scam_response,"May kahina-hinalang app na na-install sa phone ko, ano dapat gawin?"
 scam_response,"Na-click ko isang link na mukhang scam, ano na gagawin ko?"
 scam_response,"Napunta ako sa isang suspicious na website, ano dapat kong gawin ngayon?"
-scam_response,"Nagbigay ako ng impormasyon sa isang website na baka peke, ano ang maaring mangyare?"
+scam_response,"Nagbigay ako ng impormasyon sa isang website na baka peke, ano maaring mangyare?"
 scam_response,"Na-lock computer ko at may hinihinging bayad, ano nangyari?"
 scam_response,Paano ko matatanggal ransomware sa aking device?
 scam_response,"Na-encrypt files ko at hindi ko na ma-access, ano gagawin ko?"
-scam_response,"Biglang hindi ko na ma-access aking mga dokumento, ano ang maaaring nangyare?"
+scam_response,"Biglang hindi ko na ma-access aking mga dokumento, ano maaaring nangyare?"
 scam_response,"May humihingi ng pera para maibalik aking data, ano dapat gawin?"
 scam_response,Dapat ba akong magbayad ng ransom para maibalik aking files?
 scam_response,Paano ko mababawi access sa aking mga files na na-lock?
 scam_response,Ano unang dapat gawin kapag na-hack aking device?
 scam_response,Kailangan ko bang i-reset aking phone dahil sa ransomware?
 scam_response,Paano ko malilinis computer ko pagkatapos ng ransomware attack?
-scam_response,Ano gagawin kung naibigay ko ang impormasyon ko sa scammer?
+scam_response,Ano gagawin kung naibigay ko impormasyon ko sa scammer?
 scam_response,Ano mga emergency steps kapag bigla na lang na-lock aking system?
 scam_response,Ano susunod na hakbang kung nabiktima ako ng [topic]?
 scam_response,"Na-scam ako online, ano dapat kong gawin?"
 scam_response,"parang na-scam ako, hindi ko sure kung ano susunod na hakbang."
-scam_response,"Sa tingin ko nabiktima ako ng scam, ano na ang gagawin kapag na-scam ako?"
+scam_response,"Sa tingin ko nabiktima ako ng scam, ano na gagawin kapag na-scam ako?"
 scam_response,"Kinuha nila pera ko online, ano dapat kong gawin ngayon?"
 scam_response,"Nawala aking pera dahil sa online scam, paano ko ito mahahabol?"
 scam_response,"Naloko ako sa internet, sino maaari kong lapitan?"
@@ -682,7 +695,7 @@ scam_response,"Nakuha pera ko sa aking online wallet, paano ko ito irereport?"
 scam_response,"Na-scam ako sa online investment, paano ko mahahabol aking pera?"
 scam_response,"Sumali ako sa investment online pero scam pala, ano dapat gawin?"
 scam_response,"Nag-invest ako at nawala aking pera, may magagawa pa ba ako?"
-scam_response,Ano ang dapat gawin kung posibleng scammer ang kausap ko?
+scam_response,Ano dapat gawin kung posibleng scammer kausap ko?
 scam_response,"Pinagbayad ako para sa trabaho na peke pala, paano ko ito irereport?"
 scam_response,"Naniwala ako sa fake promo at nagpadala ako ng pera, ano gagawin ko?"
 scam_response,"Na-block ako ng seller pagkatapos kong magbayad, ano gagawin ko?"
@@ -691,7 +704,7 @@ scam_response,"Nabigay ko aking impormasyon sa isang fake website, ano gagawin k
 scam_response,"Naibigay ko aking bank details sa scammer, ano dapat gawin agad?"
 scam_response,"Nawalan ako ng pera sa aking digital wallet dahil sa scam, paano ko ito aayusin?"
 scam_response,"Nabigay ko aking personal details sa scammer, paano ko ito aayusin?"
-scam_response,"Naibigay ko ang aking ID sa scammer, ano dapat kong gawin?"
+scam_response,"Naibigay ko aking ID sa scammer, ano dapat kong gawin?"
 scam_response,"Naibigay ko aking bank account details sa scammer, ano susunod na hakbang?"
 scam_response,Ano dapat gawin kung may nakuhang pera saakin at huli ko ng nalaman na scammer ito?
 scam_response,"May nagpanggap na customer service at naloko ako, ano gagawin ko?"
@@ -722,7 +735,7 @@ scam_response,"Naniwala ako sa fake visa consultant at naibigay ko na aking pasa
 scam_response,"Nakapagpadala na ako ng pera sa fake celebrity account, ano maaari kong gawin?"
 scam_response,Ano dapat gawin kung may kahina-hinalang naghahanap ng aking bank details?
 scam_response,Paano ako hihingi ng tulong kung na-scam ako?
-scam_response,Ano ang gagawin kapag aksidente kong nasagot ang robocall?
+scam_response,Ano gagawin kapag aksidente kong nasagot robocall?
 scam_response,"Nakapag-scan na ako ng kahina-hinalang QR code, ano dapat gawin ko ngayon?"
 scam_response,"Nagtiwala ako sa online paluwagan group pero scam pala, ano dapat gawin?"
 scam_response,"Nakapagbayad na ako ng malaking halaga para sa isang pyramid scheme, paano ko mahahabol ito?"
@@ -737,14 +750,14 @@ scam_response,Ano dapat kong gawin kung may kumuha ng pera ko sa scam?
 scam_response,Paano kung naloko ako ng scammer?
 scam_response,Ano dapat kong gawin kapag napansin kong na-scam ako?
 scam_response,Ano gagawin ko kung naloko ako sa [topic]?
-scam_response,Ano ang dapat gawin kung mabiktima ako ng charity scam?
+scam_response,Ano dapat gawin kung mabiktima ako ng charity scam?
 scam_response,Ano dapat gawin kapag na-scam ako?
 scam_response,Paano ko maaayos yung sitwasyon kung na-scam ako?
 scam_response,Ano pwedeng gawin kung naloko sa online [topic]?
 scam_response,Ano unang hakbang kapag naloko sa [topic]?
 scam_response,Ano maaari kong gawin kung naloko ako ng scammer?
 scam_response,Ano dapat kong gawin pagkatapos maloko?
-scam_response,Paano haharapin epekto ng [topic]? Ano na ba ang gagawin kapag na-scam ako?
+scam_response,Paano haharapin epekto ng [topic]? Ano na ba gagawin kapag na-scam ako?
 scam_response,Ano maipapayo kapag naloko sa [topic]?
 scam_response,Paano ko haharapin financial loss sa [topic]?
 scam_response,Ano dapat gawin para makabawi pagkatapos ng [topic]?
@@ -762,10 +775,10 @@ scam_response,Paano ko aayusin nangyari?
 scam_response,Ano pwedeng gawin ko ngayon?
 scam_response,Ano dapat kong gawin para makabawi?
 scam_response,Paano ko haharapin yung sitwasyon?
-scam_response,Ano ang gagawin kapag na-scam ako?
+scam_response,Ano gagawin kapag na-scam ako?
 scam_response,Ano pwede kong gawin ngayon?
 scam_response,Paano ko malulutas ito?
-scam_response,Ano na ba ang dapat kong gawin kapag na-scam ako?
+scam_response,Ano na ba dapat kong gawin kapag na-scam ako?
 scam_response,Ano pwedeng gawin para hindi lumala?
 scam_response,Ano dapat gawin kung posibleng scammer kausap ko?
 scam_response,Ano pwede kong gawin sa sitwasyong ito?
@@ -798,12 +811,12 @@ scam_response,Ano gagawin ko kung may red flags yung kausap kong nagpapanggap na
 scam_response,Paano ko haharapin kung parang ginagamit lang ako ng kausap ko online?
 scam_response,Ano dapat kong gawin kung pinipilit niya akong magpadala ng pera dahil sa emergency?
 scam_response,Paano ko haharapin online relationship kung may humihingi na ng pera?
-scam_response,Ano dapat gawin kung scam ang nakikipagdate sa akin online?
+scam_response,Ano dapat gawin kung scam nakikipagdate sa akin online?
 scam_response,"Nagbigay ako ng impormasyon sa isang website at baka peke ito, ano gagawin ko?"
 scam_response,"Nag-click ako ng link at baka scam ito, ano gagawin ko?"
 scam_response,Na-lock system ko at hindi ko alam kung ano gagawin.
 scam_response,Ano gagawin kung may humihingi ng pera at nagsasabing pamilya mo siya?
-scam_response,"Naka-share na ako ng fake news, ano ang dapat kong gawin?"
+scam_response,"Naka-share na ako ng fake news, ano dapat kong gawin?"
 scam_response,Hindi ko alam kung saan ako pwedeng mag-report.
 scam_response,Hindi ko alam kung sino dapat kong kontakin.
 scam_response,Kanino ba dapat lumapit para i-report ito?
@@ -866,7 +879,7 @@ scam_response,Ano gagawin ko kung naloko ako ng fake donation?
 scam_response,Ano dapat kong gawin kung na-scam ako sa ticket selling online?
 scam_response,Ano gagawin ko kung may nag-text at naloko ako sa promo scam?
 scam_response,Ano dapat kong gawin kung nabiktima ako ng tech support scam?
-scam_response,Ano ang dapat gawin kung mabiktima ako ng [topic]?
+scam_response,Ano dapat gawin kung mabiktima ako ng [topic]?
 scam_response,Ano dapat kong gawin kung na-scam ako sa delivery scam?
 scam_response,Ano gagawin ko kung nabiktima ako ng QR code scam?
 scam_response,Ano dapat kong gawin kung na-download ko pekeng app?
@@ -897,14 +910,14 @@ scam_response,Ano gagawin ko kapag naloko ako ng fake bank caller?
 scam_response,Ano dapat kong gawin pag na-click ko malicious link?
 scam_response,Ano gagawin ko kung na-scam ako sa GCash o online wallet?
 scam_response,Ano dapat gawin kapag may gumamit ng identity ko online?
-scam_response,Ano ang dapat gawin kung mabiktima ako ng pekeng apps at sites?
+scam_response,Ano dapat gawin kung mabiktima ako ng pekeng apps at sites?
 scam_response,Ano gagawin ko kung na-scam ako sa online loan app?
 scam_response,Ano dapat kong gawin kapag naloko ako ng fake seller?
 scam_response,Ano gagawin ko kung nabiktima ako ng romance scam?
 scam_response,Ano dapat kong gawin pag may nanghingi ng personal info at naibigay ko?
 scam_response,Ano dapat kong gawin pag na-hack email account ko?
 scam_response,Ano gagawin ko kung naloko ako sa fake job offer?
-scam_response,Ano ang gagawin kapag na-scam ako tungkol sa eleksyon?
+scam_response,Ano gagawin kapag na-scam ako tungkol sa eleksyon?
 scam_response,Ano gagawin ko kung nabiktima ako ng delivery scam?
 scam_response,Ano dapat kong gawin pag may nag-message na scam at napa-send ako ng pera?
 scam_response,Ano dapat kong gawin pag na-click ko phishing website?
@@ -927,11 +940,11 @@ scam_response,Saan ako pwedeng magreport ng online scam?
 scam_response,Paano ako magrereport sa kinauukulan kapag na-scam ako?
 scam_response,Kanino ako lalapit kung may phishing scam?
 scam_response,Saan dapat isumite reklamo?
-scam_response,Ano ang gagawin kapag na-scam ako ng nagpapanggap na gobyerno?
+scam_response,Ano gagawin kapag na-scam ako ng nagpapanggap na gobyerno?
 scam_response,Kanino ako magsusumbong kung na-hack account ko?
 scam_response,Saan ako pwedeng mag-file ng complaint laban sa scammer?
 scam_response,Paano magreport ng fake online seller?
-scam_response,Ano ang dapat gawin kung mabiktima ako ng business imposter scam?
+scam_response,Ano dapat gawin kung mabiktima ako ng business imposter scam?
 scam_response,Saan ako pwedeng humingi ng tulong para mabawi na-scam na pera?
 scam_response,Paano ako makikipag-ugnayan sa authorities tungkol sa scam?
 scam_response,Kanino ako magrereklamo kung nabiktima ako ng phishing?
@@ -942,21 +955,27 @@ scam_response,Saan ako pwedeng magreport ng text scam o spam?
 scam_response,Paano ako hihingi ng tulong kung na-scam ako sa online shopping?
 scam_response,Kanino ako dapat makipag-ugnayan para sa cybercrime report?
 scam_response,Saan ako pupunta para magsampa ng kaso laban sa scammer?
-scam_response,Ano dapat gawin kung mabiktima ako ng phishing email?
-scam_response,Ano dapat gawin kung mabiktima ako ng online banking scam?
-scam_response,Ano dapat gawin kung mabiktima ako ng investment scam?
 scam_response,Ano dapat gawin kung mabiktima ako ng fake online seller?
 scam_response,Ano dapat gawin kung mabiktima ako ng romance scam sa [topic]?
 scam_response,Ano dapat gawin kung mabiktima ako ng OTP scam?
 scam_response,Ano dapat gawin kung mabiktima ako ng delivery scam?
-scam_response,Ano dapat gawin kung mabiktima ako ng job offer scam?
-scam_response,Ano dapat gawin kung mabiktima ako ng crypto scam?
 scam_response,Ano dapat gawin kung mabiktima ako ng fake giveaway online?
 scam_response,Ano dapat gawin kung mabiktima ako ng identity theft online?
 scam_response,Ano dapat gawin kung mabiktima ako ng email attachment scam?
-scam_response,Ano dapat gawin kung mabiktima ako ng online marketplace scam?
-scam_response,Ano ang dapat gawin kung mabiktima ako ng travel scam?
+scam_response,Ano dapat gawin kung mabiktima ako ng travel scam?
 scam_response,Ano dapat kong gawin pag nagkaransomware cellphone ko?
+scam_response,"Bigla na lang na-lock files ko, ano kaya nangyari?"
+scam_response,"Hindi ko na mabuksan mga files ko, ano posibleng dahilan?"
+scam_response,"Biglang hindi ko na makita mga dokumento ko, ano nangyari?"
+scam_response,"Na-encrypt yata files ko at hindi ko ma-access, ano kaya ito?"
+scam_response,"Hindi ko na ma-open mga dokumento ko at may error, ano maaaring nangyari?"
+scam_response,Ano dapat kong gawin kung may tumatawag na kahina-hinala layunin?
+scam_response,Ano pwede kong gawin kapag may suspicious na tawag na natanggap ko?
+scam_response,Paano ako dapat mag-react kung may tumawag na parang scam?
+scam_response,Ano gagawin ko kung may tumatawag na hindi ko kilala at kahina-hinala?
+scam_response,Paano ko haharapin tawag na mukhang panloloko?
+,
+,
 ,
 scam_signs,Paano ko malalaman kung scam mensaheng natanggap ko? Ano ba ang mga palatandaan nito?
 scam_signs,Paano masasabi na panloloko isang text o email?
@@ -1011,11 +1030,9 @@ scam_signs,Ano ba ang mga palatandaan at babala ng mga crypto investment scams?
 scam_signs,Paano ko malalaman kung may panganib sa internet na dapat bantayan?
 scam_signs,Paano masisigurado na legit isang online transaction?
 scam_signs,Ano ang mga palatandaan na phishing scam ang isang mensahe?
-scam_signs,Paano malalaman kung government scam ito?
+scam_signs,Paano malalaman kung scam ito?
 scam_signs,Paano ko malalaman kung legit mensahe mula sa isang sikat na tao?
 scam_signs,Paano malalaman kung robocall ang tumatawag sa akin?
-scam_signs,Ano ang mga palatandaan ng bank impersonation scam?
-scam_signs,Ano ang mga palatandaan ng check overpayment scam?
 scam_signs,"May nagmessage na sikat na tao at humihingi ng address at bank details, legit ba to?"
 scam_signs,Ano ang mga ang mga palatandaan ng business imposter scam?
 scam_signs,Paano ko malalaman kung AI o pekeng larawan o video ang nakikita ko?
@@ -1120,7 +1137,7 @@ scam_signs,ano ang mga palatandaan na scam placement agency na nakausap ko?
 scam_signs,Paano ko malalaman kung scam nagpadala ng delivery notification sa akin?
 scam_signs,ano ang mga palatandaan ng parcel scam sa text o email?
 scam_signs,Paano ko matutukoy kung pekeng delivery notification natanggap ko?
-scam_signs,Paano malalaman kung election scam ito?
+scam_signs,Paano malalaman kung scam ito?
 scam_signs,"Nakatanggap ako ng text tungkol sa package, paano ko malalaman kung totoo ito?"
 scam_signs,Paano ko malalaman kung scam loan offer na natanggap ko?
 scam_signs,ano ang mga palatandaan ng pekeng online loan?
@@ -1296,22 +1313,22 @@ emotional_support,"Pakiramdam ko, lagi akong biktima."
 emotional_support,Parang gusto ko na lang sumuko sa lahat ng ito.
 emotional_support,Kinakabahan ako sa nangyari.
 emotional_support,Nag-aalala talaga ako ngayon.
-emotional_support,Hindi ako mapakali dahil dito.
+emotional_support,di ako mapakali dahil dito.
 emotional_support,Parang sobra akong na-stress sa nangyari.
 emotional_support,Medyo natatakot ako sa sitwasyon.
-emotional_support,Hindi ako makatulog kakaisip dito.
+emotional_support,di ako makatulog kakaisip dito.
 emotional_support,Sobrang nag-aalala ako na baka malala na ito.
 emotional_support,Parang kinakain ako ng kaba ngayon.
 emotional_support,Ang bigat ng pakiramdam ko dahil dito.
-emotional_support,Pakiramdam ko may mali pero hindi ko sigurado.
+emotional_support,Pakiramdam ko may mali pero di ko sigurado.
 emotional_support,Nakaka-anxious talaga yung nangyari.
 emotional_support,Pakiramdam ko ang dami kong iniisip dahil dito.
-emotional_support,Hindi ako mapalagay sa nangyari.
+emotional_support,di ako mapalagay sa nangyari.
 emotional_support,Parang gusto ko lang may makausap tungkol dito.
 emotional_support,Ang dami kong iniisip at nag-aalala ako.
 emotional_support,Pakiramdam ko sobrang overwhelming ng sitwasyon.
 emotional_support,Nagpa-panic ako kakaisip sa nangyari.
-emotional_support,Parang hindi ako mapanatag pagkatapos ng nangyari.
+emotional_support,Parang di ako mapanatag pagkatapos ng nangyari.
 emotional_support,Sobrang naguguluhan at nag-aalala ako ngayon.
 emotional_support,nakakatakot
 emotional_support,natatakot ako
@@ -1319,7 +1336,7 @@ emotional_support,nakakatakot naman mascam
 emotional_support,Parang nakakahiya akong nabiktima ng scam.
 emotional_support,Hiya na hiya ako sa nangyari sa akin.
 emotional_support,Pakiramdam ko ang tanga ko na na-scam ako.
-emotional_support,Hindi ko maiwasang ma-shock at ma-hiya sa nangyari.
+emotional_support,di ko maiwasang ma-shock at ma-hiya sa nangyari.
 emotional_support,Na-scam ako at sobra akong nahihiya.
 emotional_support,Pakiramdam ko nabigo ako sa sarili ko dahil naloko ako.
 emotional_support,Hiya at lungkot ang nararamdaman ko ngayon.
@@ -1329,16 +1346,16 @@ emotional_support,"Hiya na hiya, paano ako naloko?"
 emotional_support,Pakiramdam ko ang embarasado sa nangyari.
 emotional_support,Gusto kong itago ang nangyari kasi hiya ako.
 emotional_support,Nakakagalit ang nangyari.
-emotional_support,"Hiya at galit, hindi ko alam paano ko ito haharapin."
+emotional_support,"Hiya at galit, di ko alam paano ko ito haharapin."
 emotional_support,Pakiramdam ko ang tanga ko at walang kwenta na na-scam ako.
-emotional_support,Hindi ko na alam kung mapagkakatiwalaan ko pa ang sarili ko.
+emotional_support,di ko na alam kung mapagkakatiwalaan ko pa ang sarili ko.
 emotional_support,"Hiya at lungkot, paano ko naloko ng ganito?"
 emotional_support,Pakiramdam ko iniisip ng lahat na tanga ako.
-emotional_support,Hiya ko sa sarili ko na hindi ko napansin agad ang scam.
+emotional_support,Hiya ko sa sarili ko na di ko napansin agad ang scam.
 emotional_support,Na-scam ako at nahihiya akong magsabi sa iba.
 emotional_support,Hiya na hiya talaga ako.
 emotional_support,"Ang tanga ko talaga, na-scam ako."
-emotional_support,"Sobrang hiya, hindi ko alam paano nagsimula ito."
+emotional_support,"Sobrang hiya, di ko alam paano nagsimula ito."
 emotional_support,Pakiramdam ko napahiya ko ang sarili ko.
 emotional_support,"Nakakahiya, paano ko nahulog sa panlilinlang nila?"
 emotional_support,Hiya at lungkot ang halo sa nararamdaman ko.
@@ -1348,13 +1365,13 @@ emotional_support,"Sobrang nakakahiya, na-scam ako."
 emotional_support,"Hiya, gusto ko na lang humilom sa sarili."
 emotional_support,Nakakahiya kasi madali akong napaniwala.
 emotional_support,Hiya na hiya sa pamilya ko.
-emotional_support,"Hiya at takot, hindi ko alam kung paano aayusin."
+emotional_support,"Hiya at takot, di ko alam kung paano aayusin."
 emotional_support,"Ang hiya ko, paano ko ipapaliwanag sa iba?"
 emotional_support,"Nakakahiya, pakiramdam ko tanga ako."
 emotional_support,"Hiya at lungkot, iniisip ko kung paano ako naloko."
 emotional_support,"Sobrang hiya ko, gusto ko na lang lumayo."
-emotional_support,"Hiya, hindi ko dapat pinaniwalaan iyon."
-emotional_support,"Nakakahiya, hindi ko alam kung sino ang puwedeng lapitan."
+emotional_support,"Hiya, di ko dapat pinaniwalaan iyon."
+emotional_support,"Nakakahiya, di ko alam kung sino ang puwedeng lapitan."
 emotional_support,"Hiya at guilt, pakiramdam ko nabigo ako sa sarili ko."
 emotional_support,Galit ako sa nangyari.
 emotional_support,Pakiramdam ko nabiktima ako at galit.
@@ -1371,14 +1388,14 @@ emotional_support,Pakiramdam ko napahiya ako at nasaktan.
 emotional_support,Galit at pagkabigo ang nararamdaman ko.
 emotional_support,"Ang sama ng loob, paano nila nagawa ito?"
 emotional_support,Nasasaktan ako sa nangyari.
-emotional_support,Parang hindi patas ang nangyari.
+emotional_support,Parang di patas ang nangyari.
 emotional_support,Galit ako sa mga scammer na walang awa.
 emotional_support,Pakiramdam ko nabigo ako sa sarili ko.
-emotional_support,"Ang inis ko, hindi ko alam kung paano haharapin."
+emotional_support,"Ang inis ko, di ko alam kung paano haharapin."
 emotional_support,"Galit at frustrasyon, gusto ko lang bumangon."
 emotional_support,"Sobrang sama ng loob, paano nila niloko ang lahat?"
 emotional_support,Pakiramdam ko nilabag nila ang tiwala ko sa akin.
-emotional_support,"inis at pagkabigo, hindi ko pa rin makalimutan."
+emotional_support,"inis at pagkabigo, di ko pa rin makalimutan."
 emotional_support,Galit ako sa sitwasyon na ito.
 emotional_support,Nasasaktan ako at inis sa nangyari.
 emotional_support,Parang nagalit ang loob ko sa sarili ko.
@@ -1387,10 +1404,10 @@ emotional_support,Pakiramdam ko naabuso ang tiwala ko.
 emotional_support,"Galit at hiya, paano ko haharapin?"
 emotional_support,Parang sinamantala nila ang kabutihan ko.
 emotional_support,"inis at galit, gusto kong iwasan ang ganito sa susunod."
-emotional_support,"Sobrang galit at frustrasyon, hindi ko alam anong gagawin."
+emotional_support,"Sobrang galit at frustrasyon, di ko alam anong gagawin."
 emotional_support,Pakiramdam ko nilabag nila ang aking karapatan.
 emotional_support,Galit ako sa mga taong nanloko sa akin.
-emotional_support,"Sobrang inis, hindi ko dapat pinaniwalaan iyon."
+emotional_support,"Sobrang inis, di ko dapat pinaniwalaan iyon."
 emotional_support,Pakiramdam ko nasaktan ang loob ko.
 emotional_support,"Galit at pagkadismaya, paano ko ito aayusin?"
 emotional_support,"Sobrang inis, parang wala akong magawa."
@@ -1398,217 +1415,217 @@ emotional_support,"Galit at sama ng loob, gusto kong magreklamo sa scammer."
 emotional_support,Nakakagalit talaga ang nangyari sa akin.
 emotional_support,Nakakagalit na naloko ako ng scammer.
 emotional_support,"Nakakagalit, paano nila nagawa ito?"
-emotional_support,"Sobrang nakakagalit, hindi ko alam anong gagawin."
+emotional_support,"Sobrang nakakagalit, di ko alam anong gagawin."
 emotional_support,"Nakakagalit, bakit may mga taong nanlilinlang?"
 emotional_support,"Nakakagalit, pakiramdam ko nilabag nila ang tiwala ko."
 emotional_support,"Nakakagalit, parang sinamantala nila ako."
 emotional_support,"Nakakagalit, sobra akong galit sa nangyari."
-emotional_support,"Nakakagalit, hindi ko dapat pinaniwalaan iyon."
+emotional_support,"Nakakagalit, di ko dapat pinaniwalaan iyon."
 emotional_support,"Nakakagalit, gusto kong bumangon at makaiwas sa ganito sa hinaharap."
 emotional_support,"Nakakagalit talaga, paano ako naloko?"
 emotional_support,"Nakakagalit, ang sama ng loob ko sa scammer."
 emotional_support,"Nakakagalit, paano nila napaniwala ang mga tao?"
 emotional_support,"Nakakagalit, iniisip ko kung tanga ba talaga ako."
 emotional_support,"Nakakagalit, sobra ang galit ko sa sitwasyon."
-emotional_support,"Nakakagalit, parang hindi patas ang nangyari."
+emotional_support,"Nakakagalit, parang di patas ang nangyari."
 emotional_support,"Nakakagalit, galit na galit ako sa sarili ko."
 emotional_support,"Nakakagalit, paano ko haharapin ang nangyari?"
 emotional_support,"Nakakagalit, pakiramdam ko nasaktan ang loob ko."
-emotional_support,"Nakakagalit, hindi ko alam kung kanino ako hihingi ng tulong."
-emotional_support,Hindi ko alam kung sino na ang puwede kong pagkatiwalaan.
+emotional_support,"Nakakagalit, di ko alam kung kanino ako hihingi ng tulong."
+emotional_support,di ko alam kung sino na ang puwede kong pagkatiwalaan.
 emotional_support,Pakiramdam ko kasalanan ko kung bakit ako naloko.
 emotional_support,Siguro kasalanan ko rin kung bakit nangyari ito.
-emotional_support,Hindi ko alam kung paano ako napaniwala.
+emotional_support,di ko alam kung paano ako napaniwala.
 emotional_support,Pakiramdam ko napaka-pabaya ko.
-emotional_support,Hindi ko na alam kung kanino dapat maniwala.
+emotional_support,di ko na alam kung kanino dapat maniwala.
 emotional_support,Iniisip ko kung mali ba ang ginawa ko.
 emotional_support,Parang ako ang may kasalanan sa nangyari.
-emotional_support,Hindi ko maintindihan kung bakit ako naniwala.
+emotional_support,di ko maintindihan kung bakit ako naniwala.
 emotional_support,Pakiramdam ko ako ang may mali.
 emotional_support,Pakiramdam ko ang dali kong naloko.
 emotional_support,Iniisip ko kung dapat ba akong nagtiwala.
-emotional_support,Hindi ko alam kung dapat pa ba akong magtiwala sa iba.
+emotional_support,di ko alam kung dapat pa ba akong magtiwala sa iba.
 emotional_support,Pakiramdam ko ang hina ko dahil naloko ako.
-emotional_support,Hindi ko alam kung bakit hindi ko agad napansin.
+emotional_support,di ko alam kung bakit di ko agad napansin.
 emotional_support,Iniisip ko kung sana naging mas maingat ako.
 emotional_support,Pakiramdam ko nagkamali ako ng desisyon.
 emotional_support,Pakiramdam ko ako ang dahilan kung bakit nangyari ito.
-emotional_support,Iniisip ko kung sana hindi na lang ako naniwala.
+emotional_support,Iniisip ko kung sana di na lang ako naniwala.
 emotional_support,Pakiramdam ko mali ang ginawa ko.
-emotional_support,Hindi ko alam kung paano ako nagtiwala agad.
+emotional_support,di ko alam kung paano ako nagtiwala agad.
 emotional_support,Iniisip ko kung dapat ba akong nagduda.
 emotional_support,Pakiramdam ko dapat alam ko na ito.
-emotional_support,Hindi ko alam kung bakit ako napaniwala.
+emotional_support,di ko alam kung bakit ako napaniwala.
 emotional_support,Pakiramdam ko nagkulang ako sa pag-iingat.
 emotional_support,Iniisip ko kung sana nagtanong muna ako sa iba.
-emotional_support,Hindi ko alam kung bakit hindi ako nag-isip agad.
+emotional_support,di ko alam kung bakit di ako nag-isip agad.
 emotional_support,Pakiramdam ko napakadali kong napaniwala.
 emotional_support,Iniisip ko kung ako ba ang may kasalanan.
-emotional_support,Pakiramdam ko dapat hindi ako nagpadala ng pera.
-emotional_support,Iniisip ko kung bakit hindi ako naging mas maingat.
-emotional_support,Hindi ko alam kung paano ako naging ganito kadaling maniwala.
+emotional_support,Pakiramdam ko dapat di ako nagpadala ng pera.
+emotional_support,Iniisip ko kung bakit di ako naging mas maingat.
+emotional_support,di ko alam kung paano ako naging ganito kadaling maniwala.
 emotional_support,Iniisip ko kung sana naghintay muna ako.
-emotional_support,Hindi ko alam kung sino na ang mapagkakatiwalaan ko.
+emotional_support,di ko alam kung sino na ang mapagkakatiwalaan ko.
 emotional_support,Pakiramdam ko ako ang nagkamali.
 emotional_support,Iniisip ko kung sana nakinig ako sa iba.
-emotional_support,Ano ba dapat kong gawin ngayonÃ¢Â€Â¦ hindi ko na maintindihan.
-emotional_support,"Grabe, hindi ko alam paano nagsimula lahat ng ito."
+emotional_support,Ano ba dapat kong gawin ngayonÃ¢Â€Â¦ di ko na maintindihan.
+emotional_support,"Grabe, di ko alam paano nagsimula lahat ng ito."
 emotional_support,Parang ang hirap tanggapin ng nangyari.
 emotional_support,Bakit ganito yung nangyari sa akin?
-emotional_support,"Hindi ko ma-process lahat, ang gulo ng isip ko."
-emotional_support,Pwede ba akong humingi ng tulongÃ¢Â€Â¦ hindi ko kaya mag-isa.
+emotional_support,"di ko ma-process lahat, ang gulo ng isip ko."
+emotional_support,Pwede ba akong humingi ng tulongÃ¢Â€Â¦ di ko kaya mag-isa.
 emotional_support,Parang gusto ko na lang umiyak pero wala akong lakas.
-emotional_support,Hindi ko alam kung saan magsisimula ulit.
+emotional_support,di ko alam kung saan magsisimula ulit.
 emotional_support,Ang sakit isipin na nangyari ito sa akin.
-emotional_support,Hindi ko inaasahan na aabot sa ganito.
+emotional_support,di ko inaasahan na aabot sa ganito.
 emotional_support,Tama ba yung ginawa ko o mali talaga?
-emotional_support,Hindi ko alam kung overreacting lang ba ako o seryoso na ito.
+emotional_support,di ko alam kung overreacting lang ba ako o seryoso na ito.
 emotional_support,Ang daming tanong sa isip ko ngayon.
-emotional_support,Hindi ko maintindihan kung paano ako napunta sa ganitong sitwasyon.
-emotional_support,"Parang ang bilisang ng lahat, hindi ko nasundan."
+emotional_support,di ko maintindihan kung paano ako napunta sa ganitong sitwasyon.
+emotional_support,"Parang ang bilisang ng lahat, di ko nasundan."
 emotional_support,Nalilito ako kung ano yung susunod kong gagawin.
-emotional_support,Hindi ko sure kung safe pa ba ako ngayon.
+emotional_support,di ko sure kung safe pa ba ako ngayon.
 emotional_support,Paano kung may mangyari pa ulit?
-emotional_support,Hindi ko alam kung dapat pa ba akong magtiwala ulit.
-emotional_support,Parang hindi ko na kilala sarili ko pakatapos nitong nangyare.
+emotional_support,di ko alam kung dapat pa ba akong magtiwala ulit.
+emotional_support,Parang di ko na kilala sarili ko pakatapos nitong nangyare.
 emotional_support,Ang lungkot lang talaga ng nangyari.
-emotional_support,Hindi ko maalisang sa isip ko yung nangyari.
+emotional_support,di ko maalisang sa isip ko yung nangyari.
 emotional_support,Parang may mali pero huli ko na napansin.
 emotional_support,Ang hirap lang tanggapin na naloko ako.
 emotional_support,Parang nawala yung peace of mind ko.
-emotional_support,Hindi na ako komportable sa nangyari.
+emotional_support,di na ako komportable sa nangyari.
 emotional_support,Parang may nawala sa akin dahil dito.
-emotional_support,Hindi ko maipaliwanag yung nararamdaman ko.
+emotional_support,di ko maipaliwanag yung nararamdaman ko.
 emotional_support,Ang bigat lang talaga dalhin nito.
 emotional_support,Parang gusto ko lang magpahinga muna sa lahat.
 emotional_support,Sana nag-isip pa ako ng mabuti bago ako nag-decide.
 emotional_support,Sana may napagtanungan ako bago nangyari ito.
-emotional_support,"Hindi ko na mababalik yung ginawa ko, ano naÃ¢Â€Â¦"
+emotional_support,"di ko na mababalik yung ginawa ko, ano naÃ¢Â€Â¦"
 emotional_support,Sana naging mas maingat ako kahit konti.
-emotional_support,Hindi ko alam bakit hindi ako nagduda agad.
-emotional_support,Sana hindi ako nagmadali.
+emotional_support,di ko alam bakit di ako nagduda agad.
+emotional_support,Sana di ako nagmadali.
 emotional_support,Parang mali yung naging choice ko.
 emotional_support,Kung pwede lang ibalik yung orasÃ¢Â€Â¦
-emotional_support,Sana hindi ako nagtiwala agad.
+emotional_support,Sana di ako nagtiwala agad.
 emotional_support,Parang may pagkukulang ako sa sarili ko.
 emotional_support,"Baka may mangyari pang masama, yun ang ang kinakatakot ko."
-emotional_support,Hindi ako mapalagay hanggang ngayon.
+emotional_support,di ako mapalagay hanggang ngayon.
 emotional_support,"Parang may susunod pa, yun ang ang iniisip ko."
-emotional_support,Hindi ako kampante sa sitwasyon ko.
+emotional_support,di ako kampante sa sitwasyon ko.
 emotional_support,Paano kung gamitin nila yung details ko?
-emotional_support,Parang hindi pa tapos yung problema ko.
+emotional_support,Parang di pa tapos yung problema ko.
 emotional_support,May kaba pa rin kahit tapos na.
-emotional_support,Hindi ako mapanatag kahit anong gawin ko.
-emotional_support,Parang may mali pa na hindi ko makita.
-emotional_support,Hindi ako sure kung okay na ba talaga lahat.
+emotional_support,di ako mapanatag kahit anong gawin ko.
+emotional_support,Parang may mali pa na di ko makita.
+emotional_support,di ako sure kung okay na ba talaga lahat.
 emotional_support,Nahihirapan akong mag-open up tungkol dito.
-emotional_support,Hindi ko kayang ikwento agad sa iba.
+emotional_support,di ko kayang ikwento agad sa iba.
 emotional_support,Parang gusto kong sarilinin na lang muna.
 emotional_support,Ayoko munang may makaalam.
-emotional_support,Hindi ko alam paano ko sasabihin sa kanila.
+emotional_support,di ko alam paano ko sasabihin sa kanila.
 emotional_support,Baka husgahan nila ako pag nalaman nila.
 emotional_support,Nahihirapan akong tanggapin sa sarili ko.
 emotional_support,Parang gusto ko muna mag-isip mag-isa.
-emotional_support,Hindi ko pa kayang pag-usapan yung nangyari.
+emotional_support,di ko pa kayang pag-usapan yung nangyari.
 emotional_support,Parang kailangan ko muna ng oras para i-process lahat.
-emotional_support,Hindi ko pa rin gets kung paano nangyari yun.
-emotional_support,"Ang bilisang ng mga pangyayari, hindi ko nasundan."
-emotional_support,Parang hindi pa nag-si-sink in sa akin.
+emotional_support,di ko pa rin gets kung paano nangyari yun.
+emotional_support,"Ang bilisang ng mga pangyayari, di ko nasundan."
+emotional_support,Parang di pa nag-si-sink in sa akin.
 emotional_support,Totoo ba talaga yung nangyari?
 emotional_support,Parang ang hirap pagkatiwalaan.
-emotional_support,Hindi ko ma-absorb lahat.
-emotional_support,"Ang daming nangyari, hindi ko na-track."
+emotional_support,di ko ma-absorb lahat.
+emotional_support,"Ang daming nangyari, di ko na-track."
 emotional_support,Parang lutang pa rin ako hanggang ngayon.
-emotional_support,Hindi ko alam kung anong iisipin ko muna.
+emotional_support,di ko alam kung anong iisipin ko muna.
 emotional_support,Parang ang gulo talaga ng utak ko ngayon
 emotional_support,Parang sabay-sabay yung problema ko ngayon.
-emotional_support,Hindi ko na alam saan ako magsisimula.
-emotional_support,"Ang dami kong iniisip, hindi ko na kaya."
+emotional_support,di ko na alam saan ako magsisimula.
+emotional_support,"Ang dami kong iniisip, di ko na kaya."
 emotional_support,Parang napupuno na ako.
-emotional_support,Hindi ko na ma-handle yung situation.
+emotional_support,di ko na ma-handle yung situation.
 emotional_support,"Gusto ko lang muna huminga, ang bigat."
-emotional_support,Hindi ko na ma-control yung kaba ko.
+emotional_support,di ko na ma-control yung kaba ko.
 emotional_support,Parang sasabog na yung ulo ko kakaisip.
-emotional_support,Hindi ko na maayos yung thoughts ko.
+emotional_support,di ko na maayos yung thoughts ko.
 emotional_support,Parang lahat sabay-sabay nangyari.
 emotional_support,Ang sakit lang isipin na nangyari yun ang sa akin.
-emotional_support,Hindi ko alam bakit ganito yung nangyari.
+emotional_support,di ko alam bakit ganito yung nangyari.
 emotional_support,Parang ang unfair ng lahat.
-emotional_support,Hindi ko deserve yung nangyari.
+emotional_support,di ko deserve yung nangyari.
 emotional_support,Ang hirap lang tanggapin honestly.
-emotional_support,Hindi ko ma-let go agad yung nangyari.
+emotional_support,di ko ma-let go agad yung nangyari.
 emotional_support,Ang hirap mag-move on agad.
-emotional_support,Hindi ko pa kaya i-brush off lang.
-emotional_support,Parang hindi pa ako okay talaga.
+emotional_support,di ko pa kaya i-brush off lang.
+emotional_support,Parang di pa ako okay talaga.
 emotional_support,aka ako talaga yung may mali dito.
 emotional_support,Iniisip ko kung nagkulang ba ako.
-emotional_support,Hindi ko alam kung bakit ako naniwala agad.
+emotional_support,di ko alam kung bakit ako naniwala agad.
 emotional_support,Baka masyado akong naging careless.
-emotional_support,Hindi ko sure kung tama ba decisions ko.
+emotional_support,di ko sure kung tama ba decisions ko.
 emotional_support,Baka ako rin may pagkukulang.
-emotional_support,Hindi ko alam kung saan ako nagkamali.
+emotional_support,di ko alam kung saan ako nagkamali.
 emotional_support,Iniisip ko kung may mali ba sa approach ko.
 emotional_support,Baka masyado akong naging kampante.
-emotional_support,Hindi ko alam kung paano ko hindi nakita yun.
+emotional_support,di ko alam kung paano ko di nakita yun.
 emotional_support,Paano kung may mangyari pang iba?
-emotional_support,Baka hindi pa ito yung last na problema.
+emotional_support,Baka di pa ito yung last na problema.
 emotional_support,Iniisip ko kung may epekto pa ito later.
 emotional_support,Paano kung maulit ulit ito?
 emotional_support,Baka may ibang issue pang lalabas.
-emotional_support,Hindi ako mapakali sa pwedeng mangyari.
+emotional_support,di ako mapakali sa pwedeng mangyari.
 emotional_support,Paano kung lumaki pa yung problema?
 emotional_support,Iniisip ko kung safe pa ba yung accounts ko.
 emotional_support,Baka may ibang taong maapektuhan pa.
-emotional_support,Hindi ako sure kung tapos na talaga.
+emotional_support,di ako sure kung tapos na talaga.
 emotional_support,Ayoko muna mag-isip tungkol dito.
 emotional_support,Gusto ko muna iwasan yung issue.
-emotional_support,Hindi ko pa kayang harapin ngayon.
+emotional_support,di ko pa kayang harapin ngayon.
 emotional_support,Parang kailangan ko muna ng space.
 emotional_support,Ayoko muna pag-usapan kahit kanino.
 emotional_support,Gusto ko muna mapag-isa.
-emotional_support,Hindi ko muna kaya mag-decide agad.
+emotional_support,di ko muna kaya mag-decide agad.
 emotional_support,Parang gusto ko muna tumahimik.
-emotional_support,Hindi ko muna kayang mag-explain.
+emotional_support,di ko muna kayang mag-explain.
 emotional_support,Gusto ko muna magpahinga sa lahat.
 emotional_support,Normal lang ba na ganito nararamdaman ko?
 emotional_support,May pag-asa pa bang maayos ito?
 emotional_support,May chance pa ba na bumalik sa dati?
 emotional_support,Kaya pa ba itong ayusin?
 emotional_support,May paraan pa ba para ma-fix ito?
-emotional_support,Hindi ko alam kung may solution pa.
+emotional_support,di ko alam kung may solution pa.
 emotional_support,May pwede pa bang gawin ngayon?
-emotional_support,Hindi ko sure kung may pag-asa pa.
+emotional_support,di ko sure kung may pag-asa pa.
 emotional_support,Pwede pa ba itong ma-resolve?
 emotional_support,Ang hirap i-explain ng feelings ko ngayon.
 emotional_support,Ang gulo talaga ng nararamdaman ko.
-emotional_support,"Minsan okay ako, tapos biglang hindi ulit."
-emotional_support,Hindi ko alam kung kanino ako hihingi ng tulong.
-emotional_support,Hindi ko alam kung saan magsusumbong tungkol dito.
+emotional_support,"Minsan okay ako, tapos biglang di ulit."
+emotional_support,di ko alam kung kanino ako hihingi ng tulong.
+emotional_support,di ko alam kung saan magsusumbong tungkol dito.
 emotional_support,di ko na alam sino mapagkakatiwalaan ko
 emotional_support,Baka ako rin may pagkukulang.
-emotional_support,Hindi ko alam kung saan ako nagkamali.
+emotional_support,di ko alam kung saan ako nagkamali.
 emotional_support,Iniisip ko kung may mali ba sa approach ko.
 emotional_support,Baka masyado akong naging kampante.
-emotional_support,Hindi ko alam kung paano ko hindi nakita yun.
+emotional_support,di ko alam kung paano ko di nakita yun.
 emotional_support,Paano kung may mangyari pang iba?
-emotional_support,Baka hindi pa ito yung last na problema.
+emotional_support,Baka di pa ito yung last na problema.
 emotional_support,Iniisip ko kung may epekto pa ito later.
 emotional_support,Paano kung maulit ulit ito?
 emotional_support,Baka may ibang issue pang lalabas.
-emotional_support,Hindi ako mapakali sa pwedeng mangyari.
+emotional_support,di ako mapakali sa pwedeng mangyari.
 emotional_support,Paano kung lumaki pa yung problema?
 emotional_support,Iniisip ko kung safe pa ba yung accounts ko.
 emotional_support,Baka may ibang taong maapektuhan pa.
-emotional_support,Hindi ako sure kung tapos na talaga.
+emotional_support,di ako sure kung tapos na talaga.
 emotional_support,Ayoko muna mag-isip tungkol dito.
 emotional_support,Gusto ko muna iwasan yung issue.
-emotional_support,Hindi ko pa kayang harapin ngayon.
+emotional_support,di ko pa kayang harapin ngayon.
 emotional_support,Parang kailangan ko muna ng space.
 emotional_support,Ayoko muna pag-usapan kahit kanino.
 emotional_support,Gusto ko muna mapag-isa.
-emotional_support,Hindi ko muna kaya mag-decide agad.
+emotional_support,di ko muna kaya mag-decide agad.
 emotional_support,Parang gusto ko muna tumahimik.
-emotional_support,Hindi ko muna kayang mag-explain.
+emotional_support,di ko muna kayang mag-explain.
 emotional_support,Gusto ko muna magpahinga sa lahat.
 emotional_support,Normal lang ba na ganito nararamdaman ko?
 emotional_support,May pag-asa pa bang maayos ito?
@@ -1616,23 +1633,23 @@ emotional_support,Pwede pa bang may gawin dito?
 emotional_support,May chance pa ba na bumalik sa dati?
 emotional_support,Kaya pa ba itong ayusin?
 emotional_support,May paraan pa ba para ma-fix ito?
-emotional_support,Hindi ko alam kung may solution pa.
+emotional_support,di ko alam kung may solution pa.
 emotional_support,May pwede pa bang gawin ngayon?
-emotional_support,Hindi ko sure kung may pag-asa pa.
+emotional_support,di ko sure kung may pag-asa pa.
 emotional_support,Pwede pa ba itong ma-resolve?
 emotional_support,Ang hirap i-explain ng feelings ko ngayon.
 emotional_support,Ang gulo talaga ng nararamdaman ko.
-emotional_support,"Minsan okay ako, tapos biglang hindi ulit."
+emotional_support,"Minsan okay ako, tapos biglang di ulit."
 emotional_support,"Maraming salamat sa tulong, medyo mas malinaw na sa akin ngayon."
 emotional_support,"Salamat, nabawasan na yung pagkalito ko."
 emotional_support,"Maraming salamat, mas kampante na ako ngayon."
-emotional_support,"Salamat sa paliwanag, mas naintindihan ko na."
-emotional_support,"Salamat, hindi na ako gaanong nag-aalala."
+emotional_support,Salamat sa paliwanag.
+emotional_support,"Salamat, di na ako gaanong nag-aalala."
 emotional_support,"Maraming salamat, mas okay na pakiramdam ko ngayon."
 emotional_support,"Salamat, parang mas nagiging klaro na ang lahat."
 emotional_support,"Maraming salamat sa tulong, mas confident na ako."
 emotional_support,"Salamat, nabawasan na yung takot ko."
 emotional_support,"Salamat sa explanation, mas panatag na loob ko."
 emotional_support,"Maraming salamat, mas naiintindihan ko na kung ano ang gagawin."
-emotional_support,"Salamat, hindi na ako masyadong nalilito."
+emotional_support,"Salamat, di na ako masyadong nalilito."
 emotional_support,"Maraming salamat, mas maayos na pakiramdam ko ngayon."

@@ -74,6 +74,15 @@
             "confused_response": "Ang AI o Artificial Intelligence ay parang utak ng computer. Dati, ang computer ay sumusunod lang sa utos mo. Ngayon, dahil sa AI, puwede na siyang mag-isip at sumagot mag-isa.\n\nHalimbawa:\n• Yung nagsasagot sa'yo sa chatbot ng bangko - AI yan\n• Yung nakakausap mo sa telepono na \"Press 1 for English\" - may AI na\n• Yung nag-susuggest ng palabas sa Netflix - AI rin\nMabuti yan kung tumutulong. Pero may masasamang tao na gumagamit ng AI para gumawa ng pekeng video o panloloko. Kaya mag-ingat pa rin.",
             "context": "ai_&_deepfake_signs"
         },
+        "data_protection_importance": {
+            "keywords": {
+                "first": ["kailangan", "halaga", "importante", "importance"],
+                "second": ["data", "impormasyon", "information"]
+            },
+            "response": "Mahalaga ang pag-unawa sa kahalagahan ng privacy para malaman mo kung bakit kailangan itong protektahan.\n\nKapag nauunawaan mo ang kahalagahan nito, mas magiging motivated kang ingatan ang iyong personal na impormasyon. Makakatulong ka rin na turuan ang iba kung bakit importante ito.\n\nKapag naintindihan ng lahat ang kahalagahan ng privacy, mas magiging maingat sila sa pagbibigay ng personal na impormasyon. Mas madali rin silang humingi ng tulong kapag may duda sila.\n\nSa madaling salita, protektahan ang privacy para maiwasan ang panlilinlang at pagnanakaw ng identity.", 
+            "confused_response": "Mahalagang ingatan ang iyong sariling impormasyon at magkaroon ng privacy dito.\n\nKasi kapag kinuha nila yan, puwede nilang:\n\n• Gamitin ang pangalan mo para mang-utang\n• Buksan ang bank account gamit ang identity mo\n• Kunin ang pera mo\n• Siraan ang pangalan mo at marami pang iba.\n\nParang ganito: Kung binigay mo ang susi ng bahay mo sa hindi kakilala, papasok sila at kukunin lahat ng gamit mo. Ganun din ang personal info - susi yan ng buhay mo.\n\nKaya huwag basta ibigay ang birthday, address, SSS number, o ano pang importante impormasyon. Ingatan mo yan para hindi ka manloko.",
+            "context": "personal_data_privacy"
+        },
         "digital_safety_importance": {
             "keywords": {
                 "first": ["kailangan", "halaga", "importante", "importance"],
@@ -91,6 +100,15 @@
             "response": "Kailangan mong maging mas maingat online dahil maraming cybercrime ang nangyayari, lalo na sa mga nakatatanda. Ayon sa mga ulat, malaking halaga ng pera ang nawawala dahil sa panloloko sa internet, at patuloy pa itong tumataas. Maraming scam ang target ang seniors dahil mas madali silang malinlang.\n\nAng magandang balita, karamihan sa mga panloloko ay maiiwasan kung may sapat na kaalaman at pag-iingat. Sa pamamagitan ng pagiging mapanuri at hindi basta pagtitiwala sa mga mensahe o impormasyon online, mas mapoprotektahan mo ang iyong sarili.", 
             "confused_response": "Kailangan mong mag-ingat online dahil may mga taong nanloloko sa internet at maaaring mawala ang iyong pera o impormasyon. Madalas target ang mga nakatatanda kaya importante ang pagiging maingat.\n\nAng mabuti, maraming scam ang maiiwasan kung hindi agad nagtitiwala at nagche-check muna bago gumawa ng aksyon.",
             "context": "digital_safety"
+        },
+        "scam_examples": {
+            "keywords": {
+                "first": ["halimbawa", "example"],
+                "second": ["scam", "pangloko", "linlang", "panloloko"]
+            },
+            "response": "Maraming uri ng scam. Narito ang mga halimbawa:\n\n• Phishing scam - May nag-text na parang galing sa bangko: \"Your account will be locked. Click this link to verify.\" Pag nag-click ka, kukunin nila ang password mo.\n• Lottery scam - \"Nanalo ka ng 1 million! Magbayad lang ng processing fee na 5,000.\" Pagkabayad mo, mawawala sila.\n• Romance scam - May nag-chat sa Facebook, naging close kayo, tapos hihiram ng pera. Pagkabigay mo, block ka na nila.\n• Delivery scam - \"May package ka, bayaran ang shipping fee.\" Pero wala naman talagang package.\n\nLahat yan ay paraan para nakawin ang pera mo.",
+            "confused_response": "Oo, maraming scam. Ito ang madalas na nangyayari:\n\n• Phishing scam - May text: \"I am from BDO. Your account has problem. Send your password.\" Fake yan. Ang bangko ay hindi humihingi ng password.\n• Lottery scam - \"Nanalo ka! Pero bayaran muna ang buwis 10,000.\" Wala kang nilaro, paano ka nanalo? Scam yan.\n• Romance scam - May nag-message sa Facebook na parang kaibigan mo: \"Emergency, pautang.\" Pag tinawag mo, iba ang sumagot. Hina-hack pala ang account niya.\n• Delivery scam - \"May padala ka, babayaran ito ng 500.\" Pero wala namang inaasahang padala.\n\nHuwag agad maniwala. Tumawag at magtanong muna para sigurado.",
+            "context": "scam"
         },
         "lottery_scam": {
             "keywords": {
@@ -210,6 +228,16 @@
             "response": "Ang phony apps at fake shopping sites scam ay panloloko kung saan gumagawa ang scammers ng apps o website na kamukha ng totoong online store. Layunin nitong nakawin ang iyong credit card details at personal na impormasyon.",
             "confused_response": "Ang scam na ito ay gumagamit ng pekeng app o website na mukhang totoong online shop para makuha ang iyong impormasyon o pera.",
             "context": "scam_types"
+        },
+        "romance_scam_online": {
+            "keywords": {
+                "first": ["romance", "dating", "relationship"],
+                "second": ["scam", "loloko"],
+                "third": ["online", "social media", "internet", "socials"]
+            },
+            "response": "Oo, nangyayari ang romance scam sa social media.\n\nMaraming scammer ang gumagamit ng Facebook, dating apps, at iba pang social media platforms para makahanap ng biktima. Kadalasan dito nagsisimula ang pakikipagkilala bago sila humingi ng pera.\n\nGanito ang karaniwang nangyayari: Magpapakilala sila, magiging mabait at sweet, at unti-unting kukunin ang tiwala mo. Aabutin ito ng ilang linggo o buwan. Kapag nakuha na nila ang tiwala mo, saka sila hihingi ng pera gamit ang iba't ibang dahilan.\n\nDumarami ang kaso ng love scam bawat taon. Huwag basta magbigay ng personal na impormasyon o pera sa taong nakilala lang online.",
+            "confused_response": "May scam ba sa social media na may romance? Oo, maraming nangyayari.\n\nAng scammer ay naghahanap ng taong bibiktimahin sa Facebook o dating apps. Magpapanggap silang mabait at may nararamdaman sayo. Umaabot ng ilang linggo o buwan ang pag-aabang nila para makuha ang tiwala mo.\n\nPagkatapos, sabihin nila may problema sila at kailangan ng pera—para sa doctor, para sa ticket, o iba pang mga rason.\n\nMaraming Pilipino ang nakalusot dito. Kaya, huwag magbigay ng pera sa taong nakilala mo lang online. Kahit gaano sila ka-sweet o kabait, huwag agad magtiwala.",
+            "context": "romance_scam"
         },
         "romance_scam": {
             "keywords": {
@@ -376,7 +404,7 @@
                 "first": ["krimen", "panganib", "crime"],
                 "second": ["internet", "online", "cyber"]
             },
-            "response": "Ang cybercrime ay krimen na ginagawa gamit ang computer, cellphone, o internet. Kabilang dito ang panloloko online, pagnanakaw ng personal na impormasyon, pag-hack ng accounts, at pagpapadala ng scam messages o links.Halimbawa ng cybercrime ang phishing scams, identity theft, at pagkalat ng virus o malware.Sa madaling salita, ang cybercrime ay krimen na gumagamit ng technology para manloko, magnakaw, o manira ng impormasyon.",
+            "response": "Ang cybercrime ay krimen na ginagawa gamit ang computer, cellphone, o internet. Kabilang dito ang panloloko online, pagnanakaw ng personal na impormasyon, pag-hack ng accounts, at pagpapadala ng scam messages o links.Halimbawa ng cybercrime ang phishing scams, identity theft, at pagkalat ng virus o malware. Sa madaling salita, ang cybercrime ay krimen na gumagamit ng technology para manloko, magnakaw, o manira ng impormasyon.",
             "confused_response": "Ang Cybercrime ay mga krimen sa internet o cellphone.\n\nMga halimbawa:\n• Panloloko online - May nag-text na nanalo ka ng premyo, pero kailangan mo munang magbayad. Scam yan.\n• Pagnanakaw ng impormasyon - Kinuha nila ang password mo at ninakaw ang laman ng iyong bank account.\n• Hacking - Nakapasok sila sa Facebook mo at nag-post ng kung ano-ano.\n• Virus - May na-download ka na file, ngayon puro ads na ang cellphone mo o kaya naman ay hindi na gumagana.\nLahat ng ito ay cybercrime. Kapag nakaramdam ka na naloloko ka online, tumawag agad sa pulis o sa bantay cyber ng NBI.",
             "context": "general"
         },
@@ -427,6 +455,34 @@
         }
     },
     "prevent_scam": {
+        "fake_promo_sale_prevention": {
+            "keywords": {
+                "first": ["peke", "fake", "di totoo"],
+                "second": ["promo", "sale"]
+            },
+            "response": "Para maiwasan ang pekeng promo o sale, maging mapanuri at hindi basta padalos-dalos sa pagbili.\n\nMag-ingat sa mga sobrang murang presyo o promos na parang \"too good to be true.\" Madalas itong ginagamit ng scammers para makaakit ng biktima.\n\nSiguraduhin na ang promo ay galing sa official page o website ng brand o store. Iwasan ang mga links mula sa text, chat, o unknown sender.\n\nI-check ang reviews at feedback ng ibang buyers bago bumili para malaman kung legit ang seller.\n\nHuwag basta mag-click ng links o magbigay ng personal na impormasyon sa mga kahina-hinalang offers.",
+            "confused_response": "Nakakita ka ba ng sale na sobrang mura? Baka pekeng promo lang ito.\n\nKung ang presyo ay parang imposible at sobrang baba, mag-isip muna. Karaniwan itong trick ng scammer para makaakit ng tao.\n\nTingnan kung saan galing ang promo. Dapat mula sa official Facebook o website ng store. Kung galing sa text o chat mula sa hindi kakilala, huwag kang mag-click.\n\nBasahin ang feedback ng iba na bumili na sa store na yan. Kung maraming positive review, mas malamang na totoo ito.\n\nHuwag magbigay ng impormasyon sa mga suspicious na promo.",
+            "context": "online_shopping_scam"
+        },
+        "online_privacy": {
+            "keywords": {
+                "first": ["private", "pribado", "tago", "secure"],
+                "second": ["ko", "presensya", "acc", "user"],
+                "third": ["online", "internet", "socials", "social media"]
+            },
+            "response": "Para mapanatiling pribado at ligtas ang iyong presensya online, maging maingat sa iyong impormasyon.\n\n• Una: Huwag magbahagi ng sensitibong detalye tulad ng address, ID, password, o bank account details.\n\n• Pangalawa: Gumamit ng malakas at iba-ibang password sa bawat account. I-lock ang iyong cellphone o computer.\n\n• Pangatlo: Mag-ingat sa pag-click ng links at iwasan ang public Wi-Fi, dahil hindi secure ang connection.\n\n• Pang-apat: Mag-isip muna bago mag-post online. Iwasan ang sobrang personal na detalye dahil puwedeng gamitin ito para sa panloloko o identity theft.",
+            "confused_response": "Gusto mong ligtas ang iyong impormasyon online? Eto ang dapat gawin:\n\n• Una: Huwag sabihin ang iyong address, ID number, o bank details online.\n\n• Pangalawa: Gumawa ng mahirap na password at gamitin iba-iba sa bawat account. I-lock din ang iyong phone o computer.\n\n• Pangatlo: Huwag mag-click sa mga di-kilalang link. Iwasan ang Wi-Fi sa mga coffee shop.\n\n• Pang-apat: Mag-isip bago mag-post. Huwag ibahagi ang masyadong personal na bagay kundi maaaring gamitin ito ng iba para magnakaw ng pera.",
+            "context": ""
+        },
+        "scam_safety": {
+            "keywords": {
+                "first": ["online", "internet", "socials", "social media"],
+                "second": ["mabiktima", "victim", "maloko", "mascam"]
+            },
+            "response": "Mga dapat tandaan para ligtas sa internet:\n\n• Huwag basta maniwala. Kung may nag-text o nag-email na parang bangko o delivery, tawagan mo muna ang bangko gamit ang number sa likod ng ATM card mo. Huwag tawagan ang number na nasa text.\n\n• Huwag ibigay ang password o OTP. Yung mga numero na sinasabi ng text sa cellphone mo - huwag ibigay kahit kanino. Pati password, itago mo.\n\n• Gumamit ng mahirap hulaan na password. Huwag yung birthday o pangalan lang.\n\n• Kung may duda ka, magtanong muna sa pamilya o kaibigan bago mag-click o magbayad.",
+            "confused_response": "Para hindi mabiktima online, maging maingat sa mensahe, tawag, at links, lalo na kung hindi kilala ang sender. Huwag magbigay ng personal na impormasyon tulad ng password, OTP, o bank details. Gumamit ng malakas na password at panatilihing updated ang cellphone at apps para mas ligtas. Kung may duda sa mensahe o tawag, mag-verify muna sa official na bangko o kumpanya. Ang mahalaga, huwag basta magtiwala at mag-isip muna bago kumilos online.",
+            "context": ""
+        },
         "online_transactions_safety": {
             "keywords": {
                 "first": ["gawin", "tandaan", "alalahanin"],
@@ -476,11 +532,11 @@
         },
         "grandparent_scam_prevention": {
             "keywords": {
-                "first": ["kamaganak", " apo ", "anak"]
+                "first": ["kamaganak", " apo ", "anak", "grandparent"]
             },
             "response": "Minsan may tatawag na nagsasabing and kamag-anak mo ay nasa problema at nangangailaangan ng pera agad. Puwede rin nilang gayahin ang boses ng mahal mo sa buhay o magpanggap na abogado o pulis.\n\nHuwag agad magpadala ng pera sa taong hindi mo kilala. Huminga muna at tumawag sa ibang kapamilya para i-check kung totoo ang kwento. Huwag ibigay ang personal o bank information mo sa telepono.",
-            "confused_response": "",
-            "context": ""
+            "confused_response": "May mga scammer na tumatawag at nagpapanggap na kamag-anak, pulis, o abogado para takutin ka at makahingi ng pera.\n\nKapag may ganitong tawag, huwag agad maniwala o magpadala ng pera. Tawagan muna ang kapamilya mo para siguraduhin kung totoo ang sinasabi.\n\nHuwag din magbigay ng bank details o personal na impormasyon sa tawag.\n\nTandaan lamang na icheck muna bago gumawa ng aksyon at desisyon lalo na kung nagmamadali at humihingi ng pera ang tumatawag.",
+            "context": "grandparent_scam"
         },
         "robocall_scam_prevention": {
             "keywords": {
@@ -561,11 +617,21 @@
         "phony_apps_or_sites_prevention": {
             "keywords": {
                 "first": ["peke", "fake", "totoo", "phony"],
-                "second": ["app", "website", "site"]
+                "second": ["website", "site"],
+                "third": ["app"]
             },
             "response": "Para makaiwas sa phony apps at fake sites:\n• Mag-download lamang mula sa official app stores\n• I-check ang developer name at reviews ng app\n• Huwag magbigay ng sobrang permissions\n• Siguraduhing legit ang website bago maglagay ng impormasyon\n• Huwag mag-enter ng credit card details kung hindi sigurado\n• Mag-ingat sa mga site na mukhang hindi maayos o kahina-hinala",
             "confused_response": "Para makaiwas sa scam na ito, siguraduhing legit ang app o website bago gamitin. Huwag agad magbigay ng personal o credit card information kung hindi ka sigurado.",
             "context": "phony_apps_or_sites"
+        },
+        "phony_sites_prevention": {
+            "keywords": {
+                "first": ["peke", "fake", "di totoo", "phony"],
+                "second": ["site"]
+            },
+            "response": "Para maiwasan ang pekeng website na humihingi ng iyong impormasyon, maging mapanuri.\n\n• Una: I-check mabuti ang website. Siguraduhing tama ang spelling ng link at hindi ito kakaiba o may mali.\n\n• Pangalawa: Mag-ingat sa mga website na biglang humihingi ng personal na impormasyon. May mga phishing sites na nagpapanggap na bangko o government.\n\n• Pangatlo: Tingnan kung may lock icon at \"https\" sa address bar. Senyales ito na secure ang site.\n\n• Pang-apat: Iwasan ang pagpunta sa website gamit ang links mula sa text, email, o social media.\n\n• Panglima: Kung walang malinaw na contact details o mukhang kahina-hinala, huwag gamitin o iclick.",
+            "confused_response": "Takot ka bang makarating sa fake website? Ito ang dapat gawin:\n\n• Una: Basahin nang mabuti ang address ng website. Baka may typo para palinlang ka.\n\n• Pangalawa: Kung hinihiling ng website ang iyong password o account number, huwag mo ibigay. Baka scam.\n\n• Pangatlo: Tingnan ang address bar. Dapat may padlock at nagsisimula ng \"https\", dahil ito ang ligtas.\n\n• Pang-apat: Huwag mag-click ng link mula sa text o email. Type mo mismo ang website sa browser.\n\n• Panglima: Kung mukhang suspicious, iwanan mo lang. Mas mabuti.",
+            "context": ""
         },
         "bank_and_check_scam_prevention": {
             "keywords": {
@@ -592,13 +658,22 @@
             "confused_response": "Para makaiwas sa phishing scam, huwag basta magtiwala sa mga email o text na hindi mo inaasahan. Huwag magbigay ng password o personal na impormasyon. Iwasan ang pag-click ng link kung hindi ka sigurado, at mas mabuting i-check muna sa opisyal na kumpanya kung totoo ang mensahe.",
             "context": "phishing_scam"
         },
+        "online_shopping_tips": {
+            "keywords": {
+                "first": ["bili", "shop", "mili"],
+                "second": ["tips", "tandaan", "gawin"]
+            },
+            "response": "Para ligtas mamili sa internet, maging maingat bago at habang bumibili online.\n\nSiguraduhin na ang website o seller ay legit at mapagkakatiwalaan. Tingnan ang reviews at iwasan ang sobrang murang offers na mukhang kahina-hinala.\n\nHuwag mag-click ng links mula sa text o email. Ikaw mismo ang mag-type ng official website sa browser para siguradong tama ang napupuntahan mo.\n\nKapag magbabayad, siguraduhin na may \"https\" at lock icon (🔒) ang site. Ito ay senyales ng secure connection.\n\nIwasan ang paggamit ng public Wi-Fi kapag magbabayad online, dahil puwedeng makuha ang iyong impormasyon.",
+            "confused_response": "Gusto mong bumili online nang ligtas? Kailangan mong maging maingat.\n\n• Tingnan kung totoo ang seller at ang website. Basahin ang mga review mula sa iba na bumili na. Kung sobrang mura ang presyo, baka scam.\n\n• Huwag mag-click sa links mula sa text o email. Type mo mismo ang website sa browser.\n\n• Kapag magbabayad, tingnan kung may padlock at \"https\" ang website. Ito ay ligtas.\n\n• Huwag magbayad sa Wi-Fi ng coffee shop. Gamitin ang iyong sariling internet o mobile data.",
+            "context": "online_shopping_scam"
+        },
         "online_shopping_scam_prevention": {
             "keywords": {
-                "first": ["namimili", "bili", "shop", "mili"]
+                "first": ["bili", "shop", "mili"]
             },
             "response": "Kapag namimili online, may mga scammers na puwede kang lokohin para bumili ng item na wala o hindi kagaya ng advertised. Maaaring mangyari ito sa social media marketplaces, online selling platforms, o fake websites/apps.\n\nMag-ingat kung sobrang mura ang presyo o hinihingi kang magbayad sa wire transfer o private payment apps. Mas safe kung credit card o trusted payment options ang gamitin, tulad ng ibinibigay ng legit na online store.",
-            "confused_response": "",
-            "context": ""
+            "confused_response": "May mga scammer na nagbebenta online ng item na peke, wala talaga (walang laman kapag natanggap), o iba sa ipinapakita.\n\nMag-ingat kung sobrang mura ang alok, gusto nila private payment agad, o mga kulang kulang na impormasyon tungkol sa kanilang produkto. Minsan senyales ito ng scam.\n\nMas mabuting bumili sa kilalang online stores, may magandang feedback, at gumamit ng trusted payment methods.\n\nAlalahanin na kung kahina-hinala ang seller o sobrang ganda ng alok, suriin muna bago magbayad.",
+            "context": "online_shopping_scam"
         },
         "romance_scam_prevention": {
             "keywords": {
@@ -687,6 +762,15 @@
         }
     },
     "scam_response": {
+        "suspicious_caller": {
+            "keywords": {
+                "first": ["hinala", "suspicious", "di kilala", "unknown"],
+                "second": ["tumatawag", "caller"]
+            },
+            "response": "Kapag may tumatawag na kahina-hinala ang layunin, manatiling maingat at kalmado.\n\n• Una: Huwag agad magbigay ng personal na impormasyon tulad ng OTP, password, o bank details. Ang mga bangko ay hindi humihingi nito sa tawag.\n\n• Pangalawa: Kung nagpapakilala bilang bangko, delivery, o government, ibaba ang tawag at ikaw mismo ang tumawag sa official hotline.\n\n• Pangatlo: Kung ang kausap ay nagmamadali, nananakot, o nanghihingi ng pera, ito ay scam. Ibaba agad ang tawag.\n\n• Pang-apat: I-report sa bangko o sa tamang ahensya para makatulong na maiwasan ang panloloko sa iba.",
+            "confused_response": "Ito ang dapat gawin kung may tumatawag na hindi kakilala lalo na kung nagpapakilalang taga-bangko sila:\n\n• Una: Huwag sabihin ang iyong OTP, password, o bank account number. Ang tunay na bangko ay hindi humihingi nito sa tawag.\n\n• Pangalawa: Kung sabi nila taga-bangko sila, ibaba mo ang tawag. Ikaw na lang ang tumawag sa bangko gamit ang numero sa iyong ATM card.\n\n• Pangatlo: Kung nagmamadali sila, natatakot ka, o humihingi ng pera—scam ito. Tapusin agad ang tawag.\n\n• Pang-apat: Sabihin sa bangko ang nangyari para makatulong sa iba.",
+            "context": "scam_scenarios"
+        },
         "hacking_device_response": {
             "keywords": {
                 "first": ["hack"],
@@ -873,17 +957,9 @@
             "confused_response": "Kung nabiktima ka ng phishing scam, agad palitan ang iyong password. Sabihin sa bangko o kumpanya ang nangyari, at bantayan ang iyong account kung may kakaibang galaw. Kung may nawalang pera, makipag-ugnayan agad sa bangko.",
             "context": "phishing_scam"
         },
-        "sms_scam_response": {
-            "keywords": {
-                "first": ["text", "mensahe", "message", "chat", "nagtext"]
-            }, 
-            "response": "Huwag maniwala sa email o text na humihingi ng personal o account information. Kahit mukhang lehitimo, puwede itong scam.\n\nMaraming scammers ang gumagawa ng urgent messages para pilitin kang kumilos agad, tulad ng:\n\n“Kung hindi namin marinig bukas, masasara ang account mo”\n“Order na ngayon, limitado ang offer”\n\nHuwag mag-reply o mag-click sa link. Walang bangko o kilalang kumpanya ang hihingi ng password o personal info sa ganitong paraan. I-delete na lang ang mensahe at huwag ibigay ang impormasyon mo.",
-            "confused_response": "",
-            "context": ""
-        },
         "stop_interaction_response": {
             "keywords": {
-                "first": ["stop", "tigil", "tapusin"],
+                "first": ["stop", "tigil", "tapusin", "hinto", "putulin"],
                 "second": ["ugnayan", "usap", "relasyon", "relation"]
             }, 
             "response": "Kung gusto mong itigil ang scammer na kumokontak sa iyo, huwag na silang kausapin pa. Itigil ang pagsagot sa tawag, text, o chat, at i-block agad ang kanilang number o account. Huwag magbigay ng pera o personal na impormasyon.\n\nI-save ang messages o screenshots bilang ebidensya at i-report ang scammer sa platform, bangko (kung may kinalaman sa pera), o awtoridad kung kinakailangan.\n\nMahalagang putulin ang komunikasyon, huwag nang makipag-engage, at agad i-report ang scammer.",
@@ -935,6 +1011,14 @@
         }
     },
     "scam_signs": {
+        "crypto_scam_signs": {
+            "keywords": {
+                "first": ["crypto", "nft", "stablecoin"]
+            },
+            "response": "May mga taong mag-aalok ng investments sa cryptocurrency tulad ng digital coins, NFTs, o tokenized real estate. Madalas may pangakong malaking kita o guaranteed returns, pero hindi ito regulated tulad ng bangko o pera.\n\nBago mag-invest, kausapin muna ang isang pinagkakatiwalaang tao na may alam sa investments, tulad ng financial advisor o knowledgeable na kapamilya. Mag-ingat sa pangakong  sobrang ganda para maging totoo. ",
+            "confused_response": "Ganito po malalaman kung kahina-hinala ang investment:\n\n• Kapag nangako sila na mabilis o garantisadong may malaking kita, mag-ingat dahil madalas red flag iyon.\n• Kung minamadali kang mag-invest o magpadala ng pera, magduda muna bago mag tiwala.\n• Bago maglabas ng pera, magtanong sa pinagkakatiwalaang kapamilya o taong may alam sa investments.\n• Higit sa lahat, kung mukhang sobrang ganda para maging totoo, suriin muna dahil maaaring scam iyon.",
+            "context": "finance_scam"
+        },
         "fake_news_signs": {
             "keywords": {
                 "first": ["peke", "fake", "di totoo"],
@@ -1042,9 +1126,9 @@
             "keywords": {
                 "first": ["sikat", "famous", "actor", "artista", "actress", "celebrity", "singer"]
             },
-            "response": "Huwag maniwala kung may sikat na tao na nag-message at humihingi ng address, phone number, o bank account information.\n\nKadalasan, scam ito at ang resulta ay maubos ang pera sa bank account mo.",
-            "confused_response": "",
-            "context": ""
+            "response": "Malamang hindi ito legit. Karaniwang scam ito kung saan may nagpapanggap na sikat na tao para makuha ang iyong personal na impormasyon.\n\nAng mga totoong celebrity ay hindi basta magme-message sa random na tao para humingi ng address, phone number, o bank details. Kapag ibinigay mo ang mga ito, maaaring gamitin iyon para nakawin ang pera o identity mo.\n\nMas mabuting huwag mag-reply, huwag magbigay ng anumang impormasyon, at i-report ang account kung kahina-hinala.",
+            "confused_response": "Mukhang hindi ito legit at posibleng scam.\n\nAng mga totoong sikat na tao ay hindi basta magme-message para humingi ng address o bank details. Kahit mukhang totoo ang account, puwede itong peke.\n\nKapag nagbigay ka ng impormasyon, may risk na magamit ito para makuha ang pera mo.\n\nMas mabuting huwag na mag-reply, huwag magbigay ng detalye, at i-block o i-report na lang ang account.",
+            "context": "sms_scams"
         },
         "lottery_scam_signs": {
             "keywords": {
@@ -1080,14 +1164,6 @@
             "confused_response": "Maaaring scam ang mensahe kung humihingi ito ng personal na impormasyon, nananakot, o nangangako ng premyo. Madalas pinapamadali ka rin nila na mag-click ng link o sumunod agad.\n\nKapag may duda, huwag mag-reply at huwag mag-click ng link.",
             "context": ""
         },
-        "cryptocurrency_scam_signs": {
-            "keywords": {
-                "first": ["crypto", "nft"]
-            }, 
-            "response": "May mga taong mag-aalok ng investments sa cryptocurrency tulad ng digital coins, NFTs, o tokenized real estate. Madalas may pangakong malaking kita o guaranteed returns, pero hindi ito regulated tulad ng bangko o pera.\n\nBago mag-invest, kausapin muna ang isang pinagkakatiwalaang tao na may alam sa investments, tulad ng financial advisor o knowledgeable na kapamilya. Mag-ingat sa pangakong “sobrang ganda para maging totoo.”",
-            "confused_response": "",
-            "context": "investment_scam"
-        }, 
         "investment_scam_signs": {
             "keywords": {
                 "first": ["invest", " kita", "savings"]
@@ -1153,6 +1229,5 @@
             "response": "Alam namin, nakaka-stress at nakakalito talaga kapag ikaw ay na-scam. Normal lang na makaramdam ng takot o panghihina, pero may paraan para maibalik ang tiwala sa sarili at maayos ang emosyon.\n\nMagsimula sa pakikipag-usap sa taong pinagkakatiwalaan mo katulad ng kapamilya, kaibigan, o kahit sa iba na nakaranas din ng ganito. Makakatulong ito para hindi ka masyadong maramdaman na nag-iisa at para mabawasan ang hiya. Huwag sisihin ang sarili dahil hindi mo ito kasalanan, at nangyayari ito sa kahit sinong tao.\n\nSubukan ding gawin ang mga bagay na makakapagpabalik ng kontrol sa buhay mo. Pwede kang matuto ng bagong skills, mag-ingat para hindi na maulit, o maghanap ng mga paraan para maging positive ang karanasan.  Sa pagiging maingat at paggawa ng hakbang para protektahan ang sarili, unti-unti mong maibabalik ang tiwala sa ibang tao at sa sarili.",
             "context": ""
         }
-    },
-    "where_to_report": {}
+    }
 }

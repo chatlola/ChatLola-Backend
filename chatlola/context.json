@@ -45,6 +45,10 @@
         "senior_scam_victims": {
             "question": "Bakit kadalasang matatanda ang nagiging biktima ng scam?",
             "intent": "explain_concept"
+        },
+        "scam_examples": {
+            "question": "Mayroon ka bang halimbawa ng scam?",
+            "intent": "explain_concept"
         }
     },
     "general_scam_response": {
@@ -131,6 +135,10 @@
         "shared_bank_details_response": {
             "question": "Naibigay ko aking bank account details sa scammer, ano susunod na hakbang?",
             "intent": "scam_response"
+        },
+        "data_protection_importance": {
+            "question": "Bakit mahalagang protektahan ang personal na impormasyon?",
+            "intent": "explain_concept"
         }
     },
     "social_media_online_safety": {
@@ -253,6 +261,10 @@
         "stop_interaction_response": {
             "question": "Gusto kong itigil scammer na nakikipag-ugnayan sa akin, ano gagawin ko?",
             "intent": "scam_response"
+        },
+        "romance_scam_online": {
+            "question": "Nangyayari ba ang romance scam sa social media?",
+            "intent": "explain_concept"
         }
     },
     "ransomware_scam": {
@@ -464,6 +476,10 @@
         "sms_personal_info_threat_response": {
             "question": "May text na nanghihingi ng personal information at nagbabanta kung hindi ako sumagot, ano gagawin ko?",
             "intent": "scam_response"
+        },
+        "famous_scam_signs": {
+            "question": "May nagmessage na sikat na tao at humihingi ng address at bank details, legit ba to?",
+            "intent": "scam_signs"
         }
     },
     "scammers_tactics": {
@@ -554,12 +570,42 @@
         "encrypted_data_response": {
             "question": "Biglang hindi ko na ma-access aking mga dokumento, ano ang maaaring nangyare?",
             "intent": "scam_response"
+        },
+        "suspicious_caller": {
+            "question": "Ano ang dapat gawin kung may tumatawag na kahina-hinala ang layunin?",
+            "intent": "scam_response"
         }
     },
     "encrypted_data_response": {
         "ransomware_scam": {
             "question": "Ano ang ibig sabihin ng ransomware?",
             "intent": "explain_concept"
+        }
+    },
+    "grandparent_scam": {
+        "grandparent_scam_prevention": {
+            "question": "Paano maiwasan ang scam kung may tumatawag na nagsasabing kamag-anak ko?",
+            "intent": "prevent_scam"
+        }
+    },
+    "investment_scams": {
+        "crypto_scam_signs": {
+            "question": "Paano ko malalaman kung scam ang investment sa cryptocurrency?",
+            "intent": "scam_signs"
+        }
+    },
+    "online_shopping_scam": {
+        "online_shopping_scam_prevention": {
+            "question": "Paano ko maiiwasan ang scam kapag namimili online?",
+            "intent": "prevent_scam"
+        },
+        "online_shopping_tips": {
+            "question": "Ano ang mga tips para ligtas mamili sa internet?",
+            "intent": "prevent_scam"
+        },
+        "fake_promo_sale_prevention": {
+            "question": "Paano ko maiiwasan ang pekeng promo o sale?",
+            "intent": "prevent_scam"
         }
     }
 }
