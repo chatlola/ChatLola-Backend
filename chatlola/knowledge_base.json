@@ -660,7 +660,7 @@
         },
         "online_shopping_tips": {
             "keywords": {
-                "first": ["bili", "shop", "mili"],
+                "first": ["bili", "shop", "mili", "selling"],
                 "second": ["tips", "tandaan", "gawin"]
             },
             "response": "Para ligtas mamili sa internet, maging maingat bago at habang bumibili online.\n\nSiguraduhin na ang website o seller ay legit at mapagkakatiwalaan. Tingnan ang reviews at iwasan ang sobrang murang offers na mukhang kahina-hinala.\n\nHuwag mag-click ng links mula sa text o email. Ikaw mismo ang mag-type ng official website sa browser para siguradong tama ang napupuntahan mo.\n\nKapag magbabayad, siguraduhin na may \"https\" at lock icon (🔒) ang site. Ito ay senyales ng secure connection.\n\nIwasan ang paggamit ng public Wi-Fi kapag magbabayad online, dahil puwedeng makuha ang iyong impormasyon.",
@@ -669,7 +669,7 @@
         },
         "online_shopping_scam_prevention": {
             "keywords": {
-                "first": ["bili", "shop", "mili"]
+                "first": ["bili", "shop", "mili", "selling"]
             },
             "response": "Kapag namimili online, may mga scammers na puwede kang lokohin para bumili ng item na wala o hindi kagaya ng advertised. Maaaring mangyari ito sa social media marketplaces, online selling platforms, o fake websites/apps.\n\nMag-ingat kung sobrang mura ang presyo o hinihingi kang magbayad sa wire transfer o private payment apps. Mas safe kung credit card o trusted payment options ang gamitin, tulad ng ibinibigay ng legit na online store.",
             "confused_response": "May mga scammer na nagbebenta online ng item na peke, wala talaga (walang laman kapag natanggap), o iba sa ipinapakita.\n\nMag-ingat kung sobrang mura ang alok, gusto nila private payment agad, o mga kulang kulang na impormasyon tungkol sa kanilang produkto. Minsan senyales ito ng scam.\n\nMas mabuting bumili sa kilalang online stores, may magandang feedback, at gumamit ng trusted payment methods.\n\nAlalahanin na kung kahina-hinala ang seller o sobrang ganda ng alok, suriin muna bago magbayad.",
@@ -762,6 +762,34 @@
         }
     },
     "scam_response": {
+        "profile_impersonation_response": {
+            "keywords": {
+                "first": ["litrato", "image", "pic", "profile"],
+                "second": ["gamit", "use", "impersona", "pretend", "gaya", "panggap", "using"]
+            },
+            "response": "Kung may gumagamit ng litrato mo sa pekeng account, i-report agad ito bilang impersonation. Pumunta sa Facebook profile ng fake account, i-click ang “Report” at piliin ang “Pretending to be me” o impersonation option. Maaari ka ring gumamit ng Facebook Help Center form para mag-report kahit wala kang account. I-save ang screenshots bilang ebidensya. Ayon sa Facebook Help Center, ang mga fake accounts na nanggagaya ng ibang tao ay labag sa rules at puwedeng i-remove.",
+            "confused_response": "Nalilito ka at may gumamit ng litrato mo sa pekeng account? Nakakabahala talaga ’yan, pero puwede pa itong aksyunan. I-save mo muna ang profile at screenshots ng account bilang ebidensya. Pagkatapos, i-report ito sa Facebook bilang impersonation o ginagaya ang identity mo. Kapag na-report, i-review ito ng Facebook at puwedeng i-delete ang account kung confirmed na fake. Habang hinihintay ang action, mabuting i-warning din ang mga kaibigan o contacts mo para hindi sila maloko. Huwag mag-alala, may proseso ang Facebook para dito at puwede pa itong matanggal.",
+            "context": "scam_scenarios"
+        },
+        "sss_scam_response": {
+            "keywords": {
+                "first": ["sss"],
+                "second": ["number"],
+                "third": ["bigay", "kuha", "nakaw"]
+            },
+            "response": "Kung naibigay mo ang SSS number mo sa scammer, huwag mag-panic pero kumilos agad. I-save lahat ng ebidensya tulad ng chat, messages, o kung paano ito nakuha. I-secure ang accounts mo at huwag magbigay ng kahit anong personal info sa hindi verified na tao. I-report agad sa NBI Cybercrime Division o PNP Anti-Cybercrime Group para ma-check at maimbestigahan ang posibleng misuse ng iyong SSS number. Ayon sa SSS, huwag kailanman mag-share ng SS number sa mga hindi opisyal na kausap dahil puwede itong magamit sa fraud.",
+            "confused_response": "Nalilito ka dahil naibigay mo ang SSS number mo sa scammer? Nakakabahala ito, pero puwede pa itong ma-address. Ang SSS number ay personal at puwedeng magamit sa identity fraud, kaya mahalaga na huminto ka na sa anumang pakikipag-ugnayan sa scammer. I-check mo rin ang mga accounts mo kung may kakaibang login o changes. Pagkatapos, i-report ang nangyari sa NBI Cybercrime Division o PNP Cybercrime Group para ma-documented at ma-assist ka sa proteksyon ng iyong identity. Mas maagang pag-report, mas maiiwasan ang posibleng misuse ng impormasyon mo.",
+            "context": "scam_scenarios"
+        },
+        "sim_swap_response": {
+            "keywords": {
+                "first": ["sim"],
+                "second": ["swap", "palit", "switch"]
+            },
+            "response": "Kung mukhang na-SIM swap ang number mo, kumilos agad dahil puwedeng ginagamit na ito para ma-access ang accounts mo. Una, i-contact agad ang iyong mobile network at i-report na posibleng na-hijack ang SIM mo para ma-block o ma-restore ang number. Pagkatapos, i-secure agad ang email, bank, at GCash accounts mo at palitan ang passwords at MPIN. Maaari ka ring mag-report sa NBI Cybercrime Division o PNP Anti-Cybercrime Group para sa imbestigasyon. Mas mabilis ang aksyon, mas maliit ang chance na masamantala ng scammer ang accounts mo.",
+            "confused_response": "Nalilito ka at mukhang na-SIM swap ang number mo? Huwag mag-panic. Nangyayari ito kapag na-kontrol ng scammer ang SIM mo kaya hindi ka na makareceive ng calls o messages. Una, tawagan mo agad ang mobile network mo para i-report at ma-block o ma-recover ang SIM. Pagkatapos, siguraduhin mong secure ang email, GCash, at bank accounts mo sa pamamagitan ng pagpapalit ng passwords at MPIN. Kung may access pa rin ang scammer sa accounts mo, maaari ka ring mag-report sa NBI Cybercrime Division o PNP Anti-Cybercrime Group para matulungan ka.",
+            "context": "scam_scenarios"
+        },
         "suspicious_caller": {
             "keywords": {
                 "first": ["hinala", "suspicious", "di kilala", "unknown"],
@@ -888,6 +916,25 @@
             "confused_response": "Kung sa tingin mo ay na-scam ka, ihinto agad ang pakikipag-usap. I-check ang iyong account at makipag-ugnayan sa bangko kung may bayad na naibigay. I-report din ang nangyari kung kinakailangan.",
             "context": "travel_scam"
         },
+        "job_offer_scam_report": {
+            "keywords": {
+                "first": ["bayad", "pay", "bayaran"],
+                "second": ["trabaho", "job"]
+            },
+            "response": "Kung pinagbayad ka para sa trabaho na peke pala, maaari mo itong i-report bilang fraud o scam. I-save lahat ng ebidensya tulad ng chat, resibo, at pangalan ng nag-utos ng bayad. I-report agad sa NBI Cybercrime Division o PNP Anti-Cybercrime Group para maimbestigahan. Maaari ka ring mag-report sa platform kung saan ka na-contact (hal. Facebook o job site). Ang mga ganitong kaso ay itinuturing na panlilinlang o fraud at puwedeng kasuhan ang gumawa nito.",
+            "confused_response": "Kung na-scam ka sa job offer na peke pala:\n- I-save ang lahat ng proof (chat, resibo)\n- I-report sa NBI o PNP Cybercrime\n- I-report din sa app o website na ginamit\n\nAng ginagawa nila ay panlilinlang (fraud), kaya puwede silang maimbestigahan.\n\nHuwag maghintay kundi ay mas maagang mag-report, mas mas okay",
+            "context": "scam_scenarios"
+        },
+        "loan_scam_response": {
+            "keywords": {
+                "first": ["bayad", "pay", "bayaran"],
+                "second": ["fee"],
+                "third": ["loan", "utang"]
+            },
+            "response": "Kung nagbayad ka ng processing fee para sa loan na hindi naman natuloy, huwag agad mawalan ng pag-asa. I-check muna kung may kasunduan o malinaw na paliwanag tungkol sa fee. Kung hindi na-release ang loan at mukhang hindi tama ang pangyayari, maaari kang mag-report sa lender at mag-request ng refund. I-prepare ang proof tulad ng chat, resibo, at transaction details. Pwede ka ring lumapit sa NBI Cybercrime Division o PNP Anti-Cybercrime Group kung may posibleng scam. Sa ilang kaso, puwedeng ma-contest o ma-refund ang fees depende sa sitwasyon.",
+            "confused_response": "Nalilito ka at nagbayad ka ng processing fee pero hindi natuloy ang loan? Huwag mag-panic. Balikan mo kung may kasunduan o paliwanag tungkol sa fee at loan. I-save lahat ng proof tulad ng chat, resibo, at transaction details. Makipag-ugnayan sa lender para humingi ng refund o malinaw na explanation kung bakit hindi na-release ang loan. Kung mukhang scam o panlilinlang, maaari kang mag-report sa NBI Cybercrime Division o PNP Anti-Cybercrime Group. Depende sa sitwasyon, may pagkakataon pa rin na ma-review at ma-refund ang binayad mo.",
+            "context": "scam_scenarios"
+        },
         "advance_fee_fraud_scam_response": {
             "keywords": {
                 "first": ["advance fee fraud", "advance", "fee", "bayad", "bayaran", "beneficiary", "benefit", "benepisyaryo"]
@@ -1001,9 +1048,54 @@
             "confused_response": "Kung na-lock ang iyong files, huwag magbayad. I-disconnect ang device at humingi ng tulong sa expert kung maaari. Palitan din ang iyong passwords at gamitin ang backup kung meron.",
             "context": "ransomware_scam"
         },
+        "gcash_money_retrieval": {
+            "keywords": {
+                "first": ["gcash"],
+                "second": ["bawi", "balik", "uwi", "kuha", "retrieve"],
+                "third": ["pera", "money", "cash", "nakuha", "nakaw"]
+            },
+            "response": "Kung na-scam ka sa GCash, i-report agad ang scam sa GCash support at i-prepare ang details at screenshots ng transaction. Maaari mo ring i-report ang scammer sa PNP o NBI Cybercrime Division para sa imbestigasyon. I-block din ang scammer sa SMS o social media para maiwasan ang dagdag na pang-aabala. Pag nag-report ka, rereview-hin ng GCash support ang case mo at maaaring kontakin ka sa loob ng 24 hours. Tandaan, may proseso at hindi agad garantisado ang pagbalik ng pera.",
+            "confused_response": "Kung na-scam ka sa GCash:\n- I-report agad sa GCash support\n- I-send ang screenshots at details\n- I-report din sa NBI o PNP\n- I-block ang scammer\n\nIche-check nila ang report mo, pero hindi sure na mababalik agad ang pera. Mas mahalaga ang mabilis na pag-report para makatulong sa case mo.",
+            "context": "gcash_scam"
+        },
+        "gcash_scam_response": {
+            "keywords": {
+                "first": ["gcash"]
+            },
+            "response": "Kung may kumuha ng pera sa GCash mo na walang pahintulot, i-check muna kung may naka-link na apps (hal. Google Play, App Store, Netflix, Spotify) na automatic nagcha-charge. Pagkatapos, palitan agad ang MPIN para masigurado ang security ng account mo. I-report ang unauthorized transaction sa GCash support within 15 days at magbigay ng details. Aabutin ng 48 hours hanggang 7 days ang investigation, at makakatanggap ka ng update sa app o email. I-check din ang “My Support Tickets” sa GCash app.",
+            "confused_response": "Kung may nawala sa GCash mo:\n- I-check kung may naka-link na apps\n- Palitan agad ang MPIN mo\n- I-report sa GCash within 15 days\n- Hintayin ang update nila (2–7 days)\n\nMakikita mo rin ang update sa GCash app sa “Help > My Support Tickets”.\n\nHuwag mag-panic—may investigation process sila para dito.",
+            "context": "gcash_scam"
+        },
+        "online_shopping_scam_response": {
+            "keywords": {
+                "first": ["bili", "shop", "mili", "selling"]
+            },
+            "response": "Kung na-scam ka sa online selling, huwag mag-panic. I-save lahat ng ebidensya (chat, resibo, screenshots, at seller profile). I-report agad sa platform (Facebook/online shop) at sa payment provider (GCash/bank) para ma-check o ma-freeze ang transaction. Maaari ka ring lumapit sa NBI Cybercrime Division o PNP Anti-Cybercrime Group para mag-file ng complaint. Mag-report agad dahil mabilis mag-delete ng accounts ang scammers. Mas maaga ang report, mas may chance na ma-trace at matulungan ka.",
+            "confused_response": "Kung nalilito ka at na-scam ka sa online selling, okay lang, may magagawa ka pa. Una, i-save ang lahat ng proof tulad ng chat, resibo, at screenshots ng seller. Pagkatapos, i-report agad sa app o platform kung saan ka na-scam (hal. Facebook o online shop). Pwede mo rin i-report sa GCash o bank kung doon ka nagbayad para ma-check ang transaction. Maaari ka ring lumapit sa NBI Cybercrime Division o PNP Anti-Cybercrime Group para sa tulong. Huwag maghintay—mas maagang mag-report, mas malaki ang chance na matulungan ka.",
+            "context": "online_shopping_scam"
+        },
+        "online_scam_report": {
+            "keywords": {
+                "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko"],
+                "second": ["online", "social media", "internet", "socials"],
+                "third": ["lapit", "tulong", "report"]
+            },
+            "response": "Kung naloko ka online, maaari kang lumapit sa:\n- NBI Cybercrime Division\n- PNP Anti-Cybercrime Group\n- DICT Cybersecurity team\n\nSila ang tumutulong sa mga online scam at fraud cases.\n\nMaaari mong dalhin ang mga proof tulad ng:\n- Screenshots ng chat\n- Transaction details\n- Scam messages\n\nKung mas maaga mong mai-report, mas may chance na matulungan ka nila.",
+            "confused_response": "Kung naloko ka sa internet:\n- Sabihin agad sa NBI or PNP Cybercrime Group\n- I-save ang ebidensya (messages, receipts)\n- Huwag na makipag-usap sa scammer\n\nSila ang may kakayahan mag-assist sa mga ganitong kaso. Pwede ka rin magtanong sa DICT kung saan pinakamalapit na help office. Just report it as soon as possible",
+            "context": "online_safety"
+        },
+        "general_scam_shock_response": {
+            "keywords": {
+                "first": ["mascam", "nascam", "kakascam", "naiscam", "niloko", "naloko", "maloko"],
+                "second": ["bigla", "makapaniwala", "gulat", "shock"]
+            },
+            "response": "Kung kakascam lang sa’yo at hindi ka pa makapaniwala, normal lang makaramdam ng gulat. Ang importante, kumilos agad. I-save lahat ng ebidensya tulad ng chat, resibo, screenshots, at details ng scammer. Huwag mo nang kausapin ang scammer. I-report agad sa platform na ginamit (Facebook, online shop, etc.) at sa GCash o bank kung doon ka nagbayad. Maaari ka ring lumapit sa NBI Cybercrime Division o PNP Anti-Cybercrime Group. Mas maaga kang mag-report, mas may chance na matulungan ka.",
+            "confused_response": "Okay lang magulat at manlumo kung ikaw ay na-scam,\n\nGawin mo agad ang mga sumusunod:\n- I-save ang proof (chat, resibo, screenshots)\n- Huwag na kausapin ang scammer\n- I-report sa app, GCash, o bank ng pinagbayaran\n- I-report din sa NBI o PNP",
+            "context": "scam_scenarios"
+        },
         "general_scam_response": {
             "keywords": {
-                "first": ["mascam", "nascam", "naiscam", "niloko", "naloko", "maloko"]
+                "first": ["mascam", "nascam", "kakascam", "naiscam", "niloko", "naloko", "maloko"]
             },
             "response": "Kung sa tingin mo ay na-scam ka:\n\n• Tawagan agad ang bangko o e-wallet\n• Palitan ang iyong passwords\n• I-report ang nangyari sa awtoridad\n\nTandaan, may mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong impormasyon.",
             "confused_response": "Kung na-scam ka, kumilos agad. Tawagan ang bangko, palitan ang password, at i-report ang nangyari.\n\nMay tutulong sa iyo, kaya huwag mag-alala at humingi ng tulong.",

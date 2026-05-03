@@ -91,6 +91,10 @@
         "social_media_online_safety": {
             "question": "Paano maging ligtas at maayos sa social media?",
             "intent": "prevent_scam"
+        },
+        "online_scam_report": {
+            "question": "Naloko ako sa internet, sino maaari kong lapitan?",
+            "intent": "scam_response"
         }
     },
     "cybercrimes": {
@@ -574,6 +578,30 @@
         "suspicious_caller": {
             "question": "Ano ang dapat gawin kung may tumatawag na kahina-hinala ang layunin?",
             "intent": "scam_response"
+        },
+        "job_offer_scam_report": {
+            "question": "Pinagbayad ako para sa trabaho na peke pala, paano ko ito irereport?",
+            "intent": "scam_response"
+        },
+        "general_scam_shock_response": {
+            "question": "Kakascam lang sa akin, hindi pa ako makapaniwala, ano ba dapat kong gawin?",
+            "intent": "scam_response"
+        },
+        "loan_scam_response": {
+            "question": "Nagbayad ako ng processing fee para sa loan na hindi naman natuloy, ano dapat gawin?",
+            "intent": "scam_response"
+        },
+        "sim_swap_response": {
+            "question": "Mukhang na-SIM swap aking number, paano ko ito maaayos?",
+            "intent": "scam_response"
+        },
+        "profile_impersonation_response": {
+            "question": "Ginagamit nila aking litrato para sa pekeng account, paano ko ito irereport?",
+            "intent": "scam_response"
+        },
+        "sss_scam_response": {
+            "question": "Naibigay ko aking SSS number sa scammer, ano dapat kong gawin?",
+            "intent": "scam_response"
         }
     },
     "encrypted_data_response": {
@@ -606,6 +634,20 @@
         "fake_promo_sale_prevention": {
             "question": "Paano ko maiiwasan ang pekeng promo o sale?",
             "intent": "prevent_scam"
+        },
+        "online_shopping_scam_response": {
+            "question": "Na-scam ako sa online selling, ano dapat kong gawin?",
+            "intent": "scam_response"
+        }
+    },
+    "gcash_scam": {
+        "gcash_money_retrieval": {
+            "question": "Na-scam ako sa GCash, paano ko mababawi aking pera?",
+            "intent": "scam_response"
+        },
+        "gcash_scam_response": {
+            "question": "May kumuha ng pera sa aking GCash ng walang pahintulot, ano gagawin ko?",
+            "intent": "scam_response"
         }
     }
 }
