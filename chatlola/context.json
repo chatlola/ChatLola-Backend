@@ -638,6 +638,10 @@
         "online_shopping_scam_response": {
             "question": "Na-scam ako sa online selling, ano dapat kong gawin?",
             "intent": "scam_response"
+        },
+        "delivery_scam": {
+            "question": "Paano ko maiiwasan ang panloloko sa delivery o payment?",
+            "intent": "prevent_scam"
         }
     },
     "gcash_scam": {

@@ -743,6 +743,14 @@
             "confused_response": "Hindi mo kasalanan kung na-scam ka, pero puwede mo itong maiwasan sa susunod. Mag-ingat sa mga mensahe o tawag at huwag agad magbigay ng personal na impormasyon.\n\nMas safe din gumamit ng payment methods na may proteksyon, at makakatulong ang pakikipag-usap sa pamilya o kaibigan para mas maintindihan at matutunan ang nangyari.",
             "context": "general_scam_response"
         },
+        "delivery_scam": {
+            "keywords": {
+                "first": ["delivery", "payment", "deliver"]
+            },
+            "response": "Para maiwasan ang panloloko sa delivery o payment, maging maingat bago at habang bumibili online.\n\nSiguraduhin na legit ang seller before ka umorder. Tingnan ang reviews at iwasan ang mga bagong account na walang feedback.\n\nKapag magbabayad, huwag agad magpadala ng pera sa personal account lalo na kung hindi mo kilala ang seller. Mas mabuti kung gagamit ka ng trusted payment methods o cash on delivery kung available.\n\nMag-ingat sa mga message na nagsasabing may problema sa delivery at humihingi ng bayad o impormasyon. Madalas itong scam.\n\nHuwag basta magbigay ng personal o financial information sa hindi sigurado na source.",
+            "confused_response": "Natatakot ka bang maloko sa online shopping? Ito ang mga dapat gawin.\n\nHanapin kung totoo ang seller. Basahin ang feedback ng mga bumili na. Kung baguhan lang at walang review, iwasan.\n\nKapag magbabayad, huwag magpadala ng pera direkta sa bank account nila kung hindi mo sila kilala. Mas mabuti ang cash on delivery o trusted payment methods kung maaari.\n\nKung may mensahe na may problema sa delivery at humihingi ng pera, huwag agad magpadala. Baka scam ito.\n\nHuwag magbigay ng bank details o personal information sa hindi mo sigurado.",
+            "context": "online_shopping_scam"
+        },
         "scam_prevention": {
             "keywords": {
                 "first": ["seniors", "matatanda", "nakatatanda", "senior", "elderly", "scam", "panloloko", "panlilinlang", "panganib", "mascam"]
@@ -1100,6 +1108,14 @@
             "response": "Kung sa tingin mo ay na-scam ka:\n\n• Tawagan agad ang bangko o e-wallet\n• Palitan ang iyong passwords\n• I-report ang nangyari sa awtoridad\n\nTandaan, may mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong impormasyon.",
             "confused_response": "Kung na-scam ka, kumilos agad. Tawagan ang bangko, palitan ang password, at i-report ang nangyari.\n\nMay tutulong sa iyo, kaya huwag mag-alala at humingi ng tulong.",
             "context": "scam"
+        },
+        "where_to_report": {
+            "keywords": {
+                "first": ["lumapit", "lapitan", "report"]
+            },
+            "response": "Minsan, ang pinakamadaling simulan ay yung taong kahit papaano ay “pinaka-safe” para sa’yo, kahit isang kapamilya o kaibigan na hindi ka huhusgahan. Hindi mo kailangang ikwento nang perpekto, kahit simpleng “may nangyari sa’kin online at nahihirapan ako” sapat na para magsimula.\n\nHindi mo kailangang harapin ito mag-isa.",
+            "confused_response": "Nakakalito at mabigat talaga ang pakiramdam na ganyan.\n\nKung hindi mo alam kung saan magsisimula, puwede kang lumapit sa taong pinagkakatiwalaan mo, tulad ng kapamilya o kaibigan. Kahit hindi mo maipaliwanag nang buo, okay lang magsabi ng simpleng, “may nangyari sa’kin online at nahihirapan ako.”\n\nHindi mo kailangang harapin ito nang mag-isa. May mga taong puwedeng tumulong sa’yo.",
+            "context": ""
         }
     },
     "scam_signs": {
@@ -1299,19 +1315,157 @@
         }
     },
     "emotional_support": {
+        "something_wrong": {
+            "keywords": {
+                "first": ["kiramdam", "feeling", "parang"],
+                "second": ["mali", "di tama"]
+            },
+            "response": "Nakaka-kaba talaga yung pakiramdam na may mali pero hindi mo matukoy kung ano. Parang nasa pagitan ng pag-aalala at pagkalito.\n\nNormal lang na ganito ang maramdaman mo pagkatapos ng stressful na karanasan. Hindi mo kailangang pilitin agad na ayusin o intindihin lahat ngayon.",
+            "context": ""
+        },
+        "overwhelmed": {
+            "keywords": {
+                "first": ["stress", "lungkot", "di", "pangit", "di maganda", "bigat"],
+                "second": ["stress", "lungkot", "pakiramdam", "mapakali"]
+            },
+            "response": "Nakakalungkot at nakaka-stress talaga ang maloko online. Hindi ka nag-iisa sa ganitong karanasan, at normal lang na maramdaman mo iyan. Magpahinga muna sandali at huminga nang malalim.\n\nKung handa ka na, puwede kitang tulungan na suriin kung ano ang nangyari at kung paano makakaiwas sa ganitong sitwasyon sa susunod.",
+            "context": ""
+        },
+        "trust_people": {
+            "keywords": {
+                "first": ["wala", "di na"],
+                "second": ["tiwala", "niwala", "trust"],
+                "third": ["online", "internet", "social media", "socials"]
+            },
+            "response": "Maiintindihan ko kung bakit ganyan ang nararamdaman mo. Kapag naloko ka, talagang nakakabawas ito ng tiwala.\n\nHindi naman lahat sa internet ay mapanlinlang, pero mahalagang maging maingat. Bilang gabay, mas ligtas kung magtitiwala ka lang sa mga kilalang website o official pages, at iwasan ang mga taong nagmamadali o humihingi agad ng personal na impormasyon o pera.\n\nKung gusto mo, puwede kitang turuan ng ilang simpleng paraan para malaman kung mapagkakatiwalaan ang isang tao o website.",
+            "context": ""
+        },
+        "worry": {
+            "keywords": {
+                "first": ["alala", "worry"]
+            },
+            "response": "Oo, ramdam ko yung bigat ng pag-aalala mo. Nakakaubos talaga ng lakas ang ganitong pakiramdam.\n\nOkay lang na mag-slow down muna at damhin lang kung ano ang nararamdaman mo. Hindi mo kailangang pilitin na maging okay agad. Nandito lang ako.",
+            "context": ""
+        },
+        "repeat_scam": {
+            "keywords": {
+                "first": ["biktima", "maulit", "loko"],
+                "second": ["ulit", "na naman"]
+            },
+            "response": "Nakakatakot talaga ang pakiramdam na baka mangyari ulit. Lalo na pagkatapos ng naranasan mo, natural lang na maging alert at mag-alala.\n\nHindi ibig sabihin nito na mahina ka. Ipinapakita lang nito na nasaktan ka at nag-iingat ka na ngayon.\n\nDahan-dahan lang. Hindi mo kailangang labanan agad ang takot na yan. Nandito lang ako.",
+            "context": ""
+        },
+        "give_up": {
+            "keywords": {
+                "first": ["suko", "sumuko", "give up", "yoko na"]
+            },
+            "response": "Mabigat talaga ang pinagdadaanan mo ngayon. Kapag sunod-sunod ang stress at takot, nakakapagod at parang gusto na lang tumigil.\n\nPero hindi mo kailangang dalhin lahat mag-isa. Okay lang na mapagod at huminto sandali. Nandito lang ako para makinig.",
+            "context": ""
+        },
+        "anxious": {
+            "keywords": {
+                "first": ["kaba", "takot", "panic"]
+            },
+            "response": "Normal lang ang kabahan pagkatapos ng ganitong karanasan. Parang tuloy-tuloy na alerto ang katawan mo kapag nasaktan ka na dati.\n\nHindi mo kailangang pilitin na mawala agad ang kaba. Dahan-dahan lang, at okay lang na nandiyan muna siya habang unti-unti kang nakakabawi.",
+            "context": ""
+        },
+        "need_talk": {
+            "keywords": {
+                "first": ["kailangan", "need", "gusto", "want"],
+                "second": ["makausap", "sabi"]
+            },
+            "response": "Nandito ako para makinig.\n\nMinsan kapag mabigat ang nangyari, sapat na yung may nakakaintindi at hindi ka hinuhusgahan. Maaari mong ilabas lang kung ano man ang nasa isip mo.",
+            "context": ""
+        },
+        "stupid": {
+            "keywords": {
+                "first": ["tanga", "bobo"]
+            },
+            "response": "Hindi ka tanga. Ang mga scam ay sadyang idinisenyo para malinlang ang kahit maingat na tao.\n\nNormal lang na mapaisip ka ng ganyan pagkatapos ng nangyari, pero hindi nito sinusukat ang talino mo o halaga mo. Mas mahalaga na nakikita mo na ngayon na may nangyari at naaalala mo itong maging mas maingat sa hinaharap.\n\nNandito lang ako.",
+            "context": ""
+        },
+        "hide": {
+            "keywords": {
+                "first": ["wag", "hindi", "itago"],
+                "second": ["ipagsabi", "ipaalam", "itago", "sabihin"]
+            },
+            "response": "Maiintindihan ko yung hiya, pero mahalaga ring malaman mo na kapag itinago ito, mas maliit ang chance na ma-trace o mabawi ang nawala.\n\nKung maire-report mo, mas may pagkakataon na ma-block ang scammer at minsan may paraan pa para ma-recover ang pera o ma-prevent na maulit sa iba. Hindi mo kailangang harapin ito mag-isa, at hindi ito kasalanan mo.\n\nNormal lang mahiya, pero mas makakatulong sa’yo ang pag-report kaysa pananahimik.",
+            "context": ""
+        },
+        "shame_family": {
+            "keywords": {
+                "first": ["hiya", "damay"],
+                "second": ["pamilya", "anak", "asawa"]
+            },
+            "response": "Nakakabigat talaga ‘yan, lalo na kapag iniisip mong nadamay ang pamilya mo. Natural na makaramdam ng hiya at guilt.\n\nPero hindi ibig sabihin na kasalanan mo ang nangyari. Ang scammer ang may gawa ng panlilinlang, hindi ikaw.\n\nKung darating man ang pagkakataon, mas makakatulong kung malalaman ng pamilya mo para masama ka nilang suportahan at matulungan ka ring protektahan ang sarili ninyo sa susunod.",
+            "context": ""
+        },
+        "questioning_scammer_reasons": {
+            "keywords": {
+                "first": ["bakit", "pano", "paano", "rason"],
+                "second": ["nagawa", "ginawa", "scam", "loko"]
+            },
+            "response": "Nakakagalit at nakakasakit talaga isipin kung bakit nila nagawa iyon.\n\nKadalasan, ang mga scammer ay hindi iniisip kung ano ang mararamdaman ng biktima. Ang habol lang nila ay pera, kaya gumagamit sila ng panlilinlang at pagmamadali para makuha ang tiwala ng tao. Hindi ito dahil sa kung sino ka o may mali ka, kundi dahil sinamantala nila ang pagkakataon.\n\nNatural lang na magtanong ka ng “paano nila nagawa ito,” kasi nakakasira talaga ng tiwala ang ganitong karanasan.",
+            "context": ""
+        },
+        "cant_let_go": {
+            "keywords": {
+                "first": ["bitaw", "let go"]
+            },
+            "response": "Oo, hindi talaga madaling bitawan agad ang ganitong nangyari. Normal lang na paulit-ulit siyang bumalik sa isip mo, lalo na kung nasaktan at na-trauma ka.\n\nHindi mo kailangang pilitin na kalimutan kaagad. Unti-unti rin ‘yan humuhupa habang lumilipas ang oras at habang nabibigyan mo ng puwang na maproseso yung nangyari.",
+            "context": ""
+        },
+        "self_blame": {
+            "keywords": {
+                "first": ["kasalanan", "pagkukulang", "may mali", "yung mali"],
+                "second": [" ko", "ako"]
+            },
+            "response": "Normal lang isipin ‘yan pagkatapos ma-scam, pero mahalagang maging patas ka rin sa sarili mo.\n\nAng mga scam ay sadyang dinisenyo para malinlang ang tao, kahit maingat o matalino pa. Hindi ibig sabihin na may pagkukulang ka bilang tao dahil naloko ka.\n\nMas makakatulong kung ilalagay mo ang sisi kung saan talaga ito dapat: sa gumawa ng panlilinlang, hindi sa’yo.",
+            "context": ""
+        },
+        "complicate": {
+            "keywords": {
+                "first": ["lumaki", "dumami", "lumala"],
+                "second": ["sitwasyon", "problema"]
+            },
+            "response": "Naiintindihan ko kung bakit yan ang iniisip mo. Kapag may masamang nangyari, madaling mag-alala na lalala pa ito.\n\nPero hindi mo kailangang unahan ng takot ang mga susunod na mangyayari. Ang mahalaga ngayon ay nandito ka at alam mo na ang nangyari, kaya mas may kontrol ka na kaysa dati.\n\nUnti-unti, mas nagiging malinaw kung ano talaga ang sitwasyon kapag humuhupa na yung emosyon.",
+            "context": ""
+        },
+        "cant_explain": {
+            "keywords": {
+                "first": ["ayaw", "di", "ayoko"],
+                "second": ["paliwanag", "explain", "sabi"]
+            },
+            "response": "Okay lang. Hindi mo kailangang magpaliwanag kung hindi mo pa kaya.\n\nNandito lang ako.",
+            "context": ""
+        },
+        "fix": {
+            "keywords": {
+                "first": ["umayos", "maayos", "bumuti", "wag na lumala", "di na lumala"]
+            },
+            "response": "Oo, may pag-asa pa.\n\nHindi pa huli ang lahat para ayusin o bawasan ang pinsala. Maraming scam cases ang natutulungan pa rin kapag na-report at naipaalam agad sa tamang tao o platform. Kahit hindi man lahat ay mabawi, puwedeng mapigilan pa ang mas malaking problema at maprotektahan ka sa susunod.\n\nHindi mo kailangang kayanin ito nang mag-isa.",
+            "context": ""
+        },
+        "clear": {
+            "keywords": {
+                "first": ["bawas", "salamat", "mas", "naging", "na"],
+                "second": ["linaw", "lito", "gulo"]
+            },
+            "response": "Mabuti at kahit papaano mas luminaw na sa’yo.\n\nDahan-dahan lang, hindi mo kailangang madaliin lahat ng emosyon at iniisip mo. Nandito lang ako kung kailangan mo pa ulit ng kausap.",
+            "context": ""
+        },
         "shame": {
             "keywords": {
-                "first": ["hiya", "nakakahiya", "lungkot", "tanga", "bobo"]
+                "first": ["hiya", "lito"]
             },
-            "response": "Normal lang na makaramdam ng gulat, hiya, galit, o lungkot pagkatapos ma-scam.Nangyayari ito dahil may taong nanloko at sinamantala ang tiwala mo. Madalas magaling magpanggap ang mga scammer kaya nagmumukhang totoo at ligtas ang sitwasyon.\n\nTandaan, hindi mo kasalanan ang nangyari at hindi ibig sabihin na pabaya ka. Kahit sino ay maaaring mabiktima. Ang pag-amin sa nararamdaman mo ay mahalagang unang hakbang para makabangon at makaiwas sa ganitong sitwasyon sa hinaharap.",
-
+            "response": "Maiintindihan ko kung bakit nakakahiya at nakakalito harapin ‘to. Pero hindi mo kailangang ayusin lahat nang sabay-sabay.\n\nUnang hakbang, puwede mong gawin ay sabihin lang sa isang pinagkakatiwalaang tao ang nangyari, kahit basic lang. Mas magaan kapag may nakakaalam at sumusuporta sa’yo.\n\nPagkatapos, kung kaya mo, i-report ito sa platform o sa bangko kung may kinalaman sa pera. Hindi mo kailangang mag-isa sa proseso.",
             "context": ""
         },
         "anger": {
             "keywords": {
-                "first": ["galit", "nakakagalit", "sama ng loob", "sama sa loob"]
+                "first": ["galit", "inis"]
             },
-            "response": "Normal lang na makaramdam ng gulat, hiya, galit, o lungkot pagkatapos ma-scam. Maraming tao ang nakakaranas nito, kaya hindi ka nag-iisa. Hindi mo kasalanan ang nangyari — magaling talaga magmanipula ang mga scammer at kahit sino ay maaaring mabiktima.\n\nMaaaring makatulong na kausapin ang isang taong pinagkakatiwalaan mo tungkol sa nangyari. Unti-unti mong maibabalik ang tiwala sa sarili. Ang mahalaga ngayon ay matuto sa karanasan at mag-focus sa mga susunod na hakbang para maprotektahan ang sarili mo.",
+            "response": "Oo, nakakagalit talaga ‘yan. May umabuso sa tiwala mo, at hindi makatarungan ang nangyari.\n\nNormal lang ang galit sa ganitong sitwasyon. Nakikita mo na mali ang ginawa nila, at valid ang nararamdaman mo.",
             "context": ""
         },
         "distrust": {
@@ -1319,6 +1473,14 @@
                 "first": ["tiwala", "naniwala", "paniwala", "mapagkakatiwalaan", "lito", "hilo", "naloko"]
             },
             "response": "Alam namin, nakaka-stress at nakakalito talaga kapag ikaw ay na-scam. Normal lang na makaramdam ng takot o panghihina, pero may paraan para maibalik ang tiwala sa sarili at maayos ang emosyon.\n\nMagsimula sa pakikipag-usap sa taong pinagkakatiwalaan mo katulad ng kapamilya, kaibigan, o kahit sa iba na nakaranas din ng ganito. Makakatulong ito para hindi ka masyadong maramdaman na nag-iisa at para mabawasan ang hiya. Huwag sisihin ang sarili dahil hindi mo ito kasalanan, at nangyayari ito sa kahit sinong tao.\n\nSubukan ding gawin ang mga bagay na makakapagpabalik ng kontrol sa buhay mo. Pwede kang matuto ng bagong skills, mag-ingat para hindi na maulit, o maghanap ng mga paraan para maging positive ang karanasan.  Sa pagiging maingat at paggawa ng hakbang para protektahan ang sarili, unti-unti mong maibabalik ang tiwala sa ibang tao at sa sarili.",
+            "context": ""
+        },
+         "gossip": {
+            "keywords": {
+                "first": ["pinaguusapan", "chismis", "sabi"],
+                "second": ["nila", "tao", "niya", "iba"]
+            },
+            "response": "Nakakabigat talaga kapag iniisip mo na baka pinag-uusapan ka ng iba. Lalo na pagkatapos ng scam, mas lumalakas minsan ang mga ganitong isip kahit walang malinaw na ebidensya.\n\nPero madalas, ang isip natin ang nagpapalaki ng takot kapag stressed tayo. Hindi ibig sabihin nito na totoo ang iniisip mo.\n\nNandito lang ako habang mabigat pa ‘yan.",
             "context": ""
         }
     }
