@@ -64,8 +64,7 @@ def build_response(tag_data, intent, topic, confusion_label, context, confused=F
         "response": response_text,
         "intent": intent,
         "topic": topic,
-        "confusion_label": confusion_label,
-        "context": setContext(topic, context)
+        "confusion_label": confusion_label
     })
 
 def setContext(topic, context):
@@ -80,8 +79,6 @@ def setContext(topic, context):
         return context
 
     return ""
-
-print(setContext("scam", "scam_types"))
 
 # Predict with probabilities
 def predict(model, vec):
