@@ -1103,7 +1103,7 @@
         },
         "general_scam_response": {
             "keywords": {
-                "first": ["mascam", "nascam", "kakascam", "naiscam", "niloko", "naloko", "maloko"]
+                "first": ["mascam", "maskam", "nascam", "kakascam", "naiscam", "niloko", "naloko", "maloko"]
             },
             "response": "Kung sa tingin mo ay na-scam ka:\n\n• Tawagan agad ang bangko o e-wallet\n• Palitan ang iyong passwords\n• I-report ang nangyari sa awtoridad\n\nTandaan, may mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong impormasyon.",
             "confused_response": "Kung na-scam ka, kumilos agad. Tawagan ang bangko, palitan ang password, at i-report ang nangyari.\n\nMay tutulong sa iyo, kaya huwag mag-alala at humingi ng tulong.",
@@ -1315,6 +1315,15 @@
         }
     },
     "emotional_support": {
+        "what_to_do": {
+            "keywords": {
+                "first": ["di ko alam", "di ko na alam", "ano na"],
+                "second": ["gawin"],
+                "third": [" ko"]
+            },
+            "response": "Nakaka-overwhelm talaga 'yan, pero may puwede kang gawin ngayon, dahan-dahan lang.\n\nItigil muna ang pakikipag-usap sa kanila at huwag nang magpadala ng pera o impormasyon. Kung may naibigay kang detalye tulad ng password o bank info, mabuting palitan agad ito. Kung may kinalaman sa pera, makipag-ugnayan agad sa bangko o e-wallet para ma-report at ma-secure ang account.\n\nHindi mo kailangang ayusin lahat nang sabay-sabay. Isang hakbang muna, okay na 'yun.",
+            "context": ""
+        },
         "something_wrong": {
             "keywords": {
                 "first": ["kiramdam", "feeling", "parang"],

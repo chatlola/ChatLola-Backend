@@ -38,13 +38,14 @@ def match_keywords(query, keywords):
 
     return any(k in query for k in keywords["third"])
 
-def build_response(tag_data, intent, topic, confusion_label, confused=False):
+def build_response(tag_data, intent, topic, confusion_label, context, confused=False):
     if not tag_data:
         return jsonify({
             "response": None,
             "intent": intent,
             "topic": topic,
-            "confusion_label": confusion_label
+            "confusion_label": confusion_label,
+            "context": setContext(topic, context)
         })
 
     response_text = (
@@ -63,8 +64,24 @@ def build_response(tag_data, intent, topic, confusion_label, confused=False):
         "response": response_text,
         "intent": intent,
         "topic": topic,
-        "confusion_label": confusion_label
+        "confusion_label": confusion_label,
+        "context": setContext(topic, context)
     })
+
+def setContext(topic, context):
+    topic_data = context_data.get(topic, {})
+
+    if topic_data:
+        return topic
+
+    ctx_data = context_data.get(context, {})
+    
+    if ctx_data:
+        return context
+
+    return ""
+
+print(setContext("scam", "scam_types"))
 
 # Predict with probabilities
 def predict(model, vec):
@@ -99,18 +116,18 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
     # 1. Try keyword match
     for topic, data in intent_data.items():
         if match_keywords(query, data["keywords"]):
-            return handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic)
+            return handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic, context)
 
     # 2. Fallback logic
     if intent == "explain_concept":
         if confusion:
-            return handle_confusion({ "response": None }, intent, "", confusion, prev_intent, prev_topic)
+            return handle_confusion({ "response": None }, intent, "", confusion, prev_intent, prev_topic, context)
         
         return jsonify({
             "response": None,
             "intent": intent,
             "topic": "clarify",
-            "context": context
+            "context": setContext("", context)
         })
 
     # 3. No context → clarify
@@ -119,7 +136,7 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
             "response": None,
             "intent": intent,
             "topic": "clarify",
-            "context": context
+            "context": setContext("", context)
         })
 
     # 4. Try context-based response but only if probability is high enough
@@ -131,27 +148,27 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
     
     print("skipped checking context")
 
-    return build_response(None, intent, None, confusion)
+    return build_response(None, intent, None, confusion, context)
 
-def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
+def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic, context):
 
     if intent == "emotional_support":
         return {
             "response": data["response"],
             "intent": intent,
             "topic": topic,
-            "context": "misc",
+            "context": setContext(topic, context),
             "confusion_label": confusion
         }
 
     if not confusion:
-        return build_response(data, intent, topic, confusion)
+        return build_response(data, intent, topic, confusion, context)
 
     # If current topic has confused response
     
     # Check if data has response
     if data.get("response"):
-        return build_response(data, intent, topic, confusion, confused=True)
+        return build_response(data, intent, topic, confusion, context, confused=True)
 
     # fallback to previous topic
     if prev_intent and prev_topic and prev_topic != "clarify":
@@ -160,14 +177,15 @@ def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic):
             "response": "Mukhang medyo nakakalito 😅.\n\n" + prev_data["confused_response"],
             "intent": prev_intent,
             "topic": prev_topic + "_confused",
-            "confusion_label": confusion
+            "confusion_label": confusion,
+            "context": setContext(prev_topic, context)
         })
 
     return jsonify({
         "response": "Maaari mo bang linawin kung anong bahagi ang gusto mong maintindihan?",
         "intent": None,
         "topic": "clarify",
-        "context": "general",
+        "context": setContext(topic, context),
         "confusion_label": confusion
     })
 
@@ -179,7 +197,7 @@ def no_keys_response(intent, context, prev_intent, prev_topic, confusion):
            "response": None,
             "intent": intent,
             "topic": "",
-            "context": "misc"
+            "context": setContext("", context)
         }
 
     for topic, data in ctx.items():
