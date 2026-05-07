@@ -16,10 +16,6 @@
             "question": "Ano ang cybercrimes?",
             "intent": "explain_concept"
         },
-        "fake_news": {
-            "question": "Ano ba ang fake news?",
-            "intent": "explain_concept"
-        },
         "scam_types": {
             "question": "Ano ang iba't ibang klase ng scam?",
             "intent": "explain_concept"
@@ -95,6 +91,10 @@
         "online_scam_report": {
             "question": "Naloko ako sa internet, sino maaari kong lapitan?",
             "intent": "scam_response"
+        },
+        "fake_news": {
+            "question": "Ano ba ang fake news?",
+            "intent": "explain_concept"
         }
     },
     "cybercrimes": {
@@ -602,6 +602,34 @@
         "sss_scam_response": {
             "question": "Naibigay ko aking SSS number sa scammer, ano dapat kong gawin?",
             "intent": "scam_response"
+        },
+        "money_to_receive_scam": {
+            "question": "Sabi ng kausap ko online, kapag nag-fillout ako or clinick ang link may pera daw akong makukuha mula sakanila?",
+            "intent": "scam_response"
+        },
+        "online_lover_asking_money": {
+            "question": "Nanghihingi sa akin ng pera yung karelasyon ko online, ano ang dapat kong gawin?",
+            "intent": "scam_response"
+        },
+        "is_romance_scam": {
+            "question": "Ano ang scam kung saan nagpapanggap sila na may gusto sayo para manghingi ng pera?",
+            "intent": "scam_response"
+        },
+        "claiming_love_response": {
+            "question": "Sabi niya mahal niya ako kahit hindi pa kami nagkikita",
+            "intent": "scam_response"
+        },
+        "urgent_money_response": {
+            "question": "May sinasabi siya na emergency kaya kailangan daw ng pera agad, totoo kaya ito?",
+            "intent": "scam_response"
+        },
+        "famous_scam_response": {
+            "question": "May kausap akong sikat na tao sabi niya pupuntahan niya daw ako",
+            "intent": "scam_response"
+        },
+        "acquaintance_claim_response": {
+            "question": "May nagpakilala na kakilala ko daw dati hindi ko matandaan kung sino siya",
+            "intent": "scam_response"
         }
     },
     "encrypted_data_response": {
@@ -652,6 +680,10 @@
         "gcash_scam_response": {
             "question": "May kumuha ng pera sa aking GCash ng walang pahintulot, ano gagawin ko?",
             "intent": "scam_response"
+        },
+        "gcash_legitimacy": {
+            "question": "Ligtas ba gamitin ang gcash?",
+            "intent": "scam_signs"
         }
     }
 }

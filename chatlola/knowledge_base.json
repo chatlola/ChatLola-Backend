@@ -770,6 +770,63 @@
         }
     },
     "scam_response": {
+        "is_romance_scam": {
+            "keywords": {
+                "first": ["panggap", "uto"],
+                "second": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date", "may gusto", "may pagtingin", "mahal"]
+            },
+            "response": "Ang tawag dito ay romance scam o love scam. Ito ay panloloko kung saan may taong nagpapanggap na may gusto o nagmamahal sa iyo para makuha ang tiwala mo at makahingi ng pera.\n\nMadalas itong nangyayari sa social media, dating apps, o chat. Sa simula, mabait at maalaga sila, pero kalaunan ay gagawa ng dahilan para humingi ng pera, tulad ng emergency, hospital bills, o pamasahe.\n\nMahalagang mag-ingat lalo na kung online mo lang nakilala ang tao at biglang humihingi ng pera o personal na impormasyon.",
+            "confused_response": "Ang tawag dito ay romance scam o love scam.\n\nNagpapanggap ang scammer na may gusto o nagmamahal sa iyo para pagkatiwalaan mo siya. Kapag nakuha na niya ang tiwala mo, saka siya hihingi ng pera o tulong.\n\nHalimbawa, sasabihin nilang may emergency sila, may sakit, o kailangan ng pamasahe.\n\nMag-ingat lalo na kung online mo lang nakilala ang tao at biglang nanghihingi ng pera.",
+            "context": "scam_scenarios"
+        },
+        "online_lover_asking_money": {
+            "keywords": {
+                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date", "may gusto", "may pagtingin", "mahal"],
+                "second": ["hingi", "bigay", "bigyan"],
+                "third": ["tulong na pinansyal", "tulong pinansyal", "financial help", "pera", "money"]
+            },
+            "response": "Naiintindihan ko po na masakit isipin ito, pero yan ay romance scam.\n\nAng tunay na taong nagmamahal sa inyo ay hindi hihinging pera para lang makita kayo. Kung talagang seryoso sila, hahanap sila ng paraan na hindi kayo magiging pabigat sa gastos.\n\nAng mga scammer ay gumagamit ng pag-ibig at emosyon para lokohin ang mga tao. Madalas, fake ang mga picture nila o may ibang kausap pa silang iba.\n\nHuwag po kayong magpadala ng pera. Kung totoo ang pagmamahal, maghihintay sila o hahanap ng ibang paraan.\n\nProtektahan ninyo ang inyong sarili at pera. Deserve ninyo ng taong tunay.",
+            "confused_response": "Naiintindihan ko po na masakit isipin ito, pero yan ay romance scam.\n\nAng tunay na taong nagmamahal sa inyo ay hindi hihinging pera para lang makita kayo. Kung talagang seryoso sila, hahanap sila ng paraan na hindi kayo magiging pabigat sa gastos.\n\nAng mga scammer ay gumagamit ng pag-ibig at emosyon para lokohin ang mga tao. Madalas, fake ang mga picture nila o may ibang kausap pa silang iba.\n\nHuwag po kayong magpadala ng pera. Kung totoo ang pagmamahal, maghihintay sila o hahanap ng ibang paraan.\n\nProtektahan ninyo ang inyong sarili at pera. Deserve ninyo ng taong tunay.",
+            "context": "scam_scenarios"
+        },
+        "claiming_love_response": {
+            "keywords": {
+                "first": ["mahal niya", "gusto niya", "mahal niya"],
+                "second": ["ako", " ko"]
+            },
+            "response": "Naiintindihan ko po na nakakatuwa marinig na may nagmamahal sa inyo. Pero kailangan po nating maging maingat.\n\nAng tunay na pagmamahal ay nabubuo sa personal na pagkilala, oras, at tiwala. Mahirap magsabi ng \"mahal kita\" kung hindi pa kayo nagkikita o tunay na nagkakilala. Ang mga scammer ay madalas gumamit ng salitang \"mahal kita\" nang mabilis para manalo ng tiwala at damdamin ninyo. Pagkatapos, hihingi sila ng pera o tulong.Kung talagang seryoso ang tao, maghihintay sila at mag-eeffort na makilala kayo nang personal nang walang hinihinging pera. Mag-ingat po kayo at protektahan ang inyong puso at pera.",
+            "confused_response": "Naiintindihan ko po na nakakatuwa marinig na may nagmamahal sa inyo. Pero kailangan po nating maging maingat.\n\nAng tunay na pagmamahal ay nabubuo sa personal na pagkilala, oras, at tiwala. Mahirap magsabi ng \"mahal kita\" kung hindi pa kayo nagkikita o tunay na nagkakilala. Ang mga scammer ay madalas gumamit ng salitang \"mahal kita\" nang mabilis para manalo ng tiwala at damdamin ninyo. Pagkatapos, hihingi sila ng pera o tulong.Kung talagang seryoso ang tao, maghihintay sila at mag-eeffort na makilala kayo nang personal nang walang hinihinging pera. Mag-ingat po kayo at protektahan ang inyong puso at pera.",
+            "context": "scam_scenarios"
+        },
+        "money_to_receive_scam": {
+            "keywords": {
+                "first": ["fillout", "click ang link", "clinick ang link"],
+                "second": ["pera", "may"],
+                "third": ["makukuha", "matanggap"]
+            },
+            "response": "Huwag po kayong maniwala at huwag i-click ang link na yan. Ito ay scam o panlilinlang. Ang totoo, walang libreng pera na ganyan kadali.\n\nKapag nag-click kayo ng mga suspicious na link o nag-fill out ng personal information, maaaring manakaw ang inyong mga detalye tulad ng password, OTP, o bank account. Pwede rin mag-install ng virus sa inyong cellphone.\n\nAng mga scammer ay gumagamit ng ganyang paraan para lokohin ang mga tao. Huwag po kayong magbigay ng anumang personal na impormasyon.\n\nMas ligtas na tanggalin o i-delete na lang ang mensahe. Magtiwala lang sa mga kilala ninyong tao.",
+            "confused_response": "Huwag po kayong maniwala at huwag i-click ang link na yan. Ito ay scam o panlilinlang. Ang totoo, walang libreng pera na ganyan kadali.\n\nKapag nag-click kayo ng mga suspicious na link o nag-fill out ng personal information, maaaring manakaw ang inyong mga detalye tulad ng password, OTP, o bank account. Pwede rin mag-install ng virus sa inyong cellphone.\n\nAng mga scammer ay gumagamit ng ganyang paraan para lokohin ang mga tao. Huwag po kayong magbigay ng anumang personal na impormasyon.\n\nMas ligtas na tanggalin o i-delete na lang ang mensahe. Magtiwala lang sa mga kilala ninyong tao.",
+            "context": "scam_scenarios"
+        },
+        "urgent_money_response": {
+            "keywords": {
+                "first": ["emergency", "kailangan ng pera", "money urgently"],
+                "second": ["agad", "urgent", "mabilis"]
+            },
+            "response": "Naiintindihan ko po na nahihirapan kayong magdesisyon, lalo na kung nag-aalala kayo sa kanya. Pero ang \"emergency\" na kailangan ng pera agad ay classic na paraan ng mga scammer.\n\nGinagamit nila ang urgency o kagipitan para hindi kayo makapagisip nang maayos at makapagpadala agad kayo ng pera.\n\nTanungin muna ang sarili:\n- Bakit kayo ang hihingan niya kung may emergency?\n- Wala ba siyang pamilya o kaibigan doon?\n- Bakit kailangan agad-agad?\n\nKung talagang emergency at totoo siya, maiintidihan niya kung mag-verify o humingi muna ng proof.\n\nKung magalit o mas pinipilit kayo, red flag na yan.",
+            "confused_response": "Naiintindihan ko po na nahihirapan kayong magdesisyon, lalo na kung nag-aalala kayo sa kanya. Pero ang \"emergency\" na kailangan ng pera agad ay classic na paraan ng mga scammer.\n\nGinagamit nila ang urgency o kagipitan para hindi kayo makapagisip nang maayos at makapagpadala agad kayo ng pera.\n\nTanungin muna ang sarili:\n- Bakit kayo ang hihingan niya kung may emergency?\n- Wala ba siyang pamilya o kaibigan doon?\n- Bakit kailangan agad-agad?\n\nKung talagang emergency at totoo siya, maiintidihan niya kung mag-verify o humingi muna ng proof.\n\nKung magalit o mas pinipilit kayo, red flag na yan.",
+            "context": "scam_scenarios"
+        },
+        "famous_scam_response": {
+            "keywords": {
+                "first": ["sikat", "celebrity", "famous", "actor", "actress", "singer"],
+                "second": ["kausap", "chat", "message", "text"],
+                "third": ["punta", "kita", "visit"]
+            },
+            "response": "Naiintindihan ko po na nakaka-excite at nakakatuwa yan. Pero kailangan po nating maging maingat.\n\nAng mga sikat na tao ay may busy schedule, security, at managers. Hindi sila basta-basta makikipag-usap privately o pupunta sa mga taong hindi nila kilala.\n\nAng mga scammer ay madalas gumamit ng fake accounts ng mga celebrities. Kunwari sila yung artista, pero iba ang nasa likod ng account.\n\nKung totoo yan, may verified badge ang account at hindi sila hihingi ng pera o personal na impormasyon.\n\nHuwag po kayong magbigay ng pera o detalye. Baka scam lang yan.",
+            "confused_response": "Naiintindihan ko po na nakaka-excite at nakakatuwa yan. Pero kailangan po nating maging maingat.\n\nAng mga sikat na tao ay may busy schedule, security, at managers. Hindi sila basta-basta makikipag-usap privately o pupunta sa mga taong hindi nila kilala.\n\nAng mga scammer ay madalas gumamit ng fake accounts ng mga celebrities. Kunwari sila yung artista, pero iba ang nasa likod ng account.\n\nKung totoo yan, may verified badge ang account at hindi sila hihingi ng pera o personal na impormasyon.\n\nHuwag po kayong magbigay ng pera o detalye. Baka scam lang yan.",
+            "context": "scam_scenarios"
+        },
         "profile_impersonation_response": {
             "keywords": {
                 "first": ["litrato", "image", "pic", "profile"],
@@ -1116,6 +1173,25 @@
             "response": "Minsan, ang pinakamadaling simulan ay yung taong kahit papaano ay “pinaka-safe” para sa’yo, kahit isang kapamilya o kaibigan na hindi ka huhusgahan. Hindi mo kailangang ikwento nang perpekto, kahit simpleng “may nangyari sa’kin online at nahihirapan ako” sapat na para magsimula.\n\nHindi mo kailangang harapin ito mag-isa.",
             "confused_response": "Nakakalito at mabigat talaga ang pakiramdam na ganyan.\n\nKung hindi mo alam kung saan magsisimula, puwede kang lumapit sa taong pinagkakatiwalaan mo, tulad ng kapamilya o kaibigan. Kahit hindi mo maipaliwanag nang buo, okay lang magsabi ng simpleng, “may nangyari sa’kin online at nahihirapan ako.”\n\nHindi mo kailangang harapin ito nang mag-isa. May mga taong puwedeng tumulong sa’yo.",
             "context": ""
+        },
+        "where_to_start": {
+            "keywords": {
+                "first": ["paano", "saan"],
+                "second": ["simula", "gagawin"]
+            },
+            "response": "Naiintindihan ko ang iyong nararamdaman, normal lang na maramdamang nawala at hindi alam kung saan magsisimula. Isa-isa lang, hindi kailangang gawin lahat nang sabay. Una, huminga muna at huwag mag-alala nag-iisa. Maaari kang humingi ng tulong sa iyong pamilya o mga kaibigan. Nandito kami para gabayan ka sa bawat hakbang. Hindi ka nag-iisa sa sitwasyong ito.",
+            "confused_response": "Naiintindihan ko ang iyong nararamdaman, normal lang na maramdamang nawala at hindi alam kung saan magsisimula. Isa-isa lang, hindi kailangang gawin lahat nang sabay. Una, huminga muna at huwag mag-alala nag-iisa. Maaari kang humingi ng tulong sa iyong pamilya o mga kaibigan. Nandito kami para gabayan ka sa bawat hakbang. Hindi ka nag-iisa sa sitwasyong ito.",
+            "context": "scam_scenarios"
+        },
+        "acquaintance_claim_response": {
+            "keywords": {
+                "first": ["kilala"],
+                "second": ["di"],
+                "third": ["maalala", "matandaan"]
+            },
+            "response": "Naiintindihan ko kung bakit nalilito ka kung may nagpakilala na kakilala mo daw pero hindi mo siya matandaan. Mag-ingat, dahil minsan ginagamit ito ng scammers para makuha ang tiwala mo. Huwag agad maniwala. Pwede mong tanungin ng detalye kung saan kayo nagkakilala, at i-check ang profile niya. Iwasan muna magbigay ng personal na impormasyon o pera hangga’t hindi ka sigurado kung sino talaga siya. Nandito ako para gabayan ka.",
+            "confused_response": "Naiintindihan ko kung bakit nalilito ka kung may nagpakilala na kakilala mo daw pero hindi mo siya matandaan. Mag-ingat, dahil minsan ginagamit ito ng scammers para makuha ang tiwala mo. Huwag agad maniwala. Pwede mong tanungin ng detalye kung saan kayo nagkakilala, at i-check ang profile niya. Iwasan muna magbigay ng personal na impormasyon o pera hangga’t hindi ka sigurado kung sino talaga siya. Nandito ako para gabayan ka.",
+            "context": "scam_scenarios"
         }
     },
     "scam_signs": {
@@ -1256,6 +1332,14 @@
             "confused_response": "Kung may nag-send ng link sa text o Facebook, huwag agad pindutin. Kahit mukhang totoo, baka peke lang yan.\n\nGawin mo ito: Buksan ang Google, tapos i-type mo doon ang pangalan ng bangko o kumpanya. Doon ka mag-click at hindi sa link na na-text sa'yo.\n\nO kaya, tawagan mo ang numero na nakalagay sa bill o statement mo. Tanungin mo kung totoo ba ang text na natanggap mo.\n\nPag nahanap mo na ang totoong website, i-save mo bilang \"favorite\" o \"bookmark\" para sunod-sunod na, doon ka na lang pumunta. Mas safe.",
             "context": "sms_scams"
         },
+        "romance_scam_signs": {
+            "keywords": {
+                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date", "may gusto"]
+            },
+            "response": "Narito ang mga palatandaan ng romance scam:\n• Mabilis magsabi ng “I love you” kahit bagong kakilala\n• Humihingi ng pera para sa emergency o problema\n• Gustong ilipat ang usapan sa email o text\n• Laging may dahilan para hindi kayo magkita\n• Nangangako ng relasyon pero humihingi ng tulong pinansyal",
+            "confused_response": "Ang ganitong scam ay kadalasang may taong mabilis magtiwala o magpahayag ng damdamin. Maaaring humingi ng pera at umiwas sa personal na pagkikita.",
+            "context": "romance_scam"
+        },
         "phishing_scam_signs": {
             "keywords": {
                 "first": ["phish", "pish", "email", "text", "message", "mensahe", "chat"]
@@ -1279,14 +1363,6 @@
             "response": "May mga taong mag-aalok ng investment na pangakong malaki ang kita at maliit o walang risk. Madalas magmukhang professional at puwede silang manghikayat na gamitin ang savings o retirement money mo.\n\nMag-ingat kung pinipilit kang mag-invest agad, may pangakong guaranteed o sobrang taas na kita, o sinasabing magsimula sa  small amount  na kalaunan tataas. Kung parang sobrang ganda para maging totoo, malamang scam ito.",
             "confused_response": "Baka scam kung may taong nag-aalok ng investment na pangako ng malaking pera.\nAng totong investment ay may risk. Kung sabi nila guaranteed ang kita o sobrang taas—basta walang risk—huwag na. Ito ay hindi totoo.\nKung pinipilit ka nang mabilis na mag-invest o sabihin mong gamitin ang retirement money mo, mag-ingat. Ito ay red flag.\nKung nagsisimula lang sa konting pera tapos lalaki—baka trap lang ito para makuha ang mas maraming pera mo.\nKung sobrang ganda ng offer, malamang fake lang.",
             "context": "investment_scam"
-        },
-        "romance_scam_signs": {
-            "keywords": {
-                "first": ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date"]
-            },
-            "response": "Narito ang mga palatandaan ng romance scam:\n• Mabilis magsabi ng “I love you” kahit bagong kakilala\n• Humihingi ng pera para sa emergency o problema\n• Gustong ilipat ang usapan sa email o text\n• Laging may dahilan para hindi kayo magkita\n• Nangangako ng relasyon pero humihingi ng tulong pinansyal",
-            "confused_response": "Ang ganitong scam ay kadalasang may taong mabilis magtiwala o magpahayag ng damdamin. Maaaring humingi ng pera at umiwas sa personal na pagkikita.",
-            "context": "romance_scam"
         },
         "ransomware_scam_signs": {
             "keywords": {
@@ -1312,9 +1388,78 @@
             "response": "Narito ang mga palatandaan ng charity scam:\n• May biglaang humihingi ng donasyon mula sa hindi kilalang charity\n• Pinapamadali kang magbigay ng pera\n• Humihingi ng bayad gamit ang gift card o money transfer apps\n• Gumagamit ng pangalan o larawan ng totoong charity\n• May website o social media page na mukhang totoo pero peke\n• May nagpapanggap na opisyal o ahente na naniningil",
             "confused_response": "Ang ganitong scam ay kadalasang humihingi ng donasyon lalo na pagkatapos ng sakuna. Maaaring magmadali o gumamit ng pangalan ng totoong charity para magmukhang legit.",
             "context": "charity_scam"
+        },
+        "gcash_legitimacy": {
+             "keywords": {
+                "first": ["gcash"]
+            },
+            "response": "Naiintindihan ko ang iyong pag-aalala, natural lang na mag-ingat pagdating sa pera! Ang GCash ay isang ligtas na paraan ng pagbabayad online. Ito ay may PIN at OTP (one-time password) na nagpoprotekta sa iyong account. Siguraduhin lang na huwag ibahagi ang iyong PIN o OTP sa kahit sino, kahit sa mga kamag-anak. At palaging gamitin ang opisyal na GCash app para sa iyong mga transaksyon. Ikaw ay nasa tamang landas!",
+            "confused_response": "Naiintindihan ko ang iyong pag-aalala, natural lang na mag-ingat pagdating sa pera! Ang GCash ay isang ligtas na paraan ng pagbabayad online. Ito ay may PIN at OTP (one-time password) na nagpoprotekta sa iyong account. Siguraduhin lang na huwag ibahagi ang iyong PIN o OTP sa kahit sino, kahit sa mga kamag-anak. At palaging gamitin ang opisyal na GCash app para sa iyong mga transaksyon. Ikaw ay nasa tamang landas!",
+            "context": "gcash_scam"
         }
     },
     "emotional_support": {
+        "data_expose": {
+            "keywords": {
+                "first": ["mawag", "tawag", "text", "mensahe", "chat", "call"],
+                "second": ["alam", "kilala", "detalye", "details"],
+                "third": [" ko", "ako", "sakin", "akin"]
+            },
+            "response": "Naiintindihan ko po kung bakit kayo nabigla at natakot. Ang mga scammer ay may paraan para makakuha ng inyong personal na impormasyon mula sa social media, data leaks, o mga nabili nilang listahan.\n\nKahit alam nila ang ilang detalye tungkol sa inyo, tulad ng pangalan, address, o kamag-anak, hindi ibig sabihin totoo o lehitimo sila. Ginagamit lang nila yan para magmukhang credible at mapaniwala kayo.\n\nHuwag po kayong magbigay ng karagdagang impormasyon lalo na ng OTP, password, o bank details.\n\nI-block ninyo na ang number nila at huwag nang sagutin. Kung kinakailangan, mag-report kayo sa inyong bangko o pulis.",
+            "context": ""
+        },
+        "need_verification": {
+            "keywords": {
+                "first": ["mawag", "tawag", "call"],
+                "second": ["kailangan", "kelangan", "hingi"],
+                "third": ["verification", "verify"]
+            },
+            "response": "Tama po ang inyong pakiramdam na may mali. Yan ay palatandaan ng scam.\n\nKung ang bangko o kumpanya ang tumawag sa inyo, sila ang dapat mag-verify sa inyo, hindi kayo sa kanila. Hindi nila kailangang hilingin ang OTP, password, o iba pang sensitive na detalye para \"mag-verify.\"\n\nAng mga scammer ay gumagamit ng trick na ito para magmukhang lehitimo sila. Ang totoo, gusto lang nilang kunin ang inyong impormasyon.\n\nKung may tunay na concern, bangko mismo ang magpapadala ng official notification sa app o email, o maghihintay na kayo mismo ang pumunta sakanila. Huwag magtiwala sa mga tumatawagang nagsasabing taga-bangko.",
+            "context": ""
+        },
+        "get_money_back": {
+            "keywords": {
+                "first": ["bawi", "balik"],
+                "second": ["pera", "kuha", "nakaw", "na wala", "nawala"]
+            },
+            "response": "Naiintindihan ko po ang inyong takot at pag-asa na mabawi pa ang pera. Pero ang totoo, napakahirap mabawi ang pera lalo pa kapag kayo mismo ang nag-confirm o nagbigay ng OTP o detalye.\n\nAng mga bangko ay nakikita na kayo ang nag-authorize ng transaction kaya mahirap mag-complain o mag-reklamo. Pero huwag po kayong mawalan ng pag-asa.\n\nGawin agad ito:\n- I-report sa bangko ninyo at sabihan na na-scam kayo\n- Mag-file ng police report\n- I-block ang mga account kung saan napunta ang pera\n\nMas mabilis ang aksyon, mas may tsansa na ma-freeze ang pera bago mailipat ng scammer. Hindi garantisado, pero subukan pa rin.",
+            "context": ""
+        },
+        "money_sent": {
+            "keywords": {
+                "first": ["bigay"],
+                "second": ["pera"],
+                "third": ["kulang", "di sapat", "di daw sapat", "di raw sapat"]
+            },
+            "response": "Hindi po normal yan. Yan ay maaaring scam o panlilinlang. Kapag may humihingi ng pera at sinasabing \"kulang pa,\" ito ay palatandaan na niloloko ka na nila.\n\nAng totoo, walang lehitimong proseso na paulit-ulit kang sisingilin. Tigilan niyo na po ang pagbibigay ng pera sa kanila. Huwag na kayong magtiwala o makipag-ugnayan pa.\n\nNaiintindihan ko na nakakatakot at naguguluhan kayo. Pero mas mainam na itigil na ngayon bago pa lumaki ang mawala sa inyo.\n\nKung kailangan ninyo ng tulong, magsabi po kayo sa kapamilya o mag-report sa pulis.",
+            "context": ""
+        },
+        "advance_pay_loan": {
+            "keywords": {
+                "first": ["doble", "dumoble", "double"],
+                "second": ["bayad", "bigay", "padala"],
+                "third": ["release", "mabigay", "mapadala"]
+            },
+            "response": "Yan po ay scam o panlilinlang. Walang lehitimong negosyo ang nangangako ng mabilisang dobleng balik ng pera, at hindi pwede na mag-rerequest pa sila ng dagdag bayad para \"ma-release\" ang pera ninyo.\n\nAng mga scammer ay gumagamit ng ganitong paraan - pangakuan ng malaking kita, tapos humihingi ng paulit-ulit na bayad. Kapag nagbayad kayo, wala kayong matatanggap. Nawawala lang ang pera ninyo.\n\nKahit kakilala ninyo siya, posible na sumusunod lang din siya sa mga nakakataas sakanya pero kung maari ay kausapin paden siya.\n\nHuwag na po kayong magpadala ng karagdagang pera. Tigilan na yan bago pa lumaki ang nalugi ninyo.",
+            "context": ""
+        },
+        "bank_impersonator_asking_details": {
+            "keywords": {
+                "first": ["tawag", "mawag"],
+                "second": ["number", "numero", "details", "detalye"]
+            },
+            "response": "Naiintindihan ko pong nakakatakot kapag may tumawag na nagsasabing may problema ang account niyo. Pero ang totoo, yan ay scam o panlilinlang.\n\nAng tunay na bangko ay hindi kailanman hihingi ng OTP code, password, CVV, o iba pang sensitive na detalye sa pamamagitan ng tawag o text.\n\nAng mga scammer ay nagpapanggap na taga-bangko para kunin ang inyong impormasyon at nakawin ang pera sa account ninyo.\n\nKung may tunay na problema sa account, puntahan ninyo mismo ang bangko o tawagan ang official number ng bangko.\n\nHuwag na po kayong makipag-ugnayan sa tumawag na yan.",
+            "context": ""
+        },
+        "suspicious_lover": {
+           "keywords": {
+                "first": ["sabi", "kwento"],
+                "second": ["totoo", "real", "legit", "sinungaling"],
+                "third": ["hinala", "duda", "suspicious"]
+            },
+            "response": "Tama po na mag-enjoy sa pakikipag-usap online, pero tama rin na magtanong at mag-ingat. Sundin ninyo ang inyong instinct o pakiramdam.\n\nNarito ang mga red flags o palatandaan na baka hindi totoo ang sinasabi nila:\n- Ayaw mag-video call kahit matagal na kayong nag-uusap\n- Iba-iba ang kuwento o may inconsistencies\n- Puro rason kung bakit hindi kayo magkikita\n- Nagsisimula nang humingi ng pera o tulong\n\nKung may hinala kayo, i-verify ninyo. Hingin ng video call, magtanong ng detalye, o mag-research.\n\nProtektahan ninyo ang sarili. Okay lang maging masaya, pero mas importante ang safety ninyo.",
+            "context": ""
+        },
         "what_to_do": {
             "keywords": {
                 "first": ["di ko alam", "di ko na alam", "ano na"],
@@ -1369,6 +1514,14 @@
                 "first": ["suko", "sumuko", "give up", "yoko na"]
             },
             "response": "Mabigat talaga ang pinagdadaanan mo ngayon. Kapag sunod-sunod ang stress at takot, nakakapagod at parang gusto na lang tumigil.\n\nPero hindi mo kailangang dalhin lahat mag-isa. Okay lang na mapagod at huminto sandali. Nandito lang ako para makinig.",
+            "context": ""
+        },
+        "anxious_if_scammed": {
+            "keywords": {
+                "first": ["kaba", "takot", "panic"],
+                "second": ["scam", "loko", "biktima"]
+            },
+            "response": "Okay lang matakot, lalo na kung may bagay na parang kahina-hinala. Mabuti rin na nakikinig ka sa kutob mo.\n\nHuwag muna magbigay ng personal na impormasyon, passwords, OTP, o pera hangga’t hindi ka sigurado. Magandang mag-pause muna at i-check kung official at mapagkakatiwalaan talaga ang kausap o website.\n\nHindi kailangang magmadali sa mga ganitong sitwasyon.",
             "context": ""
         },
         "anxious": {
@@ -1479,9 +1632,17 @@
         },
         "distrust": {
             "keywords": {
-                "first": ["tiwala", "naniwala", "paniwala", "mapagkakatiwalaan", "lito", "hilo", "naloko"]
+                "first": ["tiwala", "naniwala", "paniwala", "mapagkakatiwalaan", "lito", "hilo", "naloko"],
+                "second": ["sarili"]
             },
             "response": "Alam namin, nakaka-stress at nakakalito talaga kapag ikaw ay na-scam. Normal lang na makaramdam ng takot o panghihina, pero may paraan para maibalik ang tiwala sa sarili at maayos ang emosyon.\n\nMagsimula sa pakikipag-usap sa taong pinagkakatiwalaan mo katulad ng kapamilya, kaibigan, o kahit sa iba na nakaranas din ng ganito. Makakatulong ito para hindi ka masyadong maramdaman na nag-iisa at para mabawasan ang hiya. Huwag sisihin ang sarili dahil hindi mo ito kasalanan, at nangyayari ito sa kahit sinong tao.\n\nSubukan ding gawin ang mga bagay na makakapagpabalik ng kontrol sa buhay mo. Pwede kang matuto ng bagong skills, mag-ingat para hindi na maulit, o maghanap ng mga paraan para maging positive ang karanasan.  Sa pagiging maingat at paggawa ng hakbang para protektahan ang sarili, unti-unti mong maibabalik ang tiwala sa ibang tao at sa sarili.",
+            "context": ""
+        },
+        "too_trusting": {
+            "keywords": {
+                "first": ["tiwala", "niwala"]
+            },
+            "response": "Naiintindihan ko po yan. Maraming tao ang magaling makipag-usap at mabait kaya madali tayong mapaniwala. Hindi kasalanan ninyo na nagtiwala kayo dahil ginawa lang nila kung ano ang magugustuhan mo.\n\nPero tandaan po: ang totoong tao ay hindi nagmamadali. Handa silang maghintay, mag-video call, at patunayan kung sino talaga sila bago humingi ng anuman.\n\nAng mga scammer ay expert sa pagbuo ng tiwala nang mabilis - sweet words, atensyon, at kwentong nakakaantig. Ginagamit nila yan para hindi kayo mag-isip nang malinaw.\n\nHuwag kayong mahiya. Maraming nakakaranas nito. Ang importante ngayon, tigilan na ang pagbibigay ng tiwala o pera hanggang makilala ninyo sila personally.",
             "context": ""
         },
          "gossip": {
@@ -1490,6 +1651,15 @@
                 "second": ["nila", "tao", "niya", "iba"]
             },
             "response": "Nakakabigat talaga kapag iniisip mo na baka pinag-uusapan ka ng iba. Lalo na pagkatapos ng scam, mas lumalakas minsan ang mga ganitong isip kahit walang malinaw na ebidensya.\n\nPero madalas, ang isip natin ang nagpapalaki ng takot kapag stressed tayo. Hindi ibig sabihin nito na totoo ang iniisip mo.\n\nNandito lang ako habang mabigat pa ‘yan.",
+            "context": ""
+        },
+        "why_me": {
+            "keywords": {
+                "first": ["di"],
+                "second": ["alam", "intindihan", "unawan"],
+                "third": ["ako", "pili", "pinili"]
+            },
+            "response": "Naiintindihan ko kung gaano kahirap ang nararamdaman mo ngayon. Pero tandaan na hindi ito ang iyong kasalanan. Ang mga scammer ay random na pumipili ng kanilang mga biktima. Sila ang may sala, hindi ikaw. Ang mahalaga ngayon ay huwag nang magpadala pa ng pera at i-report agad ang nangyari sa GCash support o sa iyong pinakamalapit na pulis. Nandito kami para tulungan ka.",
             "context": ""
         }
     }
