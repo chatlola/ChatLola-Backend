@@ -24,19 +24,11 @@ def vectorize(text, vectorizer):
     return vectorizer.transform([text])
 
 def match_keywords(query, keywords):
-    if not any(k in query for k in keywords["first"]):
-        return False
+    for group in keywords:
+        if not any(k in query for k in group):
+            return False
 
-    if "second" not in keywords:
-        return True
-    
-    if not any(k in query for k in keywords["second"]):
-        return False
-
-    if "third" not in keywords:
-        return True
-
-    return any(k in query for k in keywords["third"])
+    return True
 
 def build_response(tag_data, intent, topic, confusion_label, context, confused=False):
     if not tag_data:

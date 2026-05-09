@@ -322,6 +322,18 @@ explain_concept,Dapat ba agad magtiwala sa mga online sellers?
 explain_concept,Dapat ba paniwalaan ang mga mensaheng nagsasabing nanalo ako?
 explain_concept,Dapat ba pagkatiwalaan ang mga taong nag-aalok ng investment online?
 explain_concept,Dapat ba agad sundin ang instructions sa mga text na galing sa unknown number?
+explain_concept,Paano ginagamit ng mga scammer ang panlilinlang para makapanloko?
+explain_concept,Paano ba nila isinasagawa ang panlilinlang sa mga biktima?
+explain_concept,Paano gumagana ang mga paraan ng panlilinlang ng scammer?
+explain_concept,Paano nila niloloko ang tao gamit ang panlilinlang online?
+explain_concept,Paano isinasagawa ng scammer ang mga taktika ng panlilinlang?
+explain_concept,Paano nila ginagamit ang panlilinlang para makuha ang tiwala ng biktima?
+explain_concept,bakit dapat mas maging alerto online
+,
+,
+,
+,
+,
 ,
 ,
 ,
@@ -631,7 +643,7 @@ prevent_scam,Paano makakaiwas sa deepfake at fake video scams?
 prevent_scam,Bakit hindi dapat agad magtiwala sa mga hindi kilala online?
 prevent_scam,Ano ang mga dapat kong tandaan para maiwasan ang mga ganitong scam?
 prevent_scam,Ano ang mga dapat kong tandaan para mas maging ligtas online?
-prevent_scam,
+prevent_scam,paano maging secure at maayos sa social media
 prevent_scam,Ano ang mga bagay na dapat kong tandaan para hindi maloko online?
 prevent_scam,Ano ang mga dapat kong tandaan para maiwasan ang mga online scams?
 prevent_scam,Ano ang mga paalala na dapat kong tandaan para maging ligtas sa scam?
@@ -639,9 +651,9 @@ prevent_scam,Ano ang mga dapat kong tandaan para hindi mabiktima ng panloloko?
 prevent_scam,Ano ang mga tips na dapat kong tandaan para makaiwas sa scam?
 prevent_scam,Ano ang mga dapat kong tandaan para mas maging maingat sa online?
 prevent_scam,Ano ang mga dapat kong tandaan para hindi maloko ng scammers?
-prevent_scam,
+prevent_scam,paano manatiling maayos at ligtas sa paggamit ng social media
 prevent_scam,Ano ang mga dapat kong tandaan para maiwasan ang ganitong klaseng panloloko?
-prevent_scam,
+prevent_scam,paano maging safe at responsable sa social media
 prevent_scam,Ano ang mga dapat kong tandaan para hindi ma-scam online?
 prevent_scam,Ano ang mga dapat kong tandaan para maging alerto sa mga scam?
 prevent_scam,Paano ako makakaiwas sa scam kung may tumatawag na nagsasabing kamag-anak ko?
@@ -990,7 +1002,7 @@ scam_response,"Na-hack ang account ko at ginagamit sa panloloko, saan ako magrer
 scam_response,"May fake seller na nang-scam sa akin, saan ko ito pwede isumbong?"
 scam_response,"May nag-text ng scam sa akin, kanino ko ito dapat i-report?"
 scam_response,"Nabiktima ako ng online fraud, saan ako pwedeng humingi ng tulong?"
-,
+scam_response,ano ang pwede kong gawin matapos mascam
 ,
 ,
 ,
