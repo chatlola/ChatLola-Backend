@@ -670,6 +670,10 @@
         "delivery_scam": {
             "question": "Paano ko maiiwasan ang panloloko sa delivery o payment?",
             "intent": "prevent_scam"
+        },
+        "cheap_product_scam_signs": {
+            "question": "May nakita akong binebenta online na mura, hindi ko sure kung legit ito.",
+            "intent": "scam_signs"
         }
     },
     "gcash_scam": {

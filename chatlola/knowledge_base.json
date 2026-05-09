@@ -17,7 +17,7 @@
             },
             "response": "Ang fake news ay mali o pekeng impormasyon na ipinapakita na parang totoong balita. Maaari itong gawa-gawa, kulang sa detalye, o sadyang ginawa para manlinlang.\n\nGinagamit ang fake news para takutin, linlangin, o impluwensyahan ang paniniwala ng iba. Madalas itong makita sa social media, forwarded messages, o kahina-hinalang posts.\n\nMay dalawang uri: misinformation (maling impormasyon na naibabahagi kahit hindi sinasadya) at disinformation (maling impormasyon na sinadyang ikalat para manloko).\n\nSa madaling salita, ang fake news ay impormasyon na mukhang totoo pero mali o mapanlinlang.",
             "confused_response": "Ang Fake news ay pekeng balita na parang totoo.\n\nHalimbawa: May nakita kang post na \"Libre na ang kuryente ngayong Abril!\" Mukhang totoo kasi may larawan pa. Pero pag i-check mo, walang announcement ang Meralco. Yan ang fake news - gawa-gawa lang.\n\nMinsan, ginagawa yan para takutin ka o linlangin ka. Minsan naman, na-share lang ng kaibigan mo kahit hindi niya alam na peke.\n\nKaya bago ka maniwala o mag-share, i-check mo muna kung totoo. Tingnan sa news o tanungin ang ibang tao. Huwag agad maniwala sa lahat ng nababasa online.",
-            "context": "general"
+            "context": "online_safety"
         },
         "misinformation_disinformation": {
             "keywords": {
@@ -1158,14 +1158,6 @@
             "confused_response": "Okay lang magulat at manlumo kung ikaw ay na-scam,\n\nGawin mo agad ang mga sumusunod:\n- I-save ang proof (chat, resibo, screenshots)\n- Huwag na kausapin ang scammer\n- I-report sa app, GCash, o bank ng pinagbayaran\n- I-report din sa NBI o PNP",
             "context": "scam_scenarios"
         },
-        "general_scam_response": {
-            "keywords": {
-                "first": ["mascam", "maskam", "nascam", "kakascam", "naiscam", "niloko", "naloko", "maloko"]
-            },
-            "response": "Kung sa tingin mo ay na-scam ka:\n\n• Tawagan agad ang bangko o e-wallet\n• Palitan ang iyong passwords\n• I-report ang nangyari sa awtoridad\n\nTandaan, may mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong impormasyon.",
-            "confused_response": "Kung na-scam ka, kumilos agad. Tawagan ang bangko, palitan ang password, at i-report ang nangyari.\n\nMay tutulong sa iyo, kaya huwag mag-alala at humingi ng tulong.",
-            "context": "scam"
-        },
         "where_to_report": {
             "keywords": {
                 "first": ["lumapit", "lapitan", "report"]
@@ -1192,6 +1184,33 @@
             "response": "Naiintindihan ko kung bakit nalilito ka kung may nagpakilala na kakilala mo daw pero hindi mo siya matandaan. Mag-ingat, dahil minsan ginagamit ito ng scammers para makuha ang tiwala mo. Huwag agad maniwala. Pwede mong tanungin ng detalye kung saan kayo nagkakilala, at i-check ang profile niya. Iwasan muna magbigay ng personal na impormasyon o pera hangga’t hindi ka sigurado kung sino talaga siya. Nandito ako para gabayan ka.",
             "confused_response": "Naiintindihan ko kung bakit nalilito ka kung may nagpakilala na kakilala mo daw pero hindi mo siya matandaan. Mag-ingat, dahil minsan ginagamit ito ng scammers para makuha ang tiwala mo. Huwag agad maniwala. Pwede mong tanungin ng detalye kung saan kayo nagkakilala, at i-check ang profile niya. Iwasan muna magbigay ng personal na impormasyon o pera hangga’t hindi ka sigurado kung sino talaga siya. Nandito ako para gabayan ka.",
             "context": "scam_scenarios"
+        },
+        "what_to_do": {
+            "keywords": {
+                "first": ["di ko alam", "di ko na alam", "ano na"],
+                "second": ["gawin"],
+                "third": [" ko"]
+            },
+            "response": "Nakaka-overwhelm talaga 'yan, pero may puwede kang gawin ngayon, dahan-dahan lang.\n\nItigil muna ang pakikipag-usap sa kanila at huwag nang magpadala ng pera o impormasyon. Kung may naibigay kang detalye tulad ng password o bank info, mabuting palitan agad ito. Kung may kinalaman sa pera, makipag-ugnayan agad sa bangko o e-wallet para ma-report at ma-secure ang account.\n\nHindi mo kailangang ayusin lahat nang sabay-sabay. Isang hakbang muna, okay na 'yun.",
+            "confused_response": "Nakaka-overwhelm talaga 'yan, pero may puwede kang gawin ngayon, dahan-dahan lang.\n\nItigil muna ang pakikipag-usap sa kanila at huwag nang magpadala ng pera o impormasyon. Kung may naibigay kang detalye tulad ng password o bank info, mabuting palitan agad ito. Kung may kinalaman sa pera, makipag-ugnayan agad sa bangko o e-wallet para ma-report at ma-secure ang account.\n\nHindi mo kailangang ayusin lahat nang sabay-sabay. Isang hakbang muna, okay na 'yun.",
+            "context": ""
+        },
+        "shame": {
+            "keywords": {
+                "first": ["hiya", "lito"],
+                "second": ["gawin", "harapin"]
+            },
+            "response": "Maiintindihan ko kung bakit nakakahiya at nakakalito harapin ‘to. Pero hindi mo kailangang ayusin lahat nang sabay-sabay.\n\nUnang hakbang, puwede mong gawin ay sabihin lang sa isang pinagkakatiwalaang tao ang nangyari, kahit basic lang. Mas magaan kapag may nakakaalam at sumusuporta sa’yo.\n\nPagkatapos, kung kaya mo, i-report ito sa platform o sa bangko kung may kinalaman sa pera. Hindi mo kailangang mag-isa sa proseso.",
+            "confused_response": "Nakaka-overwhelm talaga 'yan, pero may puwede kang gawin ngayon, dahan-dahan lang.\n\nItigil muna ang pakikipag-usap sa kanila at huwag nang magpadala ng pera o impormasyon. Kung may naibigay kang detalye tulad ng password o bank info, mabuting palitan agad ito. Kung may kinalaman sa pera, makipag-ugnayan agad sa bangko o e-wallet para ma-report at ma-secure ang account.\n\nHindi mo kailangang ayusin lahat nang sabay-sabay. Isang hakbang muna, okay na 'yun.",
+            "context": ""
+        },
+        "general_scam_response": {
+            "keywords": {
+                "first": ["mascam", "maskam", "nascam", "kakascam", "naiscam", "niloko", "naloko", "maloko"]
+            },
+            "response": "Kung sa tingin mo ay na-scam ka:\n\n• Tawagan agad ang bangko o e-wallet\n• Palitan ang iyong passwords\n• I-report ang nangyari sa awtoridad\n\nTandaan, may mga taong makakatulong sa iyo para maayos ang sitwasyon at maprotektahan ang iyong impormasyon.",
+            "confused_response": "Kung na-scam ka, kumilos agad. Tawagan ang bangko, palitan ang password, at i-report ang nangyari.\n\nMay tutulong sa iyo, kaya huwag mag-alala at humingi ng tulong.",
+            "context": "scam"
         }
     },
     "scam_signs": {
@@ -1390,22 +1409,39 @@
             "context": "charity_scam"
         },
         "gcash_legitimacy": {
-             "keywords": {
+            "keywords": {
                 "first": ["gcash"]
             },
             "response": "Naiintindihan ko ang iyong pag-aalala, natural lang na mag-ingat pagdating sa pera! Ang GCash ay isang ligtas na paraan ng pagbabayad online. Ito ay may PIN at OTP (one-time password) na nagpoprotekta sa iyong account. Siguraduhin lang na huwag ibahagi ang iyong PIN o OTP sa kahit sino, kahit sa mga kamag-anak. At palaging gamitin ang opisyal na GCash app para sa iyong mga transaksyon. Ikaw ay nasa tamang landas!",
             "confused_response": "Naiintindihan ko ang iyong pag-aalala, natural lang na mag-ingat pagdating sa pera! Ang GCash ay isang ligtas na paraan ng pagbabayad online. Ito ay may PIN at OTP (one-time password) na nagpoprotekta sa iyong account. Siguraduhin lang na huwag ibahagi ang iyong PIN o OTP sa kahit sino, kahit sa mga kamag-anak. At palaging gamitin ang opisyal na GCash app para sa iyong mga transaksyon. Ikaw ay nasa tamang landas!",
             "context": "gcash_scam"
+        },
+        "cheap_product_scam_signs": {
+            "keywords": {
+                "first": ["benta", "produkto", "item"],
+                "second": ["mura", "cheap", "mura"]
+            },
+            "response": "Magandang nag-iingat kayo at hindi agad bumibili. Yan ay smart decision.\n\nNarito ang mga palatandaang baka scam ang binebenta:\n- Sobrang mura compared sa presyo sa mall o official store\n- Walang reviews o feedback mula sa ibang bumili\n- Humihingi ng full payment agad bago ipadala\n- Walang COD (cash on delivery) option\n- Galing sa bagong account o walang transaction history\n\nMga tips:\n- Magbayad lang through secure platforms (Shopee, Lazada)\n- Humingi ng actual photos ng item\n- Basahin ang reviews ng seller\n- Kung meet-up, sa public place at magdala ng kasama\n\nKung may duda, huwag na lang. Mas safe na bumili sa trusted sellers.",
+            "confused_response": "Magandang nag-iingat kayo at hindi agad bumibili. Yan ay smart decision.\n\nNarito ang mga palatandaang baka scam ang binebenta:\n- Sobrang mura compared sa presyo sa mall o official store\n- Walang reviews o feedback mula sa ibang bumili\n- Humihingi ng full payment agad bago ipadala\n- Walang COD (cash on delivery) option\n- Galing sa bagong account o walang transaction history\n\nMga tips:\n- Magbayad lang through secure platforms (Shopee, Lazada)\n- Humingi ng actual photos ng item\n- Basahin ang reviews ng seller\n- Kung meet-up, sa public place at magdala ng kasama\n\nKung may duda, huwag na lang. Mas safe na bumili sa trusted sellers.",
+            "context": "online_shopping_scam"
         }
     },
     "emotional_support": {
         "data_expose": {
             "keywords": {
                 "first": ["mawag", "tawag", "text", "mensahe", "chat", "call"],
-                "second": ["alam", "kilala", "detalye", "details"],
-                "third": [" ko", "ako", "sakin", "akin"]
+                "second": ["alam", "kilala"],
+                "third": [" ko", "ako", "sakin", "akin", "detalye", "impormasyon"]
             },
             "response": "Naiintindihan ko po kung bakit kayo nabigla at natakot. Ang mga scammer ay may paraan para makakuha ng inyong personal na impormasyon mula sa social media, data leaks, o mga nabili nilang listahan.\n\nKahit alam nila ang ilang detalye tungkol sa inyo, tulad ng pangalan, address, o kamag-anak, hindi ibig sabihin totoo o lehitimo sila. Ginagamit lang nila yan para magmukhang credible at mapaniwala kayo.\n\nHuwag po kayong magbigay ng karagdagang impormasyon lalo na ng OTP, password, o bank details.\n\nI-block ninyo na ang number nila at huwag nang sagutin. Kung kinakailangan, mag-report kayo sa inyong bangko o pulis.",
+            "context": ""
+        },
+        "bank_impersonator_asking_details": {
+            "keywords": {
+                "first": ["tawag", "mawag"],
+                "second": ["number", "numero", "details", "detalye"]
+            },
+            "response": "Naiintindihan ko pong nakakatakot kapag may tumawag na nagsasabing may problema ang account niyo. Pero ang totoo, yan ay scam o panlilinlang.\n\nAng tunay na bangko ay hindi kailanman hihingi ng OTP code, password, CVV, o iba pang sensitive na detalye sa pamamagitan ng tawag o text.\n\nAng mga scammer ay nagpapanggap na taga-bangko para kunin ang inyong impormasyon at nakawin ang pera sa account ninyo.\n\nKung may tunay na problema sa account, puntahan ninyo mismo ang bangko o tawagan ang official number ng bangko.\n\nHuwag na po kayong makipag-ugnayan sa tumawag na yan.",
             "context": ""
         },
         "need_verification": {
@@ -1417,12 +1453,21 @@
             "response": "Tama po ang inyong pakiramdam na may mali. Yan ay palatandaan ng scam.\n\nKung ang bangko o kumpanya ang tumawag sa inyo, sila ang dapat mag-verify sa inyo, hindi kayo sa kanila. Hindi nila kailangang hilingin ang OTP, password, o iba pang sensitive na detalye para \"mag-verify.\"\n\nAng mga scammer ay gumagamit ng trick na ito para magmukhang lehitimo sila. Ang totoo, gusto lang nilang kunin ang inyong impormasyon.\n\nKung may tunay na concern, bangko mismo ang magpapadala ng official notification sa app o email, o maghihintay na kayo mismo ang pumunta sakanila. Huwag magtiwala sa mga tumatawagang nagsasabing taga-bangko.",
             "context": ""
         },
+        "get_money_back_after_confirm": {
+            "keywords": {
+                "first": ["bawi", "balik"],
+                "second": ["pera", "kuha", "nakaw", "na wala", "nawala"],
+                "third": ["confirm", "kumpirma"]
+            },
+            "response": "Naiintindihan ko po ang inyong takot at pag-asa na mabawi pa ang pera. Pero ang totoo, napakahirap mabawi ang pera lalo pa kapag kayo mismo ang nag-confirm o nagbigay ng OTP o detalye.\n\nAng mga bangko ay nakikita na kayo ang nag-authorize ng transaction kaya mahirap mag-complain o mag-reklamo. Pero huwag po kayong mawalan ng pag-asa.\n\nGawin agad ito:\n- I-report sa bangko ninyo at sabihan na na-scam kayo\n- Mag-file ng police report\n- I-block ang mga account kung saan napunta ang pera\n\nMas mabilis ang aksyon, mas may tsansa na ma-freeze ang pera bago mailipat ng scammer. Hindi garantisado, pero subukan pa rin.",
+            "context": ""
+        },
         "get_money_back": {
             "keywords": {
                 "first": ["bawi", "balik"],
                 "second": ["pera", "kuha", "nakaw", "na wala", "nawala"]
             },
-            "response": "Naiintindihan ko po ang inyong takot at pag-asa na mabawi pa ang pera. Pero ang totoo, napakahirap mabawi ang pera lalo pa kapag kayo mismo ang nag-confirm o nagbigay ng OTP o detalye.\n\nAng mga bangko ay nakikita na kayo ang nag-authorize ng transaction kaya mahirap mag-complain o mag-reklamo. Pero huwag po kayong mawalan ng pag-asa.\n\nGawin agad ito:\n- I-report sa bangko ninyo at sabihan na na-scam kayo\n- Mag-file ng police report\n- I-block ang mga account kung saan napunta ang pera\n\nMas mabilis ang aksyon, mas may tsansa na ma-freeze ang pera bago mailipat ng scammer. Hindi garantisado, pero subukan pa rin.",
+            "response": "Naiintindihan ko po na umaasa pa kayo, pero ang totoo ay ang mga scammer ay hindi nagbabalik ng pera. Yan ang goal nila, ang kunin ang pera at mawala.\n\nKapag nakuha na nila ang pera ninyo:\n- Mawawala sila o mag-block sa inyo\n- Hihingian pa kayo ng dagdag para \"ibalik\" daw\n-Mag-iba ng account o numero\n\nAng dapat gawin:\n- Huwag umasa na ibabalik nila\n- Tigilan ang komunikasyon\n- I-report sa bangko at pulis agad\n- Focus sa pag-recover through legal means\n\nMay chance pa pero hindi sa kanila manggagaling. Kailangan ng tulong ng bangko, pulis, o NBI Cybercrime.",
             "context": ""
         },
         "money_sent": {
@@ -1443,14 +1488,6 @@
             "response": "Yan po ay scam o panlilinlang. Walang lehitimong negosyo ang nangangako ng mabilisang dobleng balik ng pera, at hindi pwede na mag-rerequest pa sila ng dagdag bayad para \"ma-release\" ang pera ninyo.\n\nAng mga scammer ay gumagamit ng ganitong paraan - pangakuan ng malaking kita, tapos humihingi ng paulit-ulit na bayad. Kapag nagbayad kayo, wala kayong matatanggap. Nawawala lang ang pera ninyo.\n\nKahit kakilala ninyo siya, posible na sumusunod lang din siya sa mga nakakataas sakanya pero kung maari ay kausapin paden siya.\n\nHuwag na po kayong magpadala ng karagdagang pera. Tigilan na yan bago pa lumaki ang nalugi ninyo.",
             "context": ""
         },
-        "bank_impersonator_asking_details": {
-            "keywords": {
-                "first": ["tawag", "mawag"],
-                "second": ["number", "numero", "details", "detalye"]
-            },
-            "response": "Naiintindihan ko pong nakakatakot kapag may tumawag na nagsasabing may problema ang account niyo. Pero ang totoo, yan ay scam o panlilinlang.\n\nAng tunay na bangko ay hindi kailanman hihingi ng OTP code, password, CVV, o iba pang sensitive na detalye sa pamamagitan ng tawag o text.\n\nAng mga scammer ay nagpapanggap na taga-bangko para kunin ang inyong impormasyon at nakawin ang pera sa account ninyo.\n\nKung may tunay na problema sa account, puntahan ninyo mismo ang bangko o tawagan ang official number ng bangko.\n\nHuwag na po kayong makipag-ugnayan sa tumawag na yan.",
-            "context": ""
-        },
         "suspicious_lover": {
            "keywords": {
                 "first": ["sabi", "kwento"],
@@ -1458,15 +1495,6 @@
                 "third": ["hinala", "duda", "suspicious"]
             },
             "response": "Tama po na mag-enjoy sa pakikipag-usap online, pero tama rin na magtanong at mag-ingat. Sundin ninyo ang inyong instinct o pakiramdam.\n\nNarito ang mga red flags o palatandaan na baka hindi totoo ang sinasabi nila:\n- Ayaw mag-video call kahit matagal na kayong nag-uusap\n- Iba-iba ang kuwento o may inconsistencies\n- Puro rason kung bakit hindi kayo magkikita\n- Nagsisimula nang humingi ng pera o tulong\n\nKung may hinala kayo, i-verify ninyo. Hingin ng video call, magtanong ng detalye, o mag-research.\n\nProtektahan ninyo ang sarili. Okay lang maging masaya, pero mas importante ang safety ninyo.",
-            "context": ""
-        },
-        "what_to_do": {
-            "keywords": {
-                "first": ["di ko alam", "di ko na alam", "ano na"],
-                "second": ["gawin"],
-                "third": [" ko"]
-            },
-            "response": "Nakaka-overwhelm talaga 'yan, pero may puwede kang gawin ngayon, dahan-dahan lang.\n\nItigil muna ang pakikipag-usap sa kanila at huwag nang magpadala ng pera o impormasyon. Kung may naibigay kang detalye tulad ng password o bank info, mabuting palitan agad ito. Kung may kinalaman sa pera, makipag-ugnayan agad sa bangko o e-wallet para ma-report at ma-secure ang account.\n\nHindi mo kailangang ayusin lahat nang sabay-sabay. Isang hakbang muna, okay na 'yun.",
             "context": ""
         },
         "something_wrong": {
@@ -1524,21 +1552,6 @@
             "response": "Okay lang matakot, lalo na kung may bagay na parang kahina-hinala. Mabuti rin na nakikinig ka sa kutob mo.\n\nHuwag muna magbigay ng personal na impormasyon, passwords, OTP, o pera hangga’t hindi ka sigurado. Magandang mag-pause muna at i-check kung official at mapagkakatiwalaan talaga ang kausap o website.\n\nHindi kailangang magmadali sa mga ganitong sitwasyon.",
             "context": ""
         },
-        "anxious": {
-            "keywords": {
-                "first": ["kaba", "takot", "panic"]
-            },
-            "response": "Normal lang ang kabahan pagkatapos ng ganitong karanasan. Parang tuloy-tuloy na alerto ang katawan mo kapag nasaktan ka na dati.\n\nHindi mo kailangang pilitin na mawala agad ang kaba. Dahan-dahan lang, at okay lang na nandiyan muna siya habang unti-unti kang nakakabawi.",
-            "context": ""
-        },
-        "need_talk": {
-            "keywords": {
-                "first": ["kailangan", "need", "gusto", "want"],
-                "second": ["makausap", "sabi"]
-            },
-            "response": "Nandito ako para makinig.\n\nMinsan kapag mabigat ang nangyari, sapat na yung may nakakaintindi at hindi ka hinuhusgahan. Maaari mong ilabas lang kung ano man ang nasa isip mo.",
-            "context": ""
-        },
         "stupid": {
             "keywords": {
                 "first": ["tanga", "bobo"]
@@ -1554,12 +1567,72 @@
             "response": "Maiintindihan ko yung hiya, pero mahalaga ring malaman mo na kapag itinago ito, mas maliit ang chance na ma-trace o mabawi ang nawala.\n\nKung maire-report mo, mas may pagkakataon na ma-block ang scammer at minsan may paraan pa para ma-recover ang pera o ma-prevent na maulit sa iba. Hindi mo kailangang harapin ito mag-isa, at hindi ito kasalanan mo.\n\nNormal lang mahiya, pero mas makakatulong sa’yo ang pag-report kaysa pananahimik.",
             "context": ""
         },
+        "tell_family": {
+            "keywords": {
+                "first": ["hiya"],
+                "second": ["sabi"],
+                "third": ["pamilya", "anak", "asawa"]
+            },
+            "response": "Opo, dapat sabihin ninyo. Naiintindihan ko na nahihiya kayo, pero ang pagsasabi ay hindi kahinaan, ito ay matapang at matalinong desisyon.\n\nBakit kailangan sabihin:\n\n- Makakatulong sila na itigil ang scam\n- Mapoprotektahan ang pera ninyo\n- May susuportang tao kayo\n- Hindi kayo mag-iisa sa problema\n\nKanino pwede magsabi:\n- Anak o kamag-anak na pinagkakatiwalaan\n- Matalik na kaibigan\n- Barangay official\n- Pulis o NBI Cybercrime\n\nTandaan: Maraming tao ang na-scam - mga propesyonal, matatalino, kahit sino. Hindi po kayo nag-iisa. Ang importante, tigilan na ngayon bago lumala pa.\n\nkarapat-dapat parin kayo sa tulong at suporta.",
+            "context": ""
+        },
         "shame_family": {
             "keywords": {
-                "first": ["hiya", "damay"],
-                "second": ["pamilya", "anak", "asawa"]
+                "first": ["hiya", "takot"],
+                "second": ["damay"],
+                "third": ["pamilya", "anak", "asawa"]
             },
-            "response": "Nakakabigat talaga ‘yan, lalo na kapag iniisip mong nadamay ang pamilya mo. Natural na makaramdam ng hiya at guilt.\n\nPero hindi ibig sabihin na kasalanan mo ang nangyari. Ang scammer ang may gawa ng panlilinlang, hindi ikaw.\n\nKung darating man ang pagkakataon, mas makakatulong kung malalaman ng pamilya mo para masama ka nilang suportahan at matulungan ka ring protektahan ang sarili ninyo sa susunod.",
+            "response": "Nakakabigat talaga ‘yan, lalo na kapag iniisip mong nadamay ang pamilya mo. Natural na makaramdam ng hiya, takot, at pagsisisi.\n\nPero hindi ibig sabihin na kasalanan mo ang nangyari. Ang scammer ang may gawa ng panlilinlang, hindi ikaw.\n\nKung darating man ang pagkakataon, mas makakatulong kung malalaman ng pamilya mo para masama ka nilang suportahan at matulungan ka ring protektahan ang sarili ninyo sa susunod.",
+            "context": ""
+        },
+        "anger_family": {
+            "keywords": {
+                "first": ["sabi"],
+                "second": ["galit"],
+                "third": ["pamilya", "anak", "asawa"]
+            },
+            "response": "Naiintindihan ko po kung bakit kayo nahihiya o natatakot. Pero ang totoo, mas makakatulong ang pag-open up kaysa magtago.\n\nAng mga anak ninyo ay mag-aalala at mamahalin kayo kahit ano pang mangyari. Hindi kayo mag-isa sa problemang ito - maraming tao ang nakakaranas ng scam.\n\nBakit importante sabihin:\n- Makakatulong sila na tigilan ang scam\n- Mapoprotektahan kayo sa susunod na scammer\n- May emotional support kayo\n- Mas madali solusyunan kapag may kasama\n\nHindi po kasalanan ninyo na naloko kayo. Ang mga scammer ay expert sa panlilinlang.\n\nMagtiwala po kayo sa pamilya ninyo. Mahal kayo nila at gusto lang nila kayo protektahan.",
+            "context": ""
+        },
+        "lose_money": {
+            "keywords": {
+                "first": ["kaba", "takot", "panic", "alala", "taranta"],
+                "second": ["wala", "ubos", "zero", "empty"],
+                "third": ["pera", "laman", "money", "balance", "sweldo", "sinweldo"]
+            },
+            "response": "Naiintindihan ko po ang inyong takot. Normal lang yan, lalo na kung nakaranas na kayo ng scam o nag-aalala kayo sa kinabukasan.\n\nGawin ninyo para protektahan ang pera:\n- Tigilan agad ang pakikipag-ugnayan sa mga suspicious na tao\n- Huwag magbigay ng OTP, password, o bank details kahit kanino\n- I-monitor ang bank account ninyo regularly\n- I-report agad sa bangko kung may nakitang unusual transaction\n- Mag-set ng spending limits sa app ninyo\n\nHindi pa po huli ang lahat. Mas mabuti na tumigil kayo ngayon kaysa magpatuloy at lumaki pa ang nawala.\n\nKaya ninyo yan. Protektahan ang sarili at pera ninyo.",
+            "context": ""
+        },
+        "scammer_asking_payment": {
+            "keywords": {
+                "first": ["kaba", "takot", "panic"],
+                "second": ["ningil", "singil", "hingi", "mingi"]
+            },
+            "response": "Naiintindihan ko po ang inyong takot. Pero huwag po kayong mag-alala kung wala kayong utang ay wala silang karapatan na singilin kayo.\n\nYan ay maaaring:\n- Loan scam - kunwari may utang kayo para takutin at pag-bayarin kayo\n- Identity theft - may gumamit ng pangalan ninyo para umutang\n- Wrong number - nagkamali sila ng tao\n\nGawin ninyo:\n- Huwag magbayad kung hindi kayo umutang\n- Humingi ng proof o dokumento ng utang\n- I-report sa pulis kung nag-threaten sila\n- I-block ang number nila\n\nKung walang pinirmahan o contract, walang utang. Huwag po kayong matakot. Ikaw ay protektado ng batas.",
+            "context": ""
+        },
+        "anxious": {
+            "keywords": {
+                "first": ["kaba", "takot", "panic"]
+            },
+            "response": "Normal lang ang kabahan pagkatapos ng ganitong karanasan. Parang tuloy-tuloy na alerto ang katawan mo kapag nasaktan ka na dati.\n\nHindi mo kailangang pilitin na mawala agad ang kaba. Dahan-dahan lang, at okay lang na nandiyan muna siya habang unti-unti kang nakakabawi.",
+            "context": ""
+        },
+        "show_interest": {
+             "keywords": {
+                "first": ["di ko alam", "lito", "gulo"],
+                "second": ["interes", "gusto", "mahal"]
+            },
+            "response": "Naiintindihan ko kung bakit nalilito ka, lalo na kung bigla silang naging interesado sayo. Minsan, ginagamit ito ng scammers para makuha ang tiwala mo. Mag-ingat kung sobrang bilis ng paglapit, puro papuri, o may hinihinging impormasyon o pera. Huwag agad magtiwala. Mas mabuti na suriin muna kung totoo sila bago magbigay ng kahit anong detalye. Nandito ako para tulungan kang mag-check kung ligtas ba ang sitwasyon mo.",
+            "context": ""
+        },
+        "why_me": {
+            "keywords": {
+                "first": ["di"],
+                "second": ["alam", "intindihan", "unawan"],
+                "third": ["ako", "pili", "pinili"]
+            },
+            "response": "Naiintindihan ko kung gaano kahirap ang nararamdaman mo ngayon. Pero tandaan na hindi ito ang iyong kasalanan. Ang mga scammer ay random na pumipili ng kanilang mga biktima. Sila ang may sala, hindi ikaw. Ang mahalaga ngayon ay huwag nang magpadala pa ng pera at i-report agad ang nangyari sa GCash support o sa iyong pinakamalapit na pulis. Nandito kami para tulungan ka.",
             "context": ""
         },
         "questioning_scammer_reasons": {
@@ -1572,14 +1645,23 @@
         },
         "cant_let_go": {
             "keywords": {
-                "first": ["bitaw", "let go"]
+                "first": ["di"],
+                "second": ["bitaw", "let go", "lagpas"]
             },
             "response": "Oo, hindi talaga madaling bitawan agad ang ganitong nangyari. Normal lang na paulit-ulit siyang bumalik sa isip mo, lalo na kung nasaktan at na-trauma ka.\n\nHindi mo kailangang pilitin na kalimutan kaagad. Unti-unti rin ‘yan humuhupa habang lumilipas ang oras at habang nabibigyan mo ng puwang na maproseso yung nangyari.",
             "context": ""
         },
+        "gossip": {
+            "keywords": {
+                "first": ["pinaguusapan", "chismis", "sabi"],
+                "second": ["nila", "tao", "niya", "iba"]
+            },
+            "response": "Nakakabigat talaga kapag iniisip mo na baka pinag-uusapan ka ng iba. Lalo na pagkatapos ng scam, mas lumalakas minsan ang mga ganitong isip kahit walang malinaw na ebidensya.\n\nPero madalas, ang isip natin ang nagpapalaki ng takot kapag stressed tayo. Hindi ibig sabihin nito na totoo ang iniisip mo.\n\nNandito lang ako habang mabigat pa ‘yan.",
+            "context": ""
+        },
         "self_blame": {
             "keywords": {
-                "first": ["kasalanan", "pagkukulang", "may mali", "yung mali"],
+                "first": ["kasalanan", "pagkukulang", "mali"],
                 "second": [" ko", "ako"]
             },
             "response": "Normal lang isipin ‘yan pagkatapos ma-scam, pero mahalagang maging patas ka rin sa sarili mo.\n\nAng mga scam ay sadyang dinisenyo para malinlang ang tao, kahit maingat o matalino pa. Hindi ibig sabihin na may pagkukulang ka bilang tao dahil naloko ka.\n\nMas makakatulong kung ilalagay mo ang sisi kung saan talaga ito dapat: sa gumawa ng panlilinlang, hindi sa’yo.",
@@ -1616,11 +1698,12 @@
             "response": "Mabuti at kahit papaano mas luminaw na sa’yo.\n\nDahan-dahan lang, hindi mo kailangang madaliin lahat ng emosyon at iniisip mo. Nandito lang ako kung kailangan mo pa ulit ng kausap.",
             "context": ""
         },
-        "shame": {
+        "need_talk": {
             "keywords": {
-                "first": ["hiya", "lito"]
+                "first": ["kailangan", "need", "gusto", "want"],
+                "second": ["makausap", "sabi"]
             },
-            "response": "Maiintindihan ko kung bakit nakakahiya at nakakalito harapin ‘to. Pero hindi mo kailangang ayusin lahat nang sabay-sabay.\n\nUnang hakbang, puwede mong gawin ay sabihin lang sa isang pinagkakatiwalaang tao ang nangyari, kahit basic lang. Mas magaan kapag may nakakaalam at sumusuporta sa’yo.\n\nPagkatapos, kung kaya mo, i-report ito sa platform o sa bangko kung may kinalaman sa pera. Hindi mo kailangang mag-isa sa proseso.",
+            "response": "Nandito ako para makinig.\n\nMinsan kapag mabigat ang nangyari, sapat na yung may nakakaintindi at hindi ka hinuhusgahan. Maaari mong ilabas lang kung ano man ang nasa isip mo.",
             "context": ""
         },
         "anger": {
@@ -1643,23 +1726,6 @@
                 "first": ["tiwala", "niwala"]
             },
             "response": "Naiintindihan ko po yan. Maraming tao ang magaling makipag-usap at mabait kaya madali tayong mapaniwala. Hindi kasalanan ninyo na nagtiwala kayo dahil ginawa lang nila kung ano ang magugustuhan mo.\n\nPero tandaan po: ang totoong tao ay hindi nagmamadali. Handa silang maghintay, mag-video call, at patunayan kung sino talaga sila bago humingi ng anuman.\n\nAng mga scammer ay expert sa pagbuo ng tiwala nang mabilis - sweet words, atensyon, at kwentong nakakaantig. Ginagamit nila yan para hindi kayo mag-isip nang malinaw.\n\nHuwag kayong mahiya. Maraming nakakaranas nito. Ang importante ngayon, tigilan na ang pagbibigay ng tiwala o pera hanggang makilala ninyo sila personally.",
-            "context": ""
-        },
-         "gossip": {
-            "keywords": {
-                "first": ["pinaguusapan", "chismis", "sabi"],
-                "second": ["nila", "tao", "niya", "iba"]
-            },
-            "response": "Nakakabigat talaga kapag iniisip mo na baka pinag-uusapan ka ng iba. Lalo na pagkatapos ng scam, mas lumalakas minsan ang mga ganitong isip kahit walang malinaw na ebidensya.\n\nPero madalas, ang isip natin ang nagpapalaki ng takot kapag stressed tayo. Hindi ibig sabihin nito na totoo ang iniisip mo.\n\nNandito lang ako habang mabigat pa ‘yan.",
-            "context": ""
-        },
-        "why_me": {
-            "keywords": {
-                "first": ["di"],
-                "second": ["alam", "intindihan", "unawan"],
-                "third": ["ako", "pili", "pinili"]
-            },
-            "response": "Naiintindihan ko kung gaano kahirap ang nararamdaman mo ngayon. Pero tandaan na hindi ito ang iyong kasalanan. Ang mga scammer ay random na pumipili ng kanilang mga biktima. Sila ang may sala, hindi ikaw. Ang mahalaga ngayon ay huwag nang magpadala pa ng pera at i-report agad ang nangyari sa GCash support o sa iyong pinakamalapit na pulis. Nandito kami para tulungan ka.",
             "context": ""
         }
     }

@@ -1404,7 +1404,6 @@ emotional_support,"Hiya at galit sa sarili, naloko ako."
 emotional_support,"Sobrang nakakahiya, na-scam ako."
 emotional_support,"Hiya, gusto ko na lang humilom sa sarili."
 emotional_support,Nakakahiya kasi madali akong napaniwala.
-emotional_support,Hiya na hiya sa pamilya ko.
 emotional_support,"Hiya at takot, di ko alam kung paano aayusin."
 emotional_support,"Ang hiya ko, paano ko ipapaliwanag sa iba?"
 emotional_support,"Nakakahiya, pakiramdam ko tanga ako."
@@ -1573,7 +1572,6 @@ emotional_support,"Ang bilisang ng mga pangyayari, di ko nasundan."
 emotional_support,Parang di pa nag-si-sink in sa akin.
 emotional_support,Totoo ba talaga yung nangyari?
 emotional_support,Parang ang hirap pagkatiwalaan.
-emotional_support,di ko ma-absorb lahat.
 emotional_support,"Ang daming nangyari, di ko na-track."
 emotional_support,Parang lutang pa rin ako hanggang ngayon.
 emotional_support,di ko alam kung anong iisipin ko muna.
@@ -1581,7 +1579,6 @@ emotional_support,Parang ang gulo talaga ng utak ko ngayon
 emotional_support,Parang sabay-sabay yung problema ko ngayon.
 emotional_support,di ko na alam saan ako magsisimula.
 emotional_support,"Ang dami kong iniisip, di ko na kaya."
-emotional_support,Parang napupuno na ako.
 emotional_support,di ko na ma-handle yung situation.
 emotional_support,"Gusto ko lang muna huminga, ang bigat."
 emotional_support,di ko na ma-control yung kaba ko.
@@ -1591,9 +1588,7 @@ emotional_support,Parang lahat sabay-sabay nangyari.
 emotional_support,Ang sakit lang isipin na nangyari yun ang sa akin.
 emotional_support,di ko alam bakit ganito yung nangyari.
 emotional_support,Parang ang unfair ng lahat.
-emotional_support,di ko deserve yung nangyari.
 emotional_support,Ang hirap lang tanggapin honestly.
-emotional_support,di ko ma-let go agad yung nangyari.
 emotional_support,Ang hirap mag-move on agad.
 emotional_support,di ko pa kaya i-brush off lang.
 emotional_support,Parang di pa ako okay talaga.
@@ -1620,10 +1615,8 @@ emotional_support,di ako sure kung tapos na talaga.
 emotional_support,Ayoko muna mag-isip tungkol dito.
 emotional_support,Gusto ko muna iwasan yung issue.
 emotional_support,di ko pa kayang harapin ngayon.
-emotional_support,Parang kailangan ko muna ng space.
 emotional_support,Ayoko muna pag-usapan kahit kanino.
 emotional_support,Gusto ko muna mapag-isa.
-emotional_support,di ko muna kaya mag-decide agad.
 emotional_support,Parang gusto ko muna tumahimik.
 emotional_support,di ko muna kayang mag-explain.
 emotional_support,Gusto ko muna magpahinga sa lahat.
@@ -1671,7 +1664,6 @@ emotional_support,Normal lang ba na ganito nararamdaman ko?
 emotional_support,May pag-asa pa bang maayos ito?
 emotional_support,Pwede pa bang may gawin dito?
 emotional_support,May chance pa ba na bumalik sa dati?
-emotional_support,Kaya pa ba itong ayusin?
 emotional_support,May paraan pa ba para ma-fix ito?
 emotional_support,di ko alam kung may solution pa.
 emotional_support,May pwede pa bang gawin ngayon?
@@ -1713,3 +1705,13 @@ emotional_support,Ano ang mga senyales na dapat hanapin bago paniwalaan ang isan
 emotional_support,Ano ang mga bagay na dapat i-verify para malaman kung totoo ang nabasa online?
 emotional_support,Ano ang mga red flags na dapat makita sa isang kahina-hinalang balita?
 emotional_support,Ano ang mga dapat suriin para matukoy kung mapagkakatiwalaan ang impormasyon online?
+emotional_support,Nahihiya akong sabihin sa pamilya ko na naloko ako online.
+emotional_support,Ayoko munang sabihin sa mga anak ko dahil baka mag-alala sila.
+emotional_support,Natatakot akong magsabi sa mga anak ko tungkol sa nangyari.
+emotional_support,Hindi ko alam paano ko sasabihin sa pamilya ko na na-scam ako.
+emotional_support,Baka pagalitan ako ng mga anak ko kapag nalaman nila ang nangyari.
+emotional_support,Nahihirapan akong aminin sa pamilya ko na nabiktima ako ng scam.
+emotional_support,Ayokong isipin ng mga anak ko na naging pabaya ako.
+emotional_support,Hindi ko masabi sa apo ko dahil nahihiya ako sa nangyari.
+emotional_support,Nag-aalala akong madismaya ang pamilya ko kapag sinabi ko ito.
+emotional_support,Pakiramdam ko mapapahiya ako kapag nalaman ng mga anak ko ang nangyari.
