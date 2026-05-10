@@ -321,7 +321,7 @@
         },
         "scam_cybercrime_diff": {
             "keywords": [
-                ["kaiba", "difference"],
+                ["iba", "difference"],
                 ["scam", "panloloko sa internet", "panloloko sa cellphone"],
                 ["cybercrime", "krimen sa internet", "digital crime"]
             ],
@@ -379,7 +379,7 @@
         },
         "growing_cybercrime": {
             "keywords": [
-                ["dami", "rami", "laki"],
+                ["dami", "rami", "laki", "taas", "lala"],
                 ["krimen", "panganib", "crime"],
                 ["internet", "online", "cyber"]
             ],
@@ -389,7 +389,7 @@
         },
         "cybercrime_examples": {
             "keywords": [
-                ["halimbawa", "types", "uri", "klase", "different", "ang mga"],
+                ["halimbawa", "types", "uri", "klase", "different", "mga"],
                 ["krimen", "panganib", "crime"],
                 ["internet", "online", "cyber"]
             ],
@@ -708,7 +708,7 @@
         },
         "information_protection": {
             "keywords": [
-                ["protekta", "alaga"],
+                ["protekta", "alaga", "natili", "ligtas", "safe"],
                 ["impormasyon", "information", "data"]
             ],
             "response": "Para protektahan ang impormasyon mo: huwag basta-basta ibigay sa hindi kilala, siguraduhing ligtas ang websites na ginagamit mo, at i-check ang privacy settings sa online accounts mo.",
@@ -769,15 +769,6 @@
         }
     },
     "scam_response": {
-        "is_romance_scam": {
-            "keywords": [
-                ["panggap", "uto"],
-                ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date", "may gusto", "may pagtingin", "mahal"]
-            ],
-            "response": "Ang tawag dito ay romance scam o love scam. Ito ay panloloko kung saan may taong nagpapanggap na may gusto o nagmamahal sa iyo para makuha ang tiwala mo at makahingi ng pera.\n\nMadalas itong nangyayari sa social media, dating apps, o chat. Sa simula, mabait at maalaga sila, pero kalaunan ay gagawa ng dahilan para humingi ng pera, tulad ng emergency, hospital bills, o pamasahe.\n\nMahalagang mag-ingat lalo na kung online mo lang nakilala ang tao at biglang humihingi ng pera o personal na impormasyon.",
-            "confused_response": "Ang tawag dito ay romance scam o love scam.\n\nNagpapanggap ang scammer na may gusto o nagmamahal sa iyo para pagkatiwalaan mo siya. Kapag nakuha na niya ang tiwala mo, saka siya hihingi ng pera o tulong.\n\nHalimbawa, sasabihin nilang may emergency sila, may sakit, o kailangan ng pamasahe.\n\nMag-ingat lalo na kung online mo lang nakilala ang tao at biglang nanghihingi ng pera.",
-            "context": "scam_scenarios"
-        },
         "online_lover_asking_money": {
             "keywords": [
                 ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "usap", "kausap online", "dating", "date", "may gusto", "may pagtingin", "mahal"],
@@ -903,8 +894,8 @@
         },
         "infringed_data_privacy_response": {
             "keywords": [
-                ["nilabag", "breach", "compromised", "compromiso", "uway", "binalewala", "di sinunod"],
-                ["data privacy", "personal data", "impormasyon", "data"]
+                ["labag", "breach", "compromised", "compromiso", "uway", "binalewala", "di sinunod", "data privacy violation", "violate"],
+                ["data privacy", "personal data", "impormasyon", "data", "information"]
             ],
             "response": "Kung napagtanto mong nilabag ang data privacy mo, mayroon kang karapatang mag-file ng complaint sa National Privacy Commission (NPC).\n\nMga hakbang:\n\n• I-download ang complaint form sa https://privacy.gov.ph/filing-a-complaint/\n• Punan at pa-notarize ang form\n• I-submit sa NPC sa tatlong paraan:\n    • Personal sa NPC office\n  • Email sa complaints@privacy.gov.ph\n  • Courier service\n\nLibre lang ang pag-file. Ang NPC ay tutulong sa iyo na i-investigate ang violation at posibleng magbigay ng penalties sa nanlabag.\n\nPara sa tulong: tumawag sa +63 2 5322 1322 (local 114).",
             "confused_response": "Maari itong gawin kung nalabag ang data privacy mo.\n\nHalimbawa ng violations:\n\n• Kinuha ng lending app ang contacts mo nang walang pahintulot\n• Nag-post ng personal info mo sa Facebook\n• Ibinigay ng kumpanya ang data mo sa iba\n\nAno ang gagawin:\n• Una, i-download ang form. Pumunta sa website ng National Privacy Commission: privacy.gov.ph\nPangalawa, punan ang form. Isulat kung ano ang nangyari at sino ang gumawa. Pa-notarize ito.\n• Pangatlo, i-submit. Puwedeng i-email sa complaints@privacy.gov.ph o personal na dalhin.\n\nLibre lang ito. Walang bayad sa pag-file ng complaint. Tutulungan ka ng NPC.\n\nTumawag: +63 2 5322 1322 (pindutin ang 114 sa telepono).",
@@ -1752,7 +1743,7 @@
                 ["benta", "alok", "produkto", "item"],
                 ["mura", "cheap", "baba ang presyo"]
             ],
-            "response": "Naiintindihan ko po yan. Maraming tao ang magaling makipag-usap at mabait kaya madali tayong mapaniwala. Hindi kasalanan ninyo na nagtiwala kayo dahil ginawa lang nila kung ano ang magugustuhan mo.\n\nPero tandaan po: ang totoong tao ay hindi nagmamadali. Handa silang maghintay, mag-video call, at patunayan kung sino talaga sila bago humingi ng anuman.\n\nAng mga scammer ay expert sa pagbuo ng tiwala nang mabilis - sweet words, atensyon, at kwentong nakakaantig. Ginagamit nila yan para hindi kayo mag-isip nang malinaw.\n\nHuwag kayong mahiya. Maraming nakakaranas nito. Ang importante ngayon, tigilan na ang pagbibigay ng tiwala o pera hanggang makilala ninyo sila personally.",
+            "response": "Tama po ang inyong hinala. Kapag sobrang mura, may dahilan yan - at madalas, hindi maganda.\n\nMga posibleng dahilan:\n- Fake o imitation ang produkto\n- Scam - kukunin lang ang pera, walang ipapadala\n- Stolen o nakaw na item\n- Defective o sira ang gamit\n\nAng mga scammer ay gumagamit ng mababang presyo bilang bait o pain para akitin kayo. Kapag nagbayad na kayo, mawawala sila o padadalhan kayo ng fake.\n\nTandaan: Kung too good to be true, most likely scam yan.\n\nMas safe bumili sa verified sellers, official stores, o platforms na may buyer protection tulad ng Shopee o Lazada.",
             "context": ""
         }
     }

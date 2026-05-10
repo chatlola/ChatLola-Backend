@@ -611,10 +611,6 @@
             "question": "Nanghihingi sa akin ng pera yung karelasyon ko online, ano ang dapat kong gawin?",
             "intent": "scam_response"
         },
-        "is_romance_scam": {
-            "question": "Ano ang scam kung saan nagpapanggap sila na may gusto sayo para manghingi ng pera?",
-            "intent": "scam_response"
-        },
         "claiming_love_response": {
             "question": "Sabi niya mahal niya ako kahit hindi pa kami nagkikita",
             "intent": "scam_response"
