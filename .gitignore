@@ -11,3 +11,21 @@ venv/
 ENV/ 
 env.bak/ 
 venv.bak/ 
+
+intent_test.py
+sample_questions.json
+misclassified.json
+scam_situation_utterances.txt
+mislabeled.txt
+misclassified_test_intents.json
+misclassified_test_intents save.json
+stopwords.json
+preprocess.py
+context_for_testing.json
+redo_json.py
+Intent Dataset - OLD.csv
+models/intent/testing
+intent_TESTING.py
+checkDuplicates.py
+duplicate_utterances.json
+Intent Dataset - Copy.csv
