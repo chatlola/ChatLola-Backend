@@ -38,7 +38,7 @@ X = df['utterance']
 y = df['label']
 
 X_train, X_test, y_train, y_test= train_test_split(X,y, train_size=0.8,
-                                                   random_state=None,
+                                                   random_state=90,
                                                    shuffle=True, stratify=y)
 
 #feature extraction using TF-IDF
