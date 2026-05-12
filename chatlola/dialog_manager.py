@@ -108,6 +108,13 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
             return handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic, context)
 
     # 2. Fallback logic
+    if confusion: 
+        response = confusion_fallback(query, prev_intent, prev_topic, context)
+
+        if response:
+            return response
+
+    """
     if intent == "explain_concept":
         if confusion:
             return handle_confusion({ "response": None }, intent, "", confusion, prev_intent, prev_topic, context)
@@ -118,6 +125,7 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
             "topic": "clarify",
             "context": setContext("", context)
         })
+    """
 
     # 3. No context → clarify
     if not context:
@@ -129,15 +137,31 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
         })
 
     # 4. Try context-based response but only if probability is high enough
-    if intent_prob >= 0.3:
-        response = no_keys_response(intent, context, prev_intent, prev_topic, confusion)
+    #if intent_prob >= 0.3:
+    response = no_keys_response(intent, context, prev_intent, prev_topic, confusion)
 
-        if response:
-            return jsonify(response)
+    if response:
+        return response
     
     print("skipped checking context")
 
     return build_response(None, intent, None, confusion, context)
+
+def confusion_fallback(query, prev_intent, prev_topic, context): 
+    confused_data = chatlola_data.get("confused")
+
+    for topic, data in confused_data.items():
+        if match_keywords(query, data["keywords"]):
+            if prev_intent and prev_topic and prev_topic != "clarify":
+                prev_data = chatlola_data[prev_intent][prev_topic]
+
+                if data["prefix"]:
+                    return jsonify({
+                        "response": data["prefix"] + prev_data["confused_response"],
+                        "intent": prev_intent,
+                        "topic": prev_topic + "_confused",
+                        "context": setContext(prev_topic, context)
+                    })
 
 def handle_confusion(data, intent, topic, confusion, prev_intent, prev_topic, context):
 
@@ -198,12 +222,12 @@ def no_keys_response(intent, context, prev_intent, prev_topic, confusion):
                 (prev_intent == intent and prev_topic == topic)
             )
 
-            return {
+            return jsonify({
                 "response": kb["confused_response"] if use_confused else kb["response"],
                 "intent": intent,
                 "topic": topic + "_confused" if use_confused else topic,
                 "context": kb["context"]
-            }
+            })
 
 def clarify_response(query):
     for intent, intent_data in chatlola_data.items():

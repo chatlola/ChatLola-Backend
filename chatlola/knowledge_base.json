@@ -1701,8 +1701,8 @@
         },
         "clear": {
             "keywords": [
-                ["bawas", "salamat", "mas", "naging", "na"],
-                ["linaw", "lito", "gulo"]
+                ["bawas", "salamat", "mas", "naging"],
+                ["linaw", "lito", "gulo", "intindi", "gets"]
             ],
             "response": "Mabuti at kahit papaano mas luminaw na sa’yo.\n\nDahan-dahan lang, hindi mo kailangang madaliin lahat ng emosyon at iniisip mo. Nandito lang ako kung kailangan mo pa ulit ng kausap.",
             "context": ""
@@ -1744,6 +1744,34 @@
                 ["mura", "cheap", "baba ang presyo"]
             ],
             "response": "Tama po ang inyong hinala. Kapag sobrang mura, may dahilan yan - at madalas, hindi maganda.\n\nMga posibleng dahilan:\n- Fake o imitation ang produkto\n- Scam - kukunin lang ang pera, walang ipapadala\n- Stolen o nakaw na item\n- Defective o sira ang gamit\n\nAng mga scammer ay gumagamit ng mababang presyo bilang bait o pain para akitin kayo. Kapag nagbayad na kayo, mawawala sila o padadalhan kayo ng fake.\n\nTandaan: Kung too good to be true, most likely scam yan.\n\nMas safe bumili sa verified sellers, official stores, o platforms na may buyer protection tulad ng Shopee o Lazada.",
+            "context": ""
+        }
+    },
+    "confused": {
+        "confused_repeat_explanation": {
+            "keywords": [
+                ["di", "medyo"],
+                ["intindi", "linaw", "gets", "clear", "explanation", "gulo", "guluhan"],
+                ["paki", "pwede", "maari"],
+                ["paliwanag", "explain", "intindi", "linaw"]
+            ],
+            "prefix": "Mukhang medyo nakakalito 😅, ipapaliwanag ko ulit;\n\n",
+            "context": ""
+        },
+        "not_understood": {
+            "keywords": [
+                ["di", "medyo"],
+                ["intindi", "linaw", "gets", "clear", "explanation", "gulo", "guluhan"]
+            ],
+            "prefix": "Mukhang medyo nakakalito 😅.\n\n",
+            "context": ""
+        },
+        "repeat_explanation": {
+            "keywords": [
+                ["paki", "pwede", "maari"],
+                ["paliwanag", "explain", "intindi", "linaw"]
+            ],
+            "prefix": "Sige, ipapaliwanag ko ulit.\n\n",
             "context": ""
         }
     }
