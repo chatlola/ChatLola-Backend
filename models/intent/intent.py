@@ -13,12 +13,6 @@ import json
 path = "models/intent/Intent Dataset.csv"
 df = pd.read_csv(path, on_bad_lines='error', encoding='unicode_escape')
 
-
-with open("models/intent/keywords.json", encoding="utf-8") as f:
-    keywords = json.load(f)
-
-words = keywords["keywords"]
-
 #check number of utterances per intent
 print(df['intent'].value_counts())
 
@@ -49,7 +43,7 @@ X_train, X_test, y_train, y_test= train_test_split(X,y, train_size=0.8,
                                                    shuffle=True, stratify=y)
 
 #feature extraction using TF-IDF
-tfidf_vectorizer = TfidfVectorizer(stop_words=words)
+tfidf_vectorizer = TfidfVectorizer()
 x_train_tfidf = tfidf_vectorizer.fit_transform(X_train)
 x_test_tfidf = tfidf_vectorizer.transform(X_test)
 
