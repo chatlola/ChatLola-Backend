@@ -114,19 +114,6 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
         if response:
             return response
 
-    """
-    if intent == "explain_concept":
-        if confusion:
-            return handle_confusion({ "response": None }, intent, "", confusion, prev_intent, prev_topic, context)
-        
-        return jsonify({
-            "response": None,
-            "intent": intent,
-            "topic": "clarify",
-            "context": setContext("", context)
-        })
-    """
-
     # 3. No context → clarify
     if not context:
         return jsonify({
@@ -136,14 +123,11 @@ def conversation_management(query, intent, intent_prob, confusion, confusion_pro
             "context": setContext("", context)
         })
 
-    # 4. Try context-based response but only if probability is high enough
-    #if intent_prob >= 0.3:
+    # 4. Try context-based response 
     response = no_keys_response(intent, context, prev_intent, prev_topic, confusion)
 
     if response:
         return response
-    
-    print("skipped checking context")
 
     return build_response(None, intent, None, confusion, context)
 

@@ -60,21 +60,21 @@ joblib.dump(tfidf_vectorizer, save_path + "intent_tfidf_vectorizer.pkl")
 #MODEL EVALUATION
 
 # predict the y of the testing_data
-y_pred_naive = naive_bayes.predict(x_test_tfidf)
+y_pred = naive_bayes.predict(x_test_tfidf)
 
 #accuracy
-accuracy = accuracy_score(y_test, y_pred_naive)
+accuracy = accuracy_score(y_test, y_pred)
 print("\nAccuracy:", accuracy)
 
 # print/generate classification report
-report = classification_report(y_test, y_pred_naive)
+report = classification_report(y_test, y_pred)
 print("\nClassification Report:")
 print(report)
 
 misclassified_intents = { "items": [] }
 
 #print specific rows in the data that are misclassified
-for actual, pred, sample in zip(y_test, y_pred_naive, X_test):
+for actual, pred, sample in zip(y_test, y_pred, X_test):
     if actual != pred:
         #print(f"Text: {sample} | Actual: {actual} | Predicted: {pred}")
         misclassified_intents["items"].append({
@@ -87,3 +87,7 @@ for actual, pred, sample in zip(y_test, y_pred_naive, X_test):
 with open(r"models\intent\misclassified_test_intents.json", "w") as f:
     json.dump(misclassified_intents, f, indent=4)
         
+# Confusion Matrix
+conf_matrix = confusion_matrix(y_test, y_pred)
+print("Confusion Matrix:")
+print(conf_matrix)

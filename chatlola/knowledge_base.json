@@ -252,7 +252,7 @@
         },
         "romance_scam": {
             "keywords": [
-                ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "dating", "date"]
+                ["romance", "relasyon", "bf", "gf", "jowa", "relationship", "dating", "date", "may gusto"]
             ],
             "response": "Ang romance scam ay panloloko kung saan may taong nakikilala mo online at nagpapanggap na may romantikong interes o pagkakaibigan para makuha ang iyong tiwala. Kalaunan, hihingi sila ng pera o personal na impormasyon, kadalasan gamit ang mga dahilan tulad ng emergency o problema.",
             "confused_response": "Ang romance scam ay panloloko kung saan may taong nagpapanggap na may gusto o nagmamalasakit sa iyo online para makahingi ng pera o impormasyon.",
