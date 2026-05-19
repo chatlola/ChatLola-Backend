@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 from sklearn.metrics import accuracy_score
 import joblib
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 path = "models/confusion/Confusion Dataset.csv"
 df = pd.read_csv(path, on_bad_lines='error', encoding='unicode_escape')
@@ -79,3 +81,31 @@ for actual, pred, sample in zip(y_test, y_pred, X_test):
 conf_matrix = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:")
 print(conf_matrix)
+
+
+cm = confusion_matrix(y_test, y_pred)
+
+labels = naive_bayes.classes_
+
+plt.figure(figsize=(8,6))
+
+sns.heatmap(
+    cm,
+    annot=True,
+    fmt='d',
+    cmap='Blues',
+    xticklabels=labels,
+    yticklabels=labels
+)
+
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.title('Confusion Matrix')
+
+plt.savefig(
+    'models/confusion/confusion_matrix.png',
+    dpi=300,
+    bbox_inches='tight'
+)
+
+plt.show()

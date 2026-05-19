@@ -9,6 +9,8 @@ from sklearn.metrics import roc_curve, auc, confusion_matrix
 from sklearn.metrics import accuracy_score
 import joblib
 import json
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 path = "models/intent/Intent Dataset.csv"
 df = pd.read_csv(path, on_bad_lines='error', encoding='unicode_escape')
@@ -91,3 +93,30 @@ with open(r"models\intent\misclassified_test_intents.json", "w") as f:
 conf_matrix = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:")
 print(conf_matrix)
+
+cm = confusion_matrix(y_test, y_pred)
+
+labels = naive_bayes.classes_
+
+plt.figure(figsize=(8,6))
+
+sns.heatmap(
+    cm,
+    annot=True,
+    fmt='d',
+    cmap='Blues',
+    xticklabels=labels,
+    yticklabels=labels
+)
+
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.title('Confusion Matrix')
+
+plt.savefig(
+    'models/intent/confusion_matrix.png',
+    dpi=300,
+    bbox_inches='tight'
+)
+
+plt.show()
